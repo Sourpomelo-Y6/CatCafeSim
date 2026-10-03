@@ -122,6 +122,44 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &460025461 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4350313288231267530, guid: 7e97b54c5eac8e240899866c5f9f6b3c, type: 3}
+  m_PrefabInstance: {fileID: 2791310230916423288}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &460025464
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 460025461}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a79441f348de89743a2939f4d699eac1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_RenderShadows: 1
+  m_RequiresDepthTextureOption: 2
+  m_RequiresOpaqueTextureOption: 2
+  m_CameraType: 0
+  m_Cameras: []
+  m_RendererIndex: -1
+  m_VolumeLayerMask:
+    serializedVersion: 2
+    m_Bits: 1
+  m_VolumeTrigger: {fileID: 0}
+  m_VolumeFrameworkUpdateModeOption: 2
+  m_RenderPostProcessing: 0
+  m_Antialiasing: 0
+  m_AntialiasingQuality: 2
+  m_StopNaN: 0
+  m_Dithering: 0
+  m_ClearDepth: 1
+  m_AllowXRRendering: 1
+  m_RequiresDepthTexture: 0
+  m_RequiresColorTexture: 0
+  m_Version: 2
 --- !u!1001 &2791310230916423288
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -129,6 +167,58 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 223743561359783717, guid: 7e97b54c5eac8e240899866c5f9f6b3c, type: 3}
+      propertyPath: m_Text
+      value: "\u55B6\u696D\uFF08\u6E96\u5099\u4E2D\uFF09"
+      objectReference: {fileID: 0}
+    - target: {fileID: 432851583697148836, guid: 7e97b54c5eac8e240899866c5f9f6b3c, type: 3}
+      propertyPath: m_Interactable
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 432851583697148836, guid: 7e97b54c5eac8e240899866c5f9f6b3c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 432851583697148836, guid: 7e97b54c5eac8e240899866c5f9f6b3c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 2791310230916423290}
+    - target: {fileID: 432851583697148836, guid: 7e97b54c5eac8e240899866c5f9f6b3c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: WorkSelected
+      objectReference: {fileID: 0}
+    - target: {fileID: 432851583697148836, guid: 7e97b54c5eac8e240899866c5f9f6b3c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: CatCafePreview.PythonStateClient, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 432851583697148836, guid: 7e97b54c5eac8e240899866c5f9f6b3c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 490601357551106350, guid: 7e97b54c5eac8e240899866c5f9f6b3c, type: 3}
+      propertyPath: m_Interactable
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 490601357551106350, guid: 7e97b54c5eac8e240899866c5f9f6b3c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1167248654208356715, guid: 7e97b54c5eac8e240899866c5f9f6b3c, type: 3}
+      propertyPath: m_Text
+      value: "\u4F11\u990A\u306B\u3059\u308B"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1731222946241555282, guid: 7e97b54c5eac8e240899866c5f9f6b3c, type: 3}
+      propertyPath: m_Interactable
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1731222946241555282, guid: 7e97b54c5eac8e240899866c5f9f6b3c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2196819955999986726, guid: 7e97b54c5eac8e240899866c5f9f6b3c, type: 3}
+      propertyPath: m_Text
+      value: "\u51FA\u52E4\u306B\u3059\u308B"
+      objectReference: {fileID: 0}
     - target: {fileID: 2791310232071352349, guid: 7e97b54c5eac8e240899866c5f9f6b3c, type: 3}
       propertyPath: m_Name
       value: Cat Cafe Content Preview
@@ -177,6 +267,30 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2968809203313000918, guid: 7e97b54c5eac8e240899866c5f9f6b3c, type: 3}
+      propertyPath: m_Interactable
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2968809203313000918, guid: 7e97b54c5eac8e240899866c5f9f6b3c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2968809203313000918, guid: 7e97b54c5eac8e240899866c5f9f6b3c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 2791310230916423290}
+    - target: {fileID: 2968809203313000918, guid: 7e97b54c5eac8e240899866c5f9f6b3c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: RestSelected
+      objectReference: {fileID: 0}
+    - target: {fileID: 2968809203313000918, guid: 7e97b54c5eac8e240899866c5f9f6b3c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: CatCafePreview.PythonStateClient, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 2968809203313000918, guid: 7e97b54c5eac8e240899866c5f9f6b3c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 6870482635176722435, guid: 7e97b54c5eac8e240899866c5f9f6b3c, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
@@ -188,6 +302,10 @@ PrefabInstance:
     - target: {fileID: 6870482635176722435, guid: 7e97b54c5eac8e240899866c5f9f6b3c, type: 3}
       propertyPath: m_SizeDelta.x
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8944333379142583022, guid: 7e97b54c5eac8e240899866c5f9f6b3c, type: 3}
+      propertyPath: m_Text
+      value: "\u4FDD\u5B58\uFF08\u6E96\u5099\u4E2D\uFF09"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7e97b54c5eac8e240899866c5f9f6b3c, type: 3}
