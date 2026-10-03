@@ -137,8 +137,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a79441f348de89743a2939f4d699eac1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   m_RenderShadows: 1
   m_RequiresDepthTextureOption: 2
   m_RequiresOpaqueTextureOption: 2
@@ -169,7 +169,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 223743561359783717, guid: 7e97b54c5eac8e240899866c5f9f6b3c, type: 3}
       propertyPath: m_Text
-      value: "\u55B6\u696D\uFF08\u6E96\u5099\u4E2D\uFF09"
+      value: "\u55B6\u696D\u958B\u59CB"
       objectReference: {fileID: 0}
     - target: {fileID: 432851583697148836, guid: 7e97b54c5eac8e240899866c5f9f6b3c, type: 3}
       propertyPath: m_Interactable
@@ -181,7 +181,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 432851583697148836, guid: 7e97b54c5eac8e240899866c5f9f6b3c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
+      value:
       objectReference: {fileID: 2791310230916423290}
     - target: {fileID: 432851583697148836, guid: 7e97b54c5eac8e240899866c5f9f6b3c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
@@ -193,7 +193,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 432851583697148836, guid: 7e97b54c5eac8e240899866c5f9f6b3c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
-      value: 
+      value:
       objectReference: {fileID: 0}
     - target: {fileID: 490601357551106350, guid: 7e97b54c5eac8e240899866c5f9f6b3c, type: 3}
       propertyPath: m_Interactable
@@ -201,7 +201,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 490601357551106350, guid: 7e97b54c5eac8e240899866c5f9f6b3c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 490601357551106350, guid: 7e97b54c5eac8e240899866c5f9f6b3c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 490601357551106350, guid: 7e97b54c5eac8e240899866c5f9f6b3c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value:
+      objectReference: {fileID: 2791310230916423290}
+    - target: {fileID: 490601357551106350, guid: 7e97b54c5eac8e240899866c5f9f6b3c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ProgressBusiness
+      objectReference: {fileID: 0}
+    - target: {fileID: 490601357551106350, guid: 7e97b54c5eac8e240899866c5f9f6b3c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: CatCafePreview.PythonStateClient, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 490601357551106350, guid: 7e97b54c5eac8e240899866c5f9f6b3c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value:
       objectReference: {fileID: 0}
     - target: {fileID: 1167248654208356715, guid: 7e97b54c5eac8e240899866c5f9f6b3c, type: 3}
       propertyPath: m_Text
@@ -277,7 +297,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2968809203313000918, guid: 7e97b54c5eac8e240899866c5f9f6b3c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
+      value:
       objectReference: {fileID: 2791310230916423290}
     - target: {fileID: 2968809203313000918, guid: 7e97b54c5eac8e240899866c5f9f6b3c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
@@ -289,7 +309,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2968809203313000918, guid: 7e97b54c5eac8e240899866c5f9f6b3c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
-      value: 
+      value:
       objectReference: {fileID: 0}
     - target: {fileID: 6870482635176722435, guid: 7e97b54c5eac8e240899866c5f9f6b3c, type: 3}
       propertyPath: m_AnchorMax.x
@@ -324,6 +344,6 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: eeb5f0eb387c111439c2b25b87c2d313, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   port: 8190
