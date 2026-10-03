@@ -1,0 +1,161 @@
+{
+  "version": 1,
+  "pack_id": "bba09bb3938148c2b29d74af70d7e849",
+  "cats": [
+    {
+      "cat_id": "playtest-mike",
+      "name": "ミケ",
+      "introduction": "三毛の毛並みが愛らしいミケは、カフェのムードメーカーです。短毛で動きが機敏、のんびりとした佇まいがたまらない癒やしを提供してくれます。",
+      "scenes": [
+        {
+          "key": "normal",
+          "label": "通常",
+          "text": "マットの上で、三毛の模様を静かに見せながら座っています。",
+          "image": "images/40e97c757613942c2bbc8d7e9606e7f0cca4ac60315b2243b664a7d0c0ae2efb.png"
+        },
+        {
+          "key": "play",
+          "label": "遊ぶ",
+          "text": "ねこじゃらしを追いかけ、ぴょんぴょんと軽快に跳ねています。",
+          "image": "images/d5f573292853b1ec87b08de315a6bd276534fcf6d01896ba577175f759845ba0.png"
+        },
+        {
+          "key": "pet",
+          "label": "撫でられる",
+          "text": "優しく撫でられる手に、目を細めて幸せそうに寄り添います。",
+          "image": "images/7ec070420926a0f7f36b2077072a15d5243447cc6c262ac7a00d30f4c3f4bbac.png"
+        },
+        {
+          "key": "sleep",
+          "label": "眠る",
+          "text": "マットの上で丸くなり、小さな寝息を立てながら安らかに眠っています。",
+          "image": "images/94e93fa6d4760b078aa9eb6abb7cfb7dbabdcdacc04ae7ebc147b01c33977fa0.png"
+        }
+      ]
+    },
+    {
+      "cat_id": "playtest-tama",
+      "name": "タマ",
+      "introduction": "タマの様子をご覧ください。",
+      "scenes": [
+        {
+          "key": "normal",
+          "label": "通常",
+          "text": "マットの上で落ち着いて座っています。",
+          "image": "images/5b2792589e8dd466cbabc1947fd5a06829e0dfd41ffdbbc99b34f00863c13e21.png"
+        },
+        {
+          "key": "play",
+          "label": "遊ぶ",
+          "text": "ねこじゃらしに手を伸ばしています。",
+          "image": ""
+        },
+        {
+          "key": "pet",
+          "label": "撫でられる",
+          "text": "頭を撫でられて、気持ちよさそうにしています。",
+          "image": ""
+        },
+        {
+          "key": "sleep",
+          "label": "眠る",
+          "text": "マットの上で丸くなって眠っています。",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "cat_id": "playtest-sora",
+      "name": "ソラ",
+      "introduction": "ソラの様子をご覧ください。",
+      "scenes": [
+        {
+          "key": "normal",
+          "label": "通常",
+          "text": "マットの上で落ち着いて座っています。",
+          "image": "images/a160aedfd1348c482fc3b21d450826d9d2ff9d958d9666663a2a0e27f158b988.png"
+        },
+        {
+          "key": "play",
+          "label": "遊ぶ",
+          "text": "ねこじゃらしに手を伸ばしています。",
+          "image": ""
+        },
+        {
+          "key": "pet",
+          "label": "撫でられる",
+          "text": "頭を撫でられて、気持ちよさそうにしています。",
+          "image": ""
+        },
+        {
+          "key": "sleep",
+          "label": "眠る",
+          "text": "マットの上で丸くなって眠っています。",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "cat_id": "playtest-kohaku",
+      "name": "コハク",
+      "introduction": "コハクの様子をご覧ください。",
+      "scenes": [
+        {
+          "key": "normal",
+          "label": "通常",
+          "text": "マットの上で落ち着いて座っています。",
+          "image": "images/fab7ebb8375fcda7c0a08331cb793d3e3eb10eb11925e4e4406b11329d79efb2.png"
+        },
+        {
+          "key": "play",
+          "label": "遊ぶ",
+          "text": "ねこじゃらしに手を伸ばしています。",
+          "image": ""
+        },
+        {
+          "key": "pet",
+          "label": "撫でられる",
+          "text": "頭を撫でられて、気持ちよさそうにしています。",
+          "image": ""
+        },
+        {
+          "key": "sleep",
+          "label": "眠る",
+          "text": "マットの上で丸くなって眠っています。",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "cat_id": "playtest-mugi",
+      "name": "ムギ",
+      "introduction": "ムギの様子をご覧ください。",
+      "scenes": [
+        {
+          "key": "normal",
+          "label": "通常",
+          "text": "マットの上で落ち着いて座っています。",
+          "image": "images/0a2a5bc467f58afd8006c02bb1dd49cec1377acc150eda3427be06cc9f040304.png"
+        },
+        {
+          "key": "play",
+          "label": "遊ぶ",
+          "text": "ねこじゃらしに手を伸ばしています。",
+          "image": ""
+        },
+        {
+          "key": "pet",
+          "label": "撫でられる",
+          "text": "頭を撫でられて、気持ちよさそうにしています。",
+          "image": ""
+        },
+        {
+          "key": "sleep",
+          "label": "眠る",
+          "text": "マットの上で丸くなって眠っています。",
+          "image": ""
+        }
+      ]
+    }
+  ]
+}
