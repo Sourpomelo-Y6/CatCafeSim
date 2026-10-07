@@ -1,0 +1,365 @@
+{
+  "version": 1,
+  "pack_id": "5c611610be304b3887d1d5ad7176208a",
+  "cats": [
+    {
+      "cat_id": "playtest-mike",
+      "name": "ミケ",
+      "introduction": "三毛の毛並みが愛らしいミケは、カフェのムードメーカーです。短毛で動きが機敏、のんびりとした佇まいがたまらない癒やしを提供してくれます。",
+      "scenes": [
+        {
+          "key": "normal",
+          "label": "通常",
+          "text": "マットの上で、三毛の模様を静かに見せながら座っています。",
+          "image": "images/341239d6351314493ee21e28f46ff362eb43f945f01a866751851985f68a2719.png"
+        },
+        {
+          "key": "play",
+          "label": "遊ぶ",
+          "text": "ねこじゃらしを追いかけ、ぴょんぴょんと軽快に跳ねています。",
+          "image": "images/2569dc55c1ed6dd954d8f601bb23bb88faac5b0a8b83e921499c9b64ace11a93.png"
+        },
+        {
+          "key": "pet",
+          "label": "なでる",
+          "text": "頭に近づく手を前に、落ち着いて座っています。",
+          "image": "images/43a1925b8977ae102b3ede796b2ec9720c7c02cda70080ff688b93e06d200b8d.png"
+        },
+        {
+          "key": "sleep",
+          "label": "眠る",
+          "text": "マットの上で丸くなり、小さな寝息を立てながら安らかに眠っています。",
+          "image": "images/3a553669997d76e08be1889e94a0b7f647e4570a289ef907fc81a03193d84bbb.png"
+        },
+        {
+          "key": "teaser",
+          "label": "ねこじゃらし",
+          "text": "差し出されたねこじゃらしに注意を向けています。",
+          "image": "images/4fc3fbe54602d781d55a490b0ac88e3d5153ea05140940a1efeb5f52ae253c60.png"
+        },
+        {
+          "key": "ball",
+          "label": "ボール遊び",
+          "text": "目の前のボールを静かに見ています。",
+          "image": "images/a561b243c8bfc45e1e33eb5c1b1aec0af02a068c00fc3c3455d69c4a3e082722.png"
+        },
+        {
+          "key": "plush",
+          "label": "ぬいぐるみ遊び",
+          "text": "目の前のぬいぐるみを見ています。",
+          "image": "images/8b87da617648ad5fb1971a381b48b830cee1cc3324f4100c656f64b105221fb6.png"
+        },
+        {
+          "key": "tunnel",
+          "label": "トンネル遊び",
+          "text": "トンネルの入口の手前に立っています。",
+          "image": "images/d04686bd80308366b751956bc976e45c5d262b1b0a760575404416a13c73328f.png"
+        },
+        {
+          "key": "brush",
+          "label": "ブラッシング",
+          "text": "差し出されたブラシを前に、落ち着いて座っています。",
+          "image": "images/722b2e4944d31f0650eb3763cc62591aecc76e36cab460ac2eba8912c48101f5.png"
+        },
+        {
+          "key": "voice",
+          "label": "声をかける",
+          "text": "声のする方へ顔を向けています。",
+          "image": "images/c9b1f737420c68080928189dfbe249d7c42777d1b0f4cd80d5335d02f7b4fb79.png"
+        },
+        {
+          "key": "presence",
+          "label": "そばで見守る",
+          "text": "そばで見守られながら、静かに伏せています。",
+          "image": "images/4dc4768f6268e2d6e88436fa724ae4e96d7171e0fcb08c2cc6181a42a67bea11.png"
+        },
+        {
+          "key": "pause",
+          "label": "動きを止めて待つ",
+          "text": "動きを止めたねこじゃらしの前で待っています。",
+          "image": "images/420a736a5bda9975101edc548e50448272954d632dbe7f7b8cbdbf15be9dcd2b.png"
+        },
+        {
+          "key": "teaser__open_up",
+          "label": "ねこじゃらし × 心を開く",
+          "text": "安心した様子で心を開いています。",
+          "image": "images/8a0a9803084c6a82ac3b33d33b2b0130cfdb374591e00d565e7cf882e185ff3f.png"
+        },
+        {
+          "key": "teaser__simultaneous",
+          "label": "ねこじゃらし × 心をつかむ＋心を開く",
+          "text": "心が通じ合い、嬉しそうに応えています。",
+          "image": "images/22046b77fdf816d43f477d45c0e9e1fcf3fb1c349c438f563956dc8b899c06eb.png"
+        },
+        {
+          "key": "ball__open_up",
+          "label": "ボール遊び × 心を開く",
+          "text": "安心した様子で心を開いています。",
+          "image": "images/de002157a1a0bd6f36d7a02972c6a3fbc98009980fa433ef9dbe193af017f7b9.png"
+        },
+        {
+          "key": "ball__simultaneous",
+          "label": "ボール遊び × 心をつかむ＋心を開く",
+          "text": "心が通じ合い、嬉しそうに応えています。",
+          "image": "images/73288a159596ab3d98c91e2cc93a804b4a1146c27641f4ec6c6ad03cef063fa0.png"
+        },
+        {
+          "key": "plush__open_up",
+          "label": "ぬいぐるみ遊び × 心を開く",
+          "text": "安心した様子で心を開いています。",
+          "image": "images/5b6d07f28292b416f956dee8f0fb7d990f76ce7f33b27d1fe0362eee324afeaa.png"
+        },
+        {
+          "key": "plush__simultaneous",
+          "label": "ぬいぐるみ遊び × 心をつかむ＋心を開く",
+          "text": "心が通じ合い、嬉しそうに応えています。",
+          "image": "images/a1fff2558cc6146b3d7bedfe965fdb5b5e3ba21aaeab969f611a710885c03ba4.png"
+        },
+        {
+          "key": "tunnel__open_up",
+          "label": "トンネル遊び × 心を開く",
+          "text": "安心した様子で心を開いています。",
+          "image": "images/81285864689e64efa219f20aed2358d83029cfed246b0d9369e9f27f29234a6b.png"
+        },
+        {
+          "key": "tunnel__simultaneous",
+          "label": "トンネル遊び × 心をつかむ＋心を開く",
+          "text": "心が通じ合い、嬉しそうに応えています。",
+          "image": "images/194343b25191e2e802715bef61958e742d80022fdeaf2e8fe2be5f310b9063a7.png"
+        },
+        {
+          "key": "brush__open_up",
+          "label": "ブラッシング × 心を開く",
+          "text": "安心した様子で心を開いています。",
+          "image": "images/6c0a5462e1a9d16da29753cf08d02f305f5ffa84ac314bf8deb36ac6a11cb8a9.png"
+        },
+        {
+          "key": "brush__simultaneous",
+          "label": "ブラッシング × 心をつかむ＋心を開く",
+          "text": "心が通じ合い、嬉しそうに応えています。",
+          "image": "images/c4892b03a745491c5d351a74113ca75ec40f83a978b86c1ea28a83b25c926bc2.png"
+        },
+        {
+          "key": "voice__open_up",
+          "label": "声をかける × 心を開く",
+          "text": "安心した様子で心を開いています。",
+          "image": "images/275d58deed95d612c694f30de5b5f2e64c42ecaf11540353e8af5cff0bb8da4c.png"
+        },
+        {
+          "key": "voice__simultaneous",
+          "label": "声をかける × 心をつかむ＋心を開く",
+          "text": "心が通じ合い、嬉しそうに応えています。",
+          "image": "images/c182be257ea0df77f62712e002d34d253d04f76cad18455c3c4fbb805b145ba6.png"
+        },
+        {
+          "key": "presence__open_up",
+          "label": "そばで見守る × 心を開く",
+          "text": "安心した様子で心を開いています。",
+          "image": "images/635e50e0db23a732760c087ba8034f6ee9df6e2d83dd96397bf1bfceea2573e0.png"
+        },
+        {
+          "key": "presence__simultaneous",
+          "label": "そばで見守る × 心をつかむ＋心を開く",
+          "text": "心が通じ合い、嬉しそうに応えています。",
+          "image": "images/5dbe0fda65e3277943fe674bedae7557638d76a4aeeceb7b609299fac626c511.png"
+        },
+        {
+          "key": "pet__open_up",
+          "label": "なでる × 心を開く",
+          "text": "安心した様子で心を開いています。",
+          "image": "images/4539511d37d6797096dee4509b82622dc52070ce82f29176f8734221004fe7f4.png"
+        },
+        {
+          "key": "pet__simultaneous",
+          "label": "なでる × 心をつかむ＋心を開く",
+          "text": "心が通じ合い、嬉しそうに応えています。",
+          "image": "images/d5ad6c56ee2d27f6fdfff81ea610efaa9fc49fd35545933d66e28b08b6cdeeb0.png"
+        }
+      ],
+      "appearance": {
+        "eye_color": "両目とも琥珀色",
+        "body_type": "小柄な成猫。丸みのある標準体型、短めの脚。",
+        "markings": "白い額の中央の逆V字から鼻先・口元へ続く白い模様。猫自身の右耳と右目周りは橙色、左耳と左目周りは黒。胸・腹・四つの足先は白。背中は橙色と黒の大きな斑。",
+        "face_shape": "丸顔、小さな三角耳、丸い目、短い鼻筋。鼻は薄いピンク。",
+        "tail": "中程度の長さ。橙色と黒の大きな斑が交互に入り、先端は黒。",
+        "notes": "短毛。穏やかで親しみやすい表情。既存のミケ比較画像を基準とする。模様の左右は猫自身の左右。"
+      },
+      "features": [
+        "calico",
+        "short_hair"
+      ]
+    },
+    {
+      "cat_id": "playtest-tama",
+      "name": "タマ",
+      "introduction": "タマの様子をご覧ください。",
+      "scenes": [
+        {
+          "key": "normal",
+          "label": "通常",
+          "text": "マットの上で落ち着いて座っています。",
+          "image": "images/99a0df52628d4fcbc0d20479a02e9d592ed25e74e8a8f2266cae8ac803e80d93.png"
+        },
+        {
+          "key": "play",
+          "label": "遊ぶ",
+          "text": "ねこじゃらしに手を伸ばしています。",
+          "image": "images/9967febda3be8f07cfc279efe05d8caba06aec1e033633eedba4e24628ee3d87.png"
+        },
+        {
+          "key": "pet",
+          "label": "撫でられる",
+          "text": "頭を撫でられて、気持ちよさそうにしています。",
+          "image": "images/aba366712ec07bc8b49c5d619b6141eebaf215d308545e2f47c183bb6439b268.png"
+        },
+        {
+          "key": "sleep",
+          "label": "眠る",
+          "text": "マットの上で丸くなって眠っています。",
+          "image": "images/bc7eb2227957013ba1a4e537cb1121ef7c2fe3dd3171d3d3586a2329a24bed55.png"
+        }
+      ],
+      "appearance": {
+        "eye_color": "両目とも黄緑色",
+        "body_type": "中くらいの成猫。引き締まった細身の体、やや長い脚。",
+        "markings": "白黒のタキシード柄。両耳・頭頂・背中・両脇は黒。鼻筋に細い白い筋、口元・顎・胸・腹・四つの足先は白。猫自身の左の鼻横に小さな黒い点。",
+        "face_shape": "少し細めの丸顔、大きめの三角耳、ぱっちりした目。鼻はピンク。",
+        "tail": "長く細い黒い尻尾。先端も黒、白い斑はない。",
+        "notes": "短毛。好奇心が強く、耳を立てた生き生きした表情。模様の左右は猫自身の左右。"
+      },
+      "features": [
+        "black_white",
+        "short_hair"
+      ]
+    },
+    {
+      "cat_id": "playtest-sora",
+      "name": "ソラ",
+      "introduction": "ソラの様子をご覧ください。",
+      "scenes": [
+        {
+          "key": "normal",
+          "label": "通常",
+          "text": "マットの上で落ち着いて座っています。",
+          "image": "images/45f74d32f7bc44a7e7691d52d9e3537719077196cef50dbd2ad91074dd2f8938.png"
+        },
+        {
+          "key": "play",
+          "label": "遊ぶ",
+          "text": "ねこじゃらしに手を伸ばしています。",
+          "image": "images/2e9eea78a49a2aa4dd7f9d8a789e11d69042e6913713933f209cf26378d4a4c8.png"
+        },
+        {
+          "key": "pet",
+          "label": "撫でられる",
+          "text": "頭を撫でられて、気持ちよさそうにしています。",
+          "image": "images/f3a669b8c13ef7b7f996c253f260c23058ecab8daada266386444bda2949bc9c.png"
+        },
+        {
+          "key": "sleep",
+          "label": "眠る",
+          "text": "マットの上で丸くなって眠っています。",
+          "image": "images/71b44fb37ddbad88f52e0f336a28fe9bcc8693340d92f8f9d913a57098c8334b.png"
+        }
+      ],
+      "appearance": {
+        "eye_color": "両目とも淡い青色",
+        "body_type": "中くらいの成猫。骨格はほっそり、長い毛で柔らかな輪郭。",
+        "markings": "全身が白。顔・耳・背中・脚・尻尾に色の斑や縞はない。",
+        "face_shape": "やや面長の小さな顔、すっきりした鼻筋、落ち着いた目。鼻と耳の内側は薄いピンク。",
+        "tail": "長く豊かな白い尻尾。ふさふさした羽根のような輪郭。",
+        "notes": "長毛。胸元の飾り毛と耳周りの柔らかい毛。距離を保つ落ち着いた佇まい。"
+      },
+      "features": [
+        "white",
+        "long_hair"
+      ]
+    },
+    {
+      "cat_id": "playtest-kohaku",
+      "name": "コハク",
+      "introduction": "コハクの様子をご覧ください。",
+      "scenes": [
+        {
+          "key": "normal",
+          "label": "通常",
+          "text": "マットの上で落ち着いて座っています。",
+          "image": "images/b29ca453a3929bb3edb658bf3e68af05765153a7c5bae296d249ca76dafb9150.png"
+        },
+        {
+          "key": "play",
+          "label": "遊ぶ",
+          "text": "ねこじゃらしに手を伸ばしています。",
+          "image": "images/954529fdf4272cd95a50115899520b79ce752da3a7e10474d828cfc377a4eb81.png"
+        },
+        {
+          "key": "pet",
+          "label": "撫でられる",
+          "text": "頭を撫でられて、気持ちよさそうにしています。",
+          "image": "images/1da3030765c78a7d6b098be582ad41606e6ca9bb4e0e9c8aaa6c377f10ea0298.png"
+        },
+        {
+          "key": "sleep",
+          "label": "眠る",
+          "text": "マットの上で丸くなって眠っています。",
+          "image": "images/61f0de402c9a900be69fd3f9a4898bb950f4a8c0b68deb5d130d715384c1eebd.png"
+        }
+      ],
+      "appearance": {
+        "eye_color": "両目とも金色",
+        "body_type": "中くらいの成猫。丸みのある体、ふわふわした胸と頬。",
+        "markings": "明るい橙色の茶トラ。額に濃い橙色のM字、頬に左右二本ずつの縞、脚と尻尾に輪状の縞。背中と脇は太めの濃い橙色の縞。口元・顎・胸・腹は淡いクリーム色。白い靴下模様はない。",
+        "face_shape": "丸顔、ふっくらした頬、やや小さな丸みのある三角耳。鼻はサーモンピンク。",
+        "tail": "長くふさふさした橙色の尻尾。濃い橙色の輪状の縞、先端も濃い橙色。",
+        "notes": "長毛。遊ぶ時は目を輝かせ、静かな場面では柔らかく慎重な表情。"
+      },
+      "features": [
+        "orange_tabby",
+        "long_hair"
+      ]
+    },
+    {
+      "cat_id": "playtest-mugi",
+      "name": "ムギ",
+      "introduction": "ムギの様子をご覧ください。",
+      "scenes": [
+        {
+          "key": "normal",
+          "label": "通常",
+          "text": "マットの上で落ち着いて座っています。",
+          "image": "images/3278e8f2e625f2cb4174766a65098e5a626989c68095fc6a881f7edc7b246c1a.png"
+        },
+        {
+          "key": "play",
+          "label": "遊ぶ",
+          "text": "ねこじゃらしに手を伸ばしています。",
+          "image": "images/ed99965862abecacda8fa106b4e8692cc1e87599079955c37429247a501af078.png"
+        },
+        {
+          "key": "pet",
+          "label": "撫でられる",
+          "text": "頭を撫でられて、気持ちよさそうにしています。",
+          "image": "images/3c4fd4d6edc19f82dd638431b11a694d1960188216f9fb62d2eabe624ef9d23e.png"
+        },
+        {
+          "key": "sleep",
+          "label": "眠る",
+          "text": "マットの上で丸くなって眠っています。",
+          "image": "images/3db78ae0ed4527444a6e76488a2cf752f9a8dd40af50283a51057910604e1c6a.png"
+        }
+      ],
+      "appearance": {
+        "eye_color": "両目ともオリーブグリーン",
+        "body_type": "中くらいの成猫。標準的で均整の取れた体型、脚の長さも標準。",
+        "markings": "暖かい茶褐色のキジトラ。額に黒褐色のM字、頬に左右二本ずつの縞、背骨に沿う濃い線、脇に細い縦縞。脚と尻尾に黒褐色の輪状の縞。口元・顎は薄いベージュ、腹は淡い茶色。白い斑はない。",
+        "face_shape": "穏やかな丸顔、標準サイズの三角耳、自然なアーモンド形の目。鼻は茶色がかったピンク。",
+        "tail": "中程度の長さ。茶褐色に黒褐色の輪状の縞、先端は黒褐色。",
+        "notes": "短毛。自然で落ち着いた表情。茶トラのコハクより暗い毛色で、細く明瞭な縞。"
+      },
+      "features": [
+        "brown_tabby",
+        "short_hair"
+      ]
+    }
+  ]
+}
