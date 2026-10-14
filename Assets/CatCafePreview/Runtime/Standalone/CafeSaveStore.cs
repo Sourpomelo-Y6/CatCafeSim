@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.IO;
 using System.Text;
 using System.Threading;
@@ -14,6 +14,7 @@ namespace CatCafePreview.Standalone
         public string[] double_bits;
         public CafeDailyBaseline[] daily_baselines;
         public CafeDailyRecord[] daily_records;
+        public CafeNarrativeRow[] narratives;
         public CafeDisplayReceipt[] display_receipts; // Optional UI facts; outside gameplay and replay digests.
     }
     public sealed class CafeSaveStore
