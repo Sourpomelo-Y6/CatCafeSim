@@ -1,0 +1,5162 @@
+{
+  "version": 2,
+  "cat_bindings": [
+    {
+      "cat_id": "cat-mike",
+      "content_cat_id": "playtest-mike",
+      "subject_id": "cat-mike",
+      "name": "ミケ"
+    },
+    {
+      "cat_id": "cat-sora",
+      "content_cat_id": "playtest-sora",
+      "subject_id": "cat-52bb33a93ad94bb582a5304f64a75000",
+      "name": "ソラ"
+    },
+    {
+      "cat_id": "cat-tama",
+      "content_cat_id": "playtest-tama",
+      "subject_id": "cat-63894eff20794809aa5255290c1ae81e",
+      "name": "タマ"
+    }
+  ],
+  "people": [
+    {
+      "id": "guest-1",
+      "name": "佐藤さん",
+      "game_id": "guest-1",
+      "call": "{cat}ちゃん"
+    },
+    {
+      "id": "person-952c631405e649fdb50c390881804977",
+      "name": "鈴木さん",
+      "game_id": "guest-2",
+      "call": "{cat}"
+    },
+    {
+      "id": "player",
+      "name": "プレイヤー",
+      "game_id": "player",
+      "call": "{cat}"
+    }
+  ],
+  "entries": [
+    {
+      "kind": "cat_response",
+      "subject_id": "cat-52bb33a93ad94bb582a5304f64a75000",
+      "mode": "pause",
+      "action": "pause",
+      "reaction": "listless",
+      "scene_key": "pause",
+      "target_cat": "",
+      "pool_key": "cat_response/cat-52bb33a93ad94bb582a5304f64a75000/pause/pause/listless/pause",
+      "variants": [
+        {
+          "id": "83a583c2204a56f8bfe91ebb49e1f28d",
+          "slot": 1,
+          "text": "{cat}は耳を垂れ、体をゆっくり揺らし、相手の手をそっと離した。"
+        },
+        {
+          "id": "743dd578abbf5746bc63103c3c66a789",
+          "slot": 2,
+          "text": "{cat}は静かに座り、身体をすべり落ちるようにして相手の手を遠ざけた。"
+        },
+        {
+          "id": "6c10385323fd5fe99491dfe69a5b84cb",
+          "slot": 3,
+          "text": "{cat}は小さく震え、体を丸めて相手の手から離れ、静かに待った。"
+        }
+      ]
+    },
+    {
+      "kind": "cat_response",
+      "subject_id": "cat-52bb33a93ad94bb582a5304f64a75000",
+      "mode": "pause",
+      "action": "pause",
+      "reaction": "neutral",
+      "scene_key": "pause",
+      "target_cat": "",
+      "pool_key": "cat_response/cat-52bb33a93ad94bb582a5304f64a75000/pause/pause/neutral/pause",
+      "variants": [
+        {
+          "id": "baef1f1fbdc25789ac574d44802db7af",
+          "slot": 1,
+          "text": "{cat}は動きを止めて静かに待った。"
+        },
+        {
+          "id": "cf7d78190cef56969ae1df801b562091",
+          "slot": 2,
+          "text": "{cat}は足を止め、姿勢を保ったまま待った。"
+        },
+        {
+          "id": "73b5665bc9a3500d82f0c0c5ffac7933",
+          "slot": 3,
+          "text": "{cat}は走りをやめ、しばらくの間その場で待った。"
+        }
+      ]
+    },
+    {
+      "kind": "cat_response",
+      "subject_id": "cat-52bb33a93ad94bb582a5304f64a75000",
+      "mode": "pet",
+      "action": "adapt",
+      "reaction": "confused",
+      "scene_key": "pet__adapt",
+      "target_cat": "",
+      "pool_key": "cat_response/cat-52bb33a93ad94bb582a5304f64a75000/pet/adapt/confused/pet__adapt",
+      "variants": [
+        {
+          "id": "44c9a849e3e75ffcbae9081d941018b3",
+          "slot": 1,
+          "text": "{cat}は相手の手に触れ、顔をしかめながら戸惑った。"
+        },
+        {
+          "id": "7e705a0864c6520baf26562767a4938f",
+          "slot": 2,
+          "text": "{cat}は手の動きに合わせて体を揺らし、戸惑いを隠せなかった。"
+        },
+        {
+          "id": "9db71fc0bc835a0e81987983e06f4c97",
+          "slot": 3,
+          "text": "{cat}は相手の手の温もりを感じ、瞬間戸惑いながらも立ち止まった。"
+        }
+      ]
+    },
+    {
+      "kind": "cat_response",
+      "subject_id": "cat-52bb33a93ad94bb582a5304f64a75000",
+      "mode": "pet",
+      "action": "adapt",
+      "reaction": "enthusiastic",
+      "scene_key": "pet__adapt",
+      "target_cat": "",
+      "pool_key": "cat_response/cat-52bb33a93ad94bb582a5304f64a75000/pet/adapt/enthusiastic/pet__adapt",
+      "variants": [
+        {
+          "id": "29ddd291d9875feb93f6324ebbc0eedd",
+          "slot": 1,
+          "text": "{cat}は相手の手に合わせて、足を軽く踏み出し、尾を揺らした。"
+        },
+        {
+          "id": "b133b60b801f5d499f8c8ec050e2b204",
+          "slot": 2,
+          "text": "{cat}は相手の手に合わせて、足を伸ばし、尾を軽く上げた。"
+        },
+        {
+          "id": "df3c03400ae25dfe83b682cab029fd7a",
+          "slot": 3,
+          "text": "{cat}は相手の手の動きに熱心に合わせ、背中を少し上げて尾を揺らした。"
+        }
+      ]
+    },
+    {
+      "kind": "cat_response",
+      "subject_id": "cat-52bb33a93ad94bb582a5304f64a75000",
+      "mode": "pet",
+      "action": "adapt",
+      "reaction": "favorable",
+      "scene_key": "pet__adapt",
+      "target_cat": "",
+      "pool_key": "cat_response/cat-52bb33a93ad94bb582a5304f64a75000/pet/adapt/favorable/pet__adapt",
+      "variants": [
+        {
+          "id": "e40e418e0a50512fae359c8e1c6c3681",
+          "slot": 1,
+          "text": "{cat}は相手の手の動きに合わせて、柔らかく体を揺らした。"
+        },
+        {
+          "id": "e1df94218ab85140a70dd5cc64a49549",
+          "slot": 2,
+          "text": "{cat}は手の触れ方に合わせて、耳をピンと立てた。"
+        },
+        {
+          "id": "0c82bc3818505e888313e31727af6755",
+          "slot": 3,
+          "text": "{cat}は相手の手に身を寄せ、軽く背中を押した。"
+        }
+      ]
+    },
+    {
+      "kind": "cat_response",
+      "subject_id": "cat-52bb33a93ad94bb582a5304f64a75000",
+      "mode": "pet",
+      "action": "adapt",
+      "reaction": "listless",
+      "scene_key": "pet__adapt",
+      "target_cat": "",
+      "pool_key": "cat_response/cat-52bb33a93ad94bb582a5304f64a75000/pet/adapt/listless/pet__adapt",
+      "variants": [
+        {
+          "id": "d3a37713bb1a50a983fc15be69a59385",
+          "slot": 1,
+          "text": "{cat}は手の動きに合わせてゆっくり体を縮め、静かに休んだ。"
+        },
+        {
+          "id": "db75626b43e75ceea7db88b06fd24141",
+          "slot": 2,
+          "text": "{cat}は手に触れた瞬間、体を静かに揺らしながらすぐに横たわった。"
+        },
+        {
+          "id": "7c0a1802fa0a59019fb44b1b4061d103",
+          "slot": 3,
+          "text": "{cat}は手のやさしい撫でに反応し、ゆっくりと体を伸ばしてから静かに休み始めた。"
+        }
+      ]
+    },
+    {
+      "kind": "cat_response",
+      "subject_id": "cat-52bb33a93ad94bb582a5304f64a75000",
+      "mode": "pet",
+      "action": "adapt",
+      "reaction": "neutral",
+      "scene_key": "pet__adapt",
+      "target_cat": "",
+      "pool_key": "cat_response/cat-52bb33a93ad94bb582a5304f64a75000/pet/adapt/neutral/pet__adapt",
+      "variants": [
+        {
+          "id": "faf1089ee5e258119afc574a57bd5dd0",
+          "slot": 1,
+          "text": "{cat}は手のなでに軽く耳を動かした。"
+        },
+        {
+          "id": "04b9dd298ead5caeadc6250e88227c46",
+          "slot": 2,
+          "text": "{cat}は手のなでに体をほんの少し揺らした。"
+        },
+        {
+          "id": "44660c88ce14515f8516e4571fea6e75",
+          "slot": 3,
+          "text": "{cat}は手のなでに耳をすこし揺らした。"
+        }
+      ]
+    },
+    {
+      "kind": "cat_response",
+      "subject_id": "cat-52bb33a93ad94bb582a5304f64a75000",
+      "mode": "pet",
+      "action": "adapt",
+      "reaction": "turn_away",
+      "scene_key": "pet__adapt",
+      "target_cat": "",
+      "pool_key": "cat_response/cat-52bb33a93ad94bb582a5304f64a75000/pet/adapt/turn_away/pet__adapt",
+      "variants": [
+        {
+          "id": "a997edf9a476543f80a11470efa4ea1a",
+          "slot": 1,
+          "text": "{cat}は相手の手をそっと振り払った。"
+        },
+        {
+          "id": "b1b9aa258e4e56c6b24ef1775187d1c4",
+          "slot": 2,
+          "text": "{cat}は手を軽くかき消し、距離を取った。"
+        },
+        {
+          "id": "dc7be5a7cef85e7ea1b8529a254d37c3",
+          "slot": 3,
+          "text": "{cat}は相手の手を遠ざけて、身を引いた。"
+        }
+      ]
+    },
+    {
+      "kind": "cat_response",
+      "subject_id": "cat-52bb33a93ad94bb582a5304f64a75000",
+      "mode": "pet",
+      "action": "any",
+      "reaction": "confused",
+      "scene_key": "pet",
+      "target_cat": "",
+      "pool_key": "cat_response/cat-52bb33a93ad94bb582a5304f64a75000/pet/any/confused/pet",
+      "variants": [
+        {
+          "id": "81e77551610a586599fadf72ac8d1e9e",
+          "slot": 1,
+          "text": "ソラは相手の手に触れたが、どうしていいか戸惑った。"
+        },
+        {
+          "id": "7e7fa5c9fcf55bc695012241132ebc09",
+          "slot": 2,
+          "text": "ソラは相手の手を軽く踏み出し、戸惑いながら体を縮めた。"
+        },
+        {
+          "id": "239212611e125cd79f4f02099ee8c7b5",
+          "slot": 3,
+          "text": "ソラは相手の手に触れ、戸惑いの表情で軽く後ずさった。"
+        }
+      ]
+    },
+    {
+      "kind": "cat_response",
+      "subject_id": "cat-52bb33a93ad94bb582a5304f64a75000",
+      "mode": "pet",
+      "action": "any",
+      "reaction": "enthusiastic",
+      "scene_key": "pet",
+      "target_cat": "",
+      "pool_key": "cat_response/cat-52bb33a93ad94bb582a5304f64a75000/pet/any/enthusiastic/pet",
+      "variants": [
+        {
+          "id": "c5276480db4250ae973c8f216cd6dd97",
+          "slot": 1,
+          "text": "{cat}は相手の手に熱心に頭を擦り付けた。"
+        },
+        {
+          "id": "ef59a38213995306a0b7b57a661fa902",
+          "slot": 2,
+          "text": "{cat}は相手の手を舐め、柔らかな尻尾で迎えた。"
+        },
+        {
+          "id": "292c2c4d4baf51c686cd330349e192e1",
+          "slot": 3,
+          "text": "{cat}は相手の手を追い、軽く鳴き声を上げた。"
+        }
+      ]
+    },
+    {
+      "kind": "cat_response",
+      "subject_id": "cat-52bb33a93ad94bb582a5304f64a75000",
+      "mode": "pet",
+      "action": "any",
+      "reaction": "favorable",
+      "scene_key": "pet",
+      "target_cat": "",
+      "pool_key": "cat_response/cat-52bb33a93ad94bb582a5304f64a75000/pet/any/favorable/pet",
+      "variants": [
+        {
+          "id": "b1f796c30f7c5e2e9d04a3a2530ddfae",
+          "slot": 1,
+          "text": "{cat}は手の動きに合わせて体を軽く動かした。"
+        },
+        {
+          "id": "8d9056c320a45bd498ace08c1a72e0cd",
+          "slot": 2,
+          "text": "{cat}は毛を撫でられた後、静かに頭を向けた。"
+        },
+        {
+          "id": "c8ec375a6a035697af38f430bc65fe66",
+          "slot": 3,
+          "text": "{cat}は柔らかな毛を伸ばし、しばらく静止した。"
+        }
+      ]
+    },
+    {
+      "kind": "cat_response",
+      "subject_id": "cat-52bb33a93ad94bb582a5304f64a75000",
+      "mode": "pet",
+      "action": "any",
+      "reaction": "listless",
+      "scene_key": "pet",
+      "target_cat": "",
+      "pool_key": "cat_response/cat-52bb33a93ad94bb582a5304f64a75000/pet/any/listless/pet",
+      "variants": [
+        {
+          "id": "14da534dc2495a00af3f187a72ba601f",
+          "slot": 1,
+          "text": "{cat} が手の動きに反応せず、ゆっくりと体を回した。顔はほぼ閉じ、目を半開きにした。尾はゆっくり揺れ、全体的に動きが鈍い。"
+        },
+        {
+          "id": "691bddac100d5bd08f070c438f9a47e6",
+          "slot": 2,
+          "text": "{cat} は手に触れた瞬間に、肩を軽く揺らした。全体が緩んで、まるで重い雲を抱えているような姿勢をとった。"
+        },
+        {
+          "id": "9275d4975c2f55edafc476f2acd89afd",
+          "slot": 3,
+          "text": "{cat} は手の触れ合いに対して、ほんの少ししか体を動かさず、耳を少し横に倒した。尾はゆっくりと揺れ、全体的に静かな姿勢であった。"
+        }
+      ]
+    },
+    {
+      "kind": "cat_response",
+      "subject_id": "cat-52bb33a93ad94bb582a5304f64a75000",
+      "mode": "pet",
+      "action": "any",
+      "reaction": "neutral",
+      "scene_key": "pet",
+      "target_cat": "",
+      "pool_key": "cat_response/cat-52bb33a93ad94bb582a5304f64a75000/pet/any/neutral/pet",
+      "variants": [
+        {
+          "id": "bc8f9201d2725d239a6acd19948b354e",
+          "slot": 1,
+          "text": "{cat} は手の指先に触れた瞬間、目を細めて体を少し揺らした。"
+        },
+        {
+          "id": "c705a29c9f9f5750bb608db83707cbc5",
+          "slot": 2,
+          "text": "{cat} は手の動きを受け止め、耳を少し後ろに倒した。"
+        },
+        {
+          "id": "0af5eb2d650354cd8ee98856f2e8e70a",
+          "slot": 3,
+          "text": "{cat} は手に触れたとき、軽く鼻をすりつけてから静かに立ち直った。"
+        }
+      ]
+    },
+    {
+      "kind": "cat_response",
+      "subject_id": "cat-52bb33a93ad94bb582a5304f64a75000",
+      "mode": "pet",
+      "action": "any",
+      "reaction": "turn_away",
+      "scene_key": "pet",
+      "target_cat": "",
+      "pool_key": "cat_response/cat-52bb33a93ad94bb582a5304f64a75000/pet/any/turn_away/pet",
+      "variants": [
+        {
+          "id": "2ef4175041e75d8f9a79c94bcf89dfb4",
+          "slot": 1,
+          "text": "{cat}が相手の手を振り返り、足で軽く踏みつけた。"
+        },
+        {
+          "id": "2173f4f3a1f85063bf4bdd1fe04d950e",
+          "slot": 2,
+          "text": "{cat}は相手の手をひっくり返し、体をそっぽ向した。"
+        },
+        {
+          "id": "4ad82f65b7f4512795d9764ed46e5e11",
+          "slot": 3,
+          "text": "{cat}が相手の手をそっと振り、背中を向けた。"
+        }
+      ]
+    },
+    {
+      "kind": "cat_response",
+      "subject_id": "cat-52bb33a93ad94bb582a5304f64a75000",
+      "mode": "pet",
+      "action": "direct",
+      "reaction": "confused",
+      "scene_key": "pet__direct",
+      "target_cat": "",
+      "pool_key": "cat_response/cat-52bb33a93ad94bb582a5304f64a75000/pet/direct/confused/pet__direct",
+      "variants": [
+        {
+          "id": "106bef6a0feb5588a9f4e63243f1f2e0",
+          "slot": 1,
+          "text": "{cat}は相手の手の動きを見て、戸惑いの表情を浮かべた。"
+        },
+        {
+          "id": "48f9128c75445306970bd1d887b0aac4",
+          "slot": 2,
+          "text": "{cat}は手の動きに対し、目をぱらぱらさせて戸惑った。"
+        },
+        {
+          "id": "acd4912178a35e3ba85fd7a3b18182b5",
+          "slot": 3,
+          "text": "{cat}は相手の手に近づく動きを見て、眉をひそめて戸惑った。"
+        }
+      ]
+    },
+    {
+      "kind": "cat_response",
+      "subject_id": "cat-52bb33a93ad94bb582a5304f64a75000",
+      "mode": "pet",
+      "action": "direct",
+      "reaction": "enthusiastic",
+      "scene_key": "pet__direct",
+      "target_cat": "",
+      "pool_key": "cat_response/cat-52bb33a93ad94bb582a5304f64a75000/pet/direct/enthusiastic/pet__direct",
+      "variants": [
+        {
+          "id": "be41c682f75152dda7cbb6c8c8d44a34",
+          "slot": 1,
+          "text": "{cat}は手の撫でに熱心に尾を振り回した。"
+        },
+        {
+          "id": "f17eb40cc698589a96fdbcc2d4914c94",
+          "slot": 2,
+          "text": "{cat}は手の指先を熱心に舐め、背中をすりすりした。"
+        },
+        {
+          "id": "b0942b280ff854cbafebcb31d3dc2cae",
+          "slot": 3,
+          "text": "{cat}は手の毛を熱心に撫でられ、まばたきを速く繰り返した。"
+        }
+      ]
+    },
+    {
+      "kind": "cat_response",
+      "subject_id": "cat-52bb33a93ad94bb582a5304f64a75000",
+      "mode": "pet",
+      "action": "direct",
+      "reaction": "favorable",
+      "scene_key": "pet__direct",
+      "target_cat": "",
+      "pool_key": "cat_response/cat-52bb33a93ad94bb582a5304f64a75000/pet/direct/favorable/pet__direct",
+      "variants": [
+        {
+          "id": "538ddf8011665136b3090ab8873f2b3a",
+          "slot": 1,
+          "text": "{cat} は手の動きにそっと身を乗り出し、柔らかな毛を撫でられた。"
+        },
+        {
+          "id": "792e1f4e9fb7592aaebc8eae50837c10",
+          "slot": 2,
+          "text": "{cat} は手に軽く身を寄せ、ほんのりと喉を鳴らした。"
+        },
+        {
+          "id": "30f39286d4f959acafe5e5ccbc09fc8a",
+          "slot": 3,
+          "text": "{cat} は手の温もりに静かに耳を振り、柔らかな体をほぐされた。"
+        }
+      ]
+    },
+    {
+      "kind": "cat_response",
+      "subject_id": "cat-52bb33a93ad94bb582a5304f64a75000",
+      "mode": "pet",
+      "action": "direct",
+      "reaction": "listless",
+      "scene_key": "pet__direct",
+      "target_cat": "",
+      "pool_key": "cat_response/cat-52bb33a93ad94bb582a5304f64a75000/pet/direct/listless/pet__direct",
+      "variants": [
+        {
+          "id": "19922d92975554128f1b57e41cfdcc40",
+          "slot": 1,
+          "text": "{cat}はゆっくりと体を伸ばした。"
+        },
+        {
+          "id": "3489b8c6ee505b9487c956cf4e8fa8a5",
+          "slot": 2,
+          "text": "{cat}は動きが鈍く、手で撫でられてもほとんど反応しなかった。"
+        },
+        {
+          "id": "cde38d3e1a3250368fa9df0fad9bc93a",
+          "slot": 3,
+          "text": "{cat}は体を低めにして静かに佇み、休みを取った。"
+        }
+      ]
+    },
+    {
+      "kind": "cat_response",
+      "subject_id": "cat-52bb33a93ad94bb582a5304f64a75000",
+      "mode": "pet",
+      "action": "direct",
+      "reaction": "neutral",
+      "scene_key": "pet__direct",
+      "target_cat": "",
+      "pool_key": "cat_response/cat-52bb33a93ad94bb582a5304f64a75000/pet/direct/neutral/pet__direct",
+      "variants": [
+        {
+          "id": "fe40b6e8620b513eb78beee123586adb",
+          "slot": 1,
+          "text": "{cat}は手の動きに合わせて体をゆっくり揺らした。"
+        },
+        {
+          "id": "46fd937432e85c4fb247c373e6848fcf",
+          "slot": 2,
+          "text": "{cat}は手の指先を軽く舐めた後、すぐに体を伸ばした。"
+        },
+        {
+          "id": "2df734bcaedf583290190a33cbe1f9bd",
+          "slot": 3,
+          "text": "{cat}は手の動きに合わせて耳を少し振った。"
+        }
+      ]
+    },
+    {
+      "kind": "cat_response",
+      "subject_id": "cat-52bb33a93ad94bb582a5304f64a75000",
+      "mode": "pet",
+      "action": "direct",
+      "reaction": "turn_away",
+      "scene_key": "pet__direct",
+      "target_cat": "",
+      "pool_key": "cat_response/cat-52bb33a93ad94bb582a5304f64a75000/pet/direct/turn_away/pet__direct",
+      "variants": [
+        {
+          "id": "f42fb1217ade5decb07d6ffc5969fc72",
+          "slot": 1,
+          "text": "{cat}は相手の手を見て、体をそっと横に曲げて、遠ざけた。"
+        },
+        {
+          "id": "65549c30ceee5dfcb792f34bf5a9c911",
+          "slot": 2,
+          "text": "{cat}は相手の手に視線をやって、肩を少し回し、背を向けた。"
+        },
+        {
+          "id": "a4f8a3229d07543bb8a56e90ab345b37",
+          "slot": 3,
+          "text": "{cat}は相手の手に耳をかざし、足を引き、そっぽを向いた。"
+        }
+      ]
+    },
+    {
+      "kind": "cat_response",
+      "subject_id": "cat-52bb33a93ad94bb582a5304f64a75000",
+      "mode": "teaser",
+      "action": "adapt",
+      "reaction": "confused",
+      "scene_key": "teaser__adapt",
+      "target_cat": "",
+      "pool_key": "cat_response/cat-52bb33a93ad94bb582a5304f64a75000/teaser/adapt/confused/teaser__adapt",
+      "variants": [
+        {
+          "id": "dce12b070639540a9e3603d0fc250361",
+          "slot": 1,
+          "text": "{cat} は、相手の手でねこじゃらしを振られ、足を踏み出しながら、戸惑いを隠せないまま、尾を少し揺らした。"
+        },
+        {
+          "id": "891c9e9bb1365a55a86c4390ae02ef09",
+          "slot": 2,
+          "text": "{cat} は、相手の指先に合わせてねこじゃらしを追い、少し戸惑いながら、顔をそっと動かした。"
+        },
+        {
+          "id": "ac2a07359b3b5f72808cbd448be9d105",
+          "slot": 3,
+          "text": "{cat} は、相手の動きに合わせてねこじゃらしを追い、戸惑いの表情で耳を少し横にすべらせた。"
+        }
+      ]
+    },
+    {
+      "kind": "cat_response",
+      "subject_id": "cat-52bb33a93ad94bb582a5304f64a75000",
+      "mode": "teaser",
+      "action": "adapt",
+      "reaction": "enthusiastic",
+      "scene_key": "teaser__adapt",
+      "target_cat": "",
+      "pool_key": "cat_response/cat-52bb33a93ad94bb582a5304f64a75000/teaser/adapt/enthusiastic/teaser__adapt",
+      "variants": [
+        {
+          "id": "ac9ec14b2632504b9ba11a9d428cef95",
+          "slot": 1,
+          "text": "{cat}は相手の手でねこじゃらしを動かすと、熱心に跳び回った。"
+        },
+        {
+          "id": "2549f804008a5fe48568c0a87a5d87b7",
+          "slot": 2,
+          "text": "{cat}は相手に合わせてねこじゃらしを追い、熱心に体を揺らした。"
+        },
+        {
+          "id": "f3bc74dd01335a59a488af7e908b1b8c",
+          "slot": 3,
+          "text": "{cat}は相手の動きに合わせてねこじゃらしを捕え、熱心に遊んだ。"
+        }
+      ]
+    },
+    {
+      "kind": "cat_response",
+      "subject_id": "cat-52bb33a93ad94bb582a5304f64a75000",
+      "mode": "teaser",
+      "action": "adapt",
+      "reaction": "favorable",
+      "scene_key": "teaser__adapt",
+      "target_cat": "",
+      "pool_key": "cat_response/cat-52bb33a93ad94bb582a5304f64a75000/teaser/adapt/favorable/teaser__adapt",
+      "variants": [
+        {
+          "id": "0334f970875751ff8d26bd226caeb32e",
+          "slot": 1,
+          "text": "{cat} はねこじゃらしの揺れる先へ足を踏み出した。"
+        },
+        {
+          "id": "99e15f1c12925be6bbd97d961640051d",
+          "slot": 2,
+          "text": "{cat} は手の動きに合わせて尻尾を軽く振った。"
+        },
+        {
+          "id": "23483ce4a90154dd9ff10ec0bb43e75e",
+          "slot": 3,
+          "text": "{cat} は手の動きに合わせてまばたきを数回した。"
+        }
+      ]
+    },
+    {
+      "kind": "cat_response",
+      "subject_id": "cat-52bb33a93ad94bb582a5304f64a75000",
+      "mode": "teaser",
+      "action": "adapt",
+      "reaction": "listless",
+      "scene_key": "teaser__adapt",
+      "target_cat": "",
+      "pool_key": "cat_response/cat-52bb33a93ad94bb582a5304f64a75000/teaser/adapt/listless/teaser__adapt",
+      "variants": [
+        {
+          "id": "44615c4ec6415dd4a722a166748bfe55",
+          "slot": 1,
+          "text": "{cat}は手の動きをゆっくりと追い、耳を垂れた。"
+        },
+        {
+          "id": "9417302c3a1e5e2dafc85117cdbdfa74",
+          "slot": 2,
+          "text": "{cat}は手の動きに合わせ、横になったまま耳を垂れた。"
+        },
+        {
+          "id": "99582bf447935324812b4337bbdcd4bb",
+          "slot": 3,
+          "text": "{cat}は手の動きに合わせ、体を沈めて耳を垂れた。"
+        }
+      ]
+    },
+    {
+      "kind": "cat_response",
+      "subject_id": "cat-52bb33a93ad94bb582a5304f64a75000",
+      "mode": "teaser",
+      "action": "adapt",
+      "reaction": "neutral",
+      "scene_key": "teaser__adapt",
+      "target_cat": "",
+      "pool_key": "cat_response/cat-52bb33a93ad94bb582a5304f64a75000/teaser/adapt/neutral/teaser__adapt",
+      "variants": [
+        {
+          "id": "08913ebb6ef250d389d9c070d38d0e85",
+          "slot": 1,
+          "text": "{cat}は相手の手にそっと頭を近づけ、じっと見つめた。"
+        },
+        {
+          "id": "a07d3c54cc6658f484753d80594e420c",
+          "slot": 2,
+          "text": "{cat}はねこじゃらしを見て、尾をゆらさずに静かに佇んだ。"
+        },
+        {
+          "id": "ae636386cf5b55328f6b5af42ca38a1d",
+          "slot": 3,
+          "text": "{cat}は相手の動きに合わせて、軽く体を揺らし、姿勢を整えた。"
+        }
+      ]
+    },
+    {
+      "kind": "cat_response",
+      "subject_id": "cat-52bb33a93ad94bb582a5304f64a75000",
+      "mode": "teaser",
+      "action": "adapt",
+      "reaction": "turn_away",
+      "scene_key": "teaser__adapt",
+      "target_cat": "",
+      "pool_key": "cat_response/cat-52bb33a93ad94bb582a5304f64a75000/teaser/adapt/turn_away/teaser__adapt",
+      "variants": [
+        {
+          "id": "c1f181e606ae51e085ea8db4cf4ad642",
+          "slot": 1,
+          "text": "{cat}は相手の手に近づくと、尻尾を軽く揺らし、目をそらして離れた"
+        },
+        {
+          "id": "d4ba19b6cd6e51b69d16d18387b87d50",
+          "slot": 2,
+          "text": "{cat}は手の前で尻尾を振り、相手の手に軽く触れた後、すばやく離れた"
+        },
+        {
+          "id": "d482414b4ebe56ce8bb49281a24239b7",
+          "slot": 3,
+          "text": "{cat}は相手の手を軽く踏んだ、尻尾を揺らし、すぐに離れた"
+        }
+      ]
+    },
+    {
+      "kind": "cat_response",
+      "subject_id": "cat-52bb33a93ad94bb582a5304f64a75000",
+      "mode": "teaser",
+      "action": "any",
+      "reaction": "confused",
+      "scene_key": "teaser",
+      "target_cat": "",
+      "pool_key": "cat_response/cat-52bb33a93ad94bb582a5304f64a75000/teaser/any/confused/teaser",
+      "variants": [
+        {
+          "id": "ddcc90e178d655598a99c89170a12f69",
+          "slot": 1,
+          "text": "{cat}は、ねこじゃらしの動きを見て、ちょっと眉をひそめて、ゆっくりと足を踏み出してみた。"
+        },
+        {
+          "id": "e16862a3965b5d1b9c5bd3740ee68169",
+          "slot": 2,
+          "text": "{cat}は、相手の手の動きを観察し、目線をそらしながら、軽く尻尾を揺らしてみた。"
+        },
+        {
+          "id": "dd7468ab25595d9384dc8020b7e38e10",
+          "slot": 3,
+          "text": "{cat}は、ねこじゃらしの揺れを追いかけるように、舌を少し出し、先ほどの動きに対して戸惑いを感じた。"
+        }
+      ]
+    },
+    {
+      "kind": "cat_response",
+      "subject_id": "cat-52bb33a93ad94bb582a5304f64a75000",
+      "mode": "teaser",
+      "action": "any",
+      "reaction": "enthusiastic",
+      "scene_key": "teaser",
+      "target_cat": "",
+      "pool_key": "cat_response/cat-52bb33a93ad94bb582a5304f64a75000/teaser/any/enthusiastic/teaser",
+      "variants": [
+        {
+          "id": "78d7b25654dc5f14a92cb07aeb194ab5",
+          "slot": 1,
+          "text": "{cat}は手の動きを見た、尾をゆったり揺らした。"
+        },
+        {
+          "id": "6494f9db598356608be8be9f4698b3c1",
+          "slot": 2,
+          "text": "{cat}は手の振りを追った、耳を少し横に向けた。"
+        },
+        {
+          "id": "9eb2aba915765f04b34aabcd6efa1222",
+          "slot": 3,
+          "text": "{cat}は手の動きを見た、顔を少し近づけ、鼻先を軽く触れ、喜んだ。"
+        }
+      ]
+    },
+    {
+      "kind": "cat_response",
+      "subject_id": "cat-52bb33a93ad94bb582a5304f64a75000",
+      "mode": "teaser",
+      "action": "any",
+      "reaction": "favorable",
+      "scene_key": "teaser",
+      "target_cat": "",
+      "pool_key": "cat_response/cat-52bb33a93ad94bb582a5304f64a75000/teaser/any/favorable/teaser",
+      "variants": [
+        {
+          "id": "a2564eeffb115b7d94e33c5c0df31c25",
+          "slot": 1,
+          "text": "{cat}は手に沿って優しく軽く舌を出した。"
+        },
+        {
+          "id": "705fe1cebdbb59708c303d4ac70ca094",
+          "slot": 2,
+          "text": "{cat}は手の動きを見て静かに前足で軽く触れた。"
+        },
+        {
+          "id": "e04c23fc99e659f0833f5477bbf24dc5",
+          "slot": 3,
+          "text": "{cat}は手を軽く叩く音にじっと耳を向けた。"
+        }
+      ]
+    },
+    {
+      "kind": "cat_response",
+      "subject_id": "cat-52bb33a93ad94bb582a5304f64a75000",
+      "mode": "teaser",
+      "action": "any",
+      "reaction": "listless",
+      "scene_key": "teaser",
+      "target_cat": "",
+      "pool_key": "cat_response/cat-52bb33a93ad94bb582a5304f64a75000/teaser/any/listless/teaser",
+      "variants": [
+        {
+          "id": "df34b8e79038591cbf44e4388c2abbdd",
+          "slot": 1,
+          "text": "{cat} は、ねこじゃらしの動きに耳を向け、ゆっくりと足を動かした。"
+        },
+        {
+          "id": "70261d9bdcb053b2b66e9abcd253a43c",
+          "slot": 2,
+          "text": "{cat} は、ねこじゃらしに目を留め、舌先で軽く触れた。"
+        },
+        {
+          "id": "5cedc1e3a3f35b3490a93fd5394c280a",
+          "slot": 3,
+          "text": "{cat} は、ねこじゃらしを少しだけ見て、足で軽く蹴った。"
+        }
+      ]
+    },
+    {
+      "kind": "cat_response",
+      "subject_id": "cat-52bb33a93ad94bb582a5304f64a75000",
+      "mode": "teaser",
+      "action": "any",
+      "reaction": "neutral",
+      "scene_key": "teaser",
+      "target_cat": "",
+      "pool_key": "cat_response/cat-52bb33a93ad94bb582a5304f64a75000/teaser/any/neutral/teaser",
+      "variants": [
+        {
+          "id": "93baafa8509c54c089c6173ccbeb7988",
+          "slot": 1,
+          "text": "{cat} はねこじゃらしを見て、少し距離を保ちながら観察した。"
+        },
+        {
+          "id": "b5971335fe8e5b90a85d5d7655202eed",
+          "slot": 2,
+          "text": "{cat} はねこじゃらしを軽く見て、すぐに別の場所へ歩き去った。"
+        },
+        {
+          "id": "b3cfba67aaed5e538fa3adadd5843847",
+          "slot": 3,
+          "text": "{cat} はねこじゃらしをじっと眺め、しばらく横を離れたまま座った。"
+        }
+      ]
+    },
+    {
+      "kind": "cat_response",
+      "subject_id": "cat-52bb33a93ad94bb582a5304f64a75000",
+      "mode": "teaser",
+      "action": "any",
+      "reaction": "turn_away",
+      "scene_key": "teaser",
+      "target_cat": "",
+      "pool_key": "cat_response/cat-52bb33a93ad94bb582a5304f64a75000/teaser/any/turn_away/teaser",
+      "variants": [
+        {
+          "id": "d0d69b00a9df5d3499c6214e6036a3a5",
+          "slot": 1,
+          "text": "{cat} は相手のねこじゃらしを見て、尻尾を振り、距離を保った。"
+        },
+        {
+          "id": "b47fcbf54e3351279cb725918f2d91a0",
+          "slot": 2,
+          "text": "{cat} は相手のねこじゃらしを受け取り、背中を向けて去った。"
+        },
+        {
+          "id": "3ee0640dc9b75bd5baff7abec3c56b69",
+          "slot": 3,
+          "text": "{cat} は相手のねこじゃらしに対し、軽く尻尾を振り、そっぽを向いた。"
+        }
+      ]
+    },
+    {
+      "kind": "cat_response",
+      "subject_id": "cat-52bb33a93ad94bb582a5304f64a75000",
+      "mode": "teaser",
+      "action": "direct",
+      "reaction": "confused",
+      "scene_key": "teaser__direct",
+      "target_cat": "",
+      "pool_key": "cat_response/cat-52bb33a93ad94bb582a5304f64a75000/teaser/direct/confused/teaser__direct",
+      "variants": [
+        {
+          "id": "bb4028fef8345b5d85d0e9e852db93e3",
+          "slot": 1,
+          "text": "{cat}はねこじゃらしを見て、相手の手を少し踏み止め、目を細めて戸惑った。"
+        },
+        {
+          "id": "b0a7309e314155df91598c0db6d33c78",
+          "slot": 2,
+          "text": "{cat}は猫じゃらしに向き直り、手の動きを止め、首をかしげて戸惑った。"
+        },
+        {
+          "id": "a9e13a23bbb65d11a8a22d80bc000941",
+          "slot": 3,
+          "text": "{cat}はねこじゃらしを追いかけようとしたが、手の速さに戸惑い、足を止めた。"
+        }
+      ]
+    },
+    {
+      "kind": "cat_response",
+      "subject_id": "cat-52bb33a93ad94bb582a5304f64a75000",
+      "mode": "teaser",
+      "action": "direct",
+      "reaction": "enthusiastic",
+      "scene_key": "teaser__direct",
+      "target_cat": "",
+      "pool_key": "cat_response/cat-52bb33a93ad94bb582a5304f64a75000/teaser/direct/enthusiastic/teaser__direct",
+      "variants": [
+        {
+          "id": "b3c2e6f1688152fd94d173cdfe054508",
+          "slot": 1,
+          "text": "{cat}はねこじゃらしを熱心に追いかけ、尻尾を振りながら嬉しそうに跳ね上がった。"
+        },
+        {
+          "id": "0c06fdd07b745a1fa7ec2b63a20c765b",
+          "slot": 2,
+          "text": "{cat}はねこじゃらしを前に大きく伸び、舌で軽く触れながら興奮したまま歩き回った。"
+        },
+        {
+          "id": "362ed030f40d56388a7c40e7532bae6d",
+          "slot": 3,
+          "text": "{cat}はねこじゃらしに目を輝かせ、素早く足を踏み鳴らしながら楽しげに転げ回った。"
+        }
+      ]
+    },
+    {
+      "kind": "cat_response",
+      "subject_id": "cat-52bb33a93ad94bb582a5304f64a75000",
+      "mode": "teaser",
+      "action": "direct",
+      "reaction": "favorable",
+      "scene_key": "teaser__direct",
+      "target_cat": "",
+      "pool_key": "cat_response/cat-52bb33a93ad94bb582a5304f64a75000/teaser/direct/favorable/teaser__direct",
+      "variants": [
+        {
+          "id": "c18319bed3425d3ca188565069e2be6b",
+          "slot": 1,
+          "text": "{cat}はねこじゃらしを見て、前足で軽く触れた。"
+        },
+        {
+          "id": "53d1058e035954f3860510ec2fd80939",
+          "slot": 2,
+          "text": "{cat}はねこじゃらしを追いかけたと、耳をピンと立てた。"
+        },
+        {
+          "id": "1a449e0f3067526d865ded2b43bb8b6f",
+          "slot": 3,
+          "text": "{cat}はねこじゃらしに手を伸ばしたと、少しだけ体を前に押し出した。"
+        }
+      ]
+    },
+    {
+      "kind": "cat_response",
+      "subject_id": "cat-52bb33a93ad94bb582a5304f64a75000",
+      "mode": "teaser",
+      "action": "direct",
+      "reaction": "listless",
+      "scene_key": "teaser__direct",
+      "target_cat": "",
+      "pool_key": "cat_response/cat-52bb33a93ad94bb582a5304f64a75000/teaser/direct/listless/teaser__direct",
+      "variants": [
+        {
+          "id": "2b4ba4ea31d25cd9a35f9ea0690981fd",
+          "slot": 1,
+          "text": "{cat}は手の動きをゆっくりと追い、しっぽをほんのり揺らした。"
+        },
+        {
+          "id": "fc37855f53895369a9641575591654cc",
+          "slot": 2,
+          "text": "{cat}は相手の手の振れを静かに観察し、ほぼその場で揺られた。"
+        },
+        {
+          "id": "cf00ecf167585b42858cbae1f110ce2f",
+          "slot": 3,
+          "text": "{cat}はねこじゃらしの先を軽く触れ、すぐに横に座り替えて立ち止まった。"
+        }
+      ]
+    },
+    {
+      "kind": "cat_response",
+      "subject_id": "cat-52bb33a93ad94bb582a5304f64a75000",
+      "mode": "teaser",
+      "action": "direct",
+      "reaction": "neutral",
+      "scene_key": "teaser__direct",
+      "target_cat": "",
+      "pool_key": "cat_response/cat-52bb33a93ad94bb582a5304f64a75000/teaser/direct/neutral/teaser__direct",
+      "variants": [
+        {
+          "id": "d31058ed6c0b510a90b30cb07dd0b3df",
+          "slot": 1,
+          "text": "{cat}はねこじゃらしを見て、手の動きをゆっくり追った。"
+        },
+        {
+          "id": "92314f231f265227b4ba1568555e5113",
+          "slot": 2,
+          "text": "{cat}はねこじゃらしを静かに観察し、手の動きに合わせて体を揺らした。"
+        },
+        {
+          "id": "6d1ee5ea9e0450389f476fabcb676f87",
+          "slot": 3,
+          "text": "{cat}はねこじゃらしを見て、手に沿ってしっぽを揺らしながら近づいた。"
+        }
+      ]
+    },
+    {
+      "kind": "cat_response",
+      "subject_id": "cat-52bb33a93ad94bb582a5304f64a75000",
+      "mode": "teaser",
+      "action": "direct",
+      "reaction": "turn_away",
+      "scene_key": "teaser__direct",
+      "target_cat": "",
+      "pool_key": "cat_response/cat-52bb33a93ad94bb582a5304f64a75000/teaser/direct/turn_away/teaser__direct",
+      "variants": [
+        {
+          "id": "7a5f05a05aa75774bc6fcef1ae48898c",
+          "slot": 1,
+          "text": "{cat}はねこじゃらしを見て、すぐに体をひねり、相手から離れた。"
+        },
+        {
+          "id": "3bd7e823bdef50c28ad93eef68485324",
+          "slot": 2,
+          "text": "{cat}はねこじゃらしに手を伸ばした、尻尾を振って距離を取った。"
+        },
+        {
+          "id": "307864babb4a541080b876308ad8665d",
+          "slot": 3,
+          "text": "{cat}はねこじゃらしを軽く踏みつけ、足を後ろに引いた。"
+        }
+      ]
+    },
+    {
+      "kind": "cat_response",
+      "subject_id": "cat-52bb33a93ad94bb582a5304f64a75000",
+      "mode": "teaser",
+      "action": "feint",
+      "reaction": "confused",
+      "scene_key": "teaser__feint",
+      "target_cat": "",
+      "pool_key": "cat_response/cat-52bb33a93ad94bb582a5304f64a75000/teaser/feint/confused/teaser__feint",
+      "variants": [
+        {
+          "id": "479f39ce195d572fb942140f62547b17",
+          "slot": 1,
+          "text": "{cat}はフェイントに戸惑い、手を止めた。"
+        },
+        {
+          "id": "d161f82ef9b056fe9f036537175ebeeb",
+          "slot": 2,
+          "text": "{cat}はフェイントに戸惑い、足を止めて眺めた。"
+        },
+        {
+          "id": "576d28c7646d5ce08de7d32fff4f148d",
+          "slot": 3,
+          "text": "{cat}はフェイントに戸惑い、前足を上げたまま立ち止まった。"
+        }
+      ]
+    },
+    {
+      "kind": "cat_response",
+      "subject_id": "cat-52bb33a93ad94bb582a5304f64a75000",
+      "mode": "teaser",
+      "action": "feint",
+      "reaction": "enthusiastic",
+      "scene_key": "teaser__feint",
+      "target_cat": "",
+      "pool_key": "cat_response/cat-52bb33a93ad94bb582a5304f64a75000/teaser/feint/enthusiastic/teaser__feint",
+      "variants": [
+        {
+          "id": "e00ebe42d9f35a23962629d8182b645a",
+          "slot": 1,
+          "text": "{cat}はフェイントに興味津々で距離を保ちつつ、前足で軽くタップした。"
+        },
+        {
+          "id": "4fd335a898f3532f8f7a18e8fa0466c9",
+          "slot": 2,
+          "text": "{cat}はフェイントを見て距離を保ち、前足で軽くタップして興奮した。"
+        },
+        {
+          "id": "58127ed73613580a9b0b90086c28286a",
+          "slot": 3,
+          "text": "{cat}はフェイントに反応し、距離を保ちながら前足で軽くタップし、熱心に動いた。"
+        }
+      ]
+    },
+    {
+      "kind": "cat_response",
+      "subject_id": "cat-52bb33a93ad94bb582a5304f64a75000",
+      "mode": "teaser",
+      "action": "feint",
+      "reaction": "favorable",
+      "scene_key": "teaser__feint",
+      "target_cat": "",
+      "pool_key": "cat_response/cat-52bb33a93ad94bb582a5304f64a75000/teaser/feint/favorable/teaser__feint",
+      "variants": [
+        {
+          "id": "c8d0b3f4c0cc5e249c9d3152fb724270",
+          "slot": 1,
+          "text": "{cat}はフェイントにすばやく反応し、軽く尾を揺らした"
+        },
+        {
+          "id": "0f301155a4375f65b663b60a3c1d0740",
+          "slot": 2,
+          "text": "{cat}はフェイントに合わせて前足を軽く踏み出し、尾を揺らした"
+        },
+        {
+          "id": "b18ae076b8185cd0a2ad209ebcbe63ad",
+          "slot": 3,
+          "text": "{cat}はフェイントを見て、静かに尾を揺らし、目をぱんぱんと開いた"
+        }
+      ]
+    },
+    {
+      "kind": "cat_response",
+      "subject_id": "cat-52bb33a93ad94bb582a5304f64a75000",
+      "mode": "teaser",
+      "action": "feint",
+      "reaction": "listless",
+      "scene_key": "teaser__feint",
+      "target_cat": "",
+      "pool_key": "cat_response/cat-52bb33a93ad94bb582a5304f64a75000/teaser/feint/listless/teaser__feint",
+      "variants": [
+        {
+          "id": "b94b46a9baa356b4ba29bd1cf3c6ab74",
+          "slot": 1,
+          "text": "{cat}はゆっくり足を伸ばし、手の動きに合わせて背中を少し起こした。"
+        },
+        {
+          "id": "bc8c9218fb525c159c7e73a0dba754a8",
+          "slot": 2,
+          "text": "{cat}は体を横に倒し、手のフェイントに対して動きが鈍くなった。"
+        },
+        {
+          "id": "531d9fbbc0c759339bb40f378b81d5c4",
+          "slot": 3,
+          "text": "{cat}は足を組み、手をゆっくり揺らすだけで、体は静かに横たわっていた。"
+        }
+      ]
+    },
+    {
+      "kind": "cat_response",
+      "subject_id": "cat-52bb33a93ad94bb582a5304f64a75000",
+      "mode": "teaser",
+      "action": "feint",
+      "reaction": "neutral",
+      "scene_key": "teaser__feint",
+      "target_cat": "",
+      "pool_key": "cat_response/cat-52bb33a93ad94bb582a5304f64a75000/teaser/feint/neutral/teaser__feint",
+      "variants": [
+        {
+          "id": "c4353473b4e151f6a6def106b8340ce9",
+          "slot": 1,
+          "text": "{cat} はフェイントの動きを観察し、頭を少し傾けた。相手の手の動きに合わせて、尾をゆっくり揺らした。静かに呼吸を続けた。"
+        },
+        {
+          "id": "763a204eef9d57488e8c553637e2bbb0",
+          "slot": 2,
+          "text": "{cat} はフェイントの動きに目を留め、相手の手をじっと見つめた。尾は穏やかに揺れ、軽く足を踏み鳴らした。静止したまま時間を過ごした。"
+        },
+        {
+          "id": "d67e6512562f5b8f822b2c9ab493284e",
+          "slot": 3,
+          "text": "{cat} はフェイントの動きを追い、相手の手に目を向けた。尾を揺らしつつ、体を少し前傾させた。息を整えて静かに佇んだ。"
+        }
+      ]
+    },
+    {
+      "kind": "cat_response",
+      "subject_id": "cat-52bb33a93ad94bb582a5304f64a75000",
+      "mode": "teaser",
+      "action": "feint",
+      "reaction": "turn_away",
+      "scene_key": "teaser__feint",
+      "target_cat": "",
+      "pool_key": "cat_response/cat-52bb33a93ad94bb582a5304f64a75000/teaser/feint/turn_away/teaser__feint",
+      "variants": [
+        {
+          "id": "e19d366a5ac1509896871d1d0cc38ac2",
+          "slot": 1,
+          "text": "{cat}はフェイントを見逃し、相手の手を背後にして立ち去った。"
+        },
+        {
+          "id": "7108b1d41b525bb590bf8b614867d43d",
+          "slot": 2,
+          "text": "{cat}はフェイントに反応せず、相手の手を遠ざけて姿勢を変えた。"
+        },
+        {
+          "id": "079ae3ddc82a59c3b33bced6c33ad89b",
+          "slot": 3,
+          "text": "{cat}はフェイントを無視し、相手の手を見逃して足を踏み出した。"
+        }
+      ]
+    },
+    {
+      "kind": "cat_response",
+      "subject_id": "cat-52bb33a93ad94bb582a5304f64a75000",
+      "mode": "teaser",
+      "action": "intense",
+      "reaction": "listless",
+      "scene_key": "teaser__intense",
+      "target_cat": "",
+      "pool_key": "cat_response/cat-52bb33a93ad94bb582a5304f64a75000/teaser/intense/listless/teaser__intense",
+      "variants": [
+        {
+          "id": "25370b6d473250289acb4db31dc5a198",
+          "slot": 1,
+          "text": "{cat}は静かに横たわり、手の動きを見守った"
+        },
+        {
+          "id": "e5317e1c4f1d51cf948c33316b1546c6",
+          "slot": 2,
+          "text": "{cat}はゆっくりと足を伸ばし、手の振る動きを見つめた"
+        },
+        {
+          "id": "568f4a63983a512db8c1807bb417a032",
+          "slot": 3,
+          "text": "{cat}は横になり、手の激しい動きを黙って観察した"
+        }
+      ]
+    },
+    {
+      "kind": "cat_response",
+      "subject_id": "cat-52bb33a93ad94bb582a5304f64a75000",
+      "mode": "teaser",
+      "action": "intense",
+      "reaction": "neutral",
+      "scene_key": "teaser__intense",
+      "target_cat": "",
+      "pool_key": "cat_response/cat-52bb33a93ad94bb582a5304f64a75000/teaser/intense/neutral/teaser__intense",
+      "variants": [
+        {
+          "id": "911bdc410551558f8b41c50d6ba02de4",
+          "slot": 1,
+          "text": "{cat}はねこじゃらしを激しく動かされると、尻尾を軽く揺らし、目を少し開き、前足で軽くつまむようにした。"
+        },
+        {
+          "id": "a97565ce0c06528298eaf1c2b12af6f1",
+          "slot": 2,
+          "text": "{cat}は手でねこじゃらしを強く引っ張ると、体を少し後ろへ引き、耳を後ろに倒しながら、静かに舌を出した。"
+        },
+        {
+          "id": "8bf7437e063a5e2895ce1baf17b9bce2",
+          "slot": 3,
+          "text": "{cat}は激しく動かされると、肩を少し上げ、目を半開きにして、前足で軽くくるっと巻いた。"
+        }
+      ]
+    },
+    {
+      "kind": "cat_response",
+      "subject_id": "cat-52bb33a93ad94bb582a5304f64a75000",
+      "mode": "teaser",
+      "action": "intense",
+      "reaction": "turn_away",
+      "scene_key": "teaser__intense",
+      "target_cat": "",
+      "pool_key": "cat_response/cat-52bb33a93ad94bb582a5304f64a75000/teaser/intense/turn_away/teaser__intense",
+      "variants": [
+        {
+          "id": "a68b6dae2fb35ac7bb1e28e0f023fe52",
+          "slot": 1,
+          "text": "{cat}は激しく振られたねこじゃらしに対し、足を踏み出し視線をそらした。"
+        },
+        {
+          "id": "2a7c09e7b0fa5d879b4c0b5918dbf3a2",
+          "slot": 2,
+          "text": "{cat}は手の激しい動きに応じて、体を少し後ろへ曲げ、ゆっくりと離れた。"
+        },
+        {
+          "id": "782ec939b7fc52a6b0987609bb59aa2c",
+          "slot": 3,
+          "text": "{cat}はねこじゃらしを激しく振られると、耳を横に向け、そっと足を踏みとどまった。"
+        }
+      ]
+    },
+    {
+      "kind": "cat_response",
+      "subject_id": "cat-63894eff20794809aa5255290c1ae81e",
+      "mode": "pause",
+      "action": "pause",
+      "reaction": "listless",
+      "scene_key": "pause",
+      "target_cat": "",
+      "pool_key": "cat_response/cat-63894eff20794809aa5255290c1ae81e/pause/pause/listless/pause",
+      "variants": [
+        {
+          "id": "53777f2b542b5ed7880b7e291e18fa78",
+          "slot": 1,
+          "text": "{cat}は足をゆっくり止め、相手の横に静かに佇んだ。"
+        },
+        {
+          "id": "e2b29323ab7a5c4ab8534629c0658d55",
+          "slot": 2,
+          "text": "{cat}は体をすっきりと横たえ、相手の手を温かく見つめたまま、動きを止めた。"
+        },
+        {
+          "id": "2af310374be857339c70bd82af725855",
+          "slot": 3,
+          "text": "{cat}は耳を垂れ、相手が近づくのを待っている間、動きをほとんどしなかった。"
+        }
+      ]
+    },
+    {
+      "kind": "cat_response",
+      "subject_id": "cat-63894eff20794809aa5255290c1ae81e",
+      "mode": "pause",
+      "action": "pause",
+      "reaction": "neutral",
+      "scene_key": "pause",
+      "target_cat": "",
+      "pool_key": "cat_response/cat-63894eff20794809aa5255290c1ae81e/pause/pause/neutral/pause",
+      "variants": [
+        {
+          "id": "160291c0f57453298894a334d8796b6e",
+          "slot": 1,
+          "text": "{cat}は足を動かさず、静かに待った。"
+        },
+        {
+          "id": "8d8826118dfe5ea7a1902c2ae938c228",
+          "slot": 2,
+          "text": "{cat}は体を横にそっとそらし、相手の動きを待った。"
+        },
+        {
+          "id": "631bcbb4e8ad540eaa09f607683a1509",
+          "slot": 3,
+          "text": "{cat}は耳を少し上げ、相手の声を聞くように静止した。"
+        }
+      ]
+    },
+    {
+      "kind": "cat_response",
+      "subject_id": "cat-63894eff20794809aa5255290c1ae81e",
+      "mode": "pet",
+      "action": "adapt",
+      "reaction": "confused",
+      "scene_key": "pet__adapt",
+      "target_cat": "",
+      "pool_key": "cat_response/cat-63894eff20794809aa5255290c1ae81e/pet/adapt/confused/pet__adapt",
+      "variants": [
+        {
+          "id": "b67f18b4eb4d510a808754425c80b390",
+          "slot": 1,
+          "text": "{cat}は手の指先を見て、首を少しかしげた。"
+        },
+        {
+          "id": "559183e8ae7c5be79e114ef413f7d3b1",
+          "slot": 2,
+          "text": "{cat}は手を追いかけ、目をゆっくり動かし戸惑いを示した。"
+        },
+        {
+          "id": "c3cae7500c415587b9f3a3bbbff0de23",
+          "slot": 3,
+          "text": "{cat}は手の動きを見て、足を少しずらし戸惑いの表情を浮かべた。"
+        }
+      ]
+    },
+    {
+      "kind": "cat_response",
+      "subject_id": "cat-63894eff20794809aa5255290c1ae81e",
+      "mode": "pet",
+      "action": "adapt",
+      "reaction": "enthusiastic",
+      "scene_key": "pet__adapt",
+      "target_cat": "",
+      "pool_key": "cat_response/cat-63894eff20794809aa5255290c1ae81e/pet/adapt/enthusiastic/pet__adapt",
+      "variants": [
+        {
+          "id": "d66289287a2057e5ba5be95b59476bf2",
+          "slot": 1,
+          "text": "{cat}は相手の手に合わせて耳をピンと立てた。"
+        },
+        {
+          "id": "98fda99a2c2055d9a07ad723baaa351d",
+          "slot": 2,
+          "text": "{cat}は相手の手に合わせて体を揺らし、ひっくり返った。"
+        },
+        {
+          "id": "2deb8968f5d45c24afd26114e5b200cf",
+          "slot": 3,
+          "text": "{cat}は相手の手に合わせて耳を上げ、尾を振った。"
+        }
+      ]
+    },
+    {
+      "kind": "cat_response",
+      "subject_id": "cat-63894eff20794809aa5255290c1ae81e",
+      "mode": "pet",
+      "action": "adapt",
+      "reaction": "favorable",
+      "scene_key": "pet__adapt",
+      "target_cat": "",
+      "pool_key": "cat_response/cat-63894eff20794809aa5255290c1ae81e/pet/adapt/favorable/pet__adapt",
+      "variants": [
+        {
+          "id": "249e73d6d42656a9bcc2711be66bd26b",
+          "slot": 1,
+          "text": "{cat}は相手の手の温度を感じ、体を寄せて柔らかく舌を動かした。"
+        },
+        {
+          "id": "80585b17cf655267b27c7c23846d711f",
+          "slot": 2,
+          "text": "{cat}は相手の手を軽く舐め、耳をピンと立てて喜んだ。"
+        },
+        {
+          "id": "c87327b16ff75db3a5a2c76ce33ef3b8",
+          "slot": 3,
+          "text": "{cat}は相手の手に頭をすりつけ、微かな鳴き声で感謝した。"
+        }
+      ]
+    },
+    {
+      "kind": "cat_response",
+      "subject_id": "cat-63894eff20794809aa5255290c1ae81e",
+      "mode": "pet",
+      "action": "adapt",
+      "reaction": "listless",
+      "scene_key": "pet__adapt",
+      "target_cat": "",
+      "pool_key": "cat_response/cat-63894eff20794809aa5255290c1ae81e/pet/adapt/listless/pet__adapt",
+      "variants": [
+        {
+          "id": "7e5902f80cc058bfa4194ca8f010fb62",
+          "slot": 1,
+          "text": "{cat}は手の動きを受け止め、体をゆっくりと横に伸ばして静かな姿勢を取った。"
+        },
+        {
+          "id": "b95511a88f08517095b513a90c76a40f",
+          "slot": 2,
+          "text": "{cat}は手が近づくのを感じ、体を少し縮めて低い姿勢で横たわった。"
+        },
+        {
+          "id": "fa445330f64151c1b7a3ddd6483d708a",
+          "slot": 3,
+          "text": "{cat}は手の温もりを感じ、背中を少し上げてゆっくりと横になる姿を見せた。"
+        }
+      ]
+    },
+    {
+      "kind": "cat_response",
+      "subject_id": "cat-63894eff20794809aa5255290c1ae81e",
+      "mode": "pet",
+      "action": "adapt",
+      "reaction": "neutral",
+      "scene_key": "pet__adapt",
+      "target_cat": "",
+      "pool_key": "cat_response/cat-63894eff20794809aa5255290c1ae81e/pet/adapt/neutral/pet__adapt",
+      "variants": [
+        {
+          "id": "8881cd7efb8f592fac8ae34bf4f687c8",
+          "slot": 1,
+          "text": "{cat}は相手の手に背中を合わせ、静かに体を動かした。"
+        },
+        {
+          "id": "180654797c685145826717e81698393b",
+          "slot": 2,
+          "text": "{cat}は相手に合わせて体をほんの少し伸ばした。"
+        },
+        {
+          "id": "52becaae068759a58c55b3c9f25827a0",
+          "slot": 3,
+          "text": "{cat}は相手の手を軽く受け止め、姿勢を保った。"
+        }
+      ]
+    },
+    {
+      "kind": "cat_response",
+      "subject_id": "cat-63894eff20794809aa5255290c1ae81e",
+      "mode": "pet",
+      "action": "adapt",
+      "reaction": "turn_away",
+      "scene_key": "pet__adapt",
+      "target_cat": "",
+      "pool_key": "cat_response/cat-63894eff20794809aa5255290c1ae81e/pet/adapt/turn_away/pet__adapt",
+      "variants": [
+        {
+          "id": "5910b26ce8fe573986d81137f5f82343",
+          "slot": 1,
+          "text": "{cat} は手の動きを感じ、すぐに背を向けた。"
+        },
+        {
+          "id": "83b82558ffc65b78a8d37af05fa8d6d3",
+          "slot": 2,
+          "text": "{cat} は手の触れ方を警戒し、尻尾を上げて横へ逃げた。"
+        },
+        {
+          "id": "0f3266c8adf55f168cf5e37e35de571d",
+          "slot": 3,
+          "text": "{cat} は手を見て、鋭く振り向き、逃げ去った。"
+        }
+      ]
+    },
+    {
+      "kind": "cat_response",
+      "subject_id": "cat-63894eff20794809aa5255290c1ae81e",
+      "mode": "pet",
+      "action": "any",
+      "reaction": "confused",
+      "scene_key": "pet",
+      "target_cat": "",
+      "pool_key": "cat_response/cat-63894eff20794809aa5255290c1ae81e/pet/any/confused/pet",
+      "variants": [
+        {
+          "id": "db1f7ff90f165b54a8b9e2276ea90589",
+          "slot": 1,
+          "text": "{cat}が手の動きに眉をひそめて観察した。"
+        },
+        {
+          "id": "595bb24085ef5e5d9f4f7931daaabce8",
+          "slot": 2,
+          "text": "{cat}が手の横をゆらりと見て、戸惑いを表した。"
+        },
+        {
+          "id": "dcad4fe2d17f5233abd734258acb3876",
+          "slot": 3,
+          "text": "{cat}が手の動きを不思議そうに覗き込んだ。"
+        }
+      ]
+    },
+    {
+      "kind": "cat_response",
+      "subject_id": "cat-63894eff20794809aa5255290c1ae81e",
+      "mode": "pet",
+      "action": "any",
+      "reaction": "enthusiastic",
+      "scene_key": "pet",
+      "target_cat": "",
+      "pool_key": "cat_response/cat-63894eff20794809aa5255290c1ae81e/pet/any/enthusiastic/pet",
+      "variants": [
+        {
+          "id": "9b1bb554c1465a398e41739373b42de9",
+          "slot": 1,
+          "text": "{cat}は手で撫でられると、尾を揺らし、喜びの鳴き声を上げた。"
+        },
+        {
+          "id": "6edcfd9d1f5f5246afff8e63f8ba4532",
+          "slot": 2,
+          "text": "{cat}は撫でられると、耳をピンと立てて、尾を大きく振った。"
+        },
+        {
+          "id": "7be4bbdc72b0586991c0d796c4211586",
+          "slot": 3,
+          "text": "{cat}は手の動きに合わせて、体を前に伸ばし、嬉しそうに鳴いた。"
+        }
+      ]
+    },
+    {
+      "kind": "cat_response",
+      "subject_id": "cat-63894eff20794809aa5255290c1ae81e",
+      "mode": "pet",
+      "action": "any",
+      "reaction": "favorable",
+      "scene_key": "pet",
+      "target_cat": "",
+      "pool_key": "cat_response/cat-63894eff20794809aa5255290c1ae81e/pet/any/favorable/pet",
+      "variants": [
+        {
+          "id": "8e89f5b5df7959efbe6150f27b718e7e",
+          "slot": 1,
+          "text": "{cat} は尻尾を揺らし、頭を軽く撫でた。"
+        },
+        {
+          "id": "9cb9db017c675c7e93dfe1aace30e5af",
+          "slot": 2,
+          "text": "{cat} は耳をピンと立て、尾の先で軽くノコノコした。"
+        },
+        {
+          "id": "dbe9b99ae27a57ef99beb565857f5559",
+          "slot": 3,
+          "text": "{cat} は背中を少し上げ、柔らかな鳴き声を上げた。"
+        }
+      ]
+    },
+    {
+      "kind": "cat_response",
+      "subject_id": "cat-63894eff20794809aa5255290c1ae81e",
+      "mode": "pet",
+      "action": "any",
+      "reaction": "listless",
+      "scene_key": "pet",
+      "target_cat": "",
+      "pool_key": "cat_response/cat-63894eff20794809aa5255290c1ae81e/pet/any/listless/pet",
+      "variants": [
+        {
+          "id": "114f370f0707586dae5173be644154aa",
+          "slot": 1,
+          "text": "{cat}は手の動きに軽く体を揺らしただけだった。"
+        },
+        {
+          "id": "c29149818182501287b74b5e4c5d3044",
+          "slot": 2,
+          "text": "{cat}は手に触れた瞬間に、少しだけ尾を揺らした。"
+        },
+        {
+          "id": "fdb2c9e5105650afac87363c499d6969",
+          "slot": 3,
+          "text": "{cat}は手の動きに反応して、全身をゆっくり伸ばした。"
+        }
+      ]
+    },
+    {
+      "kind": "cat_response",
+      "subject_id": "cat-63894eff20794809aa5255290c1ae81e",
+      "mode": "pet",
+      "action": "any",
+      "reaction": "neutral",
+      "scene_key": "pet",
+      "target_cat": "",
+      "pool_key": "cat_response/cat-63894eff20794809aa5255290c1ae81e/pet/any/neutral/pet",
+      "variants": [
+        {
+          "id": "74bec04ba723587584181cdbce555658",
+          "slot": 1,
+          "text": "{cat}は手の動きを受けて、体を軽く揺らした。"
+        },
+        {
+          "id": "b959251ecac05bb2935665fcd79ed0f0",
+          "slot": 2,
+          "text": "{cat}は手の触れ方を見て、ほんの少し耳を動かした。"
+        },
+        {
+          "id": "0abc8aa2dc965c1ca26294d4aaec7815",
+          "slot": 3,
+          "text": "{cat}は手の動きに合わせて、尻尾を軽く揺らした。"
+        }
+      ]
+    },
+    {
+      "kind": "cat_response",
+      "subject_id": "cat-63894eff20794809aa5255290c1ae81e",
+      "mode": "pet",
+      "action": "any",
+      "reaction": "turn_away",
+      "scene_key": "pet",
+      "target_cat": "",
+      "pool_key": "cat_response/cat-63894eff20794809aa5255290c1ae81e/pet/any/turn_away/pet",
+      "variants": [
+        {
+          "id": "2eae6c42d7a854ef88f7aae7ee8f4cf5",
+          "slot": 1,
+          "text": "{cat} は相手の手を軽く踏み返し、背を向けた"
+        },
+        {
+          "id": "710d76fbfe7a5b029353a3cb100c8554",
+          "slot": 2,
+          "text": "{cat} は舌で相手の手を嗅ぎ、すぐに離れた"
+        },
+        {
+          "id": "02400367a813551ea98975ab1fbea432",
+          "slot": 3,
+          "text": "{cat} は相手の手をかすかに蹴り、足で離れた"
+        }
+      ]
+    },
+    {
+      "kind": "cat_response",
+      "subject_id": "cat-63894eff20794809aa5255290c1ae81e",
+      "mode": "pet",
+      "action": "direct",
+      "reaction": "confused",
+      "scene_key": "pet__direct",
+      "target_cat": "",
+      "pool_key": "cat_response/cat-63894eff20794809aa5255290c1ae81e/pet/direct/confused/pet__direct",
+      "variants": [
+        {
+          "id": "485be01d47e25a268ba8111b9c7bae75",
+          "slot": 1,
+          "text": "{cat}は手の動きを見て、軽く耳を動かし、戸惑った様子だった。"
+        },
+        {
+          "id": "c61fd870e5405875bcce776c2eda6f2c",
+          "slot": 2,
+          "text": "{cat}は手の触れ方に眉をひそめ、目を大きく開いた。"
+        },
+        {
+          "id": "34657712a5f251aa9a1897493a802965",
+          "slot": 3,
+          "text": "{cat}は手の動きに反応し、身体を少し揺らし、戸惑いを示した。"
+        }
+      ]
+    },
+    {
+      "kind": "cat_response",
+      "subject_id": "cat-63894eff20794809aa5255290c1ae81e",
+      "mode": "pet",
+      "action": "direct",
+      "reaction": "enthusiastic",
+      "scene_key": "pet__direct",
+      "target_cat": "",
+      "pool_key": "cat_response/cat-63894eff20794809aa5255290c1ae81e/pet/direct/enthusiastic/pet__direct",
+      "variants": [
+        {
+          "id": "f33b1c8690c95075a42d89cdfd8fd598",
+          "slot": 1,
+          "text": "{cat}は手を嬉しそうに舐め、尾を軽く振った。"
+        },
+        {
+          "id": "b085ef231c6f5be9a8f1b09e49ff31eb",
+          "slot": 2,
+          "text": "{cat}は手の動きを嬉しそうに追い、前足で軽く蹴り上げた。"
+        },
+        {
+          "id": "5e14fbb55cf15227bf6b63c592bdcb13",
+          "slot": 3,
+          "text": "{cat}は手に耳を嬉しそうに滑らせた、鼻を軽く押した。"
+        }
+      ]
+    },
+    {
+      "kind": "cat_response",
+      "subject_id": "cat-63894eff20794809aa5255290c1ae81e",
+      "mode": "pet",
+      "action": "direct",
+      "reaction": "favorable",
+      "scene_key": "pet__direct",
+      "target_cat": "",
+      "pool_key": "cat_response/cat-63894eff20794809aa5255290c1ae81e/pet/direct/favorable/pet__direct",
+      "variants": [
+        {
+          "id": "f691ba2998d35a2ba968996b154f40b2",
+          "slot": 1,
+          "text": "{cat}が手の動きに合わせて前足を伸ばした"
+        },
+        {
+          "id": "25da38685a23564c89fa9ef3ee4d74a2",
+          "slot": 2,
+          "text": "{cat}が手に向かって尻尾を軽く振った"
+        },
+        {
+          "id": "1759ba59a5025c03a4d721945d5f297d",
+          "slot": 3,
+          "text": "{cat}が手の指先をゆっくり舐めた"
+        }
+      ]
+    },
+    {
+      "kind": "cat_response",
+      "subject_id": "cat-63894eff20794809aa5255290c1ae81e",
+      "mode": "pet",
+      "action": "direct",
+      "reaction": "listless",
+      "scene_key": "pet__direct",
+      "target_cat": "",
+      "pool_key": "cat_response/cat-63894eff20794809aa5255290c1ae81e/pet/direct/listless/pet__direct",
+      "variants": [
+        {
+          "id": "da5d45de68b656f49f2f9cc79b523109",
+          "slot": 1,
+          "text": "{cat} はゆっくりと耳を垂らし、手に軽く足を添えた。"
+        },
+        {
+          "id": "d0273957baf759d39558d52181a7fc02",
+          "slot": 2,
+          "text": "{cat} は背を向け、指先に少しだけ舌を触れた。"
+        },
+        {
+          "id": "486280a62804524cb94c5e28fc4c24a3",
+          "slot": 3,
+          "text": "{cat} は腕の上で静かに体を横たえ、手の温もりを感じた。"
+        }
+      ]
+    },
+    {
+      "kind": "cat_response",
+      "subject_id": "cat-63894eff20794809aa5255290c1ae81e",
+      "mode": "pet",
+      "action": "direct",
+      "reaction": "neutral",
+      "scene_key": "pet__direct",
+      "target_cat": "",
+      "pool_key": "cat_response/cat-63894eff20794809aa5255290c1ae81e/pet/direct/neutral/pet__direct",
+      "variants": [
+        {
+          "id": "3bc0ae4f9f1e5e0abc45ad64d92aa331",
+          "slot": 1,
+          "text": "{cat}は手の動きを受け止め、体を動かした。"
+        },
+        {
+          "id": "7d7d9bc5187f5e30868964a9181d691d",
+          "slot": 2,
+          "text": "{cat}は手の触れ方に軽く体を合わせた。"
+        },
+        {
+          "id": "5f2c1155e3865c0e901eb7f657aca9ed",
+          "slot": 3,
+          "text": "{cat}は手の動きに対して静かに体を動かした。"
+        }
+      ]
+    },
+    {
+      "kind": "cat_response",
+      "subject_id": "cat-63894eff20794809aa5255290c1ae81e",
+      "mode": "pet",
+      "action": "direct",
+      "reaction": "turn_away",
+      "scene_key": "pet__direct",
+      "target_cat": "",
+      "pool_key": "cat_response/cat-63894eff20794809aa5255290c1ae81e/pet/direct/turn_away/pet__direct",
+      "variants": [
+        {
+          "id": "c316ad481daf57508db335bc0e509832",
+          "slot": 1,
+          "text": "{cat}は相手の手を見て、すぐに足を引くように体を向けた。"
+        },
+        {
+          "id": "c9cdb2ccdd7959b394fb30edb72d169a",
+          "slot": 2,
+          "text": "{cat}は手に近づくと、背中を丸めて遠ざかった。"
+        },
+        {
+          "id": "e036f345afbf53598fc379e8d4498998",
+          "slot": 3,
+          "text": "{cat}は手の動きを見て、すかさず尻尾を振りながら立ち去った。"
+        }
+      ]
+    },
+    {
+      "kind": "cat_response",
+      "subject_id": "cat-63894eff20794809aa5255290c1ae81e",
+      "mode": "teaser",
+      "action": "adapt",
+      "reaction": "confused",
+      "scene_key": "teaser__adapt",
+      "target_cat": "",
+      "pool_key": "cat_response/cat-63894eff20794809aa5255290c1ae81e/teaser/adapt/confused/teaser__adapt",
+      "variants": [
+        {
+          "id": "976de50af0a85c9b9e04d350d674f6d9",
+          "slot": 1,
+          "text": "{cat}は相手の手の動きに合わせ、体を揺らしながら目を丸くして戸惑った。"
+        },
+        {
+          "id": "de1fd4b98f1a5f709c258e594e081029",
+          "slot": 2,
+          "text": "{cat}は相手の手に合わせて舌を出し、目を鋭く見開して戸惑った。"
+        },
+        {
+          "id": "62818f7667ad55508550f165a29b6d27",
+          "slot": 3,
+          "text": "{cat}は相手の動きに合わせ、足を踏み出しながらも目を伏せて戸惑った。"
+        }
+      ]
+    },
+    {
+      "kind": "cat_response",
+      "subject_id": "cat-63894eff20794809aa5255290c1ae81e",
+      "mode": "teaser",
+      "action": "adapt",
+      "reaction": "enthusiastic",
+      "scene_key": "teaser__adapt",
+      "target_cat": "",
+      "pool_key": "cat_response/cat-63894eff20794809aa5255290c1ae81e/teaser/adapt/enthusiastic/teaser__adapt",
+      "variants": [
+        {
+          "id": "2c03d4b25441589d80f26f7362a6d1fc",
+          "slot": 1,
+          "text": "{cat}は相手の手がねこじゃらしを動かすと、すばやく追いかけた。"
+        },
+        {
+          "id": "4db6f8b8572156f4a32238f173d2d7ba",
+          "slot": 2,
+          "text": "{cat}は相手の指先に合わせて、ねこじゃらしを跳ね返した。"
+        },
+        {
+          "id": "9aecf397660e540ebf1ad919230b4f90",
+          "slot": 3,
+          "text": "{cat}は相手の動きに合わせて、ねこじゃらしを繰り返し投げ返した。"
+        }
+      ]
+    },
+    {
+      "kind": "cat_response",
+      "subject_id": "cat-63894eff20794809aa5255290c1ae81e",
+      "mode": "teaser",
+      "action": "adapt",
+      "reaction": "favorable",
+      "scene_key": "teaser__adapt",
+      "target_cat": "",
+      "pool_key": "cat_response/cat-63894eff20794809aa5255290c1ae81e/teaser/adapt/favorable/teaser__adapt",
+      "variants": [
+        {
+          "id": "ddbf2506760f5a3ab08f6af6db9a3515",
+          "slot": 1,
+          "text": "{cat}が手の動きに合わせて尻尾を揺らした、軽く前足を伸ばした。"
+        },
+        {
+          "id": "b4a3a2601c5f5688ab919e2aa9955ce8",
+          "slot": 2,
+          "text": "{cat}が相手の手に耳を近づけた、柔らかく歩み寄った。"
+        },
+        {
+          "id": "d287cd8732d75442ac8d52a98de884b0",
+          "slot": 3,
+          "text": "{cat}が手を軽く叩いた、相手の動きに合わせて足を踏み出した。"
+        }
+      ]
+    },
+    {
+      "kind": "cat_response",
+      "subject_id": "cat-63894eff20794809aa5255290c1ae81e",
+      "mode": "teaser",
+      "action": "adapt",
+      "reaction": "listless",
+      "scene_key": "teaser__adapt",
+      "target_cat": "",
+      "pool_key": "cat_response/cat-63894eff20794809aa5255290c1ae81e/teaser/adapt/listless/teaser__adapt",
+      "variants": [
+        {
+          "id": "11612a43a5eb51c6b81cf4f9bbe7a48c",
+          "slot": 1,
+          "text": "{cat} は手の動きを見て、足を止めてゆっくり横になった。"
+        },
+        {
+          "id": "29bf122a104e5f40a01e1e507ce1b936",
+          "slot": 2,
+          "text": "{cat} は手を追いかけていたが、足が重くて動かず横に倒れた。"
+        },
+        {
+          "id": "1ef707a5b6dd57a1b06fa0486eb69031",
+          "slot": 3,
+          "text": "{cat} は手の前で足を止め、ゆっくりと横へ伸びた。"
+        }
+      ]
+    },
+    {
+      "kind": "cat_response",
+      "subject_id": "cat-63894eff20794809aa5255290c1ae81e",
+      "mode": "teaser",
+      "action": "adapt",
+      "reaction": "neutral",
+      "scene_key": "teaser__adapt",
+      "target_cat": "",
+      "pool_key": "cat_response/cat-63894eff20794809aa5255290c1ae81e/teaser/adapt/neutral/teaser__adapt",
+      "variants": [
+        {
+          "id": "ae6cafb4eb6753aab14e1d64f28f7480",
+          "slot": 1,
+          "text": "{cat}は相手の手に合わせて軽く身を寄せた。"
+        },
+        {
+          "id": "bdb0515d79445b3b968fb60917a6389e",
+          "slot": 2,
+          "text": "{cat}は相手の動きに合わせて背中を少し伸ばした。"
+        },
+        {
+          "id": "5d9641903d205285838096c615db425f",
+          "slot": 3,
+          "text": "{cat}は相手の手の動きに合わせて尾をゆっくり揺らした。"
+        }
+      ]
+    },
+    {
+      "kind": "cat_response",
+      "subject_id": "cat-63894eff20794809aa5255290c1ae81e",
+      "mode": "teaser",
+      "action": "adapt",
+      "reaction": "turn_away",
+      "scene_key": "teaser__adapt",
+      "target_cat": "",
+      "pool_key": "cat_response/cat-63894eff20794809aa5255290c1ae81e/teaser/adapt/turn_away/teaser__adapt",
+      "variants": [
+        {
+          "id": "d2ba5f73f42f55d1a63b3f76437768f8",
+          "slot": 1,
+          "text": "{cat} は相手の手を見て、体をそっと横に倒した。"
+        },
+        {
+          "id": "fb28a2d9d69151aaac58243054d9ed90",
+          "slot": 2,
+          "text": "{cat} は相手の手に合わせようとしたが、逆らった。"
+        },
+        {
+          "id": "8fa1147c7ea954d48fcc2ecc65ea5a83",
+          "slot": 3,
+          "text": "{cat} は相手の手を触れた瞬間、すぐに体を横に向けた。"
+        }
+      ]
+    },
+    {
+      "kind": "cat_response",
+      "subject_id": "cat-63894eff20794809aa5255290c1ae81e",
+      "mode": "teaser",
+      "action": "any",
+      "reaction": "confused",
+      "scene_key": "teaser",
+      "target_cat": "",
+      "pool_key": "cat_response/cat-63894eff20794809aa5255290c1ae81e/teaser/any/confused/teaser",
+      "variants": [
+        {
+          "id": "df8f100d956855d2906160d60b5dec27",
+          "slot": 1,
+          "text": "{cat} はねこじゃらしを見て、目を半開きで戸惑いながら、前足を軽く伸ばした。"
+        },
+        {
+          "id": "4eb721bd7926516290ec0b31cd4f4c7d",
+          "slot": 2,
+          "text": "{cat} はねこじゃらしを振ると、耳を立てて少し揺れ、戸惑いの表情で顔をしかめた。"
+        },
+        {
+          "id": "397e13676fcd5a558ec2c224e457c8a4",
+          "slot": 3,
+          "text": "{cat} はねこじゃらしの動きを追いかけようとしたが、目が合わず戸惑いながら足を止めた。"
+        }
+      ]
+    },
+    {
+      "kind": "cat_response",
+      "subject_id": "cat-63894eff20794809aa5255290c1ae81e",
+      "mode": "teaser",
+      "action": "any",
+      "reaction": "enthusiastic",
+      "scene_key": "teaser",
+      "target_cat": "",
+      "pool_key": "cat_response/cat-63894eff20794809aa5255290c1ae81e/teaser/any/enthusiastic/teaser",
+      "variants": [
+        {
+          "id": "a912199cded45f4c95d0671a7fc7d4b5",
+          "slot": 1,
+          "text": "{cat}は相手の手でねこじゃらしを揺らすたびに、足を踏み鳴らしながら尾を振った。"
+        },
+        {
+          "id": "cca3b33f6d495d4393ae445a0679fc5c",
+          "slot": 2,
+          "text": "{cat}は手に持たれたねこじゃらしを見つめ、気合を入れたように前足で軽く踏んだ。"
+        },
+        {
+          "id": "9a63e81d67185ba2a46689c7ec90ac1a",
+          "slot": 3,
+          "text": "{cat}は相手の手の動きに合わせ、全身を揺らしながら興奮のまま跳ねた。"
+        }
+      ]
+    },
+    {
+      "kind": "cat_response",
+      "subject_id": "cat-63894eff20794809aa5255290c1ae81e",
+      "mode": "teaser",
+      "action": "any",
+      "reaction": "favorable",
+      "scene_key": "teaser",
+      "target_cat": "",
+      "pool_key": "cat_response/cat-63894eff20794809aa5255290c1ae81e/teaser/any/favorable/teaser",
+      "variants": [
+        {
+          "id": "2c1118759b425e63bb40fbf8a069d6ca",
+          "slot": 1,
+          "text": "{cat}がねこじゃらしに跳ね上がり、尻尾を振って前足で軽く叩いた。"
+        },
+        {
+          "id": "b1eaa5fdc37958f8a41a7bdfc27a7bf5",
+          "slot": 2,
+          "text": "{cat}がねこじゃらしを追いかけ、足を踏み鳴らしながら目を輝かせた。"
+        },
+        {
+          "id": "30395691328859b7b2d7dbb092887490",
+          "slot": 3,
+          "text": "{cat}がねこじゃらしに手を伸ばし、柔らかい爪で軽く引っ掻いた。"
+        }
+      ]
+    },
+    {
+      "kind": "cat_response",
+      "subject_id": "cat-63894eff20794809aa5255290c1ae81e",
+      "mode": "teaser",
+      "action": "any",
+      "reaction": "listless",
+      "scene_key": "teaser",
+      "target_cat": "",
+      "pool_key": "cat_response/cat-63894eff20794809aa5255290c1ae81e/teaser/any/listless/teaser",
+      "variants": [
+        {
+          "id": "92cf5031811d5e6eaab67f3f714a36d9",
+          "slot": 1,
+          "text": "{cat}は手の動きを追いかけても足を伸ばさずに横に伏せた。"
+        },
+        {
+          "id": "2aa24f38af60570ca58aeb57b51b9152",
+          "slot": 2,
+          "text": "{cat}は相手のねこじゃらしを見ても顔を覆い隠し、静かに横たわった。"
+        },
+        {
+          "id": "555c5107b9945548a222127d4335702b",
+          "slot": 3,
+          "text": "{cat}は手の動きに対して耳を伏せ、動きをほとんど起こさずに佇んだ。"
+        }
+      ]
+    },
+    {
+      "kind": "cat_response",
+      "subject_id": "cat-63894eff20794809aa5255290c1ae81e",
+      "mode": "teaser",
+      "action": "any",
+      "reaction": "neutral",
+      "scene_key": "teaser",
+      "target_cat": "",
+      "pool_key": "cat_response/cat-63894eff20794809aa5255290c1ae81e/teaser/any/neutral/teaser",
+      "variants": [
+        {
+          "id": "ec5a0ed7cc4e5422a5b5c8c0e6cb7c55",
+          "slot": 1,
+          "text": "{cat}は軽く体をねじり、手の動きをじっと見た。"
+        },
+        {
+          "id": "aa983e55119e567dbaa857d42a6698f3",
+          "slot": 2,
+          "text": "{cat}は耳を立て、手が動くのを注意深く観察した。"
+        },
+        {
+          "id": "54439360963a5e4f928da94f2c23b01d",
+          "slot": 3,
+          "text": "{cat}はひとつの足を上げ、手の動きに合わせてゆっくり振った。"
+        }
+      ]
+    },
+    {
+      "kind": "cat_response",
+      "subject_id": "cat-63894eff20794809aa5255290c1ae81e",
+      "mode": "teaser",
+      "action": "any",
+      "reaction": "turn_away",
+      "scene_key": "teaser",
+      "target_cat": "",
+      "pool_key": "cat_response/cat-63894eff20794809aa5255290c1ae81e/teaser/any/turn_away/teaser",
+      "variants": [
+        {
+          "id": "571899de0c2c515ca9ae30ff28f6054e",
+          "slot": 1,
+          "text": "{cat} はねこじゃらしの動きを見て、尻尾をすばやく振り、相手の手から遠ざかった。"
+        },
+        {
+          "id": "8023ace9fc7c507ab2a69d3a92b349e6",
+          "slot": 2,
+          "text": "ねこじゃらしを振る相手に対し、{cat} は足を踏み鳴らし、後ろへ一歩退いた。"
+        },
+        {
+          "id": "8df6cd5ea5b75f92a9ef3a7a57a401a7",
+          "slot": 3,
+          "text": "相手の手でねこじゃらしを揺らすと、{cat} は耳を垂れ、軽く背を向けて離れた。"
+        }
+      ]
+    },
+    {
+      "kind": "cat_response",
+      "subject_id": "cat-63894eff20794809aa5255290c1ae81e",
+      "mode": "teaser",
+      "action": "direct",
+      "reaction": "enthusiastic",
+      "scene_key": "teaser__direct",
+      "target_cat": "",
+      "pool_key": "cat_response/cat-63894eff20794809aa5255290c1ae81e/teaser/direct/enthusiastic/teaser__direct",
+      "variants": [
+        {
+          "id": "4c4ccf4a1e745da18aef1f311abffadc",
+          "slot": 1,
+          "text": "{cat} はねこじゃらしを熱心に追いかけた。"
+        },
+        {
+          "id": "63856dd62cee55c3ad4102a1c62afae0",
+          "slot": 2,
+          "text": "{cat} はねこじゃらしを勢いよく掴み取った。"
+        },
+        {
+          "id": "892fcbedcb9357fd9daeb207a3d39866",
+          "slot": 3,
+          "text": "{cat} はねこじゃらしを尾で追い、跳ねた。"
+        }
+      ]
+    },
+    {
+      "kind": "cat_response",
+      "subject_id": "cat-63894eff20794809aa5255290c1ae81e",
+      "mode": "teaser",
+      "action": "direct",
+      "reaction": "favorable",
+      "scene_key": "teaser__direct",
+      "target_cat": "",
+      "pool_key": "cat_response/cat-63894eff20794809aa5255290c1ae81e/teaser/direct/favorable/teaser__direct",
+      "variants": [
+        {
+          "id": "12f29874b8a15e08b99097b4d5887d3d",
+          "slot": 1,
+          "text": "{cat}は手に持たれたねこじゃらしの動きに好奇心を示し、耳を立てた。"
+        },
+        {
+          "id": "8fb66384d388580483977508173aeeba",
+          "slot": 2,
+          "text": "{cat}はねこじゃらしを軽く舐め、満足げに尾をゆらした。"
+        },
+        {
+          "id": "f301a9e38ed85451b0cf695733485b8a",
+          "slot": 3,
+          "text": "{cat}は手の動きに合わせて足を軽く踏み鳴らし、目を輝かせた。"
+        }
+      ]
+    },
+    {
+      "kind": "cat_response",
+      "subject_id": "cat-63894eff20794809aa5255290c1ae81e",
+      "mode": "teaser",
+      "action": "direct",
+      "reaction": "neutral",
+      "scene_key": "teaser__direct",
+      "target_cat": "",
+      "pool_key": "cat_response/cat-63894eff20794809aa5255290c1ae81e/teaser/direct/neutral/teaser__direct",
+      "variants": [
+        {
+          "id": "d424bb8312465efeaf27d2122393824a",
+          "slot": 1,
+          "text": "ねこじゃらしを見つけ、{cat}は素直に手から離れ、前足で軽く触れた。"
+        },
+        {
+          "id": "63825103aa875178ad02e7879d7d5402",
+          "slot": 2,
+          "text": "ねこじゃらしを追いかけ、{cat}は前足で優しく押した。"
+        },
+        {
+          "id": "f94c1d32ac49525e9743570a271864e9",
+          "slot": 3,
+          "text": "ねこじゃらしに興味を示し、{cat}は素直に手の動きを追った。"
+        }
+      ]
+    },
+    {
+      "kind": "cat_response",
+      "subject_id": "cat-63894eff20794809aa5255290c1ae81e",
+      "mode": "teaser",
+      "action": "direct",
+      "reaction": "turn_away",
+      "scene_key": "teaser__direct",
+      "target_cat": "",
+      "pool_key": "cat_response/cat-63894eff20794809aa5255290c1ae81e/teaser/direct/turn_away/teaser__direct",
+      "variants": [
+        {
+          "id": "a8f01eda149a5587b8d0e17126d5ee2f",
+          "slot": 1,
+          "text": "{cat} は相手の手を振り返し、足を踏み出して離れた。"
+        },
+        {
+          "id": "d82dc15f3ecd5e89a9a6297c23fb38df",
+          "slot": 2,
+          "text": "{cat} は相手の手を避け、背中を向けて歩き去った。"
+        },
+        {
+          "id": "317f660cc87557298763b2dae14acf34",
+          "slot": 3,
+          "text": "{cat} は相手の手をじっと見てから、足を踏み出して遠ざかった。"
+        }
+      ]
+    },
+    {
+      "kind": "cat_response",
+      "subject_id": "cat-63894eff20794809aa5255290c1ae81e",
+      "mode": "teaser",
+      "action": "feint",
+      "reaction": "confused",
+      "scene_key": "teaser__feint",
+      "target_cat": "",
+      "pool_key": "cat_response/cat-63894eff20794809aa5255290c1ae81e/teaser/feint/confused/teaser__feint",
+      "variants": [
+        {
+          "id": "6d774621a33956d19dcca8464504d18b",
+          "slot": 1,
+          "text": "{cat}はフェイントに戸惑い、足を止めた。"
+        },
+        {
+          "id": "bb511a634e7854909deefe245df2dc9e",
+          "slot": 2,
+          "text": "{cat}はフェイントに戸惑い、目をこすり足を揺らした。"
+        },
+        {
+          "id": "7b13513a754f5c4e9e3da98d3ed9bbbb",
+          "slot": 3,
+          "text": "{cat}はフェイントにすっかり戸惑い、足を止めた。"
+        }
+      ]
+    },
+    {
+      "kind": "cat_response",
+      "subject_id": "cat-63894eff20794809aa5255290c1ae81e",
+      "mode": "teaser",
+      "action": "feint",
+      "reaction": "enthusiastic",
+      "scene_key": "teaser__feint",
+      "target_cat": "",
+      "pool_key": "cat_response/cat-63894eff20794809aa5255290c1ae81e/teaser/feint/enthusiastic/teaser__feint",
+      "variants": [
+        {
+          "id": "9f174ee1e9615deda5505898cebfe8fc",
+          "slot": 1,
+          "text": "{cat}はフェイントに熱心に追いかけた。"
+        },
+        {
+          "id": "35a97eb61fb25bbb91d6c848a700fa34",
+          "slot": 2,
+          "text": "{cat}はフェイントに熱心に跳ね上がった。"
+        },
+        {
+          "id": "2f5793f232d85d01a963c54c809fa9cd",
+          "slot": 3,
+          "text": "{cat}はフェイントに熱心に尾を振った。"
+        }
+      ]
+    },
+    {
+      "kind": "cat_response",
+      "subject_id": "cat-63894eff20794809aa5255290c1ae81e",
+      "mode": "teaser",
+      "action": "feint",
+      "reaction": "favorable",
+      "scene_key": "teaser__feint",
+      "target_cat": "",
+      "pool_key": "cat_response/cat-63894eff20794809aa5255290c1ae81e/teaser/feint/favorable/teaser__feint",
+      "variants": [
+        {
+          "id": "888398c9c98c5f7d93def6c5ce20b17e",
+          "slot": 1,
+          "text": "{cat}は手の動きを見て、瞬時に前足を伸ばし、軽く飛び上がった。"
+        },
+        {
+          "id": "19d8347c37f452ecb0a8d2c2e87a42b8",
+          "slot": 2,
+          "text": "{cat}は手のフェイントに合わせて、尾をゆっくり揺らしながら、前足を軽く踏み出した。"
+        },
+        {
+          "id": "674f07d06c915ddea5b1d0edf0ce821e",
+          "slot": 3,
+          "text": "{cat}は手の動きに合わせて、足を軽く踏み出し、尾を少し上げた。"
+        }
+      ]
+    },
+    {
+      "kind": "cat_response",
+      "subject_id": "cat-63894eff20794809aa5255290c1ae81e",
+      "mode": "teaser",
+      "action": "feint",
+      "reaction": "neutral",
+      "scene_key": "teaser__feint",
+      "target_cat": "",
+      "pool_key": "cat_response/cat-63894eff20794809aa5255290c1ae81e/teaser/feint/neutral/teaser__feint",
+      "variants": [
+        {
+          "id": "8e666457f6c2510ea76abbba2c9e00a5",
+          "slot": 1,
+          "text": "{cat} はフェイントを見て、足を伸ばし、目を細めた。"
+        },
+        {
+          "id": "682d868faedc53d2bbb4d4303b2a2f83",
+          "slot": 2,
+          "text": "{cat} はフェイントを受けて、頭を横に振り、しっぽをゆらした。"
+        },
+        {
+          "id": "95d2bba6e1a15a6b9db9877c442fc1a0",
+          "slot": 3,
+          "text": "{cat} はフェイントに気づき、前足を揺らし、目を輝かせた。"
+        }
+      ]
+    },
+    {
+      "kind": "cat_response",
+      "subject_id": "cat-63894eff20794809aa5255290c1ae81e",
+      "mode": "teaser",
+      "action": "feint",
+      "reaction": "turn_away",
+      "scene_key": "teaser__feint",
+      "target_cat": "",
+      "pool_key": "cat_response/cat-63894eff20794809aa5255290c1ae81e/teaser/feint/turn_away/teaser__feint",
+      "variants": [
+        {
+          "id": "d1872f57b87056eb9433bc2566ff68bf",
+          "slot": 1,
+          "text": "{cat}はフェイントに対し、体を反らせて相手を振り払った。"
+        },
+        {
+          "id": "495da3378258564ea4defed1ffd1e8ea",
+          "slot": 2,
+          "text": "{cat}はフェイントを見ても、顔をそむけて相手を避けた。"
+        },
+        {
+          "id": "080399733f3d540aae499024ad5b1022",
+          "slot": 3,
+          "text": "{cat}はフェイントに気づかず、足を引いて相手から離れた。"
+        }
+      ]
+    },
+    {
+      "kind": "cat_response",
+      "subject_id": "cat-63894eff20794809aa5255290c1ae81e",
+      "mode": "teaser",
+      "action": "intense",
+      "reaction": "confused",
+      "scene_key": "teaser__intense",
+      "target_cat": "",
+      "pool_key": "cat_response/cat-63894eff20794809aa5255290c1ae81e/teaser/intense/confused/teaser__intense",
+      "variants": [
+        {
+          "id": "ffe8d65f25465fba929a0cacb271f82a",
+          "slot": 1,
+          "text": "{cat}は激しく動かされたねこじゃらしに戸惑い、手の動きを追いかけた。"
+        },
+        {
+          "id": "ccd7fd09f48f5d49b8a938590821823a",
+          "slot": 2,
+          "text": "ねこじゃらしが激しく揺れたとき、{cat}は戸惑い、手の動きを眺めた。"
+        },
+        {
+          "id": "5069db59429b59618516cd5b673074c6",
+          "slot": 3,
+          "text": "激しいねこじゃらしの動きに{cat}は戸惑い、手の動きに合わせて足を踏み出した。"
+        }
+      ]
+    },
+    {
+      "kind": "cat_response",
+      "subject_id": "cat-63894eff20794809aa5255290c1ae81e",
+      "mode": "teaser",
+      "action": "intense",
+      "reaction": "enthusiastic",
+      "scene_key": "teaser__intense",
+      "target_cat": "",
+      "pool_key": "cat_response/cat-63894eff20794809aa5255290c1ae81e/teaser/intense/enthusiastic/teaser__intense",
+      "variants": [
+        {
+          "id": "14c3c0176b6755dc8171c5ec926608b7",
+          "slot": 1,
+          "text": "{cat}はねこじゃらしを追い、足を踏み鳴らした"
+        },
+        {
+          "id": "ec1f9ff88dfb58eb8456d2d9ba9aaaf0",
+          "slot": 2,
+          "text": "{cat}はねこじゃらしを掴み、尻尾でリズムを刻んだ"
+        },
+        {
+          "id": "58d69bb71b7c5f8b9eb81015c6ac8764",
+          "slot": 3,
+          "text": "{cat}はねこじゃらしに熱心に挑み、全力で跳ねた"
+        }
+      ]
+    },
+    {
+      "kind": "cat_response",
+      "subject_id": "cat-63894eff20794809aa5255290c1ae81e",
+      "mode": "teaser",
+      "action": "intense",
+      "reaction": "listless",
+      "scene_key": "teaser__intense",
+      "target_cat": "",
+      "pool_key": "cat_response/cat-63894eff20794809aa5255290c1ae81e/teaser/intense/listless/teaser__intense",
+      "variants": [
+        {
+          "id": "9ab784c88adc52a690b54de51189fe7c",
+          "slot": 1,
+          "text": "{cat}はゆっくりと目を閉じ、体を伸ばした。"
+        },
+        {
+          "id": "f98770aa16bd5851b164b67109ed50e6",
+          "slot": 2,
+          "text": "{cat}は体をゆっくりと伸ばし、まばたきを止めた。"
+        },
+        {
+          "id": "1edd5a771abf5df58d000e9885b64596",
+          "slot": 3,
+          "text": "{cat}は眠たげに手を振り、静かに息を吐いた。"
+        }
+      ]
+    },
+    {
+      "kind": "cat_response",
+      "subject_id": "cat-63894eff20794809aa5255290c1ae81e",
+      "mode": "teaser",
+      "action": "intense",
+      "reaction": "neutral",
+      "scene_key": "teaser__intense",
+      "target_cat": "",
+      "pool_key": "cat_response/cat-63894eff20794809aa5255290c1ae81e/teaser/intense/neutral/teaser__intense",
+      "variants": [
+        {
+          "id": "fc2d8e43e84e51208b33c5b8e32339f2",
+          "slot": 1,
+          "text": "ねこじゃらしを激しく動かすと、{cat}は体を少し揺らしただけだった。"
+        },
+        {
+          "id": "56315a0efde85874bcde696a3395db13",
+          "slot": 2,
+          "text": "ねこじゃらしを激しく動かすと、{cat}は前足を軽く上げたが、すぐに戻った。"
+        },
+        {
+          "id": "eccda7b1179d54ee806ae1eb4b2a9191",
+          "slot": 3,
+          "text": "ねこじゃらしを激しく動かすと、{cat}は目をぱらぱらさせたが、動きは抑えたままだった。"
+        }
+      ]
+    },
+    {
+      "kind": "cat_response",
+      "subject_id": "cat-63894eff20794809aa5255290c1ae81e",
+      "mode": "teaser",
+      "action": "intense",
+      "reaction": "turn_away",
+      "scene_key": "teaser__intense",
+      "target_cat": "",
+      "pool_key": "cat_response/cat-63894eff20794809aa5255290c1ae81e/teaser/intense/turn_away/teaser__intense",
+      "variants": [
+        {
+          "id": "76ae59b90920560d832cb92bda16321e",
+          "slot": 1,
+          "text": "{cat}は手でねこじゃらしを激しく動かすと、尻尾を振り、身体を後ろに引いて離れた。"
+        },
+        {
+          "id": "78ab7bef2e1d5ae490f159e7530e6177",
+          "slot": 2,
+          "text": "{cat}は手がねこじゃらしを激しく動かすと、尾を軽く振り、体を横にそむけて離れた。"
+        },
+        {
+          "id": "ffa553a7eb0451a295e8b0f2b9d85787",
+          "slot": 3,
+          "text": "{cat}は手がねこじゃらしを激しく動かすと、尾を少し揺らし、体を後ろへ退いた。"
+        }
+      ]
+    },
+    {
+      "kind": "cat_response",
+      "subject_id": "cat-mike",
+      "mode": "pause",
+      "action": "pause",
+      "reaction": "neutral",
+      "scene_key": "pause",
+      "target_cat": "",
+      "pool_key": "cat_response/cat-mike/pause/pause/neutral/pause",
+      "variants": [
+        {
+          "id": "fcefff651cbc5b6f82b2b6d9f98b03a9",
+          "slot": 1,
+          "text": "ミケは動きを止めて、静かにその場に佇んだ。"
+        },
+        {
+          "id": "705ed409e14457f08019b234254d9249",
+          "slot": 2,
+          "text": "ミケは動きを止めて、穏やかな様子で待機した。"
+        },
+        {
+          "id": "9edc77cdef47581886014ada227adda9",
+          "slot": 3,
+          "text": "ミケは動きを止めて、落ち着いた様子でその場にいた。"
+        }
+      ]
+    },
+    {
+      "kind": "cat_response",
+      "subject_id": "cat-mike",
+      "mode": "pet",
+      "action": "adapt",
+      "reaction": "confused",
+      "scene_key": "pet__adapt",
+      "target_cat": "",
+      "pool_key": "cat_response/cat-mike/pet/adapt/confused/pet__adapt",
+      "variants": [
+        {
+          "id": "14ba87cf39395f0aa2951c81f84df6b3",
+          "slot": 1,
+          "text": "ミケは手から伝わる感触に反応し、首を傾けて戸惑った表情を浮かべた。"
+        },
+        {
+          "id": "cefbde250cbf5d23852699c7021bebe4",
+          "slot": 2,
+          "text": "ミケは相手の動きに戸惑うように、わずかに体を揺らしながら様子をうかがった。"
+        },
+        {
+          "id": "7facfcaa273c5ce8a59e38184a4ee316",
+          "slot": 3,
+          "text": "ミケはどのような意図か測りかねるように、少しだけ顔を背けて戸惑いを見せた。"
+        }
+      ]
+    },
+    {
+      "kind": "cat_response",
+      "subject_id": "cat-mike",
+      "mode": "pet",
+      "action": "adapt",
+      "reaction": "enthusiastic",
+      "scene_key": "pet__adapt",
+      "target_cat": "",
+      "pool_key": "cat_response/cat-mike/pet/adapt/enthusiastic/pet__adapt",
+      "variants": [
+        {
+          "id": "128bc0c0c20459c699c877e548efd9af",
+          "slot": 1,
+          "text": "ミケは手に対する反応を強め、熱心に頭を預けた。"
+        },
+        {
+          "id": "549f285396e35a01bb051f629c6f08fe",
+          "slot": 2,
+          "text": "ミケは手を受け入れるように、熱心に寄り添った。"
+        },
+        {
+          "id": "db4aff90326e58389aa3c2506ce0cc56",
+          "slot": 3,
+          "text": "ミケは手を受け入れ、熱心にその感触を求めた。"
+        }
+      ]
+    },
+    {
+      "kind": "cat_response",
+      "subject_id": "cat-mike",
+      "mode": "pet",
+      "action": "adapt",
+      "reaction": "favorable",
+      "scene_key": "pet__adapt",
+      "target_cat": "",
+      "pool_key": "cat_response/cat-mike/pet/adapt/favorable/pet__adapt",
+      "variants": [
+        {
+          "id": "80fb3c5964c054b39f3bf59599fdb3d4",
+          "slot": 1,
+          "text": "ミケは手を受け入れ、穏やかに目を細めた。"
+        },
+        {
+          "id": "6f9b04e3665752dc818c2cd35158a2ff",
+          "slot": 2,
+          "text": "ミケは手に対する心地よさを感じ、静かに身を委ねた。"
+        },
+        {
+          "id": "882106ebc81b59eeb2fdac708b2eb004",
+          "slot": 3,
+          "text": "ミケは手に寄り添うように、穏やかな様子で頭を預けた。"
+        }
+      ]
+    },
+    {
+      "kind": "cat_response",
+      "subject_id": "cat-mike",
+      "mode": "pet",
+      "action": "adapt",
+      "reaction": "listless",
+      "scene_key": "pet__adapt",
+      "target_cat": "",
+      "pool_key": "cat_response/cat-mike/pet/adapt/listless/pet__adapt",
+      "variants": [
+        {
+          "id": "199913b701785063871f8ad0b38f452b",
+          "slot": 1,
+          "text": "ミケは手に従い、静かに身を委ねた。"
+        },
+        {
+          "id": "33eb7c30061a53188b0c99b42b1cefc7",
+          "slot": 2,
+          "text": "ミケは目を細め、のんびりと体を預けた。"
+        },
+        {
+          "id": "3b0401fbe6765de8a81f97c7a4be41cf",
+          "slot": 3,
+          "text": "ミケは動きを抑え、穏やかに耐えた。"
+        }
+      ]
+    },
+    {
+      "kind": "cat_response",
+      "subject_id": "cat-mike",
+      "mode": "pet",
+      "action": "adapt",
+      "reaction": "neutral",
+      "scene_key": "pet__adapt",
+      "target_cat": "",
+      "pool_key": "cat_response/cat-mike/pet/adapt/neutral/pet__adapt",
+      "variants": [
+        {
+          "id": "85ca04536c715bdda4611f2212f9093b",
+          "slot": 1,
+          "text": "ミケは手を受け入れ、穏やかに身を委ねた。"
+        },
+        {
+          "id": "041d7143dc4757c58890ea20ed359b44",
+          "slot": 2,
+          "text": "ミケは手になでられながら、落ち着いた様子でいた。"
+        },
+        {
+          "id": "b4dbfa16bcac5dc896b19169980bb604",
+          "slot": 3,
+          "text": "ミケは手に寄り添い、静かに反応を示した。"
+        }
+      ]
+    },
+    {
+      "kind": "cat_response",
+      "subject_id": "cat-mike",
+      "mode": "pet",
+      "action": "adapt",
+      "reaction": "turn_away",
+      "scene_key": "pet__adapt",
+      "target_cat": "",
+      "pool_key": "cat_response/cat-mike/pet/adapt/turn_away/pet__adapt",
+      "variants": [
+        {
+          "id": "d61f4c6e2ce353a68cc6dd8c7f46cb94",
+          "slot": 1,
+          "text": "ミケは顔を背け、距離を置こうとした。"
+        },
+        {
+          "id": "e68d06477fe152a0bb94a7544a4b2f33",
+          "slot": 2,
+          "text": "ミケは反応を見せず、そっと体を引いた。"
+        },
+        {
+          "id": "a00d5c5c20d15aefafd2c08fb82ec3cc",
+          "slot": 3,
+          "text": "ミケは目を細めて、そっぽを向いた。"
+        }
+      ]
+    },
+    {
+      "kind": "cat_response",
+      "subject_id": "cat-mike",
+      "mode": "pet",
+      "action": "any",
+      "reaction": "confused",
+      "scene_key": "pet",
+      "target_cat": "",
+      "pool_key": "cat_response/cat-mike/pet/any/confused/pet",
+      "variants": [
+        {
+          "id": "38d42d6971f758ea89bc97f58181e76b",
+          "slot": 1,
+          "text": "ミケは手から向けられる感触に、わずかに首を傾けた。"
+        },
+        {
+          "id": "22824907a9f853d2b0e5fce570acb324",
+          "slot": 2,
+          "text": "ミケは何が起きているのかを確かめるように、目を見開いた。"
+        },
+        {
+          "id": "98e712176cf058c0b56a12e8addce706",
+          "slot": 3,
+          "text": "ミケは戸惑ったように、そっと顔を動かした。"
+        }
+      ]
+    },
+    {
+      "kind": "cat_response",
+      "subject_id": "cat-mike",
+      "mode": "pet",
+      "action": "any",
+      "reaction": "enthusiastic",
+      "scene_key": "pet",
+      "target_cat": "",
+      "pool_key": "cat_response/cat-mike/pet/any/enthusiastic/pet",
+      "variants": [
+        {
+          "id": "864e7fc8738656dbbe56b8d83d180b00",
+          "slot": 1,
+          "text": "ミケは手へのり、至近距離で愛撫を求めた。"
+        },
+        {
+          "id": "ca800fd1090f5fd383b46075eef156c9",
+          "slot": 2,
+          "text": "ミケは手元に顔を寄せ、熱心に甘えた。"
+        },
+        {
+          "id": "6721a4b347a352de8e7eafed3fea6c6c",
+          "slot": 3,
+          "text": "ミケは目を細め、手から伝わる感触を堪能した。"
+        }
+      ]
+    },
+    {
+      "kind": "cat_response",
+      "subject_id": "cat-mike",
+      "mode": "pet",
+      "action": "any",
+      "reaction": "favorable",
+      "scene_key": "pet",
+      "target_cat": "",
+      "pool_key": "cat_response/cat-mike/pet/any/favorable/pet",
+      "variants": [
+        {
+          "id": "6ce83b982c0c5981b84b76940f898d06",
+          "slot": 1,
+          "text": "ミケは手を受け入れ、心地よさそうに目を細めた。"
+        },
+        {
+          "id": "491ee39af4eb540c91ebe97b070f3220",
+          "slot": 2,
+          "text": "ミケは手から伝わる感触を楽しみ、穏やかに喉を鳴らした。"
+        },
+        {
+          "id": "8aa3022978925849817ce12a57809b04",
+          "slot": 3,
+          "text": "ミケは手になでられるのを好意的に受け入れ、静かに目を閉じた。"
+        }
+      ]
+    },
+    {
+      "kind": "cat_response",
+      "subject_id": "cat-mike",
+      "mode": "pet",
+      "action": "any",
+      "reaction": "listless",
+      "scene_key": "pet",
+      "target_cat": "",
+      "pool_key": "cat_response/cat-mike/pet/any/listless/pet",
+      "variants": [
+        {
+          "id": "2865428280a257a68eaa7daa03855751",
+          "slot": 1,
+          "text": "ミケは手を受け入れたまま、静かに目を閉じていた。"
+        },
+        {
+          "id": "85a489d4e4835688815cbf527bd78b21",
+          "slot": 2,
+          "text": "ミケは大きな動きを見せず、手に身を預けるようにとろりと動いた。"
+        },
+        {
+          "id": "bfe3862df19f5378aa2a735c47db1192",
+          "slot": 3,
+          "text": "ミケは手になでられながら、穏やかにその場で体を預けた。"
+        }
+      ]
+    },
+    {
+      "kind": "cat_response",
+      "subject_id": "cat-mike",
+      "mode": "pet",
+      "action": "any",
+      "reaction": "neutral",
+      "scene_key": "pet",
+      "target_cat": "",
+      "pool_key": "cat_response/cat-mike/pet/any/neutral/pet",
+      "variants": [
+        {
+          "id": "fb08020e0b755c1db8298d1c66e21758",
+          "slot": 1,
+          "text": "ミケは手を受け入れ、穏やかに目を細めた。"
+        },
+        {
+          "id": "381afb3cb17357d2ac0c28b728a6c9a6",
+          "slot": 2,
+          "text": "ミケは手に対する感触を楽しみ、静かに身を預けた。"
+        },
+        {
+          "id": "0267293b4ce7512d85e5e41fd0eaab4d",
+          "slot": 3,
+          "text": "ミケは手を受け入れ、落ち着いた様子でそこにいた。"
+        }
+      ]
+    },
+    {
+      "kind": "cat_response",
+      "subject_id": "cat-mike",
+      "mode": "pet",
+      "action": "any",
+      "reaction": "turn_away",
+      "scene_key": "pet",
+      "target_cat": "",
+      "pool_key": "cat_response/cat-mike/pet/any/turn_away/pet",
+      "variants": [
+        {
+          "id": "06c4b15c6ce55a6996efc494abaff735",
+          "slot": 1,
+          "text": "ミケは顔を背けて、相手の手に触れられるのを避けた。"
+        },
+        {
+          "id": "8e51875b90c95ae69de9d65bb654c2b8",
+          "slot": 2,
+          "text": "ミケは少し距離を置き、そっと顔を背けて反応しなかった。"
+        },
+        {
+          "id": "54c2793d428258899f3ab37c5478a835",
+          "slot": 3,
+          "text": "ミケはのらり合いながらも、相手の手から逃れるように顔を背けた。"
+        }
+      ]
+    },
+    {
+      "kind": "cat_response",
+      "subject_id": "cat-mike",
+      "mode": "pet",
+      "action": "direct",
+      "reaction": "confused",
+      "scene_key": "pet__direct",
+      "target_cat": "",
+      "pool_key": "cat_response/cat-mike/pet/direct/confused/pet__direct",
+      "variants": [
+        {
+          "id": "716f8653c337525f8cf482bc3c100784",
+          "slot": 1,
+          "text": "ミケは手に対する反応を測るように、少し首を傾けた。"
+        },
+        {
+          "id": "90cc80454b815f3aacc35761b53fd7f1",
+          "slot": 2,
+          "text": "ミケは急な感触に驚いたように、瞬きを繰り返した。"
+        },
+        {
+          "id": "a881f4027190592781a1c62a7bbf57e2",
+          "slot": 3,
+          "text": "ミケはどこを触られたのか判断がつかない様子で、目を丸くした。"
+        }
+      ]
+    },
+    {
+      "kind": "cat_response",
+      "subject_id": "cat-mike",
+      "mode": "pet",
+      "action": "direct",
+      "reaction": "enthusiastic",
+      "scene_key": "pet__direct",
+      "target_cat": "",
+      "pool_key": "cat_response/cat-mike/pet/direct/enthusiastic/pet__direct",
+      "variants": [
+        {
+          "id": "4f44e611f7095c6a961734ad7983ba47",
+          "slot": 1,
+          "text": "ミケは手から伝わる感触を楽しみ、熱心に目を細めた。"
+        },
+        {
+          "id": "fe3e7f62b137529eae520626b364bdec",
+          "slot": 2,
+          "text": "ミケは手元に顔を寄せ、熱心に甘えるように目を細めた。"
+        },
+        {
+          "id": "e807aa6f195753d4bbd10369734e0c3a",
+          "slot": 3,
+          "text": "ミケは手に対する反応を楽しみながら、熱心に目を細めた。"
+        }
+      ]
+    },
+    {
+      "kind": "cat_response",
+      "subject_id": "cat-mike",
+      "mode": "pet",
+      "action": "direct",
+      "reaction": "favorable",
+      "scene_key": "pet__direct",
+      "target_cat": "",
+      "pool_key": "cat_response/cat-mike/pet/direct/favorable/pet__direct",
+      "variants": [
+        {
+          "id": "307f400611785c4497d7abad32147731",
+          "slot": 1,
+          "text": "ミケは手を受け入れ、心地よさそうに目を細めた。"
+        },
+        {
+          "id": "6ed93aed3567547d9a563d658fa40ca8",
+          "slot": 2,
+          "text": "ミケは頭を預け、穏やかな様子で撫れられることを許した。"
+        },
+        {
+          "id": "7f3965fb62ce56b0b2025dd1475f000f",
+          "slot": 3,
+          "text": "ミケは手に対する反応を緩め、静かにその場に身を委ねた。"
+        }
+      ]
+    },
+    {
+      "kind": "cat_response",
+      "subject_id": "cat-mike",
+      "mode": "pet",
+      "action": "direct",
+      "reaction": "listless",
+      "scene_key": "pet__direct",
+      "target_cat": "",
+      "pool_key": "cat_response/cat-mike/pet/direct/listless/pet__direct",
+      "variants": [
+        {
+          "id": "19f2d8c2e2175f6ea70090a5c70d1a3c",
+          "slot": 1,
+          "text": "ミケは手を受け入れたまま、静かに目を閉じた。"
+        },
+        {
+          "id": "bb9429e743d95683b3733ace7dc94575",
+          "slot": 2,
+          "text": "ミケは手による愛撫を感じながら、ゆっくりと呼吸を整えた。"
+        },
+        {
+          "id": "67b672fa04935af39973418614d57586",
+          "slot": 3,
+          "text": "ミケは動くことをやめ、手に身を任せて穏やかに佇んだ。"
+        }
+      ]
+    },
+    {
+      "kind": "cat_response",
+      "subject_id": "cat-mike",
+      "mode": "pet",
+      "action": "direct",
+      "reaction": "neutral",
+      "scene_key": "pet__direct",
+      "target_cat": "",
+      "pool_key": "cat_response/cat-mike/pet/direct/neutral/pet__direct",
+      "variants": [
+        {
+          "id": "e11437322e8d59b4b025ab869d2b2da3",
+          "slot": 1,
+          "text": "ミケは手を受け入れ、穏やかに目を細めた。"
+        },
+        {
+          "id": "f83519dfc3aa5178863b9740ee160ed9",
+          "slot": 2,
+          "text": "ミケは手から伝わる感触を楽しみ、静かに身を委ねた。"
+        },
+        {
+          "id": "ca132de988b95496a291c0323a5ba86b",
+          "slot": 3,
+          "text": "ミケは手を受け入れ、ゆったりとした様子でいた。"
+        }
+      ]
+    },
+    {
+      "kind": "cat_response",
+      "subject_id": "cat-mike",
+      "mode": "pet",
+      "action": "direct",
+      "reaction": "turn_away",
+      "scene_key": "pet__direct",
+      "target_cat": "",
+      "pool_key": "cat_response/cat-mike/pet/direct/turn_away/pet__direct",
+      "variants": [
+        {
+          "id": "77a40033503d5d5792e9378bd1855ee2",
+          "slot": 1,
+          "text": "ミケは顔を背けて、相手の手に触れられるのを避けるように動いた。"
+        },
+        {
+          "id": "5aff8ae1ad3c5888a7cd68007d46526b",
+          "slot": 2,
+          "text": "ミケは体をひねるようにして、相手の手から距離を置こうとした。"
+        },
+        {
+          "id": "22d817071cfe5e81aa044fdfc618afc5",
+          "slot": 3,
+          "text": "ミケは反応を薄くし、相手の手に触れられるのを拒むように身を引いた。"
+        }
+      ]
+    },
+    {
+      "kind": "cat_response",
+      "subject_id": "cat-mike",
+      "mode": "teaser",
+      "action": "adapt",
+      "reaction": "confused",
+      "scene_key": "teaser__adapt",
+      "target_cat": "",
+      "pool_key": "cat_response/cat-mike/teaser/adapt/confused/teaser__adapt",
+      "variants": [
+        {
+          "id": "5f64ce4688ca5d2db317a807bf93ddde",
+          "slot": 1,
+          "text": "ミケは揺れるねこじゃらしを見つめ、何に反応すればよいか迷ったように首を傾けた。"
+        },
+        {
+          "id": "553406aaced55da88d743514939a7e89",
+          "slot": 2,
+          "text": "ミケは目の前の動きを捉えきれず、戸惑いながらもその場に立ち尽くした。"
+        },
+        {
+          "id": "d0403b06f20654a4949ca55f830fbb96",
+          "slot": 3,
+          "text": "ミケはねこじゃらしの動きに戸惑いを見せ、反応をためらうように動きを止めた。"
+        }
+      ]
+    },
+    {
+      "kind": "cat_response",
+      "subject_id": "cat-mike",
+      "mode": "teaser",
+      "action": "adapt",
+      "reaction": "enthusiastic",
+      "scene_key": "teaser__adapt",
+      "target_cat": "",
+      "pool_key": "cat_response/cat-mike/teaser/adapt/enthusiastic/teaser__adapt",
+      "variants": [
+        {
+          "id": "44a1262b112a54a0ac22736b9dd03b4b",
+          "slot": 1,
+          "text": "ミケはねこじゃらしを追いかけ、熱心に動きを追った。"
+        },
+        {
+          "id": "3544e7e045865dc8801f2ec709102215",
+          "slot": 2,
+          "text": "ミケはねこじゃらしの動きに反応し、熱心に視線を向けた。"
+        },
+        {
+          "id": "24d95926377a5326a63e115643b3536d",
+          "slot": 3,
+          "text": "ミケはねこじゃらしに集中し、熱心に反応した。"
+        }
+      ]
+    },
+    {
+      "kind": "cat_response",
+      "subject_id": "cat-mike",
+      "mode": "teaser",
+      "action": "adapt",
+      "reaction": "favorable",
+      "scene_key": "teaser__adapt",
+      "target_cat": "",
+      "pool_key": "cat_response/cat-mike/teaser/adapt/favorable/teaser__adapt",
+      "variants": [
+        {
+          "id": "ca1ce87132615b3588f0bad291d25fe9",
+          "slot": 1,
+          "text": "ミケはねこじゃらしの動きを穏やかに追いかけた。"
+        },
+        {
+          "id": "1161da7c8d1554c9a9de0aaa78d5e4f8",
+          "slot": 2,
+          "text": "ミケはねこじゃらしの動きを受け入れ、関心を示した。"
+        },
+        {
+          "id": "328038dc99365e2cbaccf16041602f05",
+          "slot": 3,
+          "text": "ミケはねこじゃらしの動きに合わせ、穏やかに反応した。"
+        }
+      ]
+    },
+    {
+      "kind": "cat_response",
+      "subject_id": "cat-mike",
+      "mode": "teaser",
+      "action": "adapt",
+      "reaction": "listless",
+      "scene_key": "teaser__adapt",
+      "target_cat": "",
+      "pool_key": "cat_response/cat-mike/teaser/adapt/listless/teaser__adapt",
+      "variants": [
+        {
+          "id": "fe00465c2f0959d2a361c22e1cc71cfc",
+          "slot": 1,
+          "text": "ミケは手元をぼんやりと見つめ、ゆっくりと瞬きをした。"
+        },
+        {
+          "id": "94881e90284e59609d429badf705b3d9",
+          "slot": 2,
+          "text": "ミケはねこじゃらしの動きに反応しつつも、どこか遠くを見るように静かに佇んだ。"
+        },
+        {
+          "id": "a137dc6f7a0657f5a742e5011ac920b9",
+          "slot": 3,
+          "text": "ミケは手元を見つめながら、動きを最小限にして穏やかに過ごした。"
+        }
+      ]
+    },
+    {
+      "kind": "cat_response",
+      "subject_id": "cat-mike",
+      "mode": "teaser",
+      "action": "adapt",
+      "reaction": "neutral",
+      "scene_key": "teaser__adapt",
+      "target_cat": "",
+      "pool_key": "cat_response/cat-mike/teaser/adapt/neutral/teaser__adapt",
+      "variants": [
+        {
+          "id": "e963467c180150dba5b80561417a14f3",
+          "slot": 1,
+          "text": "ミケはねこじゃらしの動きに合わせて、穏やかに頭を動かした。"
+        },
+        {
+          "id": "4f837f23a2515a99b61cfa7fc1c0ba8b",
+          "slot": 2,
+          "text": "ミケは手元を見つめながら、程よい動きでねこじゃらしを追った。"
+        },
+        {
+          "id": "b69af5b531d55ddebeec3771a04afbc9",
+          "slot": 3,
+          "text": "ミケは相手の動きに合わせるように、落ち着いた様子で反応した。"
+        }
+      ]
+    },
+    {
+      "kind": "cat_response",
+      "subject_id": "cat-mike",
+      "mode": "teaser",
+      "action": "adapt",
+      "reaction": "turn_away",
+      "scene_key": "teaser__adapt",
+      "target_cat": "",
+      "pool_key": "cat_response/cat-mike/teaser/adapt/turn_away/teaser__adapt",
+      "variants": [
+        {
+          "id": "b1ed5db9fdc354b1844454d452dcee5d",
+          "slot": 1,
+          "text": "ミケは相手の動きに合わせることを拒み、顔を背けた。"
+        },
+        {
+          "id": "8c72c8c602885b19af71dc4645b475bf",
+          "slot": 2,
+          "text": "ミケは反応を最小限に抑え、少し距離を置いて背中を向けた。"
+        },
+        {
+          "id": "0c22749fe2045cb0a3d9418b09245db1",
+          "slot": 3,
+          "text": "ミケは相手の働きかけを無視するように、そっぽを向いた。"
+        }
+      ]
+    },
+    {
+      "kind": "cat_response",
+      "subject_id": "cat-mike",
+      "mode": "teaser",
+      "action": "any",
+      "reaction": "enthusiastic",
+      "scene_key": "teaser",
+      "target_cat": "",
+      "pool_key": "cat_response/cat-mike/teaser/any/enthusiastic/teaser",
+      "variants": [
+        {
+          "id": "b81ff561a9f55574b4761eb7a69d495d",
+          "slot": 1,
+          "text": "ミケはねこじゃらしを追いかけて身を乗り出した。"
+        },
+        {
+          "id": "2916e8758975594ba89270f5582800e4",
+          "slot": 2,
+          "text": "ミケはねこじゃらしに反応して瞳を輝かせた。"
+        },
+        {
+          "id": "b3cb5ce3bec35b78a1f55ad5a8443b6e",
+          "slot": 3,
+          "text": "ミケはねこじゃらしに夢中になり、熱心に動きを追った。"
+        }
+      ]
+    },
+    {
+      "kind": "cat_response",
+      "subject_id": "cat-mike",
+      "mode": "teaser",
+      "action": "any",
+      "reaction": "favorable",
+      "scene_key": "teaser",
+      "target_cat": "",
+      "pool_key": "cat_response/cat-mike/teaser/any/favorable/teaser",
+      "variants": [
+        {
+          "id": "c2ce48a6357455328ed63f48d91ce688",
+          "slot": 1,
+          "text": "ミケはねこじゃらしを追いかけて身を乗り出した。"
+        },
+        {
+          "id": "442b9c266878594abb99970a6e7704fa",
+          "slot": 2,
+          "text": "ミケはねこじゃらしの動きを穏やかな目で見つめた。"
+        },
+        {
+          "id": "d3cc28aec2ba5afdbdcfa2a525b3d85e",
+          "slot": 3,
+          "text": "ミケはねこじゃらしに興味を示し、近くへ歩み寄った。"
+        }
+      ]
+    },
+    {
+      "kind": "cat_response",
+      "subject_id": "cat-mike",
+      "mode": "teaser",
+      "action": "any",
+      "reaction": "listless",
+      "scene_key": "teaser",
+      "target_cat": "",
+      "pool_key": "cat_response/cat-mike/teaser/any/listless/teaser",
+      "variants": [
+        {
+          "id": "a60e68eeca23567d968d56095e2bff00",
+          "slot": 1,
+          "text": "ミケはねこじゃらしの動きをぼんやりと見つめ、のんびりと体を揺らした。"
+        },
+        {
+          "id": "187c978367aa51aba4c89cb380dfcad3",
+          "slot": 2,
+          "text": "ミケはねこじゃらしを追いかけることもなく、その場で静かに身を預けた。"
+        },
+        {
+          "id": "f5c1ed941deb59d2a479fd81de7e1ce1",
+          "slot": 3,
+          "text": "ミケはねこじゃらしの動きを遠くに感じながら、ゆっくりと目を閉じた。"
+        }
+      ]
+    },
+    {
+      "kind": "cat_response",
+      "subject_id": "cat-mike",
+      "mode": "teaser",
+      "action": "any",
+      "reaction": "neutral",
+      "scene_key": "teaser",
+      "target_cat": "",
+      "pool_key": "cat_response/cat-mike/teaser/any/neutral/teaser",
+      "variants": [
+        {
+          "id": "06cf8de65acb5dc285aaa393d0618562",
+          "slot": 1,
+          "text": "ミケはねこじゃらしを追いかけ、軽快な動きで跳ねた。"
+        },
+        {
+          "id": "f15dae67a4ff5f2398ca70aaa6ea0e4e",
+          "slot": 2,
+          "text": "ミケはねこじゃらしに反応し、興味深そうに頭を動かした。"
+        },
+        {
+          "id": "8e1634a61bed5856bf59c99b716367cb",
+          "slot": 3,
+          "text": "ミケはねこじゃらしを追い、楽しそうにその周りを跳ねた。"
+        }
+      ]
+    },
+    {
+      "kind": "cat_response",
+      "subject_id": "cat-mike",
+      "mode": "teaser",
+      "action": "direct",
+      "reaction": "confused",
+      "scene_key": "teaser__direct",
+      "target_cat": "",
+      "pool_key": "cat_response/cat-mike/teaser/direct/confused/teaser__direct",
+      "variants": [
+        {
+          "id": "296a87a08dc757588fe3f33ccf800606",
+          "slot": 1,
+          "text": "ミケは揺れるねこじゃらしを見つめ、動きの速さに戸惑った表情を浮かべた。"
+        },
+        {
+          "id": "db9529a6d5835ee38754144e1325e4d4",
+          "slot": 2,
+          "text": "ミケは目の前で動くねこじゃらしを捉えきれず、首を傾けて戸惑った。"
+        },
+        {
+          "id": "c2cc51331e4f5dcfa34833719fb29383",
+          "slot": 3,
+          "text": "ミケはねこじゃらしの動きに翻弄され、どこを見ればよいか戸惑った様子を見せた。"
+        }
+      ]
+    },
+    {
+      "kind": "cat_response",
+      "subject_id": "cat-mike",
+      "mode": "teaser",
+      "action": "direct",
+      "reaction": "enthusiastic",
+      "scene_key": "teaser__direct",
+      "target_cat": "",
+      "pool_key": "cat_response/cat-mike/teaser/direct/enthusiastic/teaser__direct",
+      "variants": [
+        {
+          "id": "b0146aa7ce9558fa873558c69880e45b",
+          "slot": 1,
+          "text": "ミケはねこじゃらしを追いかけ、熱心に動いた。"
+        },
+        {
+          "id": "b63b60390159554f94844042fc75f448",
+          "slot": 2,
+          "text": "ミケはねこじゃらしに反応し、熱心に動きを追った。"
+        },
+        {
+          "id": "82bfee1684c750bda41fab36fac960f0",
+          "slot": 3,
+          "text": "ミケはねこじゃらしに夢中になり、熱心に動いた。"
+        }
+      ]
+    },
+    {
+      "kind": "cat_response",
+      "subject_id": "cat-mike",
+      "mode": "teaser",
+      "action": "direct",
+      "reaction": "favorable",
+      "scene_key": "teaser__direct",
+      "target_cat": "",
+      "pool_key": "cat_response/cat-mike/teaser/direct/favorable/teaser__direct",
+      "variants": [
+        {
+          "id": "628c0baf7c21546892cf046bb9f0ba97",
+          "slot": 1,
+          "text": "ミケはねこじゃらしの動きを穏やかに追いかけた。"
+        },
+        {
+          "id": "813d89c18c3b588d82f0c52e561eb6c0",
+          "slot": 2,
+          "text": "ミケはねこじゃらしに興味を持ち、ゆっくりと動いた。"
+        },
+        {
+          "id": "ace73927ad0d5ec0b5ce6289e07d8f6f",
+          "slot": 3,
+          "text": "ミケはねこじゃらしの動きを見つめ、それを受け入れた。"
+        }
+      ]
+    },
+    {
+      "kind": "cat_response",
+      "subject_id": "cat-mike",
+      "mode": "teaser",
+      "action": "direct",
+      "reaction": "listless",
+      "scene_key": "teaser__direct",
+      "target_cat": "",
+      "pool_key": "cat_response/cat-mike/teaser/direct/listless/teaser__direct",
+      "variants": [
+        {
+          "id": "63956493d87758a2bff5183cd9be0b36",
+          "slot": 1,
+          "text": "ミケはねこじゃらしを追いかけながらも、次第に動きを小さくした。"
+        },
+        {
+          "id": "0dda6da6e2e25578ab627bb588d2627e",
+          "slot": 2,
+          "text": "ミケはねこじゃらしに反応しながらも、どこか疲れを見せていた。"
+        },
+        {
+          "id": "9a03d5d0e4795fbdb444d3ee745078e9",
+          "slot": 3,
+          "text": "ミケはねこじゃらしに反応しつつ、ゆっくりと動きを緩めた。"
+        }
+      ]
+    },
+    {
+      "kind": "cat_response",
+      "subject_id": "cat-mike",
+      "mode": "teaser",
+      "action": "direct",
+      "reaction": "neutral",
+      "scene_key": "teaser__direct",
+      "target_cat": "",
+      "pool_key": "cat_response/cat-mike/teaser/direct/neutral/teaser__direct",
+      "variants": [
+        {
+          "id": "d6096a97895a5916a6d3c8c8b49ed9f5",
+          "slot": 1,
+          "text": "ミケはねこじゃらしを追いかけて動いた。"
+        },
+        {
+          "id": "6ef7688c35b55f228be639554bca2976",
+          "slot": 2,
+          "text": "ミケは手元を意識しながら、ねこじゃらしに反応した。"
+        },
+        {
+          "id": "8f8b707d4e405bc0a3ade0741ee10119",
+          "slot": 3,
+          "text": "ミケはねこじゃらしの動きに合わせて、ゆっくりと動いた。"
+        }
+      ]
+    },
+    {
+      "kind": "cat_response",
+      "subject_id": "cat-mike",
+      "mode": "teaser",
+      "action": "direct",
+      "reaction": "turn_away",
+      "scene_key": "teaser__direct",
+      "target_cat": "",
+      "pool_key": "cat_response/cat-mike/teaser/direct/turn_away/teaser__direct",
+      "variants": [
+        {
+          "id": "899a67b53a8d5845a41347696746f32f",
+          "slot": 1,
+          "text": "ミケはねこじゃらしを無視して、顔を背けた。"
+        },
+        {
+          "id": "9d78d802a70e5cfab900b1e159a52080",
+          "slot": 2,
+          "text": "ミケはねこじゃらしを避けるように、横を向いた。"
+        },
+        {
+          "id": "694ce16b3ad35deab315c5bc2929fed8",
+          "slot": 3,
+          "text": "ミケはねこじゃらしから距離を置き、顔を背けた。"
+        }
+      ]
+    },
+    {
+      "kind": "cat_response",
+      "subject_id": "cat-mike",
+      "mode": "teaser",
+      "action": "feint",
+      "reaction": "confused",
+      "scene_key": "teaser__feint",
+      "target_cat": "",
+      "pool_key": "cat_response/cat-mike/teaser/feint/confused/teaser__feint",
+      "variants": [
+        {
+          "id": "7aa772476b3a5a05870c28fa38030d43",
+          "slot": 1,
+          "text": "ミケは急な動きに目を見開き、一瞬だけ動きを止めた。"
+        },
+        {
+          "id": "bc29e5abc81c5be79e1ab49b5cf6f345",
+          "slot": 2,
+          "text": "ミケは手元をじっと見つめ、何が起きたのかを確かめるように首を傾けた。"
+        },
+        {
+          "id": "36c33ba4724a58329e3b2dfdc671bd30",
+          "slot": 3,
+          "text": "ミケは予期せぬ動きに反応し、戸惑ったように瞬きを繰り返した。"
+        }
+      ]
+    },
+    {
+      "kind": "cat_response",
+      "subject_id": "cat-mike",
+      "mode": "teaser",
+      "action": "feint",
+      "reaction": "enthusiastic",
+      "scene_key": "teaser__feint",
+      "target_cat": "",
+      "pool_key": "cat_response/cat-mike/teaser/feint/enthusiastic/teaser__feint",
+      "variants": [
+        {
+          "id": "b7bae8fcd6fb537286b26ef0836285b7",
+          "slot": 1,
+          "text": "ミケはねこじゃらしを追いかけ、熱心に動きを追った。"
+        },
+        {
+          "id": "24a7ec3a65fc51c880d1aed9de6970e6",
+          "slot": 2,
+          "text": "ミケはねこじゃらしの動きに反応し、熱心に視線を向けた。"
+        },
+        {
+          "id": "938f399ca5685604b026e3e9061e55f9",
+          "slot": 3,
+          "text": "ミケはねこじゃらしに反応し、熱心にその動きを追った。"
+        }
+      ]
+    },
+    {
+      "kind": "cat_response",
+      "subject_id": "cat-mike",
+      "mode": "teaser",
+      "action": "feint",
+      "reaction": "favorable",
+      "scene_key": "teaser__feint",
+      "target_cat": "",
+      "pool_key": "cat_response/cat-mike/teaser/feint/favorable/teaser__feint",
+      "variants": [
+        {
+          "id": "f5177e6ecdb556a198eb72afa1760646",
+          "slot": 1,
+          "text": "ミケはねこじゃらしの動きを穏やかに見つめた。"
+        },
+        {
+          "id": "0eb68259f73c5d92961615522b60da19",
+          "slot": 2,
+          "text": "ミケはねこじゃらしの動きを追いながら、手元へ顔を寄せた。"
+        },
+        {
+          "id": "b5cbfaccefc055ce8767aa8d83849006",
+          "slot": 3,
+          "text": "ミケはねこじゃらしの動きを受け入れ、興味深そうに視線を向けた。"
+        }
+      ]
+    },
+    {
+      "kind": "cat_response",
+      "subject_id": "cat-mike",
+      "mode": "teaser",
+      "action": "feint",
+      "reaction": "listless",
+      "scene_key": "teaser__feint",
+      "target_cat": "",
+      "pool_key": "cat_response/cat-mike/teaser/feint/listless/teaser__feint",
+      "variants": [
+        {
+          "id": "631b0000a8e1520cbea512ec228ab105",
+          "slot": 1,
+          "text": "ミケは動きを緩め、手元で静かに目を閉じた。"
+        },
+        {
+          "id": "963a58ca9fe157999293ed13a1d19393",
+          "slot": 2,
+          "text": "ミケは反応を最小限に抑え、のんびりと身を預けた。"
+        },
+        {
+          "id": "a9e79a89c920574bbd0d7d6d994c5140",
+          "slot": 3,
+          "text": "ミケは疲れを見せ、手元でゆっくりと呼吸を整えた。"
+        }
+      ]
+    },
+    {
+      "kind": "cat_response",
+      "subject_id": "cat-mike",
+      "mode": "teaser",
+      "action": "feint",
+      "reaction": "neutral",
+      "scene_key": "teaser__feint",
+      "target_cat": "",
+      "pool_key": "cat_response/cat-mike/teaser/feint/neutral/teaser__feint",
+      "variants": [
+        {
+          "id": "cfa1c5a8fe6652a09e14654dfb0fe92d",
+          "slot": 1,
+          "text": "ミケは手元をぼんやりと見つめ、ねこじゃらしの動きを追った。"
+        },
+        {
+          "id": "c66468dced685884941c3b2074334f0e",
+          "slot": 2,
+          "text": "ミケはねこじゃらしの動きに反応し、手元へ視線を向けた。"
+        },
+        {
+          "id": "84afe422c5715b20bfe423ad49a50553",
+          "slot": 3,
+          "text": "ミケは手元に動くねこじゃらしを、穏やかな様子で見つめた。"
+        }
+      ]
+    },
+    {
+      "kind": "cat_response",
+      "subject_id": "cat-mike",
+      "mode": "teaser",
+      "action": "feint",
+      "reaction": "turn_away",
+      "scene_key": "teaser__feint",
+      "target_cat": "",
+      "pool_key": "cat_response/cat-mike/teaser/feint/turn_away/teaser__feint",
+      "variants": [
+        {
+          "id": "c1aa1bd6d89059078668359c0fdffc9f",
+          "slot": 1,
+          "text": "ミケは手から距離を取り、そっぽを向いた。"
+        },
+        {
+          "id": "95415a7dea725a5a904c0c3ff4f5eb25",
+          "slot": 2,
+          "text": "ミケは反応を拒むように、顔を背けた。"
+        },
+        {
+          "id": "ca94f7b04a275a3c99ab0e9e57d16c30",
+          "slot": 3,
+          "text": "ミケは動きを止めて、相手から離れようとした。"
+        }
+      ]
+    },
+    {
+      "kind": "cat_response",
+      "subject_id": "cat-mike",
+      "mode": "teaser",
+      "action": "intense",
+      "reaction": "confused",
+      "scene_key": "teaser__intense",
+      "target_cat": "",
+      "pool_key": "cat_response/cat-mike/teaser/intense/confused/teaser__intense",
+      "variants": [
+        {
+          "id": "899a91b627185184aa0f19682abc0a4a",
+          "slot": 1,
+          "text": "ミケは激しく動くねこじゃらしの動きに、どこを見ていいか分からず首を傾けた。"
+        },
+        {
+          "id": "75e832d1293b59549f09d480c7205bfb",
+          "slot": 2,
+          "text": "ミケは目の前で激しく動くねこじゃらしの動きに、戸惑いながらも目を向けた。"
+        },
+        {
+          "id": "874de2a6a6e250988335cbe1f59bc9bb",
+          "slot": 3,
+          "text": "ミケは激しく動かされるねこじゃらしの動きに、一瞬の迷いを見せながら戸惑った。"
+        }
+      ]
+    },
+    {
+      "kind": "cat_response",
+      "subject_id": "cat-mike",
+      "mode": "teaser",
+      "action": "intense",
+      "reaction": "enthusiastic",
+      "scene_key": "teaser__intense",
+      "target_cat": "",
+      "pool_key": "cat_response/cat-mike/teaser/intense/enthusiastic/teaser__intense",
+      "variants": [
+        {
+          "id": "0458d42fd493587fbbb58470e6b58e0d",
+          "slot": 1,
+          "text": "ミケはねこじゃらしを追って、瞳を輝かせながら激しく動いた。"
+        },
+        {
+          "id": "a7283928bd615c65b7e02c356c601c29",
+          "slot": 2,
+          "text": "ミケは手元を熱心に見つめ、ねこじゃらしに反応して身を乗り出した。"
+        },
+        {
+          "id": "ed470e87e3e35a0eb9a6c89c8bcbf0e1",
+          "slot": 3,
+          "text": "ミケはねこじゃらしに夢中になり、鋭い視線でその動きを追った。"
+        }
+      ]
+    },
+    {
+      "kind": "cat_response",
+      "subject_id": "cat-mike",
+      "mode": "teaser",
+      "action": "intense",
+      "reaction": "favorable",
+      "scene_key": "teaser__intense",
+      "target_cat": "",
+      "pool_key": "cat_response/cat-mike/teaser/intense/favorable/teaser__intense",
+      "variants": [
+        {
+          "id": "a4d9d5514b91529484900f7b4a5daae0",
+          "slot": 1,
+          "text": "ミケはねこじゃらしを追いかけ、手元へと駆け寄った。"
+        },
+        {
+          "id": "295ab754e8235396b1c49557aa378ae0",
+          "slot": 2,
+          "text": "ミケはねこじゃらしに反応し、手元を軽快に動き回った。"
+        },
+        {
+          "id": "0223976cc74450a5b1dd87ed510c199b",
+          "slot": 3,
+          "text": "ミケはねこじゃらしを見つめ、手元を意欲的に動き回った。"
+        }
+      ]
+    },
+    {
+      "kind": "cat_response",
+      "subject_id": "cat-mike",
+      "mode": "teaser",
+      "action": "intense",
+      "reaction": "listless",
+      "scene_key": "teaser__intense",
+      "target_cat": "",
+      "pool_key": "cat_response/cat-mike/teaser/intense/listless/teaser__intense",
+      "variants": [
+        {
+          "id": "47a1d8296eb95b8c9669f2807cc24806",
+          "slot": 1,
+          "text": "ミケは動きが鈍くなり、その場に座り込んだ。"
+        },
+        {
+          "id": "6e70ca077ceb57f888260b03416e78ba",
+          "slot": 2,
+          "text": "ミケは疲れを見せ、静かに目を閉じた。"
+        },
+        {
+          "id": "073107a134c65710bd89b49473f751b8",
+          "slot": 3,
+          "text": "ミケは動きを最小限にし、一息ついた。"
+        }
+      ]
+    },
+    {
+      "kind": "cat_response",
+      "subject_id": "cat-mike",
+      "mode": "teaser",
+      "action": "intense",
+      "reaction": "neutral",
+      "scene_key": "teaser__intense",
+      "target_cat": "",
+      "pool_key": "cat_response/cat-mike/teaser/intense/neutral/teaser__intense",
+      "variants": [
+        {
+          "id": "bfb42ca30a495c7d97651757a3364549",
+          "slot": 1,
+          "text": "ミケは手元で動くねこじゃらしを追った。"
+        },
+        {
+          "id": "95ae89e1f956522aaa0206d27613f9a5",
+          "slot": 2,
+          "text": "ミケはねこじゃらしの動きに合わせて体を動かした。"
+        },
+        {
+          "id": "63e9810f71c15a3fac372651769568a6",
+          "slot": 3,
+          "text": "ミケは手元を意識しながらねこじゃらしを追いかけた。"
+        }
+      ]
+    },
+    {
+      "kind": "cat_response",
+      "subject_id": "cat-mike",
+      "mode": "teaser",
+      "action": "intense",
+      "reaction": "turn_away",
+      "scene_key": "teaser__intense",
+      "target_cat": "",
+      "pool_key": "cat_response/cat-mike/teaser/intense/turn_away/teaser__intense",
+      "variants": [
+        {
+          "id": "08a62b42541456bf98079663cf2107fe",
+          "slot": 1,
+          "text": "ミケは激しい動きを避け、顔を背けた。"
+        },
+        {
+          "id": "0ed6579710045668bcac337491905200",
+          "slot": 2,
+          "text": "ミケは手から距離を置き、そっぽを向いた。"
+        },
+        {
+          "id": "a6d1274e5d005825989b50dd1b455e80",
+          "slot": 3,
+          "text": "ミケは動きに戸惑い、顔を背けて距離を取った。"
+        }
+      ]
+    },
+    {
+      "kind": "speech",
+      "subject_id": "guest-1",
+      "mode": "pause",
+      "action": "pause",
+      "reaction": "any",
+      "scene_key": "pause",
+      "target_cat": "*",
+      "pool_key": "speech/guest-1/pause/pause/any/pause/*",
+      "variants": [
+        {
+          "id": "588e418f70df5551ab515a0fc6f85b21",
+          "slot": 1,
+          "text": "ゆっくり来るんで、{cat_call}、いいですか？"
+        },
+        {
+          "id": "c67370452134542fbdf354d4c7a8b6b3",
+          "slot": 2,
+          "text": "少しだけ触ってみましょうか、{cat_call}。"
+        },
+        {
+          "id": "4f79ceafac6659baa79f5da197c684a9",
+          "slot": 3,
+          "text": "静かに待っていますね、{cat_call}。"
+        }
+      ]
+    },
+    {
+      "kind": "speech",
+      "subject_id": "guest-1",
+      "mode": "pet",
+      "action": "adapt",
+      "reaction": "any",
+      "scene_key": "pet__adapt",
+      "target_cat": "*",
+      "pool_key": "speech/guest-1/pet/adapt/any/pet__adapt/*",
+      "variants": [
+        {
+          "id": "aa2a3468fdf3540e86ddcf5055ed53b7",
+          "slot": 1,
+          "text": "ねっとねっと、{cat_call}、触れてみましょうか？"
+        },
+        {
+          "id": "09c44dff621d5d88997b0331232c0039",
+          "slot": 2,
+          "text": "{cat_call}、ちょっと触ってもいいですか？"
+        },
+        {
+          "id": "e5cc5f4a311c57da9d553982211e79d1",
+          "slot": 3,
+          "text": "ねっとねっとで、{cat_call}、しっぽに触れてみましょうか？"
+        }
+      ]
+    },
+    {
+      "kind": "speech",
+      "subject_id": "guest-1",
+      "mode": "pet",
+      "action": "any",
+      "reaction": "any",
+      "scene_key": "pet",
+      "target_cat": "*",
+      "pool_key": "speech/guest-1/pet/any/any/pet/*",
+      "variants": [
+        {
+          "id": "50722bc1d73955329c6514e8693b804a",
+          "slot": 1,
+          "text": "お手を差し伸べてもいいですか {cat_call}"
+        },
+        {
+          "id": "f344830b81565cc38a51b73ab665a2cb",
+          "slot": 2,
+          "text": "そっと触ってみましょうか {cat_call}"
+        },
+        {
+          "id": "23b0bf40543b5019a1bfb34c668035e5",
+          "slot": 3,
+          "text": "ゆっくりとお触りしますね {cat_call}"
+        }
+      ]
+    },
+    {
+      "kind": "speech",
+      "subject_id": "guest-1",
+      "mode": "pet",
+      "action": "direct",
+      "reaction": "any",
+      "scene_key": "pet__direct",
+      "target_cat": "*",
+      "pool_key": "speech/guest-1/pet/direct/any/pet__direct/*",
+      "variants": [
+        {
+          "id": "07f9e3200c575d729450c048bf381d0f",
+          "slot": 1,
+          "text": "{cat_call} 触ってみてもいいですか？"
+        },
+        {
+          "id": "31cc4b1ffead5fcbb1673f9d8ca0357f",
+          "slot": 2,
+          "text": "{cat_call} そっと撫でてみましょうか"
+        },
+        {
+          "id": "0077893198d65ce39f2ddd3602e542b3",
+          "slot": 3,
+          "text": "{cat_call} しっぽに触れたらいいですね"
+        }
+      ]
+    },
+    {
+      "kind": "speech",
+      "subject_id": "guest-1",
+      "mode": "teaser",
+      "action": "adapt",
+      "reaction": "any",
+      "scene_key": "teaser__adapt",
+      "target_cat": "*",
+      "pool_key": "speech/guest-1/teaser/adapt/any/teaser__adapt/*",
+      "variants": [
+        {
+          "id": "38a846e98f665037be953f89c672f4d2",
+          "slot": 1,
+          "text": "ねこじゃらしを持ってもいいですか、{cat_call}？"
+        },
+        {
+          "id": "689187138bbf5955ad0c6f4665f9072d",
+          "slot": 2,
+          "text": "やさしく撫でてみましょうか、{cat_call}？"
+        },
+        {
+          "id": "7b13fb1d7d515b94a3b949e1d0775cc3",
+          "slot": 3,
+          "text": "少しだけ触れてもいいですか、{cat_call}ね？"
+        }
+      ]
+    },
+    {
+      "kind": "speech",
+      "subject_id": "guest-1",
+      "mode": "teaser",
+      "action": "any",
+      "reaction": "any",
+      "scene_key": "teaser",
+      "target_cat": "cat-mike",
+      "pool_key": "speech/guest-1/teaser/any/any/teaser",
+      "variants": [
+        {
+          "id": "2663f67c146a5513849b20ff242734e4",
+          "slot": 1,
+          "text": "少しだけ触れてみてもいいですか、{cat_call}？"
+        },
+        {
+          "id": "62f29346000c5dfdbe04699a683a917c",
+          "slot": 2,
+          "text": "やさしく撫でてみましょうか、{cat_call}。"
+        },
+        {
+          "id": "b2ba003c093d50aaa251e75ff9160934",
+          "slot": 3,
+          "text": "静かに近づいてみてもいいですね、{cat_call}。"
+        }
+      ]
+    },
+    {
+      "kind": "speech",
+      "subject_id": "guest-1",
+      "mode": "teaser",
+      "action": "any",
+      "reaction": "any",
+      "scene_key": "teaser",
+      "target_cat": "*",
+      "pool_key": "speech/guest-1/teaser/any/any/teaser/*",
+      "variants": [
+        {
+          "id": "d8ec291f7cf554dcb26b21c7c5f9cc1d",
+          "slot": 1,
+          "text": "お手を伸ばしてもいいですか{cat_call}？"
+        },
+        {
+          "id": "5098df636b7254519c0c39ac9812d397",
+          "slot": 2,
+          "text": "そっと触れてみましょうか{cat_call}。"
+        },
+        {
+          "id": "603d6c757c88564398792b991535153b",
+          "slot": 3,
+          "text": "ゆっくり近づいてみるね{cat_call}。"
+        }
+      ]
+    },
+    {
+      "kind": "speech",
+      "subject_id": "guest-1",
+      "mode": "teaser",
+      "action": "direct",
+      "reaction": "any",
+      "scene_key": "teaser__direct",
+      "target_cat": "*",
+      "pool_key": "speech/guest-1/teaser/direct/any/teaser__direct/*",
+      "variants": [
+        {
+          "id": "fb433f59b15d500a85a51e089969ee73",
+          "slot": 1,
+          "text": "少しだけ、{cat_call}に触れてみましょうか"
+        },
+        {
+          "id": "2d2d008fe2d5592095b1e28d4f77b71f",
+          "slot": 2,
+          "text": "やさしく、{cat_call}をそっと撫でてみましょうか"
+        },
+        {
+          "id": "d363759c0c725582be2718c03145a22c",
+          "slot": 3,
+          "text": "もしよろしければ、{cat_call}に軽く触れてみませんか"
+        }
+      ]
+    },
+    {
+      "kind": "speech",
+      "subject_id": "guest-1",
+      "mode": "teaser",
+      "action": "feint",
+      "reaction": "any",
+      "scene_key": "teaser__feint",
+      "target_cat": "*",
+      "pool_key": "speech/guest-1/teaser/feint/any/teaser__feint/*",
+      "variants": [
+        {
+          "id": "f3b59bfc38155349864bef41650d3903",
+          "slot": 1,
+          "text": "フェイントを入れてみてもいいですか、{cat_call}。"
+        },
+        {
+          "id": "1b969c9698e751a78ca4d889b38a934c",
+          "slot": 2,
+          "text": "少しだけフェイントを試してみましょうか、{cat_call}。"
+        },
+        {
+          "id": "ef1b63d2064c55fdbdef220135c707b3",
+          "slot": 3,
+          "text": "やさしくフェイントを入れますね、{cat_call}。"
+        }
+      ]
+    },
+    {
+      "kind": "speech",
+      "subject_id": "guest-1",
+      "mode": "teaser",
+      "action": "intense",
+      "reaction": "any",
+      "scene_key": "teaser__intense",
+      "target_cat": "*",
+      "pool_key": "speech/guest-1/teaser/intense/any/teaser__intense/*",
+      "variants": [
+        {
+          "id": "b5b114323f595bbe92f38c95f9b5ddd6",
+          "slot": 1,
+          "text": "ねこじゃらしを振ってもいいですか？ {cat_call}"
+        },
+        {
+          "id": "d144b3422c735e779de5277b1b7dc372",
+          "slot": 2,
+          "text": "ちょっとだけねこじゃらしを動かしてみましょうか？ {cat_call}"
+        },
+        {
+          "id": "d691d1c091f15042861104d4d8435bb1",
+          "slot": 3,
+          "text": "じっと見ながらねこじゃらしを揺らしてみてはいかがですか？ {cat_call}"
+        }
+      ]
+    },
+    {
+      "kind": "speech",
+      "subject_id": "person-952c631405e649fdb50c390881804977",
+      "mode": "pause",
+      "action": "pause",
+      "reaction": "any",
+      "scene_key": "pause",
+      "target_cat": "cat-mike",
+      "pool_key": "speech/person-952c631405e649fdb50c390881804977/pause/pause/any/pause",
+      "variants": [
+        {
+          "id": "6fcd1185660757e18ad7560a727c4fbb",
+          "slot": 1,
+          "text": "お手すきのとき、軽く撫でてみましょうか？"
+        },
+        {
+          "id": "ade16898f04759ec930740ca674f6f08",
+          "slot": 2,
+          "text": "少し休憩したら、そっと触れてみませんか"
+        },
+        {
+          "id": "5cfaa1425d0950f0b3c9f5f6dd5966b3",
+          "slot": 3,
+          "text": "時間があるときに、優しく触れてみましょう"
+        }
+      ]
+    },
+    {
+      "kind": "speech",
+      "subject_id": "person-952c631405e649fdb50c390881804977",
+      "mode": "pause",
+      "action": "pause",
+      "reaction": "any",
+      "scene_key": "pause",
+      "target_cat": "*",
+      "pool_key": "speech/person-952c631405e649fdb50c390881804977/pause/pause/any/pause/*",
+      "variants": [
+        {
+          "id": "06433eb8ffad56b08e4abc7ef254ec59",
+          "slot": 1,
+          "text": "ゆっくり{cat_call}さん、休憩しませんか？"
+        },
+        {
+          "id": "9dc0749beb2951bab50527f20cf3ded1",
+          "slot": 2,
+          "text": "今、{cat_call}さんと一緒に、少し休みましょう。"
+        },
+        {
+          "id": "c9f903a5b0ba59cd9a0abb16283cb57a",
+          "slot": 3,
+          "text": "ちょっと{cat_call}さん、そっと休憩しませんか？"
+        }
+      ]
+    },
+    {
+      "kind": "speech",
+      "subject_id": "person-952c631405e649fdb50c390881804977",
+      "mode": "pet",
+      "action": "adapt",
+      "reaction": "any",
+      "scene_key": "pet__adapt",
+      "target_cat": "cat-mike",
+      "pool_key": "speech/person-952c631405e649fdb50c390881804977/pet/adapt/any/pet__adapt",
+      "variants": [
+        {
+          "id": "a2f93b73d19e5faaa5a1eaaa7fd506fc",
+          "slot": 1,
+          "text": "おいでください、{cat_call}。触ってみましょうか？"
+        },
+        {
+          "id": "c1c434acead752789106cf7f1401bcd4",
+          "slot": 2,
+          "text": "ゆっくり撫でてみましょうか、{cat_call}。"
+        },
+        {
+          "id": "61964817f3c857b5ba3826a189b33223",
+          "slot": 3,
+          "text": "少し休憩しませんか、{cat_call}？"
+        }
+      ]
+    },
+    {
+      "kind": "speech",
+      "subject_id": "person-952c631405e649fdb50c390881804977",
+      "mode": "pet",
+      "action": "adapt",
+      "reaction": "any",
+      "scene_key": "pet__adapt",
+      "target_cat": "*",
+      "pool_key": "speech/person-952c631405e649fdb50c390881804977/pet/adapt/any/pet__adapt/*",
+      "variants": [
+        {
+          "id": "33ad26e1fae754faa9421137e29a3d93",
+          "slot": 1,
+          "text": "{cat_call}、軽く触れてみましょうか？"
+        },
+        {
+          "id": "6f37d15716675a5ea910a53bb2907f6d",
+          "slot": 2,
+          "text": "{cat_call}、ゆっくり撫でてもいいですね。"
+        },
+        {
+          "id": "c1ca32c58a855fa68d683e08eb057a7d",
+          "slot": 3,
+          "text": "{cat_call}、少し距離を保ってみましょう。"
+        }
+      ]
+    },
+    {
+      "kind": "speech",
+      "subject_id": "person-952c631405e649fdb50c390881804977",
+      "mode": "pet",
+      "action": "any",
+      "reaction": "any",
+      "scene_key": "pet",
+      "target_cat": "cat-mike",
+      "pool_key": "speech/person-952c631405e649fdb50c390881804977/pet/any/any/pet",
+      "variants": [
+        {
+          "id": "43508537d7f55c3e84e7f37ec438143d",
+          "slot": 1,
+          "text": "やあ{cat_call}、しっぽを伸ばしてみましょうか"
+        },
+        {
+          "id": "51887861f6e452acb5e59c0a7989e0bc",
+          "slot": 2,
+          "text": "もう少し{cat_call}、寝転がってみましょか"
+        },
+        {
+          "id": "c5f5a9e8af02533bb2adace5afdf83fa",
+          "slot": 3,
+          "text": "{cat_call}、軽く撫でてみましょうか"
+        }
+      ]
+    },
+    {
+      "kind": "speech",
+      "subject_id": "person-952c631405e649fdb50c390881804977",
+      "mode": "pet",
+      "action": "any",
+      "reaction": "any",
+      "scene_key": "pet",
+      "target_cat": "*",
+      "pool_key": "speech/person-952c631405e649fdb50c390881804977/pet/any/any/pet/*",
+      "variants": [
+        {
+          "id": "8580c85765c85f88a7eb858928ec4f95",
+          "slot": 1,
+          "text": "{cat_call}、少し触ってみましょうか？"
+        },
+        {
+          "id": "35d52cf68d5d52c29d3533f4829a5065",
+          "slot": 2,
+          "text": "やさしく{cat_call}に手を伸ばしてみましょうか"
+        },
+        {
+          "id": "401e1928189f5d6d83f972b33cf05ef3",
+          "slot": 3,
+          "text": "少しの手つきで{cat_call}に触れてみましょう"
+        }
+      ]
+    },
+    {
+      "kind": "speech",
+      "subject_id": "person-952c631405e649fdb50c390881804977",
+      "mode": "pet",
+      "action": "direct",
+      "reaction": "any",
+      "scene_key": "pet__direct",
+      "target_cat": "cat-mike",
+      "pool_key": "speech/person-952c631405e649fdb50c390881804977/pet/direct/any/pet__direct",
+      "variants": [
+        {
+          "id": "bbe864b453bc509bbb8528efb3348bc8",
+          "slot": 1,
+          "text": "もう少し優しくなでてみましょうか"
+        },
+        {
+          "id": "bc81f48b07485dbe9a4e785985787283",
+          "slot": 2,
+          "text": "ゆっくりと触ってみるのもいいですね"
+        },
+        {
+          "id": "ac045c69f99851c49e81ff43ff9d5ffd",
+          "slot": 3,
+          "text": "静かに手を伸ばしてみましょう"
+        }
+      ]
+    },
+    {
+      "kind": "speech",
+      "subject_id": "person-952c631405e649fdb50c390881804977",
+      "mode": "pet",
+      "action": "direct",
+      "reaction": "any",
+      "scene_key": "pet__direct",
+      "target_cat": "*",
+      "pool_key": "speech/person-952c631405e649fdb50c390881804977/pet/direct/any/pet__direct/*",
+      "variants": [
+        {
+          "id": "8e3b1a6296f55bb3af24ae7ac3b56b97",
+          "slot": 1,
+          "text": "やさしく触ってみましょうか、{cat_call}。"
+        },
+        {
+          "id": "48bd91c1e9fc50e2b66662104a7fb3d1",
+          "slot": 2,
+          "text": "軽く撫でてみましょうか、{cat_call}。"
+        },
+        {
+          "id": "74b626d4b9e954c8adec6da58321fdef",
+          "slot": 3,
+          "text": "しっぽまでそっと触れてみましょうか、{cat_call}。"
+        }
+      ]
+    },
+    {
+      "kind": "speech",
+      "subject_id": "person-952c631405e649fdb50c390881804977",
+      "mode": "teaser",
+      "action": "adapt",
+      "reaction": "any",
+      "scene_key": "teaser__adapt",
+      "target_cat": "*",
+      "pool_key": "speech/person-952c631405e649fdb50c390881804977/teaser/adapt/any/teaser__adapt/*",
+      "variants": [
+        {
+          "id": "0bbd49e438ea58039ccb33a1d8ec246f",
+          "slot": 1,
+          "text": "こんにちは、{cat_call}、遊んでみましょうか？"
+        },
+        {
+          "id": "e286a2a690f75229b22432b2963a2156",
+          "slot": 2,
+          "text": "やあ、{cat_call}、ちょっと触ってみませんか？"
+        },
+        {
+          "id": "c8c64fdc542d543ba825a8def2ccfd0d",
+          "slot": 3,
+          "text": "お待ちしています、{cat_call}、ゆっくり楽しみましょう。"
+        }
+      ]
+    },
+    {
+      "kind": "speech",
+      "subject_id": "person-952c631405e649fdb50c390881804977",
+      "mode": "teaser",
+      "action": "any",
+      "reaction": "any",
+      "scene_key": "teaser",
+      "target_cat": "cat-mike",
+      "pool_key": "speech/person-952c631405e649fdb50c390881804977/teaser/any/any/teaser",
+      "variants": [
+        {
+          "id": "b1ec256f315f5f70a4ba002d77569285",
+          "slot": 1,
+          "text": "そっと触ってみましょうか？"
+        },
+        {
+          "id": "9c20d366fa0e510cb636481d7d7e9e34",
+          "slot": 2,
+          "text": "少し遊んでみるのもいいですね。"
+        },
+        {
+          "id": "d8a4d23c079f532dae85b61041342542",
+          "slot": 3,
+          "text": "ゆっくり撫でてみましょうか。"
+        }
+      ]
+    },
+    {
+      "kind": "speech",
+      "subject_id": "person-952c631405e649fdb50c390881804977",
+      "mode": "teaser",
+      "action": "any",
+      "reaction": "any",
+      "scene_key": "teaser",
+      "target_cat": "*",
+      "pool_key": "speech/person-952c631405e649fdb50c390881804977/teaser/any/any/teaser/*",
+      "variants": [
+        {
+          "id": "694f6b5f62d85328b7c65b0956c0116f",
+          "slot": 1,
+          "text": "{cat_call}、ちょっと遊んでみましょうか。"
+        },
+        {
+          "id": "c06c5091e0675210a33ef1511178d366",
+          "slot": 2,
+          "text": "{cat_call}、それともそっと撫でてみましょうか。"
+        },
+        {
+          "id": "9c7c10863b3a533eb375ee1adbafb970",
+          "slot": 3,
+          "text": "{cat_call}、少しだけ追いかけてみましょうか。"
+        }
+      ]
+    },
+    {
+      "kind": "speech",
+      "subject_id": "person-952c631405e649fdb50c390881804977",
+      "mode": "teaser",
+      "action": "direct",
+      "reaction": "any",
+      "scene_key": "teaser__direct",
+      "target_cat": "cat-mike",
+      "pool_key": "speech/person-952c631405e649fdb50c390881804977/teaser/direct/any/teaser__direct",
+      "variants": [
+        {
+          "id": "cb1ff33b59d55b88a165cbe00af6f86c",
+          "slot": 1,
+          "text": "ねこじゃらしを動かしてみましょうか？"
+        },
+        {
+          "id": "0326322873dc5ce28f8d5661b60de43f",
+          "slot": 2,
+          "text": "軽やかに動かしてもいいですね！"
+        },
+        {
+          "id": "9caed599ee58567688523eaa0718ec19",
+          "slot": 3,
+          "text": "遊びの時間を一緒にしましょう！"
+        }
+      ]
+    },
+    {
+      "kind": "speech",
+      "subject_id": "person-952c631405e649fdb50c390881804977",
+      "mode": "teaser",
+      "action": "direct",
+      "reaction": "any",
+      "scene_key": "teaser__direct",
+      "target_cat": "*",
+      "pool_key": "speech/person-952c631405e649fdb50c390881804977/teaser/direct/any/teaser__direct/*",
+      "variants": [
+        {
+          "id": "d4002a4856f453a09b992ca8a2f155e3",
+          "slot": 1,
+          "text": "うち、{cat_call}を軽くたらしてみましょうか。"
+        },
+        {
+          "id": "38b5753aa9e65ee6ab1619b04111ed91",
+          "slot": 2,
+          "text": "ちょっと{cat_call}を揺らしてみるといいですね。"
+        },
+        {
+          "id": "551ef3b09de651d29d05b973d6a00376",
+          "slot": 3,
+          "text": "さあ、{cat_call}にそっと手を伸ばしましょう。"
+        }
+      ]
+    },
+    {
+      "kind": "speech",
+      "subject_id": "person-952c631405e649fdb50c390881804977",
+      "mode": "teaser",
+      "action": "feint",
+      "reaction": "any",
+      "scene_key": "teaser__feint",
+      "target_cat": "cat-mike",
+      "pool_key": "speech/person-952c631405e649fdb50c390881804977/teaser/feint/any/teaser__feint",
+      "variants": [
+        {
+          "id": "83fe083e98565933945013799dedde84",
+          "slot": 1,
+          "text": "フェイントしてみましょうか、{cat_call}"
+        },
+        {
+          "id": "774ab699f1325c4ebed7c2837ab2a67d",
+          "slot": 2,
+          "text": "少しだけ動かしてみてもいいですね、{cat_call}"
+        },
+        {
+          "id": "01451c1676205a88991e00260dc1a65f",
+          "slot": 3,
+          "text": "一緒に遊びましょう、{cat_call}"
+        }
+      ]
+    },
+    {
+      "kind": "speech",
+      "subject_id": "person-952c631405e649fdb50c390881804977",
+      "mode": "teaser",
+      "action": "feint",
+      "reaction": "any",
+      "scene_key": "teaser__feint",
+      "target_cat": "*",
+      "pool_key": "speech/person-952c631405e649fdb50c390881804977/teaser/feint/any/teaser__feint/*",
+      "variants": [
+        {
+          "id": "07a062282fa45746a5ef9691c3d0ae7d",
+          "slot": 1,
+          "text": "{cat_call}、ちょっとフェイントしてみましょうか？"
+        },
+        {
+          "id": "3056968298da59149e92c28504583a82",
+          "slot": 2,
+          "text": "{cat_call}、軽くフェイントしてみましょうか？"
+        },
+        {
+          "id": "f7d92982728351e09c6efd88af5a7f74",
+          "slot": 3,
+          "text": "{cat_call}、フェイントを入れてみると楽しみましょうか？"
+        }
+      ]
+    },
+    {
+      "kind": "speech",
+      "subject_id": "person-952c631405e649fdb50c390881804977",
+      "mode": "teaser",
+      "action": "intense",
+      "reaction": "any",
+      "scene_key": "teaser__intense",
+      "target_cat": "cat-mike",
+      "pool_key": "speech/person-952c631405e649fdb50c390881804977/teaser/intense/any/teaser__intense",
+      "variants": [
+        {
+          "id": "914932cbe6df519eb5e733dfba03eb48",
+          "slot": 1,
+          "text": "ねこじゃらしを激しく動かしてみましょうか"
+        },
+        {
+          "id": "2215324dfb4c53b78c8c2bc1dd9e9132",
+          "slot": 2,
+          "text": "激しくねこじゃらしを動かすのもいいですね"
+        },
+        {
+          "id": "512ce5a9954f598189b15b47923239f5",
+          "slot": 3,
+          "text": "ねこじゃらしをもう少し激しく動かしましょう"
+        }
+      ]
+    },
+    {
+      "kind": "speech",
+      "subject_id": "person-952c631405e649fdb50c390881804977",
+      "mode": "teaser",
+      "action": "intense",
+      "reaction": "any",
+      "scene_key": "teaser__intense",
+      "target_cat": "*",
+      "pool_key": "speech/person-952c631405e649fdb50c390881804977/teaser/intense/any/teaser__intense/*",
+      "variants": [
+        {
+          "id": "397f0d5e4c715bb38c90a98be67a8b4e",
+          "slot": 1,
+          "text": "{cat_call}にやさしく手を伸ばしてみましょうか。"
+        },
+        {
+          "id": "b4e66f97946f5e5fab563461f6bc30d0",
+          "slot": 2,
+          "text": "{cat_call}を軽く揺らしてみてはいかがでしょうか。"
+        },
+        {
+          "id": "ba4f6903e0895732a0d50fad42db48f0",
+          "slot": 3,
+          "text": "{cat_call}を楽しくたたかせてみましょうか。"
+        }
+      ]
+    },
+    {
+      "kind": "speech",
+      "subject_id": "player",
+      "mode": "pause",
+      "action": "pause",
+      "reaction": "any",
+      "scene_key": "pause",
+      "target_cat": "cat-mike",
+      "pool_key": "speech/player/pause/pause/any/pause",
+      "variants": [
+        {
+          "id": "36bcbb8d390f59d7ad3a625f468d17aa",
+          "slot": 1,
+          "text": "少しお休みしてみようか。"
+        },
+        {
+          "id": "4742f5f6544f5bf9bc3249dad637d9b2",
+          "slot": 2,
+          "text": "少しここで休んでもいいかな。"
+        },
+        {
+          "id": "883c5a4853605987a1aee61a0e0c0f0a",
+          "slot": 3,
+          "text": "少しだけ、お休みしようか。"
+        }
+      ]
+    },
+    {
+      "kind": "speech",
+      "subject_id": "player",
+      "mode": "pause",
+      "action": "pause",
+      "reaction": "any",
+      "scene_key": "pause",
+      "target_cat": "*",
+      "pool_key": "speech/player/pause/pause/any/pause/*",
+      "variants": [
+        {
+          "id": "9766c81369f45966a82f998a0231c644",
+          "slot": 1,
+          "text": "一緒に休憩しようか、{cat_call}"
+        },
+        {
+          "id": "32eaa3630a515ec9bb3daec9cd9b43ba",
+          "slot": 2,
+          "text": "少しの息抜き、{cat_call}もいいかな"
+        },
+        {
+          "id": "f136ee0d79595a3895c3432e4a75b13d",
+          "slot": 3,
+          "text": "ゆっくりくつろいでみようか、{cat_call}"
+        }
+      ]
+    },
+    {
+      "kind": "speech",
+      "subject_id": "player",
+      "mode": "pet",
+      "action": "adapt",
+      "reaction": "any",
+      "scene_key": "pet__adapt",
+      "target_cat": "*",
+      "pool_key": "speech/player/pet/adapt/any/pet__adapt/*",
+      "variants": [
+        {
+          "id": "e3743d73aa725380a4c7b3bfa72d177a",
+          "slot": 1,
+          "text": "やさしく撫でてみよう、{cat_call}。"
+        },
+        {
+          "id": "b50f3e9fb627516da12798b2a5d90987",
+          "slot": 2,
+          "text": "少し手を伸ばしてみた、{cat_call}ね。"
+        },
+        {
+          "id": "25a91182e5e2539a81fe4b5954c82254",
+          "slot": 3,
+          "text": "静かに触れようか、{cat_call}。"
+        }
+      ]
+    },
+    {
+      "kind": "speech",
+      "subject_id": "player",
+      "mode": "pet",
+      "action": "any",
+      "reaction": "any",
+      "scene_key": "pet",
+      "target_cat": "*",
+      "pool_key": "speech/player/pet/any/any/pet/*",
+      "variants": [
+        {
+          "id": "a8089ef1945a5b13b32d4f0c60545f77",
+          "slot": 1,
+          "text": "ねえ{cat_call}、ちょっと触ってみようか"
+        },
+        {
+          "id": "4953d20fffe35ab79074c071691add07",
+          "slot": 2,
+          "text": "やさしく{cat_call}を撫でてみようか"
+        },
+        {
+          "id": "706315883c345ef789ac19ce0925d358",
+          "slot": 3,
+          "text": "さあ{cat_call}、手を伸ばしてみようか"
+        }
+      ]
+    },
+    {
+      "kind": "speech",
+      "subject_id": "player",
+      "mode": "pet",
+      "action": "direct",
+      "reaction": "any",
+      "scene_key": "pet__direct",
+      "target_cat": "*",
+      "pool_key": "speech/player/pet/direct/any/pet__direct/*",
+      "variants": [
+        {
+          "id": "209ef49d1aab51a3a7615f0089c24f90",
+          "slot": 1,
+          "text": "ねえ{cat_call}、少し撫でてみようか"
+        },
+        {
+          "id": "057344bee02e5ea9ac3e03e053184ef4",
+          "slot": 2,
+          "text": "{cat_call}、ほんの少し触ってみる？"
+        },
+        {
+          "id": "5af7c76b5ff95be2b5acb456eb5ba4ec",
+          "slot": 3,
+          "text": "ねえ{cat_call}、リラックスしようか？"
+        }
+      ]
+    },
+    {
+      "kind": "speech",
+      "subject_id": "player",
+      "mode": "teaser",
+      "action": "adapt",
+      "reaction": "any",
+      "scene_key": "teaser__adapt",
+      "target_cat": "cat-mike",
+      "pool_key": "speech/player/teaser/adapt/any/teaser__adapt",
+      "variants": [
+        {
+          "id": "2241e31843da51718551f65e6a32649c",
+          "slot": 1,
+          "text": "ミケ、ゆっくり動いてみようか。"
+        },
+        {
+          "id": "5c44c630a4315c119cc09e6b9abedda9",
+          "slot": 2,
+          "text": "ミケ、このペースで進んでみてもいいかな？"
+        },
+        {
+          "id": "f832f26230c4588d9888d73b4b63b0f2",
+          "slot": 3,
+          "text": "ミケの歩幅に合わせて、ゆっくり動いてみよう。"
+        }
+      ]
+    },
+    {
+      "kind": "speech",
+      "subject_id": "player",
+      "mode": "teaser",
+      "action": "adapt",
+      "reaction": "any",
+      "scene_key": "teaser__adapt",
+      "target_cat": "*",
+      "pool_key": "speech/player/teaser/adapt/any/teaser__adapt/*",
+      "variants": [
+        {
+          "id": "83ae56c64d1755cba45161e538bbe69c",
+          "slot": 1,
+          "text": "ねこじゃらし、{cat_call}にしてみようか。"
+        },
+        {
+          "id": "c45b9e149acb5c549658f4ea2210eeca",
+          "slot": 2,
+          "text": "{cat_call}にねこじゃらしをさせてみようか。"
+        },
+        {
+          "id": "e7598daab5995bab8ae8300c499992cf",
+          "slot": 3,
+          "text": "ねこじゃらしで{cat_call}を遊ばせてみようか。"
+        }
+      ]
+    },
+    {
+      "kind": "speech",
+      "subject_id": "player",
+      "mode": "teaser",
+      "action": "any",
+      "reaction": "any",
+      "scene_key": "teaser",
+      "target_cat": "cat-mike",
+      "pool_key": "speech/player/teaser/any/any/teaser",
+      "variants": [
+        {
+          "id": "818b5ec2766259ab9527a589384f85ed",
+          "slot": 1,
+          "text": "ミケ、ねこじゃらしで遊んでみようか。"
+        },
+        {
+          "id": "6929e506d26851c8bc669f7236e06b38",
+          "slot": 2,
+          "text": "これを持って、一緒に動いてみようか。"
+        },
+        {
+          "id": "4c38928de8ff5bbc859e2bcc66bbb658",
+          "slot": 3,
+          "text": "ミケ、このねこじゃらしで遊んでみる？"
+        }
+      ]
+    },
+    {
+      "kind": "speech",
+      "subject_id": "player",
+      "mode": "teaser",
+      "action": "any",
+      "reaction": "any",
+      "scene_key": "teaser",
+      "target_cat": "*",
+      "pool_key": "speech/player/teaser/any/any/teaser/*",
+      "variants": [
+        {
+          "id": "a21d28f5cb15566ca208ece628c79a0a",
+          "slot": 1,
+          "text": "ねこじゃらししてみようか {cat_call}"
+        },
+        {
+          "id": "e1254046a85555fa9db189966a87cec3",
+          "slot": 2,
+          "text": "{cat_call}、ねこじゃらししてもいいかな"
+        },
+        {
+          "id": "4466c126a08d56a586cdd69b0537aeb1",
+          "slot": 3,
+          "text": "ねこじゃらしだね、{cat_call}とやってみよう"
+        }
+      ]
+    },
+    {
+      "kind": "speech",
+      "subject_id": "player",
+      "mode": "teaser",
+      "action": "direct",
+      "reaction": "any",
+      "scene_key": "teaser__direct",
+      "target_cat": "cat-mike",
+      "pool_key": "speech/player/teaser/direct/any/teaser__direct",
+      "variants": [
+        {
+          "id": "d5c19d528d0655da9eaa4c8a90cd1173",
+          "slot": 1,
+          "text": "ミケ、ねこじゃらしで遊んでみようか。"
+        },
+        {
+          "id": "3e9f4cc4bd9e565594e590f2768ba1e9",
+          "slot": 2,
+          "text": "ミケ、一緒に動いてみようか。"
+        },
+        {
+          "id": "19ce8346e8e8542eb2212be53f190e63",
+          "slot": 3,
+          "text": "ねこじゃらし、動かしてみてもいいかな？"
+        }
+      ]
+    },
+    {
+      "kind": "speech",
+      "subject_id": "player",
+      "mode": "teaser",
+      "action": "direct",
+      "reaction": "any",
+      "scene_key": "teaser__direct",
+      "target_cat": "*",
+      "pool_key": "speech/player/teaser/direct/any/teaser__direct/*",
+      "variants": [
+        {
+          "id": "7ae3b2795f135f81af205f359d7e6bdb",
+          "slot": 1,
+          "text": "ねこじゃらしで遊ぼうか {cat_call}"
+        },
+        {
+          "id": "c5865fa599535abf874edc1bc6e3989b",
+          "slot": 2,
+          "text": "ちょっと {cat_call} と遊んでみようか"
+        },
+        {
+          "id": "ee203c19d846525588fa5547345d5363",
+          "slot": 3,
+          "text": "やさしく {cat_call} を招くね、遊ぼうか"
+        }
+      ]
+    },
+    {
+      "kind": "speech",
+      "subject_id": "player",
+      "mode": "teaser",
+      "action": "feint",
+      "reaction": "any",
+      "scene_key": "teaser__feint",
+      "target_cat": "*",
+      "pool_key": "speech/player/teaser/feint/any/teaser__feint/*",
+      "variants": [
+        {
+          "id": "444256c57cf15527a519554b10d5ce55",
+          "slot": 1,
+          "text": "{cat_call}、フェイントしてみようか？"
+        },
+        {
+          "id": "8efc352f5430598dbd6503105f43d0ee",
+          "slot": 2,
+          "text": "フェイントで遊んでみようか、{cat_call}？"
+        },
+        {
+          "id": "83eb58ffeb14548d9995428890cc8604",
+          "slot": 3,
+          "text": "{cat_call}、少しフェイントしてみる？"
+        }
+      ]
+    },
+    {
+      "kind": "speech",
+      "subject_id": "player",
+      "mode": "teaser",
+      "action": "intense",
+      "reaction": "any",
+      "scene_key": "teaser__intense",
+      "target_cat": "*",
+      "pool_key": "speech/player/teaser/intense/any/teaser__intense/*",
+      "variants": [
+        {
+          "id": "f6211fbe25365d79987ee1359a790e6e",
+          "slot": 1,
+          "text": "{cat_call}、ちょっと揺らしてみようか。"
+        },
+        {
+          "id": "91092957ddeb5317b3ce4ec829c63430",
+          "slot": 2,
+          "text": "ねぇ、{cat_call}、軽く振ってみようか。"
+        },
+        {
+          "id": "af71aaf3447f5121ab8645217a0c04c5",
+          "slot": 3,
+          "text": "さあ、{cat_call}、楽しく動かしてみようか。"
+        }
+      ]
+    }
+  ],
+  "image_bindings": [
+    {
+      "cat_id": "cat-mike",
+      "content_cat_id": "playtest-mike",
+      "scene_key": "teaser",
+      "resolved_scene_key": "teaser",
+      "image": "images/4fc3fbe54602d781d55a490b0ac88e3d5153ea05140940a1efeb5f52ae253c60.png"
+    },
+    {
+      "cat_id": "cat-mike",
+      "content_cat_id": "playtest-mike",
+      "scene_key": "teaser__direct",
+      "resolved_scene_key": "teaser",
+      "image": "images/4fc3fbe54602d781d55a490b0ac88e3d5153ea05140940a1efeb5f52ae253c60.png"
+    },
+    {
+      "cat_id": "cat-mike",
+      "content_cat_id": "playtest-mike",
+      "scene_key": "teaser__adapt",
+      "resolved_scene_key": "teaser",
+      "image": "images/4fc3fbe54602d781d55a490b0ac88e3d5153ea05140940a1efeb5f52ae253c60.png"
+    },
+    {
+      "cat_id": "cat-mike",
+      "content_cat_id": "playtest-mike",
+      "scene_key": "teaser__intense",
+      "resolved_scene_key": "teaser",
+      "image": "images/4fc3fbe54602d781d55a490b0ac88e3d5153ea05140940a1efeb5f52ae253c60.png"
+    },
+    {
+      "cat_id": "cat-mike",
+      "content_cat_id": "playtest-mike",
+      "scene_key": "teaser__feint",
+      "resolved_scene_key": "teaser",
+      "image": "images/4fc3fbe54602d781d55a490b0ac88e3d5153ea05140940a1efeb5f52ae253c60.png"
+    },
+    {
+      "cat_id": "cat-mike",
+      "content_cat_id": "playtest-mike",
+      "scene_key": "pet",
+      "resolved_scene_key": "pet",
+      "image": "images/43a1925b8977ae102b3ede796b2ec9720c7c02cda70080ff688b93e06d200b8d.png"
+    },
+    {
+      "cat_id": "cat-mike",
+      "content_cat_id": "playtest-mike",
+      "scene_key": "pet__direct",
+      "resolved_scene_key": "pet",
+      "image": "images/43a1925b8977ae102b3ede796b2ec9720c7c02cda70080ff688b93e06d200b8d.png"
+    },
+    {
+      "cat_id": "cat-mike",
+      "content_cat_id": "playtest-mike",
+      "scene_key": "pet__adapt",
+      "resolved_scene_key": "pet",
+      "image": "images/43a1925b8977ae102b3ede796b2ec9720c7c02cda70080ff688b93e06d200b8d.png"
+    },
+    {
+      "cat_id": "cat-mike",
+      "content_cat_id": "playtest-mike",
+      "scene_key": "pause",
+      "resolved_scene_key": "pause",
+      "image": "images/420a736a5bda9975101edc548e50448272954d632dbe7f7b8cbdbf15be9dcd2b.png"
+    },
+    {
+      "cat_id": "cat-sora",
+      "content_cat_id": "playtest-sora",
+      "scene_key": "teaser",
+      "resolved_scene_key": "teaser",
+      "image": "images/759d4a851a1b9fb0a39b6001e83da38f7ee39ee2ee0083e9d77d5125e059d651.png"
+    },
+    {
+      "cat_id": "cat-sora",
+      "content_cat_id": "playtest-sora",
+      "scene_key": "teaser__direct",
+      "resolved_scene_key": "teaser",
+      "image": "images/759d4a851a1b9fb0a39b6001e83da38f7ee39ee2ee0083e9d77d5125e059d651.png"
+    },
+    {
+      "cat_id": "cat-sora",
+      "content_cat_id": "playtest-sora",
+      "scene_key": "teaser__adapt",
+      "resolved_scene_key": "teaser",
+      "image": "images/759d4a851a1b9fb0a39b6001e83da38f7ee39ee2ee0083e9d77d5125e059d651.png"
+    },
+    {
+      "cat_id": "cat-sora",
+      "content_cat_id": "playtest-sora",
+      "scene_key": "teaser__intense",
+      "resolved_scene_key": "teaser",
+      "image": "images/759d4a851a1b9fb0a39b6001e83da38f7ee39ee2ee0083e9d77d5125e059d651.png"
+    },
+    {
+      "cat_id": "cat-sora",
+      "content_cat_id": "playtest-sora",
+      "scene_key": "teaser__feint",
+      "resolved_scene_key": "teaser",
+      "image": "images/759d4a851a1b9fb0a39b6001e83da38f7ee39ee2ee0083e9d77d5125e059d651.png"
+    },
+    {
+      "cat_id": "cat-sora",
+      "content_cat_id": "playtest-sora",
+      "scene_key": "pet",
+      "resolved_scene_key": "pet",
+      "image": "images/22aa5508be878d7467871fa2e3a569dc5e670cff90460648b334bc036f3efde9.png"
+    },
+    {
+      "cat_id": "cat-sora",
+      "content_cat_id": "playtest-sora",
+      "scene_key": "pet__direct",
+      "resolved_scene_key": "pet",
+      "image": "images/22aa5508be878d7467871fa2e3a569dc5e670cff90460648b334bc036f3efde9.png"
+    },
+    {
+      "cat_id": "cat-sora",
+      "content_cat_id": "playtest-sora",
+      "scene_key": "pet__adapt",
+      "resolved_scene_key": "pet",
+      "image": "images/22aa5508be878d7467871fa2e3a569dc5e670cff90460648b334bc036f3efde9.png"
+    },
+    {
+      "cat_id": "cat-sora",
+      "content_cat_id": "playtest-sora",
+      "scene_key": "pause",
+      "resolved_scene_key": "pause",
+      "image": "images/566ad1bbde4e7d3ba37e8d5465977883e9b5366fffd1623947738ac32b52230b.png"
+    },
+    {
+      "cat_id": "cat-tama",
+      "content_cat_id": "playtest-tama",
+      "scene_key": "teaser",
+      "resolved_scene_key": "teaser",
+      "image": "images/2876d2011983ffc759cc16d4751a654f85507fea32427865695ee453ebeb4367.png"
+    },
+    {
+      "cat_id": "cat-tama",
+      "content_cat_id": "playtest-tama",
+      "scene_key": "teaser__direct",
+      "resolved_scene_key": "teaser",
+      "image": "images/2876d2011983ffc759cc16d4751a654f85507fea32427865695ee453ebeb4367.png"
+    },
+    {
+      "cat_id": "cat-tama",
+      "content_cat_id": "playtest-tama",
+      "scene_key": "teaser__adapt",
+      "resolved_scene_key": "teaser",
+      "image": "images/2876d2011983ffc759cc16d4751a654f85507fea32427865695ee453ebeb4367.png"
+    },
+    {
+      "cat_id": "cat-tama",
+      "content_cat_id": "playtest-tama",
+      "scene_key": "teaser__intense",
+      "resolved_scene_key": "teaser",
+      "image": "images/2876d2011983ffc759cc16d4751a654f85507fea32427865695ee453ebeb4367.png"
+    },
+    {
+      "cat_id": "cat-tama",
+      "content_cat_id": "playtest-tama",
+      "scene_key": "teaser__feint",
+      "resolved_scene_key": "teaser",
+      "image": "images/2876d2011983ffc759cc16d4751a654f85507fea32427865695ee453ebeb4367.png"
+    },
+    {
+      "cat_id": "cat-tama",
+      "content_cat_id": "playtest-tama",
+      "scene_key": "pet",
+      "resolved_scene_key": "pet",
+      "image": "images/fad11bd2d65b88343d279fba921e3807895768cbdc4c1d7fa2ab0c5e654e83e0.png"
+    },
+    {
+      "cat_id": "cat-tama",
+      "content_cat_id": "playtest-tama",
+      "scene_key": "pet__direct",
+      "resolved_scene_key": "pet",
+      "image": "images/fad11bd2d65b88343d279fba921e3807895768cbdc4c1d7fa2ab0c5e654e83e0.png"
+    },
+    {
+      "cat_id": "cat-tama",
+      "content_cat_id": "playtest-tama",
+      "scene_key": "pet__adapt",
+      "resolved_scene_key": "pet",
+      "image": "images/fad11bd2d65b88343d279fba921e3807895768cbdc4c1d7fa2ab0c5e654e83e0.png"
+    },
+    {
+      "cat_id": "cat-tama",
+      "content_cat_id": "playtest-tama",
+      "scene_key": "pause",
+      "resolved_scene_key": "pause",
+      "image": "images/ca4c630332eee981bdea08d84bdce4aa0f99ee190188286d923e30161962e58e.png"
+    }
+  ],
+  "action_texts": [
+    {
+      "mode": "teaser",
+      "action": "direct",
+      "text": "{human}はねこじゃらしを床の近くで揺らした。"
+    },
+    {
+      "mode": "teaser",
+      "action": "adapt",
+      "text": "{human}は{cat}の様子に合わせてねこじゃらしを動かした。"
+    },
+    {
+      "mode": "teaser",
+      "action": "intense",
+      "text": "{human}はねこじゃらしを勢いよく動かした。"
+    },
+    {
+      "mode": "teaser",
+      "action": "feint",
+      "text": "{human}はねこじゃらしの動きに緩急をつけた。"
+    },
+    {
+      "mode": "pet",
+      "action": "direct",
+      "text": "{human}は{cat}の頭をなでた。"
+    },
+    {
+      "mode": "pet",
+      "action": "adapt",
+      "text": "{human}は{cat}の様子に合わせ、そっとなでた。"
+    },
+    {
+      "mode": "pause",
+      "action": "pause",
+      "text": "{human}は手を止め、{cat}が落ち着くのを待った。"
+    }
+  ],
+  "narration_texts": [
+    {
+      "reaction": "neutral",
+      "text": "静かな交流の時間が流れた。"
+    },
+    {
+      "reaction": "favorable",
+      "text": "穏やかな交流の時間が流れた。"
+    },
+    {
+      "reaction": "enthusiastic",
+      "text": "交流の時間に、明るい空気が広がった。"
+    },
+    {
+      "reaction": "turn_away",
+      "text": "今は少し距離を置きたいようだ。"
+    },
+    {
+      "reaction": "confused",
+      "text": "働きかけと反応の間に、小さな間が空いた。"
+    },
+    {
+      "reaction": "listless",
+      "text": "今は休む時間が必要そうだ。"
+    }
+  ],
+  "rest_narration": "急がず、静かな休憩の時間を過ごした。",
+  "revision": "88f13f4d7f29d60d4b91d4cccda601e8c93f836595ea22aaf810f2527d8eb8a5",
+  "pack_id": "da80a2d0df414e9181ac6345f375cfc8"
+}
