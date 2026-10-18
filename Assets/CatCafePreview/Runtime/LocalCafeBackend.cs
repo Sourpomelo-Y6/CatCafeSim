@@ -12,6 +12,7 @@ namespace CatCafePreview
     public sealed partial class LocalCafeBackend : ICafeBackend
     {
         public readonly CafeSimulation Simulation;
+        public CafeImageGalleryStore Gallery {get;private set;}
         private readonly CafeSaveStore saves;
         private CafeSnapshot newGameSaveState;
         private string displayEpoch;private System.Collections.Generic.List<CafeDisplayReceipt> displayReceipts=new System.Collections.Generic.List<CafeDisplayReceipt>();
@@ -33,6 +34,8 @@ namespace CatCafePreview
             }
             CafeLegacyImport.DecodeBase=text=>DecodeSave(text).state;
             this.saveDirectory=saveDirectory??Path.Combine(Application.persistentDataPath,"standalone-v1");
+            Gallery=new CafeImageGalleryStore(this.saveDirectory,value=>JsonUtility.ToJson(value,true),text=>JsonUtility.FromJson<CafeImageProfile>(text));
+            Replays=new CafeReplayStore(this.saveDirectory,value=>JsonUtility.ToJson(value,true),text=>JsonUtility.FromJson<CafeReplayProfile>(text));
             Simulation = new CafeSimulation(rules);
             var presentation=Resources.Load<TextAsset>("CatCafeStandalone/presentation");if(presentation==null)throw new InvalidOperationException("単独版の表示定義がありません。");Details=new CafeDetailPresentation(Simulation,JsonUtility.FromJson<CafePresentationCatalog>(presentation.text));displayEpoch=Simulation.State.instance_id;Details.SavedNetStamina=(day,id)=>displayEpoch==Simulation.State.instance_id?displayReceipts.FirstOrDefault(r=>r.day==day && r.cat_id==id)?.net_stamina:null;
             Narratives=new CafeNarratives(Simulation){CustomerName=Details.CustomerName,SpecialImage=(cat,scene)=>CafeNarrativeResources.SceneResource(Narratives.Catalog,cat,scene)};
@@ -41,7 +44,7 @@ namespace CatCafePreview
             ResetJournal();
             saves = new CafeSaveStore(this.saveDirectory, EncodeSaveWithDisplay, DecodeSave, Simulation.Validate);
         }
-        private string EncodeSaveWithDisplay(CafeSaveEnvelope save){Narratives.Sync();save.narratives=ReferenceEquals(save.state,Simulation.State)?Narratives.Rows.ToArray():null;DailyRecords.Sync();if(ReferenceEquals(save.state,Simulation.State)){save.daily_baselines=DailyRecords.Baselines.ToArray();save.daily_records=DailyRecords.Records.ToArray();}save.display_receipts=ReferenceEquals(save.state,Simulation.State) && displayEpoch==Simulation.State.instance_id?displayReceipts.ToArray():null;if(ReferenceEquals(save.state,newGameSaveState)){save.daily_baselines=save.state.cats.Select(c=>new CafeDailyBaseline{day=save.state.day,cat_id=c.id,fatigue=c.fatigue.ToString("R",System.Globalization.CultureInfo.InvariantCulture)}).ToArray();}return EncodeSave(save);}
+        private string EncodeSaveWithDisplay(CafeSaveEnvelope save){RememberViewedConversations();save.conversation=ReferenceEquals(save.state,Simulation.State)?Conversation:null;save.regular_conversation=ReferenceEquals(save.state,Simulation.State)?RegularConversation:null;save.dispatch_conversations=ReferenceEquals(save.state,Simulation.State)?DispatchConversations:null;save.dispatch_conversation_selected=ReferenceEquals(save.state,Simulation.State)?DispatchConversationSelected:null;save.encounter_conversations=ReferenceEquals(save.state,Simulation.State)?EncounterConversations:null;save.encounter_conversation_selected=ReferenceEquals(save.state,Simulation.State)?EncounterConversationSelected:null;save.dispatch_introduction_conversations=ReferenceEquals(save.state,Simulation.State)?DispatchIntroductionConversations:null;save.dispatch_introduction_conversation_selected=ReferenceEquals(save.state,Simulation.State)?DispatchIntroductionConversationSelected:null;Narratives.Sync();save.narratives=ReferenceEquals(save.state,Simulation.State)?Narratives.Rows.ToArray():null;DailyRecords.Sync();if(ReferenceEquals(save.state,Simulation.State)){save.daily_baselines=DailyRecords.Baselines.ToArray();save.daily_records=DailyRecords.Records.ToArray();}save.display_receipts=ReferenceEquals(save.state,Simulation.State) && displayEpoch==Simulation.State.instance_id?displayReceipts.ToArray():null;if(ReferenceEquals(save.state,newGameSaveState)){save.daily_baselines=save.state.cats.Select(c=>new CafeDailyBaseline{day=save.state.day,cat_id=c.id,fatigue=c.fatigue.ToString("R",System.Globalization.CultureInfo.InvariantCulture)}).ToArray();}return EncodeSave(save);}
         private void CaptureDisplay()
         {
             DailyRecords.Sync();var state=Simulation.State;if(displayEpoch!=state.instance_id){displayEpoch=state.instance_id;displayReceipts.Clear();}if(state.phase!="closed")return;
@@ -53,7 +56,7 @@ namespace CatCafePreview
             foreach(var row in rows){double value;if(row==null || row.day<1 || row.day>save.state.day || row.day==save.state.day && save.state.phase!="closed" || !save.state.cats.Any(c=>c.id==row.cat_id) || !keys.Add(row.day+":"+row.cat_id) || row.net_stamina==null || row.net_stamina.Length>32 || !double.TryParse(row.net_stamina,System.Globalization.NumberStyles.Float,System.Globalization.CultureInfo.InvariantCulture,out value) || double.IsNaN(value) || double.IsInfinity(value) || value<0 || value>Simulation.MaxStamina(save.state,row.cat_id))throw new ArgumentException("保存済みの表示記録が不正です。");}
         }
         private static string EncodeSave(CafeSaveEnvelope save) { save.double_bits = CafeDoublePrecision.Capture(save.state); return JsonUtility.ToJson(save, true); }
-        private static CafeSaveEnvelope DecodeSave(string text) { var save = JsonUtility.FromJson<CafeSaveEnvelope>(text); save?.state?.NormalizeJsonStrings(); if (save?.state != null) CafeDoublePrecision.Restore(save.state, save.double_bits); return save; }
+        private static CafeSaveEnvelope DecodeSave(string text) { var save = JsonUtility.FromJson<CafeSaveEnvelope>(text); if(save?.conversation!=null && string.IsNullOrEmpty(save.conversation.conversation_id))save.conversation=null;if(save?.regular_conversation!=null && string.IsNullOrEmpty(save.regular_conversation.conversation_id))save.regular_conversation=null;if(save?.dispatch_conversations!=null)foreach(var row in save.dispatch_conversations){if(row==null)continue;if(string.IsNullOrEmpty(row.departure?.conversation_id))row.departure=null;if(string.IsNullOrEmpty(row.travelling?.conversation_id))row.travelling=null;if(string.IsNullOrEmpty(row.returning?.conversation_id))row.returning=null;}save?.state?.NormalizeJsonStrings(); if (save?.state != null) CafeDoublePrecision.Restore(save.state, save.double_bits); return save; }
         public IEnumerator Request(string route, string commandJson, Action<CafeResponse> completed, int timeout = 3)
         {
             CafeResponse response;
@@ -81,6 +84,7 @@ namespace CatCafePreview
                 var s = Simulation.State;
                 if (cmd.instance_id != s.instance_id || cmd.expected_revision != s.revision) throw new InvalidOperationException("状態が更新されています。最新状態で再操作してください。");
                 if(s.autoplay?.running==true && !new[]{"step_autoplay","stop_autoplay","pause_autoplay","resume_autoplay","save_game","load_game"}.Contains(cmd.kind))throw new InvalidOperationException("おまかせを中止してから通常操作へ戻ってください。");
+                if(ConversationBlocksProgress && new[]{"start_business","advance_business","next_day","day_off","start_autoplay","resume_autoplay","step_autoplay"}.Contains(cmd.kind))throw new InvalidOperationException("会話を終えてから操作してください。結果会話はイベント一覧から再開できます。");
                 var replayBefore=Journal.CaptureBefore(s);Simulation.ReplayActions.Clear();CafeAutoOperation replayAutomatic=null;
                 switch (cmd.kind)
                 {
@@ -99,8 +103,9 @@ namespace CatCafePreview
                         try{Simulation.PauseAutoplay();saves.Save(cmd.save_slot == 0 ? 1 : cmd.save_slot, s);s.revision++;}
                         catch{if(s.autoplay!=null)s.autoplay.paused=oldPause;s.revision=oldRevision;if(s.import_history!=null)s.import_history.operations.RemoveRange(oldImportCount,s.import_history.operations.Count-oldImportCount);throw;}break;
                     case "load_game":
+                        RememberViewedConversations();
                         if (!int.TryParse(cmd.save_id, out int slot)) throw new ArgumentException("保存スロットを選んでください。");
-                        var loaded=saves.Load(slot);ValidateDisplay(loaded);CafeDailyRecords.Validate(loaded);CafeNarratives.Validate(loaded);Simulation.Restore(loaded.state);displayReceipts=(loaded.display_receipts??new CafeDisplayReceipt[0]).ToList();displayEpoch=Simulation.State.instance_id;DailyRecords.Restore(loaded.daily_baselines,loaded.daily_records);Narratives.Restore(loaded.narratives);break;
+                        var loaded=saves.Load(slot);ValidateDisplay(loaded);CafeDailyRecords.Validate(loaded);CafeNarratives.Validate(loaded);CafeIntakeConversation.Validate(loaded.conversation,loaded.state.intake_request.status);CafeRegularConversation.Validate(loaded.regular_conversation,loaded.state.regular_introduction.status);CafeDispatchDialogue.Validate(loaded.dispatch_conversations,loaded.dispatch_conversation_selected,loaded.state);CafeEncounterDialogue.Validate(loaded.encounter_conversations,loaded.encounter_conversation_selected,loaded.state);CafeDispatchIntroductionDialogue.Validate(loaded.dispatch_introduction_conversations,loaded.dispatch_introduction_conversation_selected,loaded.state);Simulation.Restore(loaded.state);RestoreConversation(loaded.conversation,loaded.regular_conversation);RestoreDispatchConversations(loaded.dispatch_conversations,loaded.dispatch_conversation_selected);RestoreEncounterConversations(loaded.encounter_conversations,loaded.encounter_conversation_selected);RestoreDispatchIntroductionConversations(loaded.dispatch_introduction_conversations,loaded.dispatch_introduction_conversation_selected);displayReceipts=(loaded.display_receipts??new CafeDisplayReceipt[0]).ToList();displayEpoch=Simulation.State.instance_id;DailyRecords.Restore(loaded.daily_baselines,loaded.daily_records);Narratives.Restore(loaded.narratives);break;
                     case "player_step":Simulation.Execute(cmd.kind,choice:cmd.choice,source:string.IsNullOrEmpty(cmd.target_type)?null:cmd.target_type);break;
                     case "receive_patron":
                     case "receive_general":
@@ -186,7 +191,7 @@ namespace CatCafePreview
             var s = Simulation.State; var rules = Simulation.Rules;
             return new PythonCafeState
             {
-                autoplay=AutoplayView(), version = 1, instance_id = s.instance_id, revision = s.revision, objective = s.objective, phase = s.phase, day = s.day, tick = s.tick,
+                day_off=DayOffView(), autoplay=AutoplayView(), version = 1, instance_id = s.instance_id, revision = s.revision, objective = s.objective, phase = s.phase, day = s.day, tick = s.tick,
                 can_set_shifts = s.phase == "preparation", closed = s.phase == "closed", opening_ticks = rules.opening_ticks,
                 funds = (float)s.funds, revenue = (float)s.revenue, waiting_count = s.queue.Count, completed_interactions = s.completed,
                 popularity = (float)s.popularity, popularity_gain = (float)s.popularity_gain,
