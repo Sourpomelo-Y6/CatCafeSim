@@ -1,0 +1,2299 @@
+{
+  "version": 1,
+  "cat_count": 8,
+  "image_count": 221,
+  "warnings": [
+    "ミケ / ねこじゃらし：描写が未登録。定型文を使用します。",
+    "ミケ / ボール遊び：描写が未登録。定型文を使用します。",
+    "ミケ / ぬいぐるみ遊び：描写が未登録。定型文を使用します。",
+    "ミケ / トンネル遊び：描写が未登録。定型文を使用します。",
+    "ミケ / ブラッシング：描写が未登録。定型文を使用します。",
+    "ミケ / 声をかける：描写が未登録。定型文を使用します。",
+    "ミケ / そばで見守る：描写が未登録。定型文を使用します。",
+    "ミケ / 動きを止めて待つ：描写が未登録。定型文を使用します。",
+    "ミケ / ねこじゃらし × （なにか）+心を開く：描写が未登録。定型文を使用します。",
+    "ミケ / ねこじゃらし × 心をつかむ+心を開く：描写が未登録。定型文を使用します。",
+    "ミケ / ボール遊び × （なにか）+心を開く：描写が未登録。定型文を使用します。",
+    "ミケ / ボール遊び × 心をつかむ+心を開く：描写が未登録。定型文を使用します。",
+    "ミケ / ぬいぐるみ遊び × （なにか）+心を開く：描写が未登録。定型文を使用します。",
+    "ミケ / ぬいぐるみ遊び × 心をつかむ+心を開く：描写が未登録。定型文を使用します。",
+    "ミケ / トンネル遊び × （なにか）+心を開く：描写が未登録。定型文を使用します。",
+    "ミケ / トンネル遊び × 心をつかむ+心を開く：描写が未登録。定型文を使用します。",
+    "ミケ / ブラッシング × （なにか）+心を開く：描写が未登録。定型文を使用します。",
+    "ミケ / ブラッシング × 心をつかむ+心を開く：描写が未登録。定型文を使用します。",
+    "ミケ / 声をかける × （なにか）+心を開く：描写が未登録。定型文を使用します。",
+    "ミケ / 声をかける × 心をつかむ+心を開く：描写が未登録。定型文を使用します。",
+    "ミケ / そばで見守る × （なにか）+心を開く：描写が未登録。定型文を使用します。",
+    "ミケ / そばで見守る × 心をつかむ+心を開く：描写が未登録。定型文を使用します。",
+    "ミケ / なでる × （なにか）+心を開く：描写が未登録。定型文を使用します。",
+    "ミケ / なでる × 心をつかむ+心を開く：描写が未登録。定型文を使用します。",
+    "タマ（playtest-tama）：紹介文が未登録。定型文を使用します。",
+    "タマ / 通常：描写が未登録。定型文を使用します。",
+    "タマ / 遊ぶ：描写が未登録。定型文を使用します。",
+    "タマ / 撫でられる：描写が未登録。定型文を使用します。",
+    "タマ / 眠る：描写が未登録。定型文を使用します。",
+    "タマ / ねこじゃらし：描写が未登録。定型文を使用します。",
+    "タマ / ボール遊び：描写が未登録。定型文を使用します。",
+    "タマ / ぬいぐるみ遊び：描写が未登録。定型文を使用します。",
+    "タマ / トンネル遊び：描写が未登録。定型文を使用します。",
+    "タマ / ブラッシング：描写が未登録。定型文を使用します。",
+    "タマ / 声をかける：描写が未登録。定型文を使用します。",
+    "タマ / そばで見守る：描写が未登録。定型文を使用します。",
+    "タマ / 動きを止めて待つ：描写が未登録。定型文を使用します。",
+    "タマ / ねこじゃらし × （なにか）+心を開く：描写が未登録。定型文を使用します。",
+    "タマ / ねこじゃらし × 心をつかむ+心を開く：描写が未登録。定型文を使用します。",
+    "タマ / ボール遊び × （なにか）+心を開く：描写が未登録。定型文を使用します。",
+    "タマ / ボール遊び × 心をつかむ+心を開く：描写が未登録。定型文を使用します。",
+    "タマ / ぬいぐるみ遊び × （なにか）+心を開く：描写が未登録。定型文を使用します。",
+    "タマ / ぬいぐるみ遊び × 心をつかむ+心を開く：描写が未登録。定型文を使用します。",
+    "タマ / トンネル遊び × （なにか）+心を開く：描写が未登録。定型文を使用します。",
+    "タマ / トンネル遊び × 心をつかむ+心を開く：描写が未登録。定型文を使用します。",
+    "タマ / ブラッシング × （なにか）+心を開く：描写が未登録。定型文を使用します。",
+    "タマ / ブラッシング × 心をつかむ+心を開く：描写が未登録。定型文を使用します。",
+    "タマ / 声をかける × （なにか）+心を開く：描写が未登録。定型文を使用します。",
+    "タマ / 声をかける × 心をつかむ+心を開く：描写が未登録。定型文を使用します。",
+    "タマ / そばで見守る × （なにか）+心を開く：描写が未登録。定型文を使用します。",
+    "タマ / そばで見守る × 心をつかむ+心を開く：描写が未登録。定型文を使用します。",
+    "タマ / なでる × （なにか）+心を開く：描写が未登録。定型文を使用します。",
+    "タマ / なでる × 心をつかむ+心を開く：描写が未登録。定型文を使用します。",
+    "ソラ（playtest-sora）：紹介文が未登録。定型文を使用します。",
+    "ソラ / 通常：描写が未登録。定型文を使用します。",
+    "ソラ / 遊ぶ：描写が未登録。定型文を使用します。",
+    "ソラ / 撫でられる：描写が未登録。定型文を使用します。",
+    "ソラ / 眠る：描写が未登録。定型文を使用します。",
+    "ソラ / ねこじゃらし：描写が未登録。定型文を使用します。",
+    "ソラ / ボール遊び：描写が未登録。定型文を使用します。",
+    "ソラ / ぬいぐるみ遊び：描写が未登録。定型文を使用します。",
+    "ソラ / トンネル遊び：描写が未登録。定型文を使用します。",
+    "ソラ / ブラッシング：描写が未登録。定型文を使用します。",
+    "ソラ / 声をかける：描写が未登録。定型文を使用します。",
+    "ソラ / そばで見守る：描写が未登録。定型文を使用します。",
+    "ソラ / 動きを止めて待つ：描写が未登録。定型文を使用します。",
+    "ソラ / ねこじゃらし × （なにか）+心を開く：描写が未登録。定型文を使用します。",
+    "ソラ / ねこじゃらし × 心をつかむ+心を開く：描写が未登録。定型文を使用します。",
+    "ソラ / ボール遊び × （なにか）+心を開く：描写が未登録。定型文を使用します。",
+    "ソラ / ボール遊び × 心をつかむ+心を開く：描写が未登録。定型文を使用します。",
+    "ソラ / ぬいぐるみ遊び × （なにか）+心を開く：描写が未登録。定型文を使用します。",
+    "ソラ / ぬいぐるみ遊び × 心をつかむ+心を開く：描写が未登録。定型文を使用します。",
+    "ソラ / トンネル遊び × （なにか）+心を開く：描写が未登録。定型文を使用します。",
+    "ソラ / トンネル遊び × 心をつかむ+心を開く：描写が未登録。定型文を使用します。",
+    "ソラ / ブラッシング × （なにか）+心を開く：描写が未登録。定型文を使用します。",
+    "ソラ / ブラッシング × 心をつかむ+心を開く：描写が未登録。定型文を使用します。",
+    "ソラ / 声をかける × （なにか）+心を開く：描写が未登録。定型文を使用します。",
+    "ソラ / 声をかける × 心をつかむ+心を開く：描写が未登録。定型文を使用します。",
+    "ソラ / そばで見守る × （なにか）+心を開く：描写が未登録。定型文を使用します。",
+    "ソラ / そばで見守る × 心をつかむ+心を開く：描写が未登録。定型文を使用します。",
+    "ソラ / なでる × （なにか）+心を開く：描写が未登録。定型文を使用します。",
+    "ソラ / なでる × 心をつかむ+心を開く：描写が未登録。定型文を使用します。",
+    "コハク（playtest-kohaku）：紹介文が未登録。定型文を使用します。",
+    "コハク / 通常：描写が未登録。定型文を使用します。",
+    "コハク / 遊ぶ：描写が未登録。定型文を使用します。",
+    "コハク / 撫でられる：描写が未登録。定型文を使用します。",
+    "コハク / 眠る：描写が未登録。定型文を使用します。",
+    "コハク / ねこじゃらし：描写が未登録。定型文を使用します。",
+    "コハク / ボール遊び：描写が未登録。定型文を使用します。",
+    "コハク / ぬいぐるみ遊び：描写が未登録。定型文を使用します。",
+    "コハク / トンネル遊び：描写が未登録。定型文を使用します。",
+    "コハク / ブラッシング：描写が未登録。定型文を使用します。",
+    "コハク / 声をかける：描写が未登録。定型文を使用します。",
+    "コハク / そばで見守る：描写が未登録。定型文を使用します。",
+    "コハク / 動きを止めて待つ：描写が未登録。定型文を使用します。",
+    "コハク / ねこじゃらし × （なにか）+心を開く：描写が未登録。定型文を使用します。",
+    "コハク / ねこじゃらし × 心をつかむ+心を開く：描写が未登録。定型文を使用します。",
+    "コハク / ボール遊び × （なにか）+心を開く：描写が未登録。定型文を使用します。",
+    "コハク / ボール遊び × 心をつかむ+心を開く：描写が未登録。定型文を使用します。",
+    "コハク / ぬいぐるみ遊び × （なにか）+心を開く：描写が未登録。定型文を使用します。",
+    "コハク / ぬいぐるみ遊び × 心をつかむ+心を開く：描写が未登録。定型文を使用します。",
+    "コハク / トンネル遊び × （なにか）+心を開く：描写が未登録。定型文を使用します。",
+    "コハク / トンネル遊び × 心をつかむ+心を開く：描写が未登録。定型文を使用します。",
+    "コハク / ブラッシング × （なにか）+心を開く：描写が未登録。定型文を使用します。",
+    "コハク / ブラッシング × 心をつかむ+心を開く：描写が未登録。定型文を使用します。",
+    "コハク / 声をかける × （なにか）+心を開く：描写が未登録。定型文を使用します。",
+    "コハク / 声をかける × 心をつかむ+心を開く：描写が未登録。定型文を使用します。",
+    "コハク / そばで見守る × （なにか）+心を開く：描写が未登録。定型文を使用します。",
+    "コハク / そばで見守る × 心をつかむ+心を開く：描写が未登録。定型文を使用します。",
+    "コハク / なでる × （なにか）+心を開く：描写が未登録。定型文を使用します。",
+    "コハク / なでる × 心をつかむ+心を開く：描写が未登録。定型文を使用します。",
+    "ムギ（playtest-mugi）：紹介文が未登録。定型文を使用します。",
+    "ムギ / 通常：描写が未登録。定型文を使用します。",
+    "ムギ / 遊ぶ：描写が未登録。定型文を使用します。",
+    "ムギ / 撫でられる：描写が未登録。定型文を使用します。",
+    "ムギ / 眠る：描写が未登録。定型文を使用します。",
+    "ムギ / ねこじゃらし：描写が未登録。定型文を使用します。",
+    "ムギ / ボール遊び：描写が未登録。定型文を使用します。",
+    "ムギ / ぬいぐるみ遊び：描写が未登録。定型文を使用します。",
+    "ムギ / トンネル遊び：描写が未登録。定型文を使用します。",
+    "ムギ / ブラッシング：描写が未登録。定型文を使用します。",
+    "ムギ / 声をかける：描写が未登録。定型文を使用します。",
+    "ムギ / そばで見守る：描写が未登録。定型文を使用します。",
+    "ムギ / 動きを止めて待つ：描写が未登録。定型文を使用します。",
+    "ムギ / ねこじゃらし × （なにか）+心を開く：描写が未登録。定型文を使用します。",
+    "ムギ / ねこじゃらし × 心をつかむ+心を開く：描写が未登録。定型文を使用します。",
+    "ムギ / ボール遊び × （なにか）+心を開く：描写が未登録。定型文を使用します。",
+    "ムギ / ボール遊び × 心をつかむ+心を開く：描写が未登録。定型文を使用します。",
+    "ムギ / ぬいぐるみ遊び × （なにか）+心を開く：描写が未登録。定型文を使用します。",
+    "ムギ / ぬいぐるみ遊び × 心をつかむ+心を開く：描写が未登録。定型文を使用します。",
+    "ムギ / トンネル遊び × （なにか）+心を開く：描写が未登録。定型文を使用します。",
+    "ムギ / トンネル遊び × 心をつかむ+心を開く：描写が未登録。定型文を使用します。",
+    "ムギ / ブラッシング × （なにか）+心を開く：描写が未登録。定型文を使用します。",
+    "ムギ / ブラッシング × 心をつかむ+心を開く：描写が未登録。定型文を使用します。",
+    "ムギ / 声をかける × （なにか）+心を開く：描写が未登録。定型文を使用します。",
+    "ムギ / 声をかける × 心をつかむ+心を開く：描写が未登録。定型文を使用します。",
+    "ムギ / そばで見守る × （なにか）+心を開く：描写が未登録。定型文を使用します。",
+    "ムギ / そばで見守る × 心をつかむ+心を開く：描写が未登録。定型文を使用します。",
+    "ムギ / なでる × （なにか）+心を開く：描写が未登録。定型文を使用します。",
+    "ムギ / なでる × 心をつかむ+心を開く：描写が未登録。定型文を使用します。",
+    "ナナ（request-cat-1）：紹介文が未登録。定型文を使用します。",
+    "ナナ / 通常：描写が未登録。定型文を使用します。",
+    "ナナ / 遊ぶ：描写が未登録。定型文を使用します。",
+    "ナナ / 撫でられる：描写が未登録。定型文を使用します。",
+    "ナナ / 眠る：描写が未登録。定型文を使用します。",
+    "ナナ / ねこじゃらし：描写が未登録。定型文を使用します。",
+    "ナナ / ボール遊び：描写が未登録。定型文を使用します。",
+    "ナナ / ぬいぐるみ遊び：描写が未登録。定型文を使用します。",
+    "ナナ / トンネル遊び：描写が未登録。定型文を使用します。",
+    "ナナ / ブラッシング：描写が未登録。定型文を使用します。",
+    "ナナ / 声をかける：描写が未登録。定型文を使用します。",
+    "ナナ / そばで見守る：描写が未登録。定型文を使用します。",
+    "ナナ / 動きを止めて待つ：描写が未登録。定型文を使用します。",
+    "ナナ / ねこじゃらし × （なにか）+心を開く：描写が未登録。定型文を使用します。",
+    "ナナ / ねこじゃらし × 心をつかむ+心を開く：描写が未登録。定型文を使用します。",
+    "ナナ / ボール遊び × （なにか）+心を開く：描写が未登録。定型文を使用します。",
+    "ナナ / ボール遊び × 心をつかむ+心を開く：描写が未登録。定型文を使用します。",
+    "ナナ / ぬいぐるみ遊び × （なにか）+心を開く：描写が未登録。定型文を使用します。",
+    "ナナ / ぬいぐるみ遊び × 心をつかむ+心を開く：描写が未登録。定型文を使用します。",
+    "ナナ / トンネル遊び × （なにか）+心を開く：描写が未登録。定型文を使用します。",
+    "ナナ / トンネル遊び × 心をつかむ+心を開く：描写が未登録。定型文を使用します。",
+    "ナナ / ブラッシング × （なにか）+心を開く：描写が未登録。定型文を使用します。",
+    "ナナ / ブラッシング × 心をつかむ+心を開く：描写が未登録。定型文を使用します。",
+    "ナナ / 声をかける × （なにか）+心を開く：描写が未登録。定型文を使用します。",
+    "ナナ / 声をかける × 心をつかむ+心を開く：描写が未登録。定型文を使用します。",
+    "ナナ / そばで見守る × （なにか）+心を開く：描写が未登録。定型文を使用します。",
+    "ナナ / そばで見守る × 心をつかむ+心を開く：描写が未登録。定型文を使用します。",
+    "ナナ / なでる × （なにか）+心を開く：描写が未登録。定型文を使用します。",
+    "ナナ / なでる × 心をつかむ+心を開く：描写が未登録。定型文を使用します。",
+    "マロン（regular-rescue-1）：紹介文が未登録。定型文を使用します。",
+    "マロン / 通常：描写が未登録。定型文を使用します。",
+    "マロン / 遊ぶ：描写が未登録。定型文を使用します。",
+    "マロン / 撫でられる：描写が未登録。定型文を使用します。",
+    "マロン / 眠る：描写が未登録。定型文を使用します。",
+    "マロン / ねこじゃらし：描写が未登録。定型文を使用します。",
+    "マロン / ボール遊び：描写が未登録。定型文を使用します。",
+    "マロン / ぬいぐるみ遊び：描写が未登録。定型文を使用します。",
+    "マロン / トンネル遊び：描写が未登録。定型文を使用します。",
+    "マロン / ブラッシング：描写が未登録。定型文を使用します。",
+    "マロン / 声をかける：描写が未登録。定型文を使用します。",
+    "マロン / そばで見守る：描写が未登録。定型文を使用します。",
+    "マロン / 動きを止めて待つ：描写が未登録。定型文を使用します。",
+    "マロン / ねこじゃらし × （なにか）+心を開く：描写が未登録。定型文を使用します。",
+    "マロン / ねこじゃらし × 心をつかむ+心を開く：描写が未登録。定型文を使用します。",
+    "マロン / ボール遊び × （なにか）+心を開く：描写が未登録。定型文を使用します。",
+    "マロン / ボール遊び × 心をつかむ+心を開く：描写が未登録。定型文を使用します。",
+    "マロン / ぬいぐるみ遊び × （なにか）+心を開く：描写が未登録。定型文を使用します。",
+    "マロン / ぬいぐるみ遊び × 心をつかむ+心を開く：描写が未登録。定型文を使用します。",
+    "マロン / トンネル遊び × （なにか）+心を開く：描写が未登録。定型文を使用します。",
+    "マロン / トンネル遊び × 心をつかむ+心を開く：描写が未登録。定型文を使用します。",
+    "マロン / ブラッシング × （なにか）+心を開く：描写が未登録。定型文を使用します。",
+    "マロン / ブラッシング × 心をつかむ+心を開く：描写が未登録。定型文を使用します。",
+    "マロン / 声をかける × （なにか）+心を開く：描写が未登録。定型文を使用します。",
+    "マロン / 声をかける × 心をつかむ+心を開く：描写が未登録。定型文を使用します。",
+    "マロン / そばで見守る × （なにか）+心を開く：描写が未登録。定型文を使用します。",
+    "マロン / そばで見守る × 心をつかむ+心を開く：描写が未登録。定型文を使用します。",
+    "マロン / なでる × （なにか）+心を開く：描写が未登録。定型文を使用します。",
+    "マロン / なでる × 心をつかむ+心を開く：描写が未登録。定型文を使用します。",
+    "ココ（visiting-cat-1）：紹介文が未登録。定型文を使用します。",
+    "ココ / 通常：描写が未登録。定型文を使用します。",
+    "ココ / 遊ぶ：描写が未登録。定型文を使用します。",
+    "ココ / 撫でられる：描写が未登録。定型文を使用します。",
+    "ココ / 眠る：描写が未登録。定型文を使用します。",
+    "ココ / ねこじゃらし：描写が未登録。定型文を使用します。",
+    "ココ / ボール遊び：描写が未登録。定型文を使用します。",
+    "ココ / ぬいぐるみ遊び：描写が未登録。定型文を使用します。",
+    "ココ / トンネル遊び：描写が未登録。定型文を使用します。",
+    "ココ / ブラッシング：描写が未登録。定型文を使用します。",
+    "ココ / 声をかける：描写が未登録。定型文を使用します。",
+    "ココ / そばで見守る：描写が未登録。定型文を使用します。",
+    "ココ / 動きを止めて待つ：描写が未登録。定型文を使用します。",
+    "ココ / ねこじゃらし × （なにか）+心を開く：描写が未登録。定型文を使用します。",
+    "ココ / ねこじゃらし × 心をつかむ+心を開く：描写が未登録。定型文を使用します。",
+    "ココ / ボール遊び × （なにか）+心を開く：描写が未登録。定型文を使用します。",
+    "ココ / ボール遊び × 心をつかむ+心を開く：描写が未登録。定型文を使用します。",
+    "ココ / ぬいぐるみ遊び × （なにか）+心を開く：描写が未登録。定型文を使用します。",
+    "ココ / ぬいぐるみ遊び × 心をつかむ+心を開く：描写が未登録。定型文を使用します。",
+    "ココ / トンネル遊び × （なにか）+心を開く：描写が未登録。定型文を使用します。",
+    "ココ / トンネル遊び × 心をつかむ+心を開く：描写が未登録。定型文を使用します。",
+    "ココ / ブラッシング × （なにか）+心を開く：描写が未登録。定型文を使用します。",
+    "ココ / ブラッシング × 心をつかむ+心を開く：描写が未登録。定型文を使用します。",
+    "ココ / 声をかける × （なにか）+心を開く：描写が未登録。定型文を使用します。",
+    "ココ / 声をかける × 心をつかむ+心を開く：描写が未登録。定型文を使用します。",
+    "ココ / そばで見守る × （なにか）+心を開く：描写が未登録。定型文を使用します。",
+    "ココ / そばで見守る × 心をつかむ+心を開く：描写が未登録。定型文を使用します。",
+    "ココ / なでる × （なにか）+心を開く：描写が未登録。定型文を使用します。",
+    "ココ / なでる × 心をつかむ+心を開く：描写が未登録。定型文を使用します。",
+    "ミケ / teaser__direct：要求画像 teaser__direct がないため teaser を代替表示します。",
+    "ミケ / teaser__adapt：要求画像 teaser__adapt がないため teaser を代替表示します。",
+    "ミケ / teaser__intense：要求画像 teaser__intense がないため teaser を代替表示します。",
+    "ミケ / teaser__feint：要求画像 teaser__feint がないため teaser を代替表示します。",
+    "ミケ / ball__direct：要求画像 ball__direct がないため ball を代替表示します。",
+    "ミケ / ball__adapt：要求画像 ball__adapt がないため ball を代替表示します。",
+    "ミケ / ball__intense：要求画像 ball__intense がないため ball を代替表示します。",
+    "ミケ / ball__feint：要求画像 ball__feint がないため ball を代替表示します。",
+    "ミケ / plush__direct：要求画像 plush__direct がないため plush を代替表示します。",
+    "ミケ / plush__adapt：要求画像 plush__adapt がないため plush を代替表示します。",
+    "ミケ / plush__feint：要求画像 plush__feint がないため plush を代替表示します。",
+    "ミケ / tunnel__direct：要求画像 tunnel__direct がないため tunnel を代替表示します。",
+    "ミケ / tunnel__adapt：要求画像 tunnel__adapt がないため tunnel を代替表示します。",
+    "ミケ / tunnel__intense：要求画像 tunnel__intense がないため tunnel を代替表示します。",
+    "ミケ / tunnel__feint：要求画像 tunnel__feint がないため tunnel を代替表示します。",
+    "ミケ / pet__direct：要求画像 pet__direct がないため pet を代替表示します。",
+    "ミケ / pet__adapt：要求画像 pet__adapt がないため pet を代替表示します。",
+    "ミケ / brush__direct：要求画像 brush__direct がないため brush を代替表示します。",
+    "ミケ / brush__adapt：要求画像 brush__adapt がないため brush を代替表示します。",
+    "ミケ / voice__direct：要求画像 voice__direct がないため voice を代替表示します。",
+    "ミケ / voice__adapt：要求画像 voice__adapt がないため voice を代替表示します。",
+    "ミケ / presence__direct：要求画像 presence__direct がないため presence を代替表示します。",
+    "ミケ / presence__adapt：要求画像 presence__adapt がないため presence を代替表示します。",
+    "ソラ / teaser__direct：要求画像 teaser__direct がないため teaser を代替表示します。",
+    "ソラ / teaser__adapt：要求画像 teaser__adapt がないため teaser を代替表示します。",
+    "ソラ / teaser__intense：要求画像 teaser__intense がないため teaser を代替表示します。",
+    "ソラ / teaser__feint：要求画像 teaser__feint がないため teaser を代替表示します。",
+    "ソラ / ball__direct：要求画像 ball__direct がないため ball を代替表示します。",
+    "ソラ / ball__adapt：要求画像 ball__adapt がないため ball を代替表示します。",
+    "ソラ / ball__intense：要求画像 ball__intense がないため ball を代替表示します。",
+    "ソラ / ball__feint：要求画像 ball__feint がないため ball を代替表示します。",
+    "ソラ / plush__direct：要求画像 plush__direct がないため plush を代替表示します。",
+    "ソラ / plush__adapt：要求画像 plush__adapt がないため plush を代替表示します。",
+    "ソラ / plush__feint：要求画像 plush__feint がないため plush を代替表示します。",
+    "ソラ / tunnel__direct：要求画像 tunnel__direct がないため tunnel を代替表示します。",
+    "ソラ / tunnel__adapt：要求画像 tunnel__adapt がないため tunnel を代替表示します。",
+    "ソラ / tunnel__intense：要求画像 tunnel__intense がないため tunnel を代替表示します。",
+    "ソラ / tunnel__feint：要求画像 tunnel__feint がないため tunnel を代替表示します。",
+    "ソラ / pet__direct：要求画像 pet__direct がないため pet を代替表示します。",
+    "ソラ / pet__adapt：要求画像 pet__adapt がないため pet を代替表示します。",
+    "ソラ / brush__direct：要求画像 brush__direct がないため brush を代替表示します。",
+    "ソラ / brush__adapt：要求画像 brush__adapt がないため brush を代替表示します。",
+    "ソラ / voice__direct：要求画像 voice__direct がないため voice を代替表示します。",
+    "ソラ / voice__adapt：要求画像 voice__adapt がないため voice を代替表示します。",
+    "ソラ / presence__direct：要求画像 presence__direct がないため presence を代替表示します。",
+    "ソラ / presence__adapt：要求画像 presence__adapt がないため presence を代替表示します。",
+    "タマ / teaser__direct：要求画像 teaser__direct がないため teaser を代替表示します。",
+    "タマ / teaser__adapt：要求画像 teaser__adapt がないため teaser を代替表示します。",
+    "タマ / teaser__intense：要求画像 teaser__intense がないため teaser を代替表示します。",
+    "タマ / teaser__feint：要求画像 teaser__feint がないため teaser を代替表示します。",
+    "タマ / ball__direct：要求画像 ball__direct がないため ball を代替表示します。",
+    "タマ / ball__adapt：要求画像 ball__adapt がないため ball を代替表示します。",
+    "タマ / ball__intense：要求画像 ball__intense がないため ball を代替表示します。",
+    "タマ / ball__feint：要求画像 ball__feint がないため ball を代替表示します。",
+    "タマ / plush__direct：要求画像 plush__direct がないため plush を代替表示します。",
+    "タマ / plush__adapt：要求画像 plush__adapt がないため plush を代替表示します。",
+    "タマ / plush__feint：要求画像 plush__feint がないため plush を代替表示します。",
+    "タマ / tunnel__direct：要求画像 tunnel__direct がないため tunnel を代替表示します。",
+    "タマ / tunnel__adapt：要求画像 tunnel__adapt がないため tunnel を代替表示します。",
+    "タマ / tunnel__intense：要求画像 tunnel__intense がないため tunnel を代替表示します。",
+    "タマ / tunnel__feint：要求画像 tunnel__feint がないため tunnel を代替表示します。",
+    "タマ / pet__direct：要求画像 pet__direct がないため pet を代替表示します。",
+    "タマ / pet__adapt：要求画像 pet__adapt がないため pet を代替表示します。",
+    "タマ / brush__direct：要求画像 brush__direct がないため brush を代替表示します。",
+    "タマ / brush__adapt：要求画像 brush__adapt がないため brush を代替表示します。",
+    "タマ / voice__direct：要求画像 voice__direct がないため voice を代替表示します。",
+    "タマ / voice__adapt：要求画像 voice__adapt がないため voice を代替表示します。",
+    "タマ / presence__direct：要求画像 presence__direct がないため presence を代替表示します。",
+    "タマ / presence__adapt：要求画像 presence__adapt がないため presence を代替表示します。",
+    "交流文：239条件が未制作です。validation.jsonを確認してください。"
+  ],
+  "interactions": {
+    "expected_count": 492,
+    "covered_count": 253,
+    "common_count": 116,
+    "missing_count": 239,
+    "missing_conditions": [
+      {
+        "kind": "speech",
+        "subject_id": "guest-1",
+        "mode": "ball",
+        "action": "direct",
+        "reaction": "any",
+        "scene_key": "ball__direct"
+      },
+      {
+        "kind": "speech",
+        "subject_id": "guest-1",
+        "mode": "ball",
+        "action": "adapt",
+        "reaction": "any",
+        "scene_key": "ball__adapt"
+      },
+      {
+        "kind": "speech",
+        "subject_id": "guest-1",
+        "mode": "ball",
+        "action": "intense",
+        "reaction": "any",
+        "scene_key": "ball__intense"
+      },
+      {
+        "kind": "speech",
+        "subject_id": "guest-1",
+        "mode": "ball",
+        "action": "feint",
+        "reaction": "any",
+        "scene_key": "ball__feint"
+      },
+      {
+        "kind": "speech",
+        "subject_id": "guest-1",
+        "mode": "plush",
+        "action": "direct",
+        "reaction": "any",
+        "scene_key": "plush__direct"
+      },
+      {
+        "kind": "speech",
+        "subject_id": "guest-1",
+        "mode": "plush",
+        "action": "adapt",
+        "reaction": "any",
+        "scene_key": "plush__adapt"
+      },
+      {
+        "kind": "speech",
+        "subject_id": "guest-1",
+        "mode": "plush",
+        "action": "feint",
+        "reaction": "any",
+        "scene_key": "plush__feint"
+      },
+      {
+        "kind": "speech",
+        "subject_id": "guest-1",
+        "mode": "tunnel",
+        "action": "direct",
+        "reaction": "any",
+        "scene_key": "tunnel__direct"
+      },
+      {
+        "kind": "speech",
+        "subject_id": "guest-1",
+        "mode": "tunnel",
+        "action": "adapt",
+        "reaction": "any",
+        "scene_key": "tunnel__adapt"
+      },
+      {
+        "kind": "speech",
+        "subject_id": "guest-1",
+        "mode": "tunnel",
+        "action": "intense",
+        "reaction": "any",
+        "scene_key": "tunnel__intense"
+      },
+      {
+        "kind": "speech",
+        "subject_id": "guest-1",
+        "mode": "tunnel",
+        "action": "feint",
+        "reaction": "any",
+        "scene_key": "tunnel__feint"
+      },
+      {
+        "kind": "speech",
+        "subject_id": "guest-1",
+        "mode": "brush",
+        "action": "direct",
+        "reaction": "any",
+        "scene_key": "brush__direct"
+      },
+      {
+        "kind": "speech",
+        "subject_id": "guest-1",
+        "mode": "brush",
+        "action": "adapt",
+        "reaction": "any",
+        "scene_key": "brush__adapt"
+      },
+      {
+        "kind": "speech",
+        "subject_id": "guest-1",
+        "mode": "voice",
+        "action": "direct",
+        "reaction": "any",
+        "scene_key": "voice__direct"
+      },
+      {
+        "kind": "speech",
+        "subject_id": "guest-1",
+        "mode": "voice",
+        "action": "adapt",
+        "reaction": "any",
+        "scene_key": "voice__adapt"
+      },
+      {
+        "kind": "speech",
+        "subject_id": "guest-1",
+        "mode": "presence",
+        "action": "direct",
+        "reaction": "any",
+        "scene_key": "presence__direct"
+      },
+      {
+        "kind": "speech",
+        "subject_id": "guest-1",
+        "mode": "presence",
+        "action": "adapt",
+        "reaction": "any",
+        "scene_key": "presence__adapt"
+      },
+      {
+        "kind": "speech",
+        "subject_id": "person-952c631405e649fdb50c390881804977",
+        "mode": "ball",
+        "action": "direct",
+        "reaction": "any",
+        "scene_key": "ball__direct"
+      },
+      {
+        "kind": "speech",
+        "subject_id": "person-952c631405e649fdb50c390881804977",
+        "mode": "ball",
+        "action": "adapt",
+        "reaction": "any",
+        "scene_key": "ball__adapt"
+      },
+      {
+        "kind": "speech",
+        "subject_id": "person-952c631405e649fdb50c390881804977",
+        "mode": "ball",
+        "action": "intense",
+        "reaction": "any",
+        "scene_key": "ball__intense"
+      },
+      {
+        "kind": "speech",
+        "subject_id": "person-952c631405e649fdb50c390881804977",
+        "mode": "ball",
+        "action": "feint",
+        "reaction": "any",
+        "scene_key": "ball__feint"
+      },
+      {
+        "kind": "speech",
+        "subject_id": "person-952c631405e649fdb50c390881804977",
+        "mode": "plush",
+        "action": "direct",
+        "reaction": "any",
+        "scene_key": "plush__direct"
+      },
+      {
+        "kind": "speech",
+        "subject_id": "person-952c631405e649fdb50c390881804977",
+        "mode": "plush",
+        "action": "adapt",
+        "reaction": "any",
+        "scene_key": "plush__adapt"
+      },
+      {
+        "kind": "speech",
+        "subject_id": "person-952c631405e649fdb50c390881804977",
+        "mode": "plush",
+        "action": "feint",
+        "reaction": "any",
+        "scene_key": "plush__feint"
+      },
+      {
+        "kind": "speech",
+        "subject_id": "person-952c631405e649fdb50c390881804977",
+        "mode": "tunnel",
+        "action": "direct",
+        "reaction": "any",
+        "scene_key": "tunnel__direct"
+      },
+      {
+        "kind": "speech",
+        "subject_id": "person-952c631405e649fdb50c390881804977",
+        "mode": "tunnel",
+        "action": "adapt",
+        "reaction": "any",
+        "scene_key": "tunnel__adapt"
+      },
+      {
+        "kind": "speech",
+        "subject_id": "person-952c631405e649fdb50c390881804977",
+        "mode": "tunnel",
+        "action": "intense",
+        "reaction": "any",
+        "scene_key": "tunnel__intense"
+      },
+      {
+        "kind": "speech",
+        "subject_id": "person-952c631405e649fdb50c390881804977",
+        "mode": "tunnel",
+        "action": "feint",
+        "reaction": "any",
+        "scene_key": "tunnel__feint"
+      },
+      {
+        "kind": "speech",
+        "subject_id": "person-952c631405e649fdb50c390881804977",
+        "mode": "brush",
+        "action": "direct",
+        "reaction": "any",
+        "scene_key": "brush__direct"
+      },
+      {
+        "kind": "speech",
+        "subject_id": "person-952c631405e649fdb50c390881804977",
+        "mode": "brush",
+        "action": "adapt",
+        "reaction": "any",
+        "scene_key": "brush__adapt"
+      },
+      {
+        "kind": "speech",
+        "subject_id": "person-952c631405e649fdb50c390881804977",
+        "mode": "voice",
+        "action": "direct",
+        "reaction": "any",
+        "scene_key": "voice__direct"
+      },
+      {
+        "kind": "speech",
+        "subject_id": "person-952c631405e649fdb50c390881804977",
+        "mode": "voice",
+        "action": "adapt",
+        "reaction": "any",
+        "scene_key": "voice__adapt"
+      },
+      {
+        "kind": "speech",
+        "subject_id": "person-952c631405e649fdb50c390881804977",
+        "mode": "presence",
+        "action": "direct",
+        "reaction": "any",
+        "scene_key": "presence__direct"
+      },
+      {
+        "kind": "speech",
+        "subject_id": "person-952c631405e649fdb50c390881804977",
+        "mode": "presence",
+        "action": "adapt",
+        "reaction": "any",
+        "scene_key": "presence__adapt"
+      },
+      {
+        "kind": "cat_response",
+        "subject_id": "cat-mike",
+        "mode": "pause",
+        "action": "pause",
+        "reaction": "listless",
+        "scene_key": "pause"
+      },
+      {
+        "kind": "cat_response",
+        "subject_id": "cat-52bb33a93ad94bb582a5304f64a75000",
+        "mode": "ball",
+        "action": "direct",
+        "reaction": "neutral",
+        "scene_key": "ball__direct"
+      },
+      {
+        "kind": "cat_response",
+        "subject_id": "cat-52bb33a93ad94bb582a5304f64a75000",
+        "mode": "ball",
+        "action": "direct",
+        "reaction": "favorable",
+        "scene_key": "ball__direct"
+      },
+      {
+        "kind": "cat_response",
+        "subject_id": "cat-52bb33a93ad94bb582a5304f64a75000",
+        "mode": "ball",
+        "action": "direct",
+        "reaction": "enthusiastic",
+        "scene_key": "ball__direct"
+      },
+      {
+        "kind": "cat_response",
+        "subject_id": "cat-52bb33a93ad94bb582a5304f64a75000",
+        "mode": "ball",
+        "action": "direct",
+        "reaction": "turn_away",
+        "scene_key": "ball__direct"
+      },
+      {
+        "kind": "cat_response",
+        "subject_id": "cat-52bb33a93ad94bb582a5304f64a75000",
+        "mode": "ball",
+        "action": "direct",
+        "reaction": "confused",
+        "scene_key": "ball__direct"
+      },
+      {
+        "kind": "cat_response",
+        "subject_id": "cat-52bb33a93ad94bb582a5304f64a75000",
+        "mode": "ball",
+        "action": "direct",
+        "reaction": "listless",
+        "scene_key": "ball__direct"
+      },
+      {
+        "kind": "cat_response",
+        "subject_id": "cat-52bb33a93ad94bb582a5304f64a75000",
+        "mode": "ball",
+        "action": "adapt",
+        "reaction": "neutral",
+        "scene_key": "ball__adapt"
+      },
+      {
+        "kind": "cat_response",
+        "subject_id": "cat-52bb33a93ad94bb582a5304f64a75000",
+        "mode": "ball",
+        "action": "adapt",
+        "reaction": "favorable",
+        "scene_key": "ball__adapt"
+      },
+      {
+        "kind": "cat_response",
+        "subject_id": "cat-52bb33a93ad94bb582a5304f64a75000",
+        "mode": "ball",
+        "action": "adapt",
+        "reaction": "enthusiastic",
+        "scene_key": "ball__adapt"
+      },
+      {
+        "kind": "cat_response",
+        "subject_id": "cat-52bb33a93ad94bb582a5304f64a75000",
+        "mode": "ball",
+        "action": "adapt",
+        "reaction": "turn_away",
+        "scene_key": "ball__adapt"
+      },
+      {
+        "kind": "cat_response",
+        "subject_id": "cat-52bb33a93ad94bb582a5304f64a75000",
+        "mode": "ball",
+        "action": "adapt",
+        "reaction": "confused",
+        "scene_key": "ball__adapt"
+      },
+      {
+        "kind": "cat_response",
+        "subject_id": "cat-52bb33a93ad94bb582a5304f64a75000",
+        "mode": "ball",
+        "action": "adapt",
+        "reaction": "listless",
+        "scene_key": "ball__adapt"
+      },
+      {
+        "kind": "cat_response",
+        "subject_id": "cat-52bb33a93ad94bb582a5304f64a75000",
+        "mode": "ball",
+        "action": "intense",
+        "reaction": "neutral",
+        "scene_key": "ball__intense"
+      },
+      {
+        "kind": "cat_response",
+        "subject_id": "cat-52bb33a93ad94bb582a5304f64a75000",
+        "mode": "ball",
+        "action": "intense",
+        "reaction": "favorable",
+        "scene_key": "ball__intense"
+      },
+      {
+        "kind": "cat_response",
+        "subject_id": "cat-52bb33a93ad94bb582a5304f64a75000",
+        "mode": "ball",
+        "action": "intense",
+        "reaction": "enthusiastic",
+        "scene_key": "ball__intense"
+      },
+      {
+        "kind": "cat_response",
+        "subject_id": "cat-52bb33a93ad94bb582a5304f64a75000",
+        "mode": "ball",
+        "action": "intense",
+        "reaction": "turn_away",
+        "scene_key": "ball__intense"
+      },
+      {
+        "kind": "cat_response",
+        "subject_id": "cat-52bb33a93ad94bb582a5304f64a75000",
+        "mode": "ball",
+        "action": "intense",
+        "reaction": "confused",
+        "scene_key": "ball__intense"
+      },
+      {
+        "kind": "cat_response",
+        "subject_id": "cat-52bb33a93ad94bb582a5304f64a75000",
+        "mode": "ball",
+        "action": "intense",
+        "reaction": "listless",
+        "scene_key": "ball__intense"
+      },
+      {
+        "kind": "cat_response",
+        "subject_id": "cat-52bb33a93ad94bb582a5304f64a75000",
+        "mode": "ball",
+        "action": "feint",
+        "reaction": "neutral",
+        "scene_key": "ball__feint"
+      },
+      {
+        "kind": "cat_response",
+        "subject_id": "cat-52bb33a93ad94bb582a5304f64a75000",
+        "mode": "ball",
+        "action": "feint",
+        "reaction": "favorable",
+        "scene_key": "ball__feint"
+      },
+      {
+        "kind": "cat_response",
+        "subject_id": "cat-52bb33a93ad94bb582a5304f64a75000",
+        "mode": "ball",
+        "action": "feint",
+        "reaction": "enthusiastic",
+        "scene_key": "ball__feint"
+      },
+      {
+        "kind": "cat_response",
+        "subject_id": "cat-52bb33a93ad94bb582a5304f64a75000",
+        "mode": "ball",
+        "action": "feint",
+        "reaction": "turn_away",
+        "scene_key": "ball__feint"
+      },
+      {
+        "kind": "cat_response",
+        "subject_id": "cat-52bb33a93ad94bb582a5304f64a75000",
+        "mode": "ball",
+        "action": "feint",
+        "reaction": "confused",
+        "scene_key": "ball__feint"
+      },
+      {
+        "kind": "cat_response",
+        "subject_id": "cat-52bb33a93ad94bb582a5304f64a75000",
+        "mode": "ball",
+        "action": "feint",
+        "reaction": "listless",
+        "scene_key": "ball__feint"
+      },
+      {
+        "kind": "cat_response",
+        "subject_id": "cat-52bb33a93ad94bb582a5304f64a75000",
+        "mode": "plush",
+        "action": "direct",
+        "reaction": "neutral",
+        "scene_key": "plush__direct"
+      },
+      {
+        "kind": "cat_response",
+        "subject_id": "cat-52bb33a93ad94bb582a5304f64a75000",
+        "mode": "plush",
+        "action": "direct",
+        "reaction": "favorable",
+        "scene_key": "plush__direct"
+      },
+      {
+        "kind": "cat_response",
+        "subject_id": "cat-52bb33a93ad94bb582a5304f64a75000",
+        "mode": "plush",
+        "action": "direct",
+        "reaction": "enthusiastic",
+        "scene_key": "plush__direct"
+      },
+      {
+        "kind": "cat_response",
+        "subject_id": "cat-52bb33a93ad94bb582a5304f64a75000",
+        "mode": "plush",
+        "action": "direct",
+        "reaction": "turn_away",
+        "scene_key": "plush__direct"
+      },
+      {
+        "kind": "cat_response",
+        "subject_id": "cat-52bb33a93ad94bb582a5304f64a75000",
+        "mode": "plush",
+        "action": "direct",
+        "reaction": "confused",
+        "scene_key": "plush__direct"
+      },
+      {
+        "kind": "cat_response",
+        "subject_id": "cat-52bb33a93ad94bb582a5304f64a75000",
+        "mode": "plush",
+        "action": "direct",
+        "reaction": "listless",
+        "scene_key": "plush__direct"
+      },
+      {
+        "kind": "cat_response",
+        "subject_id": "cat-52bb33a93ad94bb582a5304f64a75000",
+        "mode": "plush",
+        "action": "adapt",
+        "reaction": "neutral",
+        "scene_key": "plush__adapt"
+      },
+      {
+        "kind": "cat_response",
+        "subject_id": "cat-52bb33a93ad94bb582a5304f64a75000",
+        "mode": "plush",
+        "action": "adapt",
+        "reaction": "favorable",
+        "scene_key": "plush__adapt"
+      },
+      {
+        "kind": "cat_response",
+        "subject_id": "cat-52bb33a93ad94bb582a5304f64a75000",
+        "mode": "plush",
+        "action": "adapt",
+        "reaction": "enthusiastic",
+        "scene_key": "plush__adapt"
+      },
+      {
+        "kind": "cat_response",
+        "subject_id": "cat-52bb33a93ad94bb582a5304f64a75000",
+        "mode": "plush",
+        "action": "adapt",
+        "reaction": "turn_away",
+        "scene_key": "plush__adapt"
+      },
+      {
+        "kind": "cat_response",
+        "subject_id": "cat-52bb33a93ad94bb582a5304f64a75000",
+        "mode": "plush",
+        "action": "adapt",
+        "reaction": "confused",
+        "scene_key": "plush__adapt"
+      },
+      {
+        "kind": "cat_response",
+        "subject_id": "cat-52bb33a93ad94bb582a5304f64a75000",
+        "mode": "plush",
+        "action": "adapt",
+        "reaction": "listless",
+        "scene_key": "plush__adapt"
+      },
+      {
+        "kind": "cat_response",
+        "subject_id": "cat-52bb33a93ad94bb582a5304f64a75000",
+        "mode": "plush",
+        "action": "feint",
+        "reaction": "neutral",
+        "scene_key": "plush__feint"
+      },
+      {
+        "kind": "cat_response",
+        "subject_id": "cat-52bb33a93ad94bb582a5304f64a75000",
+        "mode": "plush",
+        "action": "feint",
+        "reaction": "favorable",
+        "scene_key": "plush__feint"
+      },
+      {
+        "kind": "cat_response",
+        "subject_id": "cat-52bb33a93ad94bb582a5304f64a75000",
+        "mode": "plush",
+        "action": "feint",
+        "reaction": "enthusiastic",
+        "scene_key": "plush__feint"
+      },
+      {
+        "kind": "cat_response",
+        "subject_id": "cat-52bb33a93ad94bb582a5304f64a75000",
+        "mode": "plush",
+        "action": "feint",
+        "reaction": "turn_away",
+        "scene_key": "plush__feint"
+      },
+      {
+        "kind": "cat_response",
+        "subject_id": "cat-52bb33a93ad94bb582a5304f64a75000",
+        "mode": "plush",
+        "action": "feint",
+        "reaction": "confused",
+        "scene_key": "plush__feint"
+      },
+      {
+        "kind": "cat_response",
+        "subject_id": "cat-52bb33a93ad94bb582a5304f64a75000",
+        "mode": "plush",
+        "action": "feint",
+        "reaction": "listless",
+        "scene_key": "plush__feint"
+      },
+      {
+        "kind": "cat_response",
+        "subject_id": "cat-52bb33a93ad94bb582a5304f64a75000",
+        "mode": "tunnel",
+        "action": "direct",
+        "reaction": "neutral",
+        "scene_key": "tunnel__direct"
+      },
+      {
+        "kind": "cat_response",
+        "subject_id": "cat-52bb33a93ad94bb582a5304f64a75000",
+        "mode": "tunnel",
+        "action": "direct",
+        "reaction": "favorable",
+        "scene_key": "tunnel__direct"
+      },
+      {
+        "kind": "cat_response",
+        "subject_id": "cat-52bb33a93ad94bb582a5304f64a75000",
+        "mode": "tunnel",
+        "action": "direct",
+        "reaction": "enthusiastic",
+        "scene_key": "tunnel__direct"
+      },
+      {
+        "kind": "cat_response",
+        "subject_id": "cat-52bb33a93ad94bb582a5304f64a75000",
+        "mode": "tunnel",
+        "action": "direct",
+        "reaction": "turn_away",
+        "scene_key": "tunnel__direct"
+      },
+      {
+        "kind": "cat_response",
+        "subject_id": "cat-52bb33a93ad94bb582a5304f64a75000",
+        "mode": "tunnel",
+        "action": "direct",
+        "reaction": "confused",
+        "scene_key": "tunnel__direct"
+      },
+      {
+        "kind": "cat_response",
+        "subject_id": "cat-52bb33a93ad94bb582a5304f64a75000",
+        "mode": "tunnel",
+        "action": "direct",
+        "reaction": "listless",
+        "scene_key": "tunnel__direct"
+      },
+      {
+        "kind": "cat_response",
+        "subject_id": "cat-52bb33a93ad94bb582a5304f64a75000",
+        "mode": "tunnel",
+        "action": "adapt",
+        "reaction": "neutral",
+        "scene_key": "tunnel__adapt"
+      },
+      {
+        "kind": "cat_response",
+        "subject_id": "cat-52bb33a93ad94bb582a5304f64a75000",
+        "mode": "tunnel",
+        "action": "adapt",
+        "reaction": "favorable",
+        "scene_key": "tunnel__adapt"
+      },
+      {
+        "kind": "cat_response",
+        "subject_id": "cat-52bb33a93ad94bb582a5304f64a75000",
+        "mode": "tunnel",
+        "action": "adapt",
+        "reaction": "enthusiastic",
+        "scene_key": "tunnel__adapt"
+      },
+      {
+        "kind": "cat_response",
+        "subject_id": "cat-52bb33a93ad94bb582a5304f64a75000",
+        "mode": "tunnel",
+        "action": "adapt",
+        "reaction": "turn_away",
+        "scene_key": "tunnel__adapt"
+      },
+      {
+        "kind": "cat_response",
+        "subject_id": "cat-52bb33a93ad94bb582a5304f64a75000",
+        "mode": "tunnel",
+        "action": "adapt",
+        "reaction": "confused",
+        "scene_key": "tunnel__adapt"
+      },
+      {
+        "kind": "cat_response",
+        "subject_id": "cat-52bb33a93ad94bb582a5304f64a75000",
+        "mode": "tunnel",
+        "action": "adapt",
+        "reaction": "listless",
+        "scene_key": "tunnel__adapt"
+      },
+      {
+        "kind": "cat_response",
+        "subject_id": "cat-52bb33a93ad94bb582a5304f64a75000",
+        "mode": "tunnel",
+        "action": "intense",
+        "reaction": "neutral",
+        "scene_key": "tunnel__intense"
+      },
+      {
+        "kind": "cat_response",
+        "subject_id": "cat-52bb33a93ad94bb582a5304f64a75000",
+        "mode": "tunnel",
+        "action": "intense",
+        "reaction": "favorable",
+        "scene_key": "tunnel__intense"
+      },
+      {
+        "kind": "cat_response",
+        "subject_id": "cat-52bb33a93ad94bb582a5304f64a75000",
+        "mode": "tunnel",
+        "action": "intense",
+        "reaction": "enthusiastic",
+        "scene_key": "tunnel__intense"
+      },
+      {
+        "kind": "cat_response",
+        "subject_id": "cat-52bb33a93ad94bb582a5304f64a75000",
+        "mode": "tunnel",
+        "action": "intense",
+        "reaction": "turn_away",
+        "scene_key": "tunnel__intense"
+      },
+      {
+        "kind": "cat_response",
+        "subject_id": "cat-52bb33a93ad94bb582a5304f64a75000",
+        "mode": "tunnel",
+        "action": "intense",
+        "reaction": "confused",
+        "scene_key": "tunnel__intense"
+      },
+      {
+        "kind": "cat_response",
+        "subject_id": "cat-52bb33a93ad94bb582a5304f64a75000",
+        "mode": "tunnel",
+        "action": "intense",
+        "reaction": "listless",
+        "scene_key": "tunnel__intense"
+      },
+      {
+        "kind": "cat_response",
+        "subject_id": "cat-52bb33a93ad94bb582a5304f64a75000",
+        "mode": "tunnel",
+        "action": "feint",
+        "reaction": "neutral",
+        "scene_key": "tunnel__feint"
+      },
+      {
+        "kind": "cat_response",
+        "subject_id": "cat-52bb33a93ad94bb582a5304f64a75000",
+        "mode": "tunnel",
+        "action": "feint",
+        "reaction": "favorable",
+        "scene_key": "tunnel__feint"
+      },
+      {
+        "kind": "cat_response",
+        "subject_id": "cat-52bb33a93ad94bb582a5304f64a75000",
+        "mode": "tunnel",
+        "action": "feint",
+        "reaction": "enthusiastic",
+        "scene_key": "tunnel__feint"
+      },
+      {
+        "kind": "cat_response",
+        "subject_id": "cat-52bb33a93ad94bb582a5304f64a75000",
+        "mode": "tunnel",
+        "action": "feint",
+        "reaction": "turn_away",
+        "scene_key": "tunnel__feint"
+      },
+      {
+        "kind": "cat_response",
+        "subject_id": "cat-52bb33a93ad94bb582a5304f64a75000",
+        "mode": "tunnel",
+        "action": "feint",
+        "reaction": "confused",
+        "scene_key": "tunnel__feint"
+      },
+      {
+        "kind": "cat_response",
+        "subject_id": "cat-52bb33a93ad94bb582a5304f64a75000",
+        "mode": "tunnel",
+        "action": "feint",
+        "reaction": "listless",
+        "scene_key": "tunnel__feint"
+      },
+      {
+        "kind": "cat_response",
+        "subject_id": "cat-52bb33a93ad94bb582a5304f64a75000",
+        "mode": "brush",
+        "action": "direct",
+        "reaction": "neutral",
+        "scene_key": "brush__direct"
+      },
+      {
+        "kind": "cat_response",
+        "subject_id": "cat-52bb33a93ad94bb582a5304f64a75000",
+        "mode": "brush",
+        "action": "direct",
+        "reaction": "favorable",
+        "scene_key": "brush__direct"
+      },
+      {
+        "kind": "cat_response",
+        "subject_id": "cat-52bb33a93ad94bb582a5304f64a75000",
+        "mode": "brush",
+        "action": "direct",
+        "reaction": "enthusiastic",
+        "scene_key": "brush__direct"
+      },
+      {
+        "kind": "cat_response",
+        "subject_id": "cat-52bb33a93ad94bb582a5304f64a75000",
+        "mode": "brush",
+        "action": "direct",
+        "reaction": "turn_away",
+        "scene_key": "brush__direct"
+      },
+      {
+        "kind": "cat_response",
+        "subject_id": "cat-52bb33a93ad94bb582a5304f64a75000",
+        "mode": "brush",
+        "action": "direct",
+        "reaction": "confused",
+        "scene_key": "brush__direct"
+      },
+      {
+        "kind": "cat_response",
+        "subject_id": "cat-52bb33a93ad94bb582a5304f64a75000",
+        "mode": "brush",
+        "action": "direct",
+        "reaction": "listless",
+        "scene_key": "brush__direct"
+      },
+      {
+        "kind": "cat_response",
+        "subject_id": "cat-52bb33a93ad94bb582a5304f64a75000",
+        "mode": "brush",
+        "action": "adapt",
+        "reaction": "neutral",
+        "scene_key": "brush__adapt"
+      },
+      {
+        "kind": "cat_response",
+        "subject_id": "cat-52bb33a93ad94bb582a5304f64a75000",
+        "mode": "brush",
+        "action": "adapt",
+        "reaction": "favorable",
+        "scene_key": "brush__adapt"
+      },
+      {
+        "kind": "cat_response",
+        "subject_id": "cat-52bb33a93ad94bb582a5304f64a75000",
+        "mode": "brush",
+        "action": "adapt",
+        "reaction": "enthusiastic",
+        "scene_key": "brush__adapt"
+      },
+      {
+        "kind": "cat_response",
+        "subject_id": "cat-52bb33a93ad94bb582a5304f64a75000",
+        "mode": "brush",
+        "action": "adapt",
+        "reaction": "turn_away",
+        "scene_key": "brush__adapt"
+      },
+      {
+        "kind": "cat_response",
+        "subject_id": "cat-52bb33a93ad94bb582a5304f64a75000",
+        "mode": "brush",
+        "action": "adapt",
+        "reaction": "confused",
+        "scene_key": "brush__adapt"
+      },
+      {
+        "kind": "cat_response",
+        "subject_id": "cat-52bb33a93ad94bb582a5304f64a75000",
+        "mode": "brush",
+        "action": "adapt",
+        "reaction": "listless",
+        "scene_key": "brush__adapt"
+      },
+      {
+        "kind": "cat_response",
+        "subject_id": "cat-52bb33a93ad94bb582a5304f64a75000",
+        "mode": "voice",
+        "action": "direct",
+        "reaction": "neutral",
+        "scene_key": "voice__direct"
+      },
+      {
+        "kind": "cat_response",
+        "subject_id": "cat-52bb33a93ad94bb582a5304f64a75000",
+        "mode": "voice",
+        "action": "direct",
+        "reaction": "favorable",
+        "scene_key": "voice__direct"
+      },
+      {
+        "kind": "cat_response",
+        "subject_id": "cat-52bb33a93ad94bb582a5304f64a75000",
+        "mode": "voice",
+        "action": "direct",
+        "reaction": "enthusiastic",
+        "scene_key": "voice__direct"
+      },
+      {
+        "kind": "cat_response",
+        "subject_id": "cat-52bb33a93ad94bb582a5304f64a75000",
+        "mode": "voice",
+        "action": "direct",
+        "reaction": "turn_away",
+        "scene_key": "voice__direct"
+      },
+      {
+        "kind": "cat_response",
+        "subject_id": "cat-52bb33a93ad94bb582a5304f64a75000",
+        "mode": "voice",
+        "action": "direct",
+        "reaction": "confused",
+        "scene_key": "voice__direct"
+      },
+      {
+        "kind": "cat_response",
+        "subject_id": "cat-52bb33a93ad94bb582a5304f64a75000",
+        "mode": "voice",
+        "action": "direct",
+        "reaction": "listless",
+        "scene_key": "voice__direct"
+      },
+      {
+        "kind": "cat_response",
+        "subject_id": "cat-52bb33a93ad94bb582a5304f64a75000",
+        "mode": "voice",
+        "action": "adapt",
+        "reaction": "neutral",
+        "scene_key": "voice__adapt"
+      },
+      {
+        "kind": "cat_response",
+        "subject_id": "cat-52bb33a93ad94bb582a5304f64a75000",
+        "mode": "voice",
+        "action": "adapt",
+        "reaction": "favorable",
+        "scene_key": "voice__adapt"
+      },
+      {
+        "kind": "cat_response",
+        "subject_id": "cat-52bb33a93ad94bb582a5304f64a75000",
+        "mode": "voice",
+        "action": "adapt",
+        "reaction": "enthusiastic",
+        "scene_key": "voice__adapt"
+      },
+      {
+        "kind": "cat_response",
+        "subject_id": "cat-52bb33a93ad94bb582a5304f64a75000",
+        "mode": "voice",
+        "action": "adapt",
+        "reaction": "turn_away",
+        "scene_key": "voice__adapt"
+      },
+      {
+        "kind": "cat_response",
+        "subject_id": "cat-52bb33a93ad94bb582a5304f64a75000",
+        "mode": "voice",
+        "action": "adapt",
+        "reaction": "confused",
+        "scene_key": "voice__adapt"
+      },
+      {
+        "kind": "cat_response",
+        "subject_id": "cat-52bb33a93ad94bb582a5304f64a75000",
+        "mode": "voice",
+        "action": "adapt",
+        "reaction": "listless",
+        "scene_key": "voice__adapt"
+      },
+      {
+        "kind": "cat_response",
+        "subject_id": "cat-52bb33a93ad94bb582a5304f64a75000",
+        "mode": "presence",
+        "action": "direct",
+        "reaction": "neutral",
+        "scene_key": "presence__direct"
+      },
+      {
+        "kind": "cat_response",
+        "subject_id": "cat-52bb33a93ad94bb582a5304f64a75000",
+        "mode": "presence",
+        "action": "direct",
+        "reaction": "favorable",
+        "scene_key": "presence__direct"
+      },
+      {
+        "kind": "cat_response",
+        "subject_id": "cat-52bb33a93ad94bb582a5304f64a75000",
+        "mode": "presence",
+        "action": "direct",
+        "reaction": "enthusiastic",
+        "scene_key": "presence__direct"
+      },
+      {
+        "kind": "cat_response",
+        "subject_id": "cat-52bb33a93ad94bb582a5304f64a75000",
+        "mode": "presence",
+        "action": "direct",
+        "reaction": "turn_away",
+        "scene_key": "presence__direct"
+      },
+      {
+        "kind": "cat_response",
+        "subject_id": "cat-52bb33a93ad94bb582a5304f64a75000",
+        "mode": "presence",
+        "action": "direct",
+        "reaction": "confused",
+        "scene_key": "presence__direct"
+      },
+      {
+        "kind": "cat_response",
+        "subject_id": "cat-52bb33a93ad94bb582a5304f64a75000",
+        "mode": "presence",
+        "action": "direct",
+        "reaction": "listless",
+        "scene_key": "presence__direct"
+      },
+      {
+        "kind": "cat_response",
+        "subject_id": "cat-52bb33a93ad94bb582a5304f64a75000",
+        "mode": "presence",
+        "action": "adapt",
+        "reaction": "neutral",
+        "scene_key": "presence__adapt"
+      },
+      {
+        "kind": "cat_response",
+        "subject_id": "cat-52bb33a93ad94bb582a5304f64a75000",
+        "mode": "presence",
+        "action": "adapt",
+        "reaction": "favorable",
+        "scene_key": "presence__adapt"
+      },
+      {
+        "kind": "cat_response",
+        "subject_id": "cat-52bb33a93ad94bb582a5304f64a75000",
+        "mode": "presence",
+        "action": "adapt",
+        "reaction": "enthusiastic",
+        "scene_key": "presence__adapt"
+      },
+      {
+        "kind": "cat_response",
+        "subject_id": "cat-52bb33a93ad94bb582a5304f64a75000",
+        "mode": "presence",
+        "action": "adapt",
+        "reaction": "turn_away",
+        "scene_key": "presence__adapt"
+      },
+      {
+        "kind": "cat_response",
+        "subject_id": "cat-52bb33a93ad94bb582a5304f64a75000",
+        "mode": "presence",
+        "action": "adapt",
+        "reaction": "confused",
+        "scene_key": "presence__adapt"
+      },
+      {
+        "kind": "cat_response",
+        "subject_id": "cat-52bb33a93ad94bb582a5304f64a75000",
+        "mode": "presence",
+        "action": "adapt",
+        "reaction": "listless",
+        "scene_key": "presence__adapt"
+      },
+      {
+        "kind": "cat_response",
+        "subject_id": "cat-63894eff20794809aa5255290c1ae81e",
+        "mode": "ball",
+        "action": "direct",
+        "reaction": "neutral",
+        "scene_key": "ball__direct"
+      },
+      {
+        "kind": "cat_response",
+        "subject_id": "cat-63894eff20794809aa5255290c1ae81e",
+        "mode": "ball",
+        "action": "direct",
+        "reaction": "favorable",
+        "scene_key": "ball__direct"
+      },
+      {
+        "kind": "cat_response",
+        "subject_id": "cat-63894eff20794809aa5255290c1ae81e",
+        "mode": "ball",
+        "action": "direct",
+        "reaction": "enthusiastic",
+        "scene_key": "ball__direct"
+      },
+      {
+        "kind": "cat_response",
+        "subject_id": "cat-63894eff20794809aa5255290c1ae81e",
+        "mode": "ball",
+        "action": "direct",
+        "reaction": "turn_away",
+        "scene_key": "ball__direct"
+      },
+      {
+        "kind": "cat_response",
+        "subject_id": "cat-63894eff20794809aa5255290c1ae81e",
+        "mode": "ball",
+        "action": "direct",
+        "reaction": "confused",
+        "scene_key": "ball__direct"
+      },
+      {
+        "kind": "cat_response",
+        "subject_id": "cat-63894eff20794809aa5255290c1ae81e",
+        "mode": "ball",
+        "action": "direct",
+        "reaction": "listless",
+        "scene_key": "ball__direct"
+      },
+      {
+        "kind": "cat_response",
+        "subject_id": "cat-63894eff20794809aa5255290c1ae81e",
+        "mode": "ball",
+        "action": "adapt",
+        "reaction": "neutral",
+        "scene_key": "ball__adapt"
+      },
+      {
+        "kind": "cat_response",
+        "subject_id": "cat-63894eff20794809aa5255290c1ae81e",
+        "mode": "ball",
+        "action": "adapt",
+        "reaction": "favorable",
+        "scene_key": "ball__adapt"
+      },
+      {
+        "kind": "cat_response",
+        "subject_id": "cat-63894eff20794809aa5255290c1ae81e",
+        "mode": "ball",
+        "action": "adapt",
+        "reaction": "enthusiastic",
+        "scene_key": "ball__adapt"
+      },
+      {
+        "kind": "cat_response",
+        "subject_id": "cat-63894eff20794809aa5255290c1ae81e",
+        "mode": "ball",
+        "action": "adapt",
+        "reaction": "turn_away",
+        "scene_key": "ball__adapt"
+      },
+      {
+        "kind": "cat_response",
+        "subject_id": "cat-63894eff20794809aa5255290c1ae81e",
+        "mode": "ball",
+        "action": "adapt",
+        "reaction": "confused",
+        "scene_key": "ball__adapt"
+      },
+      {
+        "kind": "cat_response",
+        "subject_id": "cat-63894eff20794809aa5255290c1ae81e",
+        "mode": "ball",
+        "action": "adapt",
+        "reaction": "listless",
+        "scene_key": "ball__adapt"
+      },
+      {
+        "kind": "cat_response",
+        "subject_id": "cat-63894eff20794809aa5255290c1ae81e",
+        "mode": "ball",
+        "action": "intense",
+        "reaction": "neutral",
+        "scene_key": "ball__intense"
+      },
+      {
+        "kind": "cat_response",
+        "subject_id": "cat-63894eff20794809aa5255290c1ae81e",
+        "mode": "ball",
+        "action": "intense",
+        "reaction": "favorable",
+        "scene_key": "ball__intense"
+      },
+      {
+        "kind": "cat_response",
+        "subject_id": "cat-63894eff20794809aa5255290c1ae81e",
+        "mode": "ball",
+        "action": "intense",
+        "reaction": "enthusiastic",
+        "scene_key": "ball__intense"
+      },
+      {
+        "kind": "cat_response",
+        "subject_id": "cat-63894eff20794809aa5255290c1ae81e",
+        "mode": "ball",
+        "action": "intense",
+        "reaction": "turn_away",
+        "scene_key": "ball__intense"
+      },
+      {
+        "kind": "cat_response",
+        "subject_id": "cat-63894eff20794809aa5255290c1ae81e",
+        "mode": "ball",
+        "action": "intense",
+        "reaction": "confused",
+        "scene_key": "ball__intense"
+      },
+      {
+        "kind": "cat_response",
+        "subject_id": "cat-63894eff20794809aa5255290c1ae81e",
+        "mode": "ball",
+        "action": "intense",
+        "reaction": "listless",
+        "scene_key": "ball__intense"
+      },
+      {
+        "kind": "cat_response",
+        "subject_id": "cat-63894eff20794809aa5255290c1ae81e",
+        "mode": "ball",
+        "action": "feint",
+        "reaction": "neutral",
+        "scene_key": "ball__feint"
+      },
+      {
+        "kind": "cat_response",
+        "subject_id": "cat-63894eff20794809aa5255290c1ae81e",
+        "mode": "ball",
+        "action": "feint",
+        "reaction": "favorable",
+        "scene_key": "ball__feint"
+      },
+      {
+        "kind": "cat_response",
+        "subject_id": "cat-63894eff20794809aa5255290c1ae81e",
+        "mode": "ball",
+        "action": "feint",
+        "reaction": "enthusiastic",
+        "scene_key": "ball__feint"
+      },
+      {
+        "kind": "cat_response",
+        "subject_id": "cat-63894eff20794809aa5255290c1ae81e",
+        "mode": "ball",
+        "action": "feint",
+        "reaction": "turn_away",
+        "scene_key": "ball__feint"
+      },
+      {
+        "kind": "cat_response",
+        "subject_id": "cat-63894eff20794809aa5255290c1ae81e",
+        "mode": "ball",
+        "action": "feint",
+        "reaction": "confused",
+        "scene_key": "ball__feint"
+      },
+      {
+        "kind": "cat_response",
+        "subject_id": "cat-63894eff20794809aa5255290c1ae81e",
+        "mode": "ball",
+        "action": "feint",
+        "reaction": "listless",
+        "scene_key": "ball__feint"
+      },
+      {
+        "kind": "cat_response",
+        "subject_id": "cat-63894eff20794809aa5255290c1ae81e",
+        "mode": "plush",
+        "action": "direct",
+        "reaction": "neutral",
+        "scene_key": "plush__direct"
+      },
+      {
+        "kind": "cat_response",
+        "subject_id": "cat-63894eff20794809aa5255290c1ae81e",
+        "mode": "plush",
+        "action": "direct",
+        "reaction": "favorable",
+        "scene_key": "plush__direct"
+      },
+      {
+        "kind": "cat_response",
+        "subject_id": "cat-63894eff20794809aa5255290c1ae81e",
+        "mode": "plush",
+        "action": "direct",
+        "reaction": "enthusiastic",
+        "scene_key": "plush__direct"
+      },
+      {
+        "kind": "cat_response",
+        "subject_id": "cat-63894eff20794809aa5255290c1ae81e",
+        "mode": "plush",
+        "action": "direct",
+        "reaction": "turn_away",
+        "scene_key": "plush__direct"
+      },
+      {
+        "kind": "cat_response",
+        "subject_id": "cat-63894eff20794809aa5255290c1ae81e",
+        "mode": "plush",
+        "action": "direct",
+        "reaction": "confused",
+        "scene_key": "plush__direct"
+      },
+      {
+        "kind": "cat_response",
+        "subject_id": "cat-63894eff20794809aa5255290c1ae81e",
+        "mode": "plush",
+        "action": "direct",
+        "reaction": "listless",
+        "scene_key": "plush__direct"
+      },
+      {
+        "kind": "cat_response",
+        "subject_id": "cat-63894eff20794809aa5255290c1ae81e",
+        "mode": "plush",
+        "action": "adapt",
+        "reaction": "neutral",
+        "scene_key": "plush__adapt"
+      },
+      {
+        "kind": "cat_response",
+        "subject_id": "cat-63894eff20794809aa5255290c1ae81e",
+        "mode": "plush",
+        "action": "adapt",
+        "reaction": "favorable",
+        "scene_key": "plush__adapt"
+      },
+      {
+        "kind": "cat_response",
+        "subject_id": "cat-63894eff20794809aa5255290c1ae81e",
+        "mode": "plush",
+        "action": "adapt",
+        "reaction": "enthusiastic",
+        "scene_key": "plush__adapt"
+      },
+      {
+        "kind": "cat_response",
+        "subject_id": "cat-63894eff20794809aa5255290c1ae81e",
+        "mode": "plush",
+        "action": "adapt",
+        "reaction": "turn_away",
+        "scene_key": "plush__adapt"
+      },
+      {
+        "kind": "cat_response",
+        "subject_id": "cat-63894eff20794809aa5255290c1ae81e",
+        "mode": "plush",
+        "action": "adapt",
+        "reaction": "confused",
+        "scene_key": "plush__adapt"
+      },
+      {
+        "kind": "cat_response",
+        "subject_id": "cat-63894eff20794809aa5255290c1ae81e",
+        "mode": "plush",
+        "action": "adapt",
+        "reaction": "listless",
+        "scene_key": "plush__adapt"
+      },
+      {
+        "kind": "cat_response",
+        "subject_id": "cat-63894eff20794809aa5255290c1ae81e",
+        "mode": "plush",
+        "action": "feint",
+        "reaction": "neutral",
+        "scene_key": "plush__feint"
+      },
+      {
+        "kind": "cat_response",
+        "subject_id": "cat-63894eff20794809aa5255290c1ae81e",
+        "mode": "plush",
+        "action": "feint",
+        "reaction": "favorable",
+        "scene_key": "plush__feint"
+      },
+      {
+        "kind": "cat_response",
+        "subject_id": "cat-63894eff20794809aa5255290c1ae81e",
+        "mode": "plush",
+        "action": "feint",
+        "reaction": "enthusiastic",
+        "scene_key": "plush__feint"
+      },
+      {
+        "kind": "cat_response",
+        "subject_id": "cat-63894eff20794809aa5255290c1ae81e",
+        "mode": "plush",
+        "action": "feint",
+        "reaction": "turn_away",
+        "scene_key": "plush__feint"
+      },
+      {
+        "kind": "cat_response",
+        "subject_id": "cat-63894eff20794809aa5255290c1ae81e",
+        "mode": "plush",
+        "action": "feint",
+        "reaction": "confused",
+        "scene_key": "plush__feint"
+      },
+      {
+        "kind": "cat_response",
+        "subject_id": "cat-63894eff20794809aa5255290c1ae81e",
+        "mode": "plush",
+        "action": "feint",
+        "reaction": "listless",
+        "scene_key": "plush__feint"
+      },
+      {
+        "kind": "cat_response",
+        "subject_id": "cat-63894eff20794809aa5255290c1ae81e",
+        "mode": "tunnel",
+        "action": "direct",
+        "reaction": "neutral",
+        "scene_key": "tunnel__direct"
+      },
+      {
+        "kind": "cat_response",
+        "subject_id": "cat-63894eff20794809aa5255290c1ae81e",
+        "mode": "tunnel",
+        "action": "direct",
+        "reaction": "favorable",
+        "scene_key": "tunnel__direct"
+      },
+      {
+        "kind": "cat_response",
+        "subject_id": "cat-63894eff20794809aa5255290c1ae81e",
+        "mode": "tunnel",
+        "action": "direct",
+        "reaction": "enthusiastic",
+        "scene_key": "tunnel__direct"
+      },
+      {
+        "kind": "cat_response",
+        "subject_id": "cat-63894eff20794809aa5255290c1ae81e",
+        "mode": "tunnel",
+        "action": "direct",
+        "reaction": "turn_away",
+        "scene_key": "tunnel__direct"
+      },
+      {
+        "kind": "cat_response",
+        "subject_id": "cat-63894eff20794809aa5255290c1ae81e",
+        "mode": "tunnel",
+        "action": "direct",
+        "reaction": "confused",
+        "scene_key": "tunnel__direct"
+      },
+      {
+        "kind": "cat_response",
+        "subject_id": "cat-63894eff20794809aa5255290c1ae81e",
+        "mode": "tunnel",
+        "action": "direct",
+        "reaction": "listless",
+        "scene_key": "tunnel__direct"
+      },
+      {
+        "kind": "cat_response",
+        "subject_id": "cat-63894eff20794809aa5255290c1ae81e",
+        "mode": "tunnel",
+        "action": "adapt",
+        "reaction": "neutral",
+        "scene_key": "tunnel__adapt"
+      },
+      {
+        "kind": "cat_response",
+        "subject_id": "cat-63894eff20794809aa5255290c1ae81e",
+        "mode": "tunnel",
+        "action": "adapt",
+        "reaction": "favorable",
+        "scene_key": "tunnel__adapt"
+      },
+      {
+        "kind": "cat_response",
+        "subject_id": "cat-63894eff20794809aa5255290c1ae81e",
+        "mode": "tunnel",
+        "action": "adapt",
+        "reaction": "enthusiastic",
+        "scene_key": "tunnel__adapt"
+      },
+      {
+        "kind": "cat_response",
+        "subject_id": "cat-63894eff20794809aa5255290c1ae81e",
+        "mode": "tunnel",
+        "action": "adapt",
+        "reaction": "turn_away",
+        "scene_key": "tunnel__adapt"
+      },
+      {
+        "kind": "cat_response",
+        "subject_id": "cat-63894eff20794809aa5255290c1ae81e",
+        "mode": "tunnel",
+        "action": "adapt",
+        "reaction": "confused",
+        "scene_key": "tunnel__adapt"
+      },
+      {
+        "kind": "cat_response",
+        "subject_id": "cat-63894eff20794809aa5255290c1ae81e",
+        "mode": "tunnel",
+        "action": "adapt",
+        "reaction": "listless",
+        "scene_key": "tunnel__adapt"
+      },
+      {
+        "kind": "cat_response",
+        "subject_id": "cat-63894eff20794809aa5255290c1ae81e",
+        "mode": "tunnel",
+        "action": "intense",
+        "reaction": "neutral",
+        "scene_key": "tunnel__intense"
+      },
+      {
+        "kind": "cat_response",
+        "subject_id": "cat-63894eff20794809aa5255290c1ae81e",
+        "mode": "tunnel",
+        "action": "intense",
+        "reaction": "favorable",
+        "scene_key": "tunnel__intense"
+      },
+      {
+        "kind": "cat_response",
+        "subject_id": "cat-63894eff20794809aa5255290c1ae81e",
+        "mode": "tunnel",
+        "action": "intense",
+        "reaction": "enthusiastic",
+        "scene_key": "tunnel__intense"
+      },
+      {
+        "kind": "cat_response",
+        "subject_id": "cat-63894eff20794809aa5255290c1ae81e",
+        "mode": "tunnel",
+        "action": "intense",
+        "reaction": "turn_away",
+        "scene_key": "tunnel__intense"
+      },
+      {
+        "kind": "cat_response",
+        "subject_id": "cat-63894eff20794809aa5255290c1ae81e",
+        "mode": "tunnel",
+        "action": "intense",
+        "reaction": "confused",
+        "scene_key": "tunnel__intense"
+      },
+      {
+        "kind": "cat_response",
+        "subject_id": "cat-63894eff20794809aa5255290c1ae81e",
+        "mode": "tunnel",
+        "action": "intense",
+        "reaction": "listless",
+        "scene_key": "tunnel__intense"
+      },
+      {
+        "kind": "cat_response",
+        "subject_id": "cat-63894eff20794809aa5255290c1ae81e",
+        "mode": "tunnel",
+        "action": "feint",
+        "reaction": "neutral",
+        "scene_key": "tunnel__feint"
+      },
+      {
+        "kind": "cat_response",
+        "subject_id": "cat-63894eff20794809aa5255290c1ae81e",
+        "mode": "tunnel",
+        "action": "feint",
+        "reaction": "favorable",
+        "scene_key": "tunnel__feint"
+      },
+      {
+        "kind": "cat_response",
+        "subject_id": "cat-63894eff20794809aa5255290c1ae81e",
+        "mode": "tunnel",
+        "action": "feint",
+        "reaction": "enthusiastic",
+        "scene_key": "tunnel__feint"
+      },
+      {
+        "kind": "cat_response",
+        "subject_id": "cat-63894eff20794809aa5255290c1ae81e",
+        "mode": "tunnel",
+        "action": "feint",
+        "reaction": "turn_away",
+        "scene_key": "tunnel__feint"
+      },
+      {
+        "kind": "cat_response",
+        "subject_id": "cat-63894eff20794809aa5255290c1ae81e",
+        "mode": "tunnel",
+        "action": "feint",
+        "reaction": "confused",
+        "scene_key": "tunnel__feint"
+      },
+      {
+        "kind": "cat_response",
+        "subject_id": "cat-63894eff20794809aa5255290c1ae81e",
+        "mode": "tunnel",
+        "action": "feint",
+        "reaction": "listless",
+        "scene_key": "tunnel__feint"
+      },
+      {
+        "kind": "cat_response",
+        "subject_id": "cat-63894eff20794809aa5255290c1ae81e",
+        "mode": "brush",
+        "action": "direct",
+        "reaction": "neutral",
+        "scene_key": "brush__direct"
+      },
+      {
+        "kind": "cat_response",
+        "subject_id": "cat-63894eff20794809aa5255290c1ae81e",
+        "mode": "brush",
+        "action": "direct",
+        "reaction": "favorable",
+        "scene_key": "brush__direct"
+      },
+      {
+        "kind": "cat_response",
+        "subject_id": "cat-63894eff20794809aa5255290c1ae81e",
+        "mode": "brush",
+        "action": "direct",
+        "reaction": "enthusiastic",
+        "scene_key": "brush__direct"
+      },
+      {
+        "kind": "cat_response",
+        "subject_id": "cat-63894eff20794809aa5255290c1ae81e",
+        "mode": "brush",
+        "action": "direct",
+        "reaction": "turn_away",
+        "scene_key": "brush__direct"
+      },
+      {
+        "kind": "cat_response",
+        "subject_id": "cat-63894eff20794809aa5255290c1ae81e",
+        "mode": "brush",
+        "action": "direct",
+        "reaction": "confused",
+        "scene_key": "brush__direct"
+      },
+      {
+        "kind": "cat_response",
+        "subject_id": "cat-63894eff20794809aa5255290c1ae81e",
+        "mode": "brush",
+        "action": "direct",
+        "reaction": "listless",
+        "scene_key": "brush__direct"
+      },
+      {
+        "kind": "cat_response",
+        "subject_id": "cat-63894eff20794809aa5255290c1ae81e",
+        "mode": "brush",
+        "action": "adapt",
+        "reaction": "neutral",
+        "scene_key": "brush__adapt"
+      },
+      {
+        "kind": "cat_response",
+        "subject_id": "cat-63894eff20794809aa5255290c1ae81e",
+        "mode": "brush",
+        "action": "adapt",
+        "reaction": "favorable",
+        "scene_key": "brush__adapt"
+      },
+      {
+        "kind": "cat_response",
+        "subject_id": "cat-63894eff20794809aa5255290c1ae81e",
+        "mode": "brush",
+        "action": "adapt",
+        "reaction": "enthusiastic",
+        "scene_key": "brush__adapt"
+      },
+      {
+        "kind": "cat_response",
+        "subject_id": "cat-63894eff20794809aa5255290c1ae81e",
+        "mode": "brush",
+        "action": "adapt",
+        "reaction": "turn_away",
+        "scene_key": "brush__adapt"
+      },
+      {
+        "kind": "cat_response",
+        "subject_id": "cat-63894eff20794809aa5255290c1ae81e",
+        "mode": "brush",
+        "action": "adapt",
+        "reaction": "confused",
+        "scene_key": "brush__adapt"
+      },
+      {
+        "kind": "cat_response",
+        "subject_id": "cat-63894eff20794809aa5255290c1ae81e",
+        "mode": "brush",
+        "action": "adapt",
+        "reaction": "listless",
+        "scene_key": "brush__adapt"
+      },
+      {
+        "kind": "cat_response",
+        "subject_id": "cat-63894eff20794809aa5255290c1ae81e",
+        "mode": "voice",
+        "action": "direct",
+        "reaction": "neutral",
+        "scene_key": "voice__direct"
+      },
+      {
+        "kind": "cat_response",
+        "subject_id": "cat-63894eff20794809aa5255290c1ae81e",
+        "mode": "voice",
+        "action": "direct",
+        "reaction": "favorable",
+        "scene_key": "voice__direct"
+      },
+      {
+        "kind": "cat_response",
+        "subject_id": "cat-63894eff20794809aa5255290c1ae81e",
+        "mode": "voice",
+        "action": "direct",
+        "reaction": "enthusiastic",
+        "scene_key": "voice__direct"
+      },
+      {
+        "kind": "cat_response",
+        "subject_id": "cat-63894eff20794809aa5255290c1ae81e",
+        "mode": "voice",
+        "action": "direct",
+        "reaction": "turn_away",
+        "scene_key": "voice__direct"
+      },
+      {
+        "kind": "cat_response",
+        "subject_id": "cat-63894eff20794809aa5255290c1ae81e",
+        "mode": "voice",
+        "action": "direct",
+        "reaction": "confused",
+        "scene_key": "voice__direct"
+      },
+      {
+        "kind": "cat_response",
+        "subject_id": "cat-63894eff20794809aa5255290c1ae81e",
+        "mode": "voice",
+        "action": "direct",
+        "reaction": "listless",
+        "scene_key": "voice__direct"
+      },
+      {
+        "kind": "cat_response",
+        "subject_id": "cat-63894eff20794809aa5255290c1ae81e",
+        "mode": "voice",
+        "action": "adapt",
+        "reaction": "neutral",
+        "scene_key": "voice__adapt"
+      },
+      {
+        "kind": "cat_response",
+        "subject_id": "cat-63894eff20794809aa5255290c1ae81e",
+        "mode": "voice",
+        "action": "adapt",
+        "reaction": "favorable",
+        "scene_key": "voice__adapt"
+      },
+      {
+        "kind": "cat_response",
+        "subject_id": "cat-63894eff20794809aa5255290c1ae81e",
+        "mode": "voice",
+        "action": "adapt",
+        "reaction": "enthusiastic",
+        "scene_key": "voice__adapt"
+      },
+      {
+        "kind": "cat_response",
+        "subject_id": "cat-63894eff20794809aa5255290c1ae81e",
+        "mode": "voice",
+        "action": "adapt",
+        "reaction": "turn_away",
+        "scene_key": "voice__adapt"
+      },
+      {
+        "kind": "cat_response",
+        "subject_id": "cat-63894eff20794809aa5255290c1ae81e",
+        "mode": "voice",
+        "action": "adapt",
+        "reaction": "confused",
+        "scene_key": "voice__adapt"
+      },
+      {
+        "kind": "cat_response",
+        "subject_id": "cat-63894eff20794809aa5255290c1ae81e",
+        "mode": "voice",
+        "action": "adapt",
+        "reaction": "listless",
+        "scene_key": "voice__adapt"
+      },
+      {
+        "kind": "cat_response",
+        "subject_id": "cat-63894eff20794809aa5255290c1ae81e",
+        "mode": "presence",
+        "action": "direct",
+        "reaction": "neutral",
+        "scene_key": "presence__direct"
+      },
+      {
+        "kind": "cat_response",
+        "subject_id": "cat-63894eff20794809aa5255290c1ae81e",
+        "mode": "presence",
+        "action": "direct",
+        "reaction": "favorable",
+        "scene_key": "presence__direct"
+      },
+      {
+        "kind": "cat_response",
+        "subject_id": "cat-63894eff20794809aa5255290c1ae81e",
+        "mode": "presence",
+        "action": "direct",
+        "reaction": "enthusiastic",
+        "scene_key": "presence__direct"
+      },
+      {
+        "kind": "cat_response",
+        "subject_id": "cat-63894eff20794809aa5255290c1ae81e",
+        "mode": "presence",
+        "action": "direct",
+        "reaction": "turn_away",
+        "scene_key": "presence__direct"
+      },
+      {
+        "kind": "cat_response",
+        "subject_id": "cat-63894eff20794809aa5255290c1ae81e",
+        "mode": "presence",
+        "action": "direct",
+        "reaction": "confused",
+        "scene_key": "presence__direct"
+      },
+      {
+        "kind": "cat_response",
+        "subject_id": "cat-63894eff20794809aa5255290c1ae81e",
+        "mode": "presence",
+        "action": "direct",
+        "reaction": "listless",
+        "scene_key": "presence__direct"
+      },
+      {
+        "kind": "cat_response",
+        "subject_id": "cat-63894eff20794809aa5255290c1ae81e",
+        "mode": "presence",
+        "action": "adapt",
+        "reaction": "neutral",
+        "scene_key": "presence__adapt"
+      },
+      {
+        "kind": "cat_response",
+        "subject_id": "cat-63894eff20794809aa5255290c1ae81e",
+        "mode": "presence",
+        "action": "adapt",
+        "reaction": "favorable",
+        "scene_key": "presence__adapt"
+      },
+      {
+        "kind": "cat_response",
+        "subject_id": "cat-63894eff20794809aa5255290c1ae81e",
+        "mode": "presence",
+        "action": "adapt",
+        "reaction": "enthusiastic",
+        "scene_key": "presence__adapt"
+      },
+      {
+        "kind": "cat_response",
+        "subject_id": "cat-63894eff20794809aa5255290c1ae81e",
+        "mode": "presence",
+        "action": "adapt",
+        "reaction": "turn_away",
+        "scene_key": "presence__adapt"
+      },
+      {
+        "kind": "cat_response",
+        "subject_id": "cat-63894eff20794809aa5255290c1ae81e",
+        "mode": "presence",
+        "action": "adapt",
+        "reaction": "confused",
+        "scene_key": "presence__adapt"
+      },
+      {
+        "kind": "cat_response",
+        "subject_id": "cat-63894eff20794809aa5255290c1ae81e",
+        "mode": "presence",
+        "action": "adapt",
+        "reaction": "listless",
+        "scene_key": "presence__adapt"
+      }
+    ],
+    "entry_count": 239,
+    "candidate_count": 717,
+    "image_warnings": [
+      "ミケ / teaser__direct：要求画像 teaser__direct がないため teaser を代替表示します。",
+      "ミケ / teaser__adapt：要求画像 teaser__adapt がないため teaser を代替表示します。",
+      "ミケ / teaser__intense：要求画像 teaser__intense がないため teaser を代替表示します。",
+      "ミケ / teaser__feint：要求画像 teaser__feint がないため teaser を代替表示します。",
+      "ミケ / ball__direct：要求画像 ball__direct がないため ball を代替表示します。",
+      "ミケ / ball__adapt：要求画像 ball__adapt がないため ball を代替表示します。",
+      "ミケ / ball__intense：要求画像 ball__intense がないため ball を代替表示します。",
+      "ミケ / ball__feint：要求画像 ball__feint がないため ball を代替表示します。",
+      "ミケ / plush__direct：要求画像 plush__direct がないため plush を代替表示します。",
+      "ミケ / plush__adapt：要求画像 plush__adapt がないため plush を代替表示します。",
+      "ミケ / plush__feint：要求画像 plush__feint がないため plush を代替表示します。",
+      "ミケ / tunnel__direct：要求画像 tunnel__direct がないため tunnel を代替表示します。",
+      "ミケ / tunnel__adapt：要求画像 tunnel__adapt がないため tunnel を代替表示します。",
+      "ミケ / tunnel__intense：要求画像 tunnel__intense がないため tunnel を代替表示します。",
+      "ミケ / tunnel__feint：要求画像 tunnel__feint がないため tunnel を代替表示します。",
+      "ミケ / pet__direct：要求画像 pet__direct がないため pet を代替表示します。",
+      "ミケ / pet__adapt：要求画像 pet__adapt がないため pet を代替表示します。",
+      "ミケ / brush__direct：要求画像 brush__direct がないため brush を代替表示します。",
+      "ミケ / brush__adapt：要求画像 brush__adapt がないため brush を代替表示します。",
+      "ミケ / voice__direct：要求画像 voice__direct がないため voice を代替表示します。",
+      "ミケ / voice__adapt：要求画像 voice__adapt がないため voice を代替表示します。",
+      "ミケ / presence__direct：要求画像 presence__direct がないため presence を代替表示します。",
+      "ミケ / presence__adapt：要求画像 presence__adapt がないため presence を代替表示します。",
+      "ソラ / teaser__direct：要求画像 teaser__direct がないため teaser を代替表示します。",
+      "ソラ / teaser__adapt：要求画像 teaser__adapt がないため teaser を代替表示します。",
+      "ソラ / teaser__intense：要求画像 teaser__intense がないため teaser を代替表示します。",
+      "ソラ / teaser__feint：要求画像 teaser__feint がないため teaser を代替表示します。",
+      "ソラ / ball__direct：要求画像 ball__direct がないため ball を代替表示します。",
+      "ソラ / ball__adapt：要求画像 ball__adapt がないため ball を代替表示します。",
+      "ソラ / ball__intense：要求画像 ball__intense がないため ball を代替表示します。",
+      "ソラ / ball__feint：要求画像 ball__feint がないため ball を代替表示します。",
+      "ソラ / plush__direct：要求画像 plush__direct がないため plush を代替表示します。",
+      "ソラ / plush__adapt：要求画像 plush__adapt がないため plush を代替表示します。",
+      "ソラ / plush__feint：要求画像 plush__feint がないため plush を代替表示します。",
+      "ソラ / tunnel__direct：要求画像 tunnel__direct がないため tunnel を代替表示します。",
+      "ソラ / tunnel__adapt：要求画像 tunnel__adapt がないため tunnel を代替表示します。",
+      "ソラ / tunnel__intense：要求画像 tunnel__intense がないため tunnel を代替表示します。",
+      "ソラ / tunnel__feint：要求画像 tunnel__feint がないため tunnel を代替表示します。",
+      "ソラ / pet__direct：要求画像 pet__direct がないため pet を代替表示します。",
+      "ソラ / pet__adapt：要求画像 pet__adapt がないため pet を代替表示します。",
+      "ソラ / brush__direct：要求画像 brush__direct がないため brush を代替表示します。",
+      "ソラ / brush__adapt：要求画像 brush__adapt がないため brush を代替表示します。",
+      "ソラ / voice__direct：要求画像 voice__direct がないため voice を代替表示します。",
+      "ソラ / voice__adapt：要求画像 voice__adapt がないため voice を代替表示します。",
+      "ソラ / presence__direct：要求画像 presence__direct がないため presence を代替表示します。",
+      "ソラ / presence__adapt：要求画像 presence__adapt がないため presence を代替表示します。",
+      "タマ / teaser__direct：要求画像 teaser__direct がないため teaser を代替表示します。",
+      "タマ / teaser__adapt：要求画像 teaser__adapt がないため teaser を代替表示します。",
+      "タマ / teaser__intense：要求画像 teaser__intense がないため teaser を代替表示します。",
+      "タマ / teaser__feint：要求画像 teaser__feint がないため teaser を代替表示します。",
+      "タマ / ball__direct：要求画像 ball__direct がないため ball を代替表示します。",
+      "タマ / ball__adapt：要求画像 ball__adapt がないため ball を代替表示します。",
+      "タマ / ball__intense：要求画像 ball__intense がないため ball を代替表示します。",
+      "タマ / ball__feint：要求画像 ball__feint がないため ball を代替表示します。",
+      "タマ / plush__direct：要求画像 plush__direct がないため plush を代替表示します。",
+      "タマ / plush__adapt：要求画像 plush__adapt がないため plush を代替表示します。",
+      "タマ / plush__feint：要求画像 plush__feint がないため plush を代替表示します。",
+      "タマ / tunnel__direct：要求画像 tunnel__direct がないため tunnel を代替表示します。",
+      "タマ / tunnel__adapt：要求画像 tunnel__adapt がないため tunnel を代替表示します。",
+      "タマ / tunnel__intense：要求画像 tunnel__intense がないため tunnel を代替表示します。",
+      "タマ / tunnel__feint：要求画像 tunnel__feint がないため tunnel を代替表示します。",
+      "タマ / pet__direct：要求画像 pet__direct がないため pet を代替表示します。",
+      "タマ / pet__adapt：要求画像 pet__adapt がないため pet を代替表示します。",
+      "タマ / brush__direct：要求画像 brush__direct がないため brush を代替表示します。",
+      "タマ / brush__adapt：要求画像 brush__adapt がないため brush を代替表示します。",
+      "タマ / voice__direct：要求画像 voice__direct がないため voice を代替表示します。",
+      "タマ / voice__adapt：要求画像 voice__adapt がないため voice を代替表示します。",
+      "タマ / presence__direct：要求画像 presence__direct がないため presence を代替表示します。",
+      "タマ / presence__adapt：要求画像 presence__adapt がないため presence を代替表示します。"
+    ],
+    "excluded_entry_count": 0,
+    "excluded_subjects": []
+  }
+}
