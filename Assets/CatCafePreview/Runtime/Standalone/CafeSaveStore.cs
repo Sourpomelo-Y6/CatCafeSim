@@ -17,6 +17,8 @@ namespace CatCafePreview.Standalone
         public CafeNarrativeRow[] narratives;
         public CafeConversationProgress conversation;
         public CafeConversationProgress regular_conversation;
+        public CafeAdoptionConversation[] adoption_conversations;
+        public string adoption_conversation_selected;
         public CafeDispatchConversation[] dispatch_conversations;
         public string dispatch_conversation_selected;
         public CafeEncounterConversation[] encounter_conversations;

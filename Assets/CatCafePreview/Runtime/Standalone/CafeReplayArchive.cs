@@ -21,6 +21,7 @@ namespace CatCafePreview.Standalone
     public static class CafeReplayCatalog
     {
         public static readonly CafeReplayDefinition[] All={
+            new CafeReplayDefinition(CafeAdoptionDialogue.Id,"accept","猫の譲渡申し出 · 譲渡する"),new CafeReplayDefinition(CafeAdoptionDialogue.Id,"decline","猫の譲渡申し出 · 見送る"),
             new CafeReplayDefinition(CafeIntakeConversation.Id,"accepted","保護猫の受け入れ依頼 · 迎える"),new CafeReplayDefinition(CafeIntakeConversation.Id,"declined","保護猫の受け入れ依頼 · 見送る"),
             new CafeReplayDefinition(CafeRegularConversation.Id,"accepted","常連からの猫紹介 · 迎える"),new CafeReplayDefinition(CafeRegularConversation.Id,"declined","常連からの猫紹介 · 見送る"),
             new CafeReplayDefinition(CafeDispatchDialogue.Id+".departure","departed","近所のお店への訪問 · 出発する"),new CafeReplayDefinition(CafeDispatchDialogue.Id+".departure","cancelled","近所のお店への訪問 · 今回は出発しない"),
@@ -35,7 +36,7 @@ namespace CatCafePreview.Standalone
         public static void ValidateSave(CafeSaveEnvelope s)
         {
             CafeIntakeConversation.Validate(s.conversation,s.state.intake_request.status);CafeRegularConversation.Validate(s.regular_conversation,s.state.regular_introduction.status);
-            CafeDispatchDialogue.Validate(s.dispatch_conversations,s.dispatch_conversation_selected,s.state);CafeEncounterDialogue.Validate(s.encounter_conversations,s.encounter_conversation_selected,s.state);CafeDispatchIntroductionDialogue.Validate(s.dispatch_introduction_conversations,s.dispatch_introduction_conversation_selected,s.state);
+            CafeAdoptionDialogue.Validate(s.adoption_conversations,s.adoption_conversation_selected,s.state);CafeDispatchDialogue.Validate(s.dispatch_conversations,s.dispatch_conversation_selected,s.state);CafeEncounterDialogue.Validate(s.encounter_conversations,s.encounter_conversation_selected,s.state);CafeDispatchIntroductionDialogue.Validate(s.dispatch_introduction_conversations,s.dispatch_introduction_conversation_selected,s.state);
         }
         public static CafeReplayEntry[] FromSave(CafeSaveEnvelope save,CafeRules rules,Func<string,string> catName,Func<string,string> customerName,Func<string,string> contentId)
         {
@@ -51,6 +52,8 @@ namespace CatCafePreview.Standalone
             };
             var q=rules.intake;add(save.conversation,q.cat.id,q.cat.name,q.personality,b=>CafeIntakeConversation.Lines(b,q.cat.name),true);
             var r=rules.regular_introduction;add(save.regular_conversation,r.cat.id,r.cat.name,r.personality,b=>CafeRegularConversation.Lines(b,r.cat.name,customerName(save.state.regular_introduction.customer_id)),true);
+            foreach(var row in save.adoption_conversations??new CafeAdoptionConversation[0])
+            {var ev=save.state.adoption.events.Single(e=>e.id==row.event_id);string name=catName(ev.cat_id);add(row.progress,contentId(ev.cat_id),name,customerName(ev.customer_id)+"からの譲渡申し出",b=>CafeAdoptionDialogue.Lines(b,name,customerName(ev.customer_id),ev),true);}
             foreach(var row in save.dispatch_conversations??new CafeDispatchConversation[0])
             {
                 string name=catName(row.cat_id),image=contentId(row.cat_id);
