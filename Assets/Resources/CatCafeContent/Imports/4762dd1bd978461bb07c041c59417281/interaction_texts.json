@@ -54,6 +54,18 @@
       "content_cat_id": "shop-1",
       "subject_id": "shop-1",
       "name": "チロ"
+    },
+    {
+      "cat_id": "shop-2",
+      "content_cat_id": "shop-2",
+      "subject_id": "shop-2",
+      "name": "レオ"
+    },
+    {
+      "cat_id": "shop-3",
+      "content_cat_id": "shop-3",
+      "subject_id": "shop-3",
+      "name": "ハナ"
     }
   ],
   "people": [
@@ -8547,6 +8559,454 @@
       "scene_key": "pause",
       "image": "images/c6dadcb0bbca1257cd5c8d6dbd6a0f803f5263dd91ef7b3c82690b8a054939df.png",
       "resolved_scene_key": "pause"
+    },
+    {
+      "cat_id": "shop-2",
+      "content_cat_id": "shop-2",
+      "scene_key": "teaser",
+      "image": "images/26df540bcc5cf5c8690820ce633bcd8ba7ab6d12311658ecb020e317a8997420.png",
+      "resolved_scene_key": "teaser"
+    },
+    {
+      "cat_id": "shop-2",
+      "content_cat_id": "shop-2",
+      "scene_key": "teaser__direct",
+      "image": "images/8dc6ee702bb534ff78686e1a804d7e609af015c4987b123bfb883caa6d0c9851.png",
+      "resolved_scene_key": "teaser__direct"
+    },
+    {
+      "cat_id": "shop-2",
+      "content_cat_id": "shop-2",
+      "scene_key": "teaser__adapt",
+      "image": "images/8dc6ee702bb534ff78686e1a804d7e609af015c4987b123bfb883caa6d0c9851.png",
+      "resolved_scene_key": "teaser__adapt"
+    },
+    {
+      "cat_id": "shop-2",
+      "content_cat_id": "shop-2",
+      "scene_key": "teaser__intense",
+      "image": "images/26df540bcc5cf5c8690820ce633bcd8ba7ab6d12311658ecb020e317a8997420.png",
+      "resolved_scene_key": "teaser"
+    },
+    {
+      "cat_id": "shop-2",
+      "content_cat_id": "shop-2",
+      "scene_key": "teaser__feint",
+      "image": "images/26df540bcc5cf5c8690820ce633bcd8ba7ab6d12311658ecb020e317a8997420.png",
+      "resolved_scene_key": "teaser"
+    },
+    {
+      "cat_id": "shop-2",
+      "content_cat_id": "shop-2",
+      "scene_key": "ball",
+      "image": "images/26df540bcc5cf5c8690820ce633bcd8ba7ab6d12311658ecb020e317a8997420.png",
+      "resolved_scene_key": "ball"
+    },
+    {
+      "cat_id": "shop-2",
+      "content_cat_id": "shop-2",
+      "scene_key": "ball__direct",
+      "image": "images/5460e013f560551b71268d93b805fcc348a61e72d87bd26dd4021826126d060a.png",
+      "resolved_scene_key": "ball__direct"
+    },
+    {
+      "cat_id": "shop-2",
+      "content_cat_id": "shop-2",
+      "scene_key": "ball__adapt",
+      "image": "images/5460e013f560551b71268d93b805fcc348a61e72d87bd26dd4021826126d060a.png",
+      "resolved_scene_key": "ball__adapt"
+    },
+    {
+      "cat_id": "shop-2",
+      "content_cat_id": "shop-2",
+      "scene_key": "ball__intense",
+      "image": "images/26df540bcc5cf5c8690820ce633bcd8ba7ab6d12311658ecb020e317a8997420.png",
+      "resolved_scene_key": "ball"
+    },
+    {
+      "cat_id": "shop-2",
+      "content_cat_id": "shop-2",
+      "scene_key": "ball__feint",
+      "image": "images/26df540bcc5cf5c8690820ce633bcd8ba7ab6d12311658ecb020e317a8997420.png",
+      "resolved_scene_key": "ball"
+    },
+    {
+      "cat_id": "shop-2",
+      "content_cat_id": "shop-2",
+      "scene_key": "plush",
+      "image": "images/26df540bcc5cf5c8690820ce633bcd8ba7ab6d12311658ecb020e317a8997420.png",
+      "resolved_scene_key": "plush"
+    },
+    {
+      "cat_id": "shop-2",
+      "content_cat_id": "shop-2",
+      "scene_key": "plush__direct",
+      "image": "images/d212654eeae2da2c067b7775dc6d303b82f3833b728f34783ffa325fe4fc8984.png",
+      "resolved_scene_key": "plush__direct"
+    },
+    {
+      "cat_id": "shop-2",
+      "content_cat_id": "shop-2",
+      "scene_key": "plush__adapt",
+      "image": "images/d212654eeae2da2c067b7775dc6d303b82f3833b728f34783ffa325fe4fc8984.png",
+      "resolved_scene_key": "plush__adapt"
+    },
+    {
+      "cat_id": "shop-2",
+      "content_cat_id": "shop-2",
+      "scene_key": "plush__feint",
+      "image": "images/26df540bcc5cf5c8690820ce633bcd8ba7ab6d12311658ecb020e317a8997420.png",
+      "resolved_scene_key": "plush"
+    },
+    {
+      "cat_id": "shop-2",
+      "content_cat_id": "shop-2",
+      "scene_key": "tunnel",
+      "image": "images/26df540bcc5cf5c8690820ce633bcd8ba7ab6d12311658ecb020e317a8997420.png",
+      "resolved_scene_key": "tunnel"
+    },
+    {
+      "cat_id": "shop-2",
+      "content_cat_id": "shop-2",
+      "scene_key": "tunnel__direct",
+      "image": "images/2f6b2a7a56fa24dc1982b26e709bac1df4215044dae0eb54ef1ab1c1fc95a2b9.png",
+      "resolved_scene_key": "tunnel__direct"
+    },
+    {
+      "cat_id": "shop-2",
+      "content_cat_id": "shop-2",
+      "scene_key": "tunnel__adapt",
+      "image": "images/2f6b2a7a56fa24dc1982b26e709bac1df4215044dae0eb54ef1ab1c1fc95a2b9.png",
+      "resolved_scene_key": "tunnel__adapt"
+    },
+    {
+      "cat_id": "shop-2",
+      "content_cat_id": "shop-2",
+      "scene_key": "tunnel__intense",
+      "image": "images/26df540bcc5cf5c8690820ce633bcd8ba7ab6d12311658ecb020e317a8997420.png",
+      "resolved_scene_key": "tunnel"
+    },
+    {
+      "cat_id": "shop-2",
+      "content_cat_id": "shop-2",
+      "scene_key": "tunnel__feint",
+      "image": "images/26df540bcc5cf5c8690820ce633bcd8ba7ab6d12311658ecb020e317a8997420.png",
+      "resolved_scene_key": "tunnel"
+    },
+    {
+      "cat_id": "shop-2",
+      "content_cat_id": "shop-2",
+      "scene_key": "pet",
+      "image": "images/26df540bcc5cf5c8690820ce633bcd8ba7ab6d12311658ecb020e317a8997420.png",
+      "resolved_scene_key": "pet"
+    },
+    {
+      "cat_id": "shop-2",
+      "content_cat_id": "shop-2",
+      "scene_key": "pet__direct",
+      "image": "images/dcb0b1440a4ef478127785baa2fc743be50116331ec79ad460264864dcfd0295.png",
+      "resolved_scene_key": "pet__direct"
+    },
+    {
+      "cat_id": "shop-2",
+      "content_cat_id": "shop-2",
+      "scene_key": "pet__adapt",
+      "image": "images/dcb0b1440a4ef478127785baa2fc743be50116331ec79ad460264864dcfd0295.png",
+      "resolved_scene_key": "pet__adapt"
+    },
+    {
+      "cat_id": "shop-2",
+      "content_cat_id": "shop-2",
+      "scene_key": "brush",
+      "image": "images/26df540bcc5cf5c8690820ce633bcd8ba7ab6d12311658ecb020e317a8997420.png",
+      "resolved_scene_key": "brush"
+    },
+    {
+      "cat_id": "shop-2",
+      "content_cat_id": "shop-2",
+      "scene_key": "brush__direct",
+      "image": "images/dcd17de57f7dd1b1e2ba5e54b8663af14b99f8181a44c4203a277489146d38eb.png",
+      "resolved_scene_key": "brush__direct"
+    },
+    {
+      "cat_id": "shop-2",
+      "content_cat_id": "shop-2",
+      "scene_key": "brush__adapt",
+      "image": "images/dcd17de57f7dd1b1e2ba5e54b8663af14b99f8181a44c4203a277489146d38eb.png",
+      "resolved_scene_key": "brush__adapt"
+    },
+    {
+      "cat_id": "shop-2",
+      "content_cat_id": "shop-2",
+      "scene_key": "voice",
+      "image": "images/26df540bcc5cf5c8690820ce633bcd8ba7ab6d12311658ecb020e317a8997420.png",
+      "resolved_scene_key": "voice"
+    },
+    {
+      "cat_id": "shop-2",
+      "content_cat_id": "shop-2",
+      "scene_key": "voice__direct",
+      "image": "images/39be0068895e027e91edc166c86884ee0728a0f5e5986e943bc387eb4617f43d.png",
+      "resolved_scene_key": "voice__direct"
+    },
+    {
+      "cat_id": "shop-2",
+      "content_cat_id": "shop-2",
+      "scene_key": "voice__adapt",
+      "image": "images/39be0068895e027e91edc166c86884ee0728a0f5e5986e943bc387eb4617f43d.png",
+      "resolved_scene_key": "voice__adapt"
+    },
+    {
+      "cat_id": "shop-2",
+      "content_cat_id": "shop-2",
+      "scene_key": "presence",
+      "image": "images/26df540bcc5cf5c8690820ce633bcd8ba7ab6d12311658ecb020e317a8997420.png",
+      "resolved_scene_key": "presence"
+    },
+    {
+      "cat_id": "shop-2",
+      "content_cat_id": "shop-2",
+      "scene_key": "presence__direct",
+      "image": "images/89fe804722cf87a4ac1298ed31e3350c9e0d4fc524c730dd7f715a510d66dee3.png",
+      "resolved_scene_key": "presence__direct"
+    },
+    {
+      "cat_id": "shop-2",
+      "content_cat_id": "shop-2",
+      "scene_key": "presence__adapt",
+      "image": "images/89fe804722cf87a4ac1298ed31e3350c9e0d4fc524c730dd7f715a510d66dee3.png",
+      "resolved_scene_key": "presence__adapt"
+    },
+    {
+      "cat_id": "shop-2",
+      "content_cat_id": "shop-2",
+      "scene_key": "pause",
+      "image": "images/2544e64944799a509ffa15ad885805883e89d681d9285d25b0be4c86cf3ac0f6.png",
+      "resolved_scene_key": "pause"
+    },
+    {
+      "cat_id": "shop-3",
+      "content_cat_id": "shop-3",
+      "scene_key": "teaser",
+      "image": "images/55407a40f400890760c737f8b5bc71cfca5868fa0be007895bf7117353dd975b.png",
+      "resolved_scene_key": "teaser"
+    },
+    {
+      "cat_id": "shop-3",
+      "content_cat_id": "shop-3",
+      "scene_key": "teaser__direct",
+      "image": "images/6bd0ed427b8343fba0457539b764058ed0f717e3fa45c92e7ff308d08703e284.png",
+      "resolved_scene_key": "teaser__direct"
+    },
+    {
+      "cat_id": "shop-3",
+      "content_cat_id": "shop-3",
+      "scene_key": "teaser__adapt",
+      "image": "images/6bd0ed427b8343fba0457539b764058ed0f717e3fa45c92e7ff308d08703e284.png",
+      "resolved_scene_key": "teaser__adapt"
+    },
+    {
+      "cat_id": "shop-3",
+      "content_cat_id": "shop-3",
+      "scene_key": "teaser__intense",
+      "image": "images/55407a40f400890760c737f8b5bc71cfca5868fa0be007895bf7117353dd975b.png",
+      "resolved_scene_key": "teaser"
+    },
+    {
+      "cat_id": "shop-3",
+      "content_cat_id": "shop-3",
+      "scene_key": "teaser__feint",
+      "image": "images/55407a40f400890760c737f8b5bc71cfca5868fa0be007895bf7117353dd975b.png",
+      "resolved_scene_key": "teaser"
+    },
+    {
+      "cat_id": "shop-3",
+      "content_cat_id": "shop-3",
+      "scene_key": "ball",
+      "image": "images/55407a40f400890760c737f8b5bc71cfca5868fa0be007895bf7117353dd975b.png",
+      "resolved_scene_key": "ball"
+    },
+    {
+      "cat_id": "shop-3",
+      "content_cat_id": "shop-3",
+      "scene_key": "ball__direct",
+      "image": "images/51856e5665d20cdc1f641d4e82dc18b571d662ab483633040cabe8786736c19b.png",
+      "resolved_scene_key": "ball__direct"
+    },
+    {
+      "cat_id": "shop-3",
+      "content_cat_id": "shop-3",
+      "scene_key": "ball__adapt",
+      "image": "images/51856e5665d20cdc1f641d4e82dc18b571d662ab483633040cabe8786736c19b.png",
+      "resolved_scene_key": "ball__adapt"
+    },
+    {
+      "cat_id": "shop-3",
+      "content_cat_id": "shop-3",
+      "scene_key": "ball__intense",
+      "image": "images/55407a40f400890760c737f8b5bc71cfca5868fa0be007895bf7117353dd975b.png",
+      "resolved_scene_key": "ball"
+    },
+    {
+      "cat_id": "shop-3",
+      "content_cat_id": "shop-3",
+      "scene_key": "ball__feint",
+      "image": "images/55407a40f400890760c737f8b5bc71cfca5868fa0be007895bf7117353dd975b.png",
+      "resolved_scene_key": "ball"
+    },
+    {
+      "cat_id": "shop-3",
+      "content_cat_id": "shop-3",
+      "scene_key": "plush",
+      "image": "images/55407a40f400890760c737f8b5bc71cfca5868fa0be007895bf7117353dd975b.png",
+      "resolved_scene_key": "plush"
+    },
+    {
+      "cat_id": "shop-3",
+      "content_cat_id": "shop-3",
+      "scene_key": "plush__direct",
+      "image": "images/caae4025b5a9c1ee96fb7afd444d5fa5c59ed63c5cb50e1c355693dd124dfff9.png",
+      "resolved_scene_key": "plush__direct"
+    },
+    {
+      "cat_id": "shop-3",
+      "content_cat_id": "shop-3",
+      "scene_key": "plush__adapt",
+      "image": "images/caae4025b5a9c1ee96fb7afd444d5fa5c59ed63c5cb50e1c355693dd124dfff9.png",
+      "resolved_scene_key": "plush__adapt"
+    },
+    {
+      "cat_id": "shop-3",
+      "content_cat_id": "shop-3",
+      "scene_key": "plush__feint",
+      "image": "images/55407a40f400890760c737f8b5bc71cfca5868fa0be007895bf7117353dd975b.png",
+      "resolved_scene_key": "plush"
+    },
+    {
+      "cat_id": "shop-3",
+      "content_cat_id": "shop-3",
+      "scene_key": "tunnel",
+      "image": "images/55407a40f400890760c737f8b5bc71cfca5868fa0be007895bf7117353dd975b.png",
+      "resolved_scene_key": "tunnel"
+    },
+    {
+      "cat_id": "shop-3",
+      "content_cat_id": "shop-3",
+      "scene_key": "tunnel__direct",
+      "image": "images/dfb5d1e271b4383b3eb64602d0e845bf453adce83f8209183aa36fe9497be3c4.png",
+      "resolved_scene_key": "tunnel__direct"
+    },
+    {
+      "cat_id": "shop-3",
+      "content_cat_id": "shop-3",
+      "scene_key": "tunnel__adapt",
+      "image": "images/dfb5d1e271b4383b3eb64602d0e845bf453adce83f8209183aa36fe9497be3c4.png",
+      "resolved_scene_key": "tunnel__adapt"
+    },
+    {
+      "cat_id": "shop-3",
+      "content_cat_id": "shop-3",
+      "scene_key": "tunnel__intense",
+      "image": "images/55407a40f400890760c737f8b5bc71cfca5868fa0be007895bf7117353dd975b.png",
+      "resolved_scene_key": "tunnel"
+    },
+    {
+      "cat_id": "shop-3",
+      "content_cat_id": "shop-3",
+      "scene_key": "tunnel__feint",
+      "image": "images/55407a40f400890760c737f8b5bc71cfca5868fa0be007895bf7117353dd975b.png",
+      "resolved_scene_key": "tunnel"
+    },
+    {
+      "cat_id": "shop-3",
+      "content_cat_id": "shop-3",
+      "scene_key": "pet",
+      "image": "images/55407a40f400890760c737f8b5bc71cfca5868fa0be007895bf7117353dd975b.png",
+      "resolved_scene_key": "pet"
+    },
+    {
+      "cat_id": "shop-3",
+      "content_cat_id": "shop-3",
+      "scene_key": "pet__direct",
+      "image": "images/63eb0bc83088500c603911274d687a2d33ee9f1d4ce3e0194b57d794cc57c270.png",
+      "resolved_scene_key": "pet__direct"
+    },
+    {
+      "cat_id": "shop-3",
+      "content_cat_id": "shop-3",
+      "scene_key": "pet__adapt",
+      "image": "images/63eb0bc83088500c603911274d687a2d33ee9f1d4ce3e0194b57d794cc57c270.png",
+      "resolved_scene_key": "pet__adapt"
+    },
+    {
+      "cat_id": "shop-3",
+      "content_cat_id": "shop-3",
+      "scene_key": "brush",
+      "image": "images/55407a40f400890760c737f8b5bc71cfca5868fa0be007895bf7117353dd975b.png",
+      "resolved_scene_key": "brush"
+    },
+    {
+      "cat_id": "shop-3",
+      "content_cat_id": "shop-3",
+      "scene_key": "brush__direct",
+      "image": "images/1d88fbb66dc52ab728cf5c5416def74159399aa7c3c1f267d194828bd4aee414.png",
+      "resolved_scene_key": "brush__direct"
+    },
+    {
+      "cat_id": "shop-3",
+      "content_cat_id": "shop-3",
+      "scene_key": "brush__adapt",
+      "image": "images/1d88fbb66dc52ab728cf5c5416def74159399aa7c3c1f267d194828bd4aee414.png",
+      "resolved_scene_key": "brush__adapt"
+    },
+    {
+      "cat_id": "shop-3",
+      "content_cat_id": "shop-3",
+      "scene_key": "voice",
+      "image": "images/55407a40f400890760c737f8b5bc71cfca5868fa0be007895bf7117353dd975b.png",
+      "resolved_scene_key": "voice"
+    },
+    {
+      "cat_id": "shop-3",
+      "content_cat_id": "shop-3",
+      "scene_key": "voice__direct",
+      "image": "images/d42f3e6ddea54f0f03fdb18c7dad4317bbb744551b9256af0822828cd6b8ff8d.png",
+      "resolved_scene_key": "voice__direct"
+    },
+    {
+      "cat_id": "shop-3",
+      "content_cat_id": "shop-3",
+      "scene_key": "voice__adapt",
+      "image": "images/d42f3e6ddea54f0f03fdb18c7dad4317bbb744551b9256af0822828cd6b8ff8d.png",
+      "resolved_scene_key": "voice__adapt"
+    },
+    {
+      "cat_id": "shop-3",
+      "content_cat_id": "shop-3",
+      "scene_key": "presence",
+      "image": "images/55407a40f400890760c737f8b5bc71cfca5868fa0be007895bf7117353dd975b.png",
+      "resolved_scene_key": "presence"
+    },
+    {
+      "cat_id": "shop-3",
+      "content_cat_id": "shop-3",
+      "scene_key": "presence__direct",
+      "image": "images/c8a7a8f6dd05e213d7d6fee336f02c1a716863c4687fdf31fb82d3e4a7e36af4.png",
+      "resolved_scene_key": "presence__direct"
+    },
+    {
+      "cat_id": "shop-3",
+      "content_cat_id": "shop-3",
+      "scene_key": "presence__adapt",
+      "image": "images/c8a7a8f6dd05e213d7d6fee336f02c1a716863c4687fdf31fb82d3e4a7e36af4.png",
+      "resolved_scene_key": "presence__adapt"
+    },
+    {
+      "cat_id": "shop-3",
+      "content_cat_id": "shop-3",
+      "scene_key": "pause",
+      "image": "images/91b18cdc31b2022eb9aba24d1bf914de4ab3ba650e7b1a8726bdb0bccc02179f.png",
+      "resolved_scene_key": "pause"
     }
   ],
   "action_texts": [
@@ -8698,6 +9158,6 @@
     }
   ],
   "rest_narration": "急がず、静かな休憩の時間を過ごした。",
-  "revision": "38d23ddd2b5d546e0b55d7c05b828f897f0e084854b161e478dab9d53994486f",
+  "revision": "02687dd2c18d4ef8814badd6185b4851b0b9fa1e7967e6adc9276c4f004cdd6f",
   "pack_id": "4762dd1bd978461bb07c041c59417281"
 }
