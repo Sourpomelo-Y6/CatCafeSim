@@ -13,6 +13,7 @@ namespace CatCafePreview.Standalone
         public WaitingAreaRules waiting_area,waiting_area_upgrade;
         public RestSpaceRules rest_space,rest_space_upgrade,rest_space_soundproof;
         public CafeStaminaRules stamina_growth;
+        public List<CafeGrowthSelection> growth_selections = new List<CafeGrowthSelection>();
         public double max_stamina, time_price, starting_funds, starting_popularity;
         public double base_cost, per_seat_cost, max_fatigue, fatigue_per_service_tick, rest_day_recovery;
         public double safe_fatigue, probability_per_fatigue, max_probability;
@@ -143,6 +144,7 @@ namespace CatCafePreview.Standalone
         public string rules_id, instance_id, phase = "preparation", game_over;
         public bool auto_assignment=true;
         public CafeStaminaRules stamina_growth;
+        public List<CafeGrowthSelection> growth_selections = new List<CafeGrowthSelection>();
         public CafeAutoRun autoplay;public CafeImportHistory import_history;
         public double funds, opening_funds, popularity, revenue, expenses;
         public int completed;
@@ -172,6 +174,7 @@ namespace CatCafePreview.Standalone
         public int challenge_started_day;
         public string objective = "free";
         public List<CafeDispatchUnlock> dispatch_unlocks=new List<CafeDispatchUnlock>();
+        public List<CafeMissingCase> missing_cases=new List<CafeMissingCase>();
         public List<CafeDispatch> dispatches=new List<CafeDispatch>();
         public List<CafeGoalStage> goal = new List<CafeGoalStage>();
         public List<CafeClearRecord> clear_results = new List<CafeClearRecord>();
@@ -191,6 +194,8 @@ namespace CatCafePreview.Standalone
         // Unity JsonUtility materializes JSON null strings as empty strings.
         public void NormalizeJsonStrings()
         {
+            if(missing_cases==null)missing_cases=new List<CafeMissingCase>();
+            foreach(var e in missing_cases){if(e==null)continue;if(string.IsNullOrEmpty(e.notice?.conversation_id))e.notice=null;if(string.IsNullOrEmpty(e.waiting?.conversation_id))e.waiting=null;if(string.IsNullOrEmpty(e.confirmation?.conversation_id))e.confirmation=null;if(string.IsNullOrEmpty(e.result?.conversation_id))e.result=null;}
             if(stamina_growth!=null && stamina_growth.version==0 && stamina_growth.initial==0 && stamina_growth.cap==0 && stamina_growth.increment==0 && stamina_growth.experience_per_stage==0)stamina_growth=null;
             if(import_history!=null && string.IsNullOrEmpty(import_history.base_json))import_history=null;
             if(import_history?.operations!=null)foreach(var operation in import_history.operations)CafeLegacyImport.NormalizeOperation(operation);

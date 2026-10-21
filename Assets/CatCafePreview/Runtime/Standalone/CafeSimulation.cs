@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Linq;
 
 namespace CatCafePreview.Standalone
@@ -69,7 +69,7 @@ namespace CatCafePreview.Standalone
             ValidateIntake(s);
             ValidateVisitingCat(s);
             ValidateStoreEvents(s);
-            ValidateGrowth(s);
+            ValidateGrowth(s); ValidateGrowthSelections(s);
             ValidateTrust(s);
             ValidateCustomers(s);
             ValidateRegularIntroduction(s);
@@ -119,6 +119,7 @@ namespace CatCafePreview.Standalone
         private void ExecuteCore(string kind, string[] working = null, string catId = null, string choice = null, string source = null, string seatId = null,string customerId=null)
         {
             var s = State;
+            if(kind=="resolve_growth_stage" || kind=="resolve_growth_auto" || kind=="resolve_growth_batch"){GrowthBatchCommand(kind,catId,choice);return;}
             if(kind=="open_recruitment"){OpenRecruitment();return;}
             if (s.game_over != null) throw new InvalidOperationException("経営終了後は保存・閲覧のみ利用できます。");
             if(kind=="set_auto_assignment"){SetAutoAssignment(choice);return;}
@@ -195,14 +196,16 @@ namespace CatCafePreview.Standalone
                     foreach (var c in s.cats) c.working = false;
                     Close(true); s.tick = Rules.opening_ticks;
                     foreach (var c in s.cats) c.working = planned.Contains(c.id) && c.health == "healthy" && c.activity == "cafe";
-                    if (s.game_over == null) AdvanceToNextDay();
+                    if (s.game_over == null && (LegacyGrowthReplay || !GrowthWaiting)) AdvanceToNextDay();
                     s.revision++;
                     return;
                 case "resolve_missing":
+                    CafeMissingDialogue.Validate(s);
                     var cat = s.cats.Find(c => c.id == catId && c.activity == "missing" && c.missing_remaining == 0 && !DispatchMissing(State,c.id));
                     if (cat == null) throw new ArgumentException("帰還待ちの猫を選んでください。");
+                    var missingCase=State.missing_cases.LastOrDefault(e=>e.cat_id==cat.id && e.resolved_day==0);
                     cat.activity = "cafe"; cat.stamina = MaxStamina(cat.id); cat.cannot_continue = cat.health != "healthy"; cat.stress = Rules.return_stress;
-                    double cost = cat.kitten ? Rules.kitten_cost : 0; s.funds -= cost; s.expenses += cost; CheckEnd(); break;
+                    double cost = cat.kitten ? Rules.kitten_cost : 0; s.funds -= cost; s.expenses += cost; if(missingCase!=null){missingCase.resolved_day=s.day;missingCase.cost=cost;missingCase.funds_after=s.funds;missingCase.stamina=cat.stamina;missingCase.stress=cat.stress;missingCase.kitten=cat.kitten;} CheckEnd(); break;
                 default: throw new NotSupportedException("単独版の第1段階では未対応の操作です：" + kind);
             }
             s.revision++;
@@ -389,6 +392,7 @@ namespace CatCafePreview.Standalone
                 {
                     cat.activity = "missing"; cat.working = false; cat.missing_remaining = Rules.missing_days;
                     cat.kitten = PythonRandom.Hash64("missing-kitten:" + s.seed + ":missing-" + s.day + "-" + cat.id) / 18446744073709551616.0 < Rules.kitten_probability;
+                    s.missing_cases.Add(new CafeMissingCase{id="missing-"+s.day+"-"+cat.id,cat_id=cat.id,departed_day=s.day,reason="stress"});
                     s.popularity = Math.Max(0, s.popularity - Rules.popularity_loss);
                 }
             }
