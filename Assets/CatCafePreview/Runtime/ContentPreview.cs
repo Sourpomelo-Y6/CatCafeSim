@@ -208,11 +208,12 @@ namespace CatCafePreview
             GetComponent<PythonBusinessLogPanel>()?.Apply(state);
             GetComponent<PythonClearResultsPanel>()?.Apply(state);
             GetComponent<PythonPersistPanel>()?.Apply(state);GetComponent<PythonCatAcquisitionNavigation>()?.Refresh();
+            if(Application.isPlaying && CafeBackends.Standalone)(GetComponent<OpeningPanel>()??gameObject.AddComponent<OpeningPanel>()).Apply(state,GetComponent<PythonPreparationPanel>());
         }
         private void AppendObjectiveProgress()
         {
-            if(pythonState != null && pythonState.objective_progress != null)
-                description.text = "目標と進捗\n" + pythonState.objective_progress.details + "\n\n" + description.text;
+            if(pythonState != null && (pythonState.sidebar_progress ?? (CafeBackends.Standalone ? null : pythonState.objective_progress)) != null)
+                description.text = "目標と進捗\n" + (pythonState.sidebar_progress ?? pythonState.objective_progress).details + "\n\n" + description.text;
         }
         public void SetServiceDescription(string text)
         {
@@ -479,6 +480,8 @@ namespace CatCafePreview
                 foreach (var item in pythonState.cats)
                     description.text += "\n" + item.name + "：体力 " + item.stamina + " / 疲労 " + item.fatigue + " / ストレス " + item.stress;
             }
+            // The business sidebar is for goals and customer information, not the last selected cat.
+            description.text="";
             AppendObjectiveProgress();
             GetComponent<PythonBusinessHeader>()?.RefreshControls();
             status.text = (CafeBackends.Standalone ? "営業中：" : "Python接続中：") + pythonState.day + "日目 / 時刻 " + pythonState.tick + "/" + pythonState.opening_ticks
