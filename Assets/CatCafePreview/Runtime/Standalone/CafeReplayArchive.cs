@@ -22,6 +22,7 @@ namespace CatCafePreview.Standalone
     {
         public static bool IsEnding(string id)=>id==CafeOutcome.Id || id==CafePopularityEnding.Id || id==CafeBondEnding.Id || id==CafePatronEnding.Id;
         public static readonly CafeReplayDefinition[] All={
+            new CafeReplayDefinition(CafeCocoDialogue.MeetingId,"meeting","ココ · 初対面"),new CafeReplayDefinition(CafeCocoDialogue.AdmissionId,"accepted","ココ · 迎える"),new CafeReplayDefinition(CafeCocoDialogue.AdmissionId,"later","ココ · 今回は迎えない"),
             new CafeReplayDefinition(CafeMissingDialogue.Id+".notice","departed","店からの家出 · 通知"),new CafeReplayDefinition(CafeMissingDialogue.Id+".waiting","waiting","店からの家出 · 待機"),new CafeReplayDefinition(CafeMissingDialogue.Id+".confirmation","waiting_return","店からの家出 · 帰還待ち"),new CafeReplayDefinition(CafeMissingDialogue.Id+".result","kitten","店からの家出 · 子猫ありの帰還"),new CafeReplayDefinition(CafeMissingDialogue.Id+".result","alone","店からの家出 · 子猫なしの帰還"),
             new CafeReplayDefinition(CafeReservationDialogue.Id+".response","accept","特別予約 · 引き受ける"),new CafeReplayDefinition(CafeReservationDialogue.Id+".response","decline","特別予約 · 辞退する"),new CafeReplayDefinition(CafeReservationDialogue.Id+".result","success","特別予約 · 条件達成"),new CafeReplayDefinition(CafeReservationDialogue.Id+".result","failure","特別予約 · 条件未達"),new CafeReplayDefinition(CafeReservationDialogue.Id+".result","unserved","特別予約 · 未接客"),
             new CafeReplayDefinition(CafeTrustDialogue.Id+".response","recover","顧客の信頼 · 回復を試みる"),new CafeReplayDefinition(CafeTrustDialogue.Id+".response","ignore","顧客の信頼 · 見送る"),new CafeReplayDefinition(CafeTrustDialogue.Id+".result","recovered","顧客の信頼 · 満足接客による回復"),new CafeReplayDefinition(CafeTrustDialogue.Id+".result","departed","顧客の信頼 · 不満接客による永久離脱"),
@@ -46,7 +47,7 @@ namespace CatCafePreview.Standalone
         }
         public static void ValidateSave(CafeSaveEnvelope s)
         {
-            CafeMissingDialogue.Validate(s.state);CafeOutcome.Validate(s.outcome,s.state);CafePatronEnding.Validate(s.patron_ending,s.state);CafeBondEnding.Validate(s.bond_ending,s.state);CafeOpening.Validate(s.opening,s.state);CafePopularityEnding.Validate(s.popularity_ending,s.state);CafeIntakeConversation.Validate(s.conversation,s.state.intake_request.status);CafeRegularConversation.Validate(s.regular_conversation,s.state.regular_introduction.status);
+            CafeMissingDialogue.Validate(s.state);CafeOutcome.Validate(s.outcome,s.state);CafePatronEnding.Validate(s.patron_ending,s.state);CafeBondEnding.Validate(s.bond_ending,s.state);CafeOpening.Validate(s.opening,s.state);CafePopularityEnding.Validate(s.popularity_ending,s.state);CafeCocoDialogue.Validate(s.coco_conversations,s.state);CafeIntakeConversation.Validate(s.conversation,s.state.intake_request.status);CafeRegularConversation.Validate(s.regular_conversation,s.state.regular_introduction.status);
             CafeReservationDialogue.Validate(s.reservation_conversations,s.reservation_conversation_selected,s.state);CafeTrustDialogue.Validate(s.trust_conversations,s.trust_conversation_selected,s.state);CafeAdoptionDialogue.Validate(s.adoption_conversations,s.adoption_conversation_selected,s.state);CafeLodgeDialogue.Validate(s.lodge_conversations,s.lodge_conversation_selected,s.state);CafeDispatchDialogue.Validate(s.dispatch_conversations,s.dispatch_conversation_selected,s.state);CafeEncounterDialogue.Validate(s.encounter_conversations,s.encounter_conversation_selected,s.state);CafeDispatchIntroductionDialogue.Validate(s.dispatch_introduction_conversations,s.dispatch_introduction_conversation_selected,s.state);
         }
         public static CafeReplayEntry[] FromSave(CafeSaveEnvelope save,CafeRules rules,Func<string,string> catName,Func<string,string> customerName,Func<string,string> contentId)
@@ -62,6 +63,7 @@ namespace CatCafePreview.Standalone
                 }
             };
             foreach(var e in save.state.missing_cases)foreach(var phase in new[]{"notice","waiting","confirmation","result"})add(CafeMissingDialogue.Progress(e,phase),contentId(e.cat_id),catName(e.cat_id),"店からの家出・帰還",b=>CafeMissingDialogue.Lines(e,phase,catName(e.cat_id)),false);
+            foreach(var row in save.coco_conversations??new CafeCocoConversation[0])add(row.progress,contentId(rules.visiting_cat.cat.id),rules.visiting_cat.cat.name,rules.visiting_cat.personality,b=>CafeCocoDialogue.Lines(row,b),row.progress.conversation_id==CafeCocoDialogue.AdmissionId);
             var q=rules.intake;add(save.conversation,q.cat.id,q.cat.name,q.personality,b=>CafeIntakeConversation.Lines(b,q.cat.name),true);
             var r=rules.regular_introduction;add(save.regular_conversation,r.cat.id,r.cat.name,r.personality,b=>CafeRegularConversation.Lines(b,r.cat.name,customerName(save.state.regular_introduction.customer_id)),true);
             foreach(var row in save.dispatch_conversations??new CafeDispatchConversation[0])
