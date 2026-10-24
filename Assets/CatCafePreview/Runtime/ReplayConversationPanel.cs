@@ -1,4 +1,5 @@
-using System;
+﻿using System;
+using System.Linq;
 using UnityEngine;
 using UnityEngine.UI;
 using CatCafePreview.Standalone;
@@ -14,6 +15,7 @@ namespace CatCafePreview
             portraitLoaded=false;cachedPortrait=null;entry=value;host=surface;closed=onClose;position=new CafeConversationProgress{conversation_id=value.conversation_id,branch_id="replay",viewed_branches=new string[0]};
             Bind(new PythonCafeState{instance_id=Guid.NewGuid().ToString("N")},surface,font);Open();
         }
+        protected override bool TrackRead=>false;
         protected override bool Ready=>true;
         protected override bool AutoRunning=>false;
         protected override bool SaveControls=>false;
@@ -23,7 +25,7 @@ namespace CatCafePreview
         protected override string Title=>entry.title;
         protected override string SceneLabel=>"Extra · 閲覧済みの会話";
         protected override bool Choosing=>false;
-        protected override bool ThreeLinePages=>entry?.conversation_id?.StartsWith(CafeMissingDialogue.Id)==true || entry?.conversation_id?.StartsWith(CafeReservationDialogue.Id)==true || entry?.conversation_id?.StartsWith(CafeTrustDialogue.Id)==true || entry?.conversation_id?.StartsWith(CafeLodgeDialogue.Id)==true || entry?.conversation_id==CafeDispatchIntroductionDialogue.StudioId || CafeReplayCatalog.IsEnding(entry?.conversation_id) || entry?.conversation_id==CafeOpening.Id;
+        protected override bool ThreeLinePages=>CafeDispatchDialogue.Destinations.Any(d=>entry?.conversation_id?.StartsWith(CafeDispatchDialogue.ConversationId(d)+".")==true) || CafeEncounterDialogue.HasItemReward(entry?.conversation_id) || entry?.conversation_id==CafeEncounterDialogue.ExerciseId || entry?.conversation_id==CafeEncounterDialogue.ReadingId || entry?.conversation_id?.StartsWith(CafeMissingDialogue.Id)==true || entry?.conversation_id?.StartsWith(CafeReservationDialogue.Id)==true || entry?.conversation_id?.StartsWith(CafeTrustDialogue.Id)==true || entry?.conversation_id?.StartsWith(CafeLodgeDialogue.Id)==true || entry?.conversation_id==CafeDispatchIntroductionDialogue.StudioId || CafeReplayCatalog.IsEnding(entry?.conversation_id) || entry?.conversation_id==CafeOpening.Id;
         protected override CafeConversationProgress ResolveProgress()=>position;
         protected override CafeConversationLine[] Lines(string branch)=>entry.lines;
         protected override PythonIntakeState Request=>new PythonIntakeState{cat_id=entry.cat_id,name=entry.cat_name,personality=entry.personality,can_decline=true};

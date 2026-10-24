@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Linq;
 
 namespace CatCafePreview
@@ -11,6 +11,26 @@ namespace CatCafePreview
             string label = e.type == "festival" ? "地域のお祭り" : e.type == "rain" ? "雨の日" : e.type == "supplies" ? "支援物資" : e.type == "trouble" ? "設備トラブル" : e.type == "support" ? "保護団体からの支援依頼" : "イベントなし";
             return label + (e.choice == null ? "" : "（" + ChoiceLabel(e.choice) + "）");
         }
+        public string StoreEventNotice()
+        {
+            var s=Simulation.State;var e=s.store_events.FirstOrDefault(x=>x.day==s.day);
+            if(e==null || !(e.type=="festival" || e.type=="rain" || e.type=="supplies"))return "";
+            string body;
+            if(e.type=="festival")
+            {
+                string id="event-guest-"+e.day;var arrival=Simulation.CustomerSchedule(e.day).FirstOrDefault(x=>x.customer_id==id);
+                body=arrival==null?"追加来客の予定はありません。":"追加来客1人の予定（tick "+arrival.tick+"）。";
+                body+=s.visits.Any(x=>x.id==id)?" 来店済みです。接客・売上は実際の対応によって決まります。":s.phase=="closed"?" 本日の来店記録はありません。":" まだ来店していません。";
+            }
+            else if(e.type=="rain")body="雨のため、通常客の来店予定から客番号が最大の1人を除きます（対象がいない場合は変更なし）。変更後の予定は来客予定で確認できます。";
+            else
+            {
+                var item=Simulation.Rules.store_events.supply;string source="store-event-"+e.day;
+                string status=s.item_uses.Any(x=>x.source==source)?"使用済み":s.item_sales.Any(x=>x.source==source)?"売却済み":"未使用";
+                body="入手："+item.name+" ×1 / 効果："+ItemEffect(item)+"（0が下限）。この受取分："+status+"。現在の同用品所持数："+Simulation.ItemInventory().Count(x=>x.item.id==item.id)+"。用品画面で確認できます。";
+            }
+            return e.day+"日目・"+StoreEventLabel()+"\n"+body;
+        }
         private static string ChoiceLabel(string choice) => choice == "repair" ? "修理" : choice == "patch" ? "応急処置" : choice == "close" ? "休業" : choice == "full" ? "支援" : choice == "small" ? "少額支援" : "見送り";
         private bool CanPrepare => !Simulation.PlayerActive && Simulation.State.phase == "preparation" && Simulation.State.game_over == null && !Simulation.State.cats.Any(c => c.activity == "missing" && c.missing_remaining == 0 && !Simulation.DispatchMissing(Simulation.State,c.id));
         private PythonStoreEvent StoreEventView()
@@ -19,9 +39,22 @@ namespace CatCafePreview
             var e = Simulation.CurrentStoreEvent; var r = Simulation.Rules.store_events;
             string[] choices = e.type == "trouble" ? new[] { "repair", "patch", "close" } : new[] { "full", "small", "decline" };
             return new PythonStoreEvent { kind = e.type, title = StoreEventLabel(), day = e.day, funds = (float)Simulation.State.funds,
-                choices = choices.Select(c => new PythonEventChoice { choice = c, label = ChoiceLabel(c), can_select = CanPrepare && !(c == "close" && (Simulation.DispatchIntroductionWaiting || Simulation.DispatchTroubleWaiting || Simulation.DispatchWaiting || Simulation.DispatchChoiceWaiting || Simulation.IntakeWaiting || Simulation.RegularIntroductionWaiting || Simulation.CustomerTrustWaiting || Simulation.GrowthWaiting || Simulation.GoalWaiting || Simulation.PatronWaiting || Simulation.BondWaiting || Simulation.PlayerActive || Simulation.ReservationWaiting || Simulation.ReservationVisitToday)),
-                    detail = c == "repair" ? "閉店時に修理費 " + r.trouble_cost : c == "patch" ? "本日は " + Math.Min(Simulation.State.seat_count, r.trouble_seat_loss) + "席を停止" : c == "close" ? "営業せず運営費を精算し翌日へ" : c == "full" ? "今 " + r.support_full_cost + "支出 / 閉店時の人気 +" + r.support_full_popularity : c == "small" ? "今 " + r.support_small_cost + "支出 / 閉店時の人気 +" + r.support_small_popularity : "費用・人気変化なし" }).ToArray() };
+                choices = choices.Select(c => new PythonEventChoice { choice = c, label = ChoiceLabel(c), can_select = StoreChoiceReason(c)=="", reason=StoreChoiceReason(c),
+                    detail = c == "repair" ? "閉店時に修理費 " + r.trouble_cost : c == "patch" ? "本日は " + Math.Min(Simulation.State.seat_count, r.trouble_seat_loss) + "席を停止" : c == "close" ? (DayOffView().can_select ? "支出："+DayOffView().cost+" / 資金："+DayOffView().funds_after+"。"+(DayOffView().ends_game?"精算で経営終了。翌日へ進みません。":DayOffView().day_after+"日目へ（確認待ちで閉店に留まる場合あり）。")+"猫・日程の変化は確認画面で表示します。" : DayOffView().reason) : c == "full" ? SupportEffect(r.support_full_cost,r.support_full_popularity) : c == "small" ? SupportEffect(r.support_small_cost,r.support_small_popularity) : "費用・人気変化なし" }).ToArray() };
         }
+        private string SupportEffect(double cost,double popularity){var funds=Simulation.State.funds;return "回答時に "+cost.ToString("0.#")+" 支出 / 資金 "+funds.ToString("0.#")+" → "+(funds-cost).ToString("0.#")+"。"+(funds-cost<=0?"この回答で資金が尽き、経営終了します。閉店時に予定する人気 +"+popularity.ToString("0.#")+" は未反映のまま終了します。":"閉店時の人気 +"+popularity.ToString("0.#")+"（上限 "+Simulation.Rules.popularity.cap.ToString("0.#")+"）。回答時の人気変化はありません。");}
+        private string StoreChoiceReason(string choice)
+        {
+            if(Simulation.State.autoplay?.running==true)return "おまかせを中止してください。";
+            if(EquipmentResultPendingWithoutSync)return "前の店舗イベントの結果会話をイベント一覧から完了してください。";
+            if(choice=="close"){var rest=DayOffView();return rest.can_select?"":rest.reason;}
+            try {
+                var copy=UnityEngine.JsonUtility.FromJson<Standalone.CafeSnapshot>(UnityEngine.JsonUtility.ToJson(Simulation.State));
+                copy.NormalizeJsonStrings();Standalone.CafeDoublePrecision.Restore(copy,Standalone.CafeDoublePrecision.Capture(Simulation.State));
+                var preview=new Standalone.CafeSimulation(Simulation.Rules);preview.Restore(copy);preview.Execute("resolve_store_event",choice:choice);return "";
+            }catch(Exception ex){return ex.Message;}
+        }
+        private bool EquipmentResultPendingWithoutSync=>equipmentConversations.Any(r=>!r.progress.completed && r.progress.branch_id!="introduction");
         private static string ItemEffect(Standalone.CafeSupply item) => (item.fatigue_relief>0 ? "疲労 −"+item.fatigue_relief : "") + (item.fatigue_relief>0 && item.stress_relief>0 ? " / " : "") + (item.stress_relief>0 ? "ストレス −"+item.stress_relief : "");
         private PythonItems SupplyView()
         {

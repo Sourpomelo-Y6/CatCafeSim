@@ -66,6 +66,24 @@
       "content_cat_id": "shop-3",
       "subject_id": "shop-3",
       "name": "ハナ"
+    },
+    {
+      "cat_id": "intro-shopping_street_event",
+      "content_cat_id": "intro-shopping_street_event",
+      "subject_id": "intro-shopping_street_event",
+      "name": "セナ"
+    },
+    {
+      "cat_id": "intro-cat_photo_studio",
+      "content_cat_id": "intro-cat_photo_studio",
+      "subject_id": "intro-cat_photo_studio",
+      "name": "ルカ"
+    },
+    {
+      "cat_id": "catalog-1",
+      "content_cat_id": "catalog-1",
+      "subject_id": "catalog-1",
+      "name": "ハル"
     }
   ],
   "people": [
@@ -9007,6 +9025,678 @@
       "scene_key": "pause",
       "image": "images/91b18cdc31b2022eb9aba24d1bf914de4ab3ba650e7b1a8726bdb0bccc02179f.png",
       "resolved_scene_key": "pause"
+    },
+    {
+      "cat_id": "intro-shopping_street_event",
+      "content_cat_id": "intro-shopping_street_event",
+      "scene_key": "teaser",
+      "image": "images/8ea6aa7e3a2000de6d07945de5fcf6ca26fca2936619c0e463e25599e5ce85bc.png",
+      "resolved_scene_key": "teaser"
+    },
+    {
+      "cat_id": "intro-shopping_street_event",
+      "content_cat_id": "intro-shopping_street_event",
+      "scene_key": "teaser__direct",
+      "image": "images/edc5324402049eb755af7beecc974a2a9361c34b4070b22c8cbc633eddecf5bb.png",
+      "resolved_scene_key": "teaser__direct"
+    },
+    {
+      "cat_id": "intro-shopping_street_event",
+      "content_cat_id": "intro-shopping_street_event",
+      "scene_key": "teaser__adapt",
+      "image": "images/edc5324402049eb755af7beecc974a2a9361c34b4070b22c8cbc633eddecf5bb.png",
+      "resolved_scene_key": "teaser__adapt"
+    },
+    {
+      "cat_id": "intro-shopping_street_event",
+      "content_cat_id": "intro-shopping_street_event",
+      "scene_key": "teaser__intense",
+      "image": "images/8ea6aa7e3a2000de6d07945de5fcf6ca26fca2936619c0e463e25599e5ce85bc.png",
+      "resolved_scene_key": "teaser"
+    },
+    {
+      "cat_id": "intro-shopping_street_event",
+      "content_cat_id": "intro-shopping_street_event",
+      "scene_key": "teaser__feint",
+      "image": "images/8ea6aa7e3a2000de6d07945de5fcf6ca26fca2936619c0e463e25599e5ce85bc.png",
+      "resolved_scene_key": "teaser"
+    },
+    {
+      "cat_id": "intro-shopping_street_event",
+      "content_cat_id": "intro-shopping_street_event",
+      "scene_key": "ball",
+      "image": "images/8ea6aa7e3a2000de6d07945de5fcf6ca26fca2936619c0e463e25599e5ce85bc.png",
+      "resolved_scene_key": "ball"
+    },
+    {
+      "cat_id": "intro-shopping_street_event",
+      "content_cat_id": "intro-shopping_street_event",
+      "scene_key": "ball__direct",
+      "image": "images/270b291ae9da31781ef9c321cea749f7c6f1daa00574e70ccc074c1b418b3f4c.png",
+      "resolved_scene_key": "ball__direct"
+    },
+    {
+      "cat_id": "intro-shopping_street_event",
+      "content_cat_id": "intro-shopping_street_event",
+      "scene_key": "ball__adapt",
+      "image": "images/270b291ae9da31781ef9c321cea749f7c6f1daa00574e70ccc074c1b418b3f4c.png",
+      "resolved_scene_key": "ball__adapt"
+    },
+    {
+      "cat_id": "intro-shopping_street_event",
+      "content_cat_id": "intro-shopping_street_event",
+      "scene_key": "ball__intense",
+      "image": "images/8ea6aa7e3a2000de6d07945de5fcf6ca26fca2936619c0e463e25599e5ce85bc.png",
+      "resolved_scene_key": "ball"
+    },
+    {
+      "cat_id": "intro-shopping_street_event",
+      "content_cat_id": "intro-shopping_street_event",
+      "scene_key": "ball__feint",
+      "image": "images/8ea6aa7e3a2000de6d07945de5fcf6ca26fca2936619c0e463e25599e5ce85bc.png",
+      "resolved_scene_key": "ball"
+    },
+    {
+      "cat_id": "intro-shopping_street_event",
+      "content_cat_id": "intro-shopping_street_event",
+      "scene_key": "plush",
+      "image": "images/8ea6aa7e3a2000de6d07945de5fcf6ca26fca2936619c0e463e25599e5ce85bc.png",
+      "resolved_scene_key": "plush"
+    },
+    {
+      "cat_id": "intro-shopping_street_event",
+      "content_cat_id": "intro-shopping_street_event",
+      "scene_key": "plush__direct",
+      "image": "images/e7c3ece1b0976b06b76e55a975c07124694311b6ca41de6363abd3c0689031ee.png",
+      "resolved_scene_key": "plush__direct"
+    },
+    {
+      "cat_id": "intro-shopping_street_event",
+      "content_cat_id": "intro-shopping_street_event",
+      "scene_key": "plush__adapt",
+      "image": "images/e7c3ece1b0976b06b76e55a975c07124694311b6ca41de6363abd3c0689031ee.png",
+      "resolved_scene_key": "plush__adapt"
+    },
+    {
+      "cat_id": "intro-shopping_street_event",
+      "content_cat_id": "intro-shopping_street_event",
+      "scene_key": "plush__feint",
+      "image": "images/8ea6aa7e3a2000de6d07945de5fcf6ca26fca2936619c0e463e25599e5ce85bc.png",
+      "resolved_scene_key": "plush"
+    },
+    {
+      "cat_id": "intro-shopping_street_event",
+      "content_cat_id": "intro-shopping_street_event",
+      "scene_key": "tunnel",
+      "image": "images/8ea6aa7e3a2000de6d07945de5fcf6ca26fca2936619c0e463e25599e5ce85bc.png",
+      "resolved_scene_key": "tunnel"
+    },
+    {
+      "cat_id": "intro-shopping_street_event",
+      "content_cat_id": "intro-shopping_street_event",
+      "scene_key": "tunnel__direct",
+      "image": "images/846cded5825ca6953db8241e36b8d30e202fce93e63e6aebed3a7732d7204ebc.png",
+      "resolved_scene_key": "tunnel__direct"
+    },
+    {
+      "cat_id": "intro-shopping_street_event",
+      "content_cat_id": "intro-shopping_street_event",
+      "scene_key": "tunnel__adapt",
+      "image": "images/846cded5825ca6953db8241e36b8d30e202fce93e63e6aebed3a7732d7204ebc.png",
+      "resolved_scene_key": "tunnel__adapt"
+    },
+    {
+      "cat_id": "intro-shopping_street_event",
+      "content_cat_id": "intro-shopping_street_event",
+      "scene_key": "tunnel__intense",
+      "image": "images/8ea6aa7e3a2000de6d07945de5fcf6ca26fca2936619c0e463e25599e5ce85bc.png",
+      "resolved_scene_key": "tunnel"
+    },
+    {
+      "cat_id": "intro-shopping_street_event",
+      "content_cat_id": "intro-shopping_street_event",
+      "scene_key": "tunnel__feint",
+      "image": "images/8ea6aa7e3a2000de6d07945de5fcf6ca26fca2936619c0e463e25599e5ce85bc.png",
+      "resolved_scene_key": "tunnel"
+    },
+    {
+      "cat_id": "intro-shopping_street_event",
+      "content_cat_id": "intro-shopping_street_event",
+      "scene_key": "pet",
+      "image": "images/8ea6aa7e3a2000de6d07945de5fcf6ca26fca2936619c0e463e25599e5ce85bc.png",
+      "resolved_scene_key": "pet"
+    },
+    {
+      "cat_id": "intro-shopping_street_event",
+      "content_cat_id": "intro-shopping_street_event",
+      "scene_key": "pet__direct",
+      "image": "images/68779479dfde253ac7ab08c6cfe1b05dfb3ad349e3da97d9e77bd2666b0bb0f4.png",
+      "resolved_scene_key": "pet__direct"
+    },
+    {
+      "cat_id": "intro-shopping_street_event",
+      "content_cat_id": "intro-shopping_street_event",
+      "scene_key": "pet__adapt",
+      "image": "images/68779479dfde253ac7ab08c6cfe1b05dfb3ad349e3da97d9e77bd2666b0bb0f4.png",
+      "resolved_scene_key": "pet__adapt"
+    },
+    {
+      "cat_id": "intro-shopping_street_event",
+      "content_cat_id": "intro-shopping_street_event",
+      "scene_key": "brush",
+      "image": "images/8ea6aa7e3a2000de6d07945de5fcf6ca26fca2936619c0e463e25599e5ce85bc.png",
+      "resolved_scene_key": "brush"
+    },
+    {
+      "cat_id": "intro-shopping_street_event",
+      "content_cat_id": "intro-shopping_street_event",
+      "scene_key": "brush__direct",
+      "image": "images/afddbd1a0d21ca6b2ea94bf5bddf51c1310e8b7e6ef9007b9e4b20cbff04e7f6.png",
+      "resolved_scene_key": "brush__direct"
+    },
+    {
+      "cat_id": "intro-shopping_street_event",
+      "content_cat_id": "intro-shopping_street_event",
+      "scene_key": "brush__adapt",
+      "image": "images/afddbd1a0d21ca6b2ea94bf5bddf51c1310e8b7e6ef9007b9e4b20cbff04e7f6.png",
+      "resolved_scene_key": "brush__adapt"
+    },
+    {
+      "cat_id": "intro-shopping_street_event",
+      "content_cat_id": "intro-shopping_street_event",
+      "scene_key": "voice",
+      "image": "images/8ea6aa7e3a2000de6d07945de5fcf6ca26fca2936619c0e463e25599e5ce85bc.png",
+      "resolved_scene_key": "voice"
+    },
+    {
+      "cat_id": "intro-shopping_street_event",
+      "content_cat_id": "intro-shopping_street_event",
+      "scene_key": "voice__direct",
+      "image": "images/c446ba4f31fda39426060e1b1fcd95819f03c52115f0d91a53883211ee1035fe.png",
+      "resolved_scene_key": "voice__direct"
+    },
+    {
+      "cat_id": "intro-shopping_street_event",
+      "content_cat_id": "intro-shopping_street_event",
+      "scene_key": "voice__adapt",
+      "image": "images/c446ba4f31fda39426060e1b1fcd95819f03c52115f0d91a53883211ee1035fe.png",
+      "resolved_scene_key": "voice__adapt"
+    },
+    {
+      "cat_id": "intro-shopping_street_event",
+      "content_cat_id": "intro-shopping_street_event",
+      "scene_key": "presence",
+      "image": "images/8ea6aa7e3a2000de6d07945de5fcf6ca26fca2936619c0e463e25599e5ce85bc.png",
+      "resolved_scene_key": "presence"
+    },
+    {
+      "cat_id": "intro-shopping_street_event",
+      "content_cat_id": "intro-shopping_street_event",
+      "scene_key": "presence__direct",
+      "image": "images/9b8f9326c9af7e11929b9ffef05c7ce11f7620803172a909d7c9656d931a74bf.png",
+      "resolved_scene_key": "presence__direct"
+    },
+    {
+      "cat_id": "intro-shopping_street_event",
+      "content_cat_id": "intro-shopping_street_event",
+      "scene_key": "presence__adapt",
+      "image": "images/9b8f9326c9af7e11929b9ffef05c7ce11f7620803172a909d7c9656d931a74bf.png",
+      "resolved_scene_key": "presence__adapt"
+    },
+    {
+      "cat_id": "intro-shopping_street_event",
+      "content_cat_id": "intro-shopping_street_event",
+      "scene_key": "pause",
+      "image": "images/da19ba320c7d5136f0ba1cc0466a7c41d25a0530e969c97612faa08a521e7f33.png",
+      "resolved_scene_key": "pause"
+    },
+    {
+      "cat_id": "intro-cat_photo_studio",
+      "content_cat_id": "intro-cat_photo_studio",
+      "scene_key": "teaser",
+      "image": "images/bbed1910068bad61f4306a95df8376ab1750315b85d7e30f97ec8ed35c4039e8.png",
+      "resolved_scene_key": "teaser"
+    },
+    {
+      "cat_id": "intro-cat_photo_studio",
+      "content_cat_id": "intro-cat_photo_studio",
+      "scene_key": "teaser__direct",
+      "image": "images/ee06b3cb251a3816bf37ce994629d5b0d9649c97194722222067ffbf95171234.png",
+      "resolved_scene_key": "teaser__direct"
+    },
+    {
+      "cat_id": "intro-cat_photo_studio",
+      "content_cat_id": "intro-cat_photo_studio",
+      "scene_key": "teaser__adapt",
+      "image": "images/ee06b3cb251a3816bf37ce994629d5b0d9649c97194722222067ffbf95171234.png",
+      "resolved_scene_key": "teaser__adapt"
+    },
+    {
+      "cat_id": "intro-cat_photo_studio",
+      "content_cat_id": "intro-cat_photo_studio",
+      "scene_key": "teaser__intense",
+      "image": "images/bbed1910068bad61f4306a95df8376ab1750315b85d7e30f97ec8ed35c4039e8.png",
+      "resolved_scene_key": "teaser"
+    },
+    {
+      "cat_id": "intro-cat_photo_studio",
+      "content_cat_id": "intro-cat_photo_studio",
+      "scene_key": "teaser__feint",
+      "image": "images/bbed1910068bad61f4306a95df8376ab1750315b85d7e30f97ec8ed35c4039e8.png",
+      "resolved_scene_key": "teaser"
+    },
+    {
+      "cat_id": "intro-cat_photo_studio",
+      "content_cat_id": "intro-cat_photo_studio",
+      "scene_key": "ball",
+      "image": "images/bbed1910068bad61f4306a95df8376ab1750315b85d7e30f97ec8ed35c4039e8.png",
+      "resolved_scene_key": "ball"
+    },
+    {
+      "cat_id": "intro-cat_photo_studio",
+      "content_cat_id": "intro-cat_photo_studio",
+      "scene_key": "ball__direct",
+      "image": "images/aacec0b8e1fc6743a2210a119149b0f06849354fd673ef56765010b7dc5768ee.png",
+      "resolved_scene_key": "ball__direct"
+    },
+    {
+      "cat_id": "intro-cat_photo_studio",
+      "content_cat_id": "intro-cat_photo_studio",
+      "scene_key": "ball__adapt",
+      "image": "images/aacec0b8e1fc6743a2210a119149b0f06849354fd673ef56765010b7dc5768ee.png",
+      "resolved_scene_key": "ball__adapt"
+    },
+    {
+      "cat_id": "intro-cat_photo_studio",
+      "content_cat_id": "intro-cat_photo_studio",
+      "scene_key": "ball__intense",
+      "image": "images/bbed1910068bad61f4306a95df8376ab1750315b85d7e30f97ec8ed35c4039e8.png",
+      "resolved_scene_key": "ball"
+    },
+    {
+      "cat_id": "intro-cat_photo_studio",
+      "content_cat_id": "intro-cat_photo_studio",
+      "scene_key": "ball__feint",
+      "image": "images/bbed1910068bad61f4306a95df8376ab1750315b85d7e30f97ec8ed35c4039e8.png",
+      "resolved_scene_key": "ball"
+    },
+    {
+      "cat_id": "intro-cat_photo_studio",
+      "content_cat_id": "intro-cat_photo_studio",
+      "scene_key": "plush",
+      "image": "images/bbed1910068bad61f4306a95df8376ab1750315b85d7e30f97ec8ed35c4039e8.png",
+      "resolved_scene_key": "plush"
+    },
+    {
+      "cat_id": "intro-cat_photo_studio",
+      "content_cat_id": "intro-cat_photo_studio",
+      "scene_key": "plush__direct",
+      "image": "images/e233937352cfc07bb48d57439ed0c5c3a617a9b04c06dc8a75fb558d3a219900.png",
+      "resolved_scene_key": "plush__direct"
+    },
+    {
+      "cat_id": "intro-cat_photo_studio",
+      "content_cat_id": "intro-cat_photo_studio",
+      "scene_key": "plush__adapt",
+      "image": "images/e233937352cfc07bb48d57439ed0c5c3a617a9b04c06dc8a75fb558d3a219900.png",
+      "resolved_scene_key": "plush__adapt"
+    },
+    {
+      "cat_id": "intro-cat_photo_studio",
+      "content_cat_id": "intro-cat_photo_studio",
+      "scene_key": "plush__feint",
+      "image": "images/bbed1910068bad61f4306a95df8376ab1750315b85d7e30f97ec8ed35c4039e8.png",
+      "resolved_scene_key": "plush"
+    },
+    {
+      "cat_id": "intro-cat_photo_studio",
+      "content_cat_id": "intro-cat_photo_studio",
+      "scene_key": "tunnel",
+      "image": "images/bbed1910068bad61f4306a95df8376ab1750315b85d7e30f97ec8ed35c4039e8.png",
+      "resolved_scene_key": "tunnel"
+    },
+    {
+      "cat_id": "intro-cat_photo_studio",
+      "content_cat_id": "intro-cat_photo_studio",
+      "scene_key": "tunnel__direct",
+      "image": "images/b1536b50fc86eaa7814ce779aaae4138dfee9079a0b9ff0a226df5a319d87b7c.png",
+      "resolved_scene_key": "tunnel__direct"
+    },
+    {
+      "cat_id": "intro-cat_photo_studio",
+      "content_cat_id": "intro-cat_photo_studio",
+      "scene_key": "tunnel__adapt",
+      "image": "images/b1536b50fc86eaa7814ce779aaae4138dfee9079a0b9ff0a226df5a319d87b7c.png",
+      "resolved_scene_key": "tunnel__adapt"
+    },
+    {
+      "cat_id": "intro-cat_photo_studio",
+      "content_cat_id": "intro-cat_photo_studio",
+      "scene_key": "tunnel__intense",
+      "image": "images/bbed1910068bad61f4306a95df8376ab1750315b85d7e30f97ec8ed35c4039e8.png",
+      "resolved_scene_key": "tunnel"
+    },
+    {
+      "cat_id": "intro-cat_photo_studio",
+      "content_cat_id": "intro-cat_photo_studio",
+      "scene_key": "tunnel__feint",
+      "image": "images/bbed1910068bad61f4306a95df8376ab1750315b85d7e30f97ec8ed35c4039e8.png",
+      "resolved_scene_key": "tunnel"
+    },
+    {
+      "cat_id": "intro-cat_photo_studio",
+      "content_cat_id": "intro-cat_photo_studio",
+      "scene_key": "pet",
+      "image": "images/bbed1910068bad61f4306a95df8376ab1750315b85d7e30f97ec8ed35c4039e8.png",
+      "resolved_scene_key": "pet"
+    },
+    {
+      "cat_id": "intro-cat_photo_studio",
+      "content_cat_id": "intro-cat_photo_studio",
+      "scene_key": "pet__direct",
+      "image": "images/f554b9355134ffe806c40f59d9c894ef7f1128d25abd993a586d5d05654bee90.png",
+      "resolved_scene_key": "pet__direct"
+    },
+    {
+      "cat_id": "intro-cat_photo_studio",
+      "content_cat_id": "intro-cat_photo_studio",
+      "scene_key": "pet__adapt",
+      "image": "images/f554b9355134ffe806c40f59d9c894ef7f1128d25abd993a586d5d05654bee90.png",
+      "resolved_scene_key": "pet__adapt"
+    },
+    {
+      "cat_id": "intro-cat_photo_studio",
+      "content_cat_id": "intro-cat_photo_studio",
+      "scene_key": "brush",
+      "image": "images/bbed1910068bad61f4306a95df8376ab1750315b85d7e30f97ec8ed35c4039e8.png",
+      "resolved_scene_key": "brush"
+    },
+    {
+      "cat_id": "intro-cat_photo_studio",
+      "content_cat_id": "intro-cat_photo_studio",
+      "scene_key": "brush__direct",
+      "image": "images/02c39dfb56cf9e8c0cc8e26d992a8e5e2bfb973fe6a1cdc9bf4a80ca229deb4f.png",
+      "resolved_scene_key": "brush__direct"
+    },
+    {
+      "cat_id": "intro-cat_photo_studio",
+      "content_cat_id": "intro-cat_photo_studio",
+      "scene_key": "brush__adapt",
+      "image": "images/02c39dfb56cf9e8c0cc8e26d992a8e5e2bfb973fe6a1cdc9bf4a80ca229deb4f.png",
+      "resolved_scene_key": "brush__adapt"
+    },
+    {
+      "cat_id": "intro-cat_photo_studio",
+      "content_cat_id": "intro-cat_photo_studio",
+      "scene_key": "voice",
+      "image": "images/bbed1910068bad61f4306a95df8376ab1750315b85d7e30f97ec8ed35c4039e8.png",
+      "resolved_scene_key": "voice"
+    },
+    {
+      "cat_id": "intro-cat_photo_studio",
+      "content_cat_id": "intro-cat_photo_studio",
+      "scene_key": "voice__direct",
+      "image": "images/6e7c8846e36ec6c38470ade74bd46fd93b4908ee214c7b9fe2cd3cb6b57d93fb.png",
+      "resolved_scene_key": "voice__direct"
+    },
+    {
+      "cat_id": "intro-cat_photo_studio",
+      "content_cat_id": "intro-cat_photo_studio",
+      "scene_key": "voice__adapt",
+      "image": "images/6e7c8846e36ec6c38470ade74bd46fd93b4908ee214c7b9fe2cd3cb6b57d93fb.png",
+      "resolved_scene_key": "voice__adapt"
+    },
+    {
+      "cat_id": "intro-cat_photo_studio",
+      "content_cat_id": "intro-cat_photo_studio",
+      "scene_key": "presence",
+      "image": "images/bbed1910068bad61f4306a95df8376ab1750315b85d7e30f97ec8ed35c4039e8.png",
+      "resolved_scene_key": "presence"
+    },
+    {
+      "cat_id": "intro-cat_photo_studio",
+      "content_cat_id": "intro-cat_photo_studio",
+      "scene_key": "presence__direct",
+      "image": "images/011c954876195e1e830460229d6adfa89ca43a61c8ef2f560b1ced887354c7b4.png",
+      "resolved_scene_key": "presence__direct"
+    },
+    {
+      "cat_id": "intro-cat_photo_studio",
+      "content_cat_id": "intro-cat_photo_studio",
+      "scene_key": "presence__adapt",
+      "image": "images/011c954876195e1e830460229d6adfa89ca43a61c8ef2f560b1ced887354c7b4.png",
+      "resolved_scene_key": "presence__adapt"
+    },
+    {
+      "cat_id": "intro-cat_photo_studio",
+      "content_cat_id": "intro-cat_photo_studio",
+      "scene_key": "pause",
+      "image": "images/72e77e900a85f4bb2319531f83f972a7ed4d3757acdd02cf0ad7a335f2ecb6c2.png",
+      "resolved_scene_key": "pause"
+    },
+    {
+      "cat_id": "catalog-1",
+      "content_cat_id": "catalog-1",
+      "scene_key": "teaser",
+      "image": "images/1a7b5605c4a57a305e446c12e8da22f8fbb239708e9501d05dd4b24976a58a68.png",
+      "resolved_scene_key": "teaser"
+    },
+    {
+      "cat_id": "catalog-1",
+      "content_cat_id": "catalog-1",
+      "scene_key": "teaser__direct",
+      "image": "images/7e7a456d63e84c50e285bb939566241dd0f125bc4ccf66cc9e18569ec6651782.png",
+      "resolved_scene_key": "teaser__direct"
+    },
+    {
+      "cat_id": "catalog-1",
+      "content_cat_id": "catalog-1",
+      "scene_key": "teaser__adapt",
+      "image": "images/7e7a456d63e84c50e285bb939566241dd0f125bc4ccf66cc9e18569ec6651782.png",
+      "resolved_scene_key": "teaser__adapt"
+    },
+    {
+      "cat_id": "catalog-1",
+      "content_cat_id": "catalog-1",
+      "scene_key": "teaser__intense",
+      "image": "images/1a7b5605c4a57a305e446c12e8da22f8fbb239708e9501d05dd4b24976a58a68.png",
+      "resolved_scene_key": "teaser"
+    },
+    {
+      "cat_id": "catalog-1",
+      "content_cat_id": "catalog-1",
+      "scene_key": "teaser__feint",
+      "image": "images/1a7b5605c4a57a305e446c12e8da22f8fbb239708e9501d05dd4b24976a58a68.png",
+      "resolved_scene_key": "teaser"
+    },
+    {
+      "cat_id": "catalog-1",
+      "content_cat_id": "catalog-1",
+      "scene_key": "ball",
+      "image": "images/1a7b5605c4a57a305e446c12e8da22f8fbb239708e9501d05dd4b24976a58a68.png",
+      "resolved_scene_key": "ball"
+    },
+    {
+      "cat_id": "catalog-1",
+      "content_cat_id": "catalog-1",
+      "scene_key": "ball__direct",
+      "image": "images/19e7e4cb50621e4285c8f4889252aadafe1a1eb3c8bb98906997fc010a9464ba.png",
+      "resolved_scene_key": "ball__direct"
+    },
+    {
+      "cat_id": "catalog-1",
+      "content_cat_id": "catalog-1",
+      "scene_key": "ball__adapt",
+      "image": "images/19e7e4cb50621e4285c8f4889252aadafe1a1eb3c8bb98906997fc010a9464ba.png",
+      "resolved_scene_key": "ball__adapt"
+    },
+    {
+      "cat_id": "catalog-1",
+      "content_cat_id": "catalog-1",
+      "scene_key": "ball__intense",
+      "image": "images/1a7b5605c4a57a305e446c12e8da22f8fbb239708e9501d05dd4b24976a58a68.png",
+      "resolved_scene_key": "ball"
+    },
+    {
+      "cat_id": "catalog-1",
+      "content_cat_id": "catalog-1",
+      "scene_key": "ball__feint",
+      "image": "images/1a7b5605c4a57a305e446c12e8da22f8fbb239708e9501d05dd4b24976a58a68.png",
+      "resolved_scene_key": "ball"
+    },
+    {
+      "cat_id": "catalog-1",
+      "content_cat_id": "catalog-1",
+      "scene_key": "plush",
+      "image": "images/1a7b5605c4a57a305e446c12e8da22f8fbb239708e9501d05dd4b24976a58a68.png",
+      "resolved_scene_key": "plush"
+    },
+    {
+      "cat_id": "catalog-1",
+      "content_cat_id": "catalog-1",
+      "scene_key": "plush__direct",
+      "image": "images/802443d938cce4504586132161470ca45987ba90f82235fcee148b66a4a44ce3.png",
+      "resolved_scene_key": "plush__direct"
+    },
+    {
+      "cat_id": "catalog-1",
+      "content_cat_id": "catalog-1",
+      "scene_key": "plush__adapt",
+      "image": "images/802443d938cce4504586132161470ca45987ba90f82235fcee148b66a4a44ce3.png",
+      "resolved_scene_key": "plush__adapt"
+    },
+    {
+      "cat_id": "catalog-1",
+      "content_cat_id": "catalog-1",
+      "scene_key": "plush__feint",
+      "image": "images/1a7b5605c4a57a305e446c12e8da22f8fbb239708e9501d05dd4b24976a58a68.png",
+      "resolved_scene_key": "plush"
+    },
+    {
+      "cat_id": "catalog-1",
+      "content_cat_id": "catalog-1",
+      "scene_key": "tunnel",
+      "image": "images/1a7b5605c4a57a305e446c12e8da22f8fbb239708e9501d05dd4b24976a58a68.png",
+      "resolved_scene_key": "tunnel"
+    },
+    {
+      "cat_id": "catalog-1",
+      "content_cat_id": "catalog-1",
+      "scene_key": "tunnel__direct",
+      "image": "images/3f5c97e3e72a06a9407266709bbb98bb7d706707d7f0d650828684495decf037.png",
+      "resolved_scene_key": "tunnel__direct"
+    },
+    {
+      "cat_id": "catalog-1",
+      "content_cat_id": "catalog-1",
+      "scene_key": "tunnel__adapt",
+      "image": "images/3f5c97e3e72a06a9407266709bbb98bb7d706707d7f0d650828684495decf037.png",
+      "resolved_scene_key": "tunnel__adapt"
+    },
+    {
+      "cat_id": "catalog-1",
+      "content_cat_id": "catalog-1",
+      "scene_key": "tunnel__intense",
+      "image": "images/1a7b5605c4a57a305e446c12e8da22f8fbb239708e9501d05dd4b24976a58a68.png",
+      "resolved_scene_key": "tunnel"
+    },
+    {
+      "cat_id": "catalog-1",
+      "content_cat_id": "catalog-1",
+      "scene_key": "tunnel__feint",
+      "image": "images/1a7b5605c4a57a305e446c12e8da22f8fbb239708e9501d05dd4b24976a58a68.png",
+      "resolved_scene_key": "tunnel"
+    },
+    {
+      "cat_id": "catalog-1",
+      "content_cat_id": "catalog-1",
+      "scene_key": "pet",
+      "image": "images/1a7b5605c4a57a305e446c12e8da22f8fbb239708e9501d05dd4b24976a58a68.png",
+      "resolved_scene_key": "pet"
+    },
+    {
+      "cat_id": "catalog-1",
+      "content_cat_id": "catalog-1",
+      "scene_key": "pet__direct",
+      "image": "images/57191456b0a60c50cd4af87434fab5b6bbe39aaa60b442b11a0384aa6bac9202.png",
+      "resolved_scene_key": "pet__direct"
+    },
+    {
+      "cat_id": "catalog-1",
+      "content_cat_id": "catalog-1",
+      "scene_key": "pet__adapt",
+      "image": "images/57191456b0a60c50cd4af87434fab5b6bbe39aaa60b442b11a0384aa6bac9202.png",
+      "resolved_scene_key": "pet__adapt"
+    },
+    {
+      "cat_id": "catalog-1",
+      "content_cat_id": "catalog-1",
+      "scene_key": "brush",
+      "image": "images/1a7b5605c4a57a305e446c12e8da22f8fbb239708e9501d05dd4b24976a58a68.png",
+      "resolved_scene_key": "brush"
+    },
+    {
+      "cat_id": "catalog-1",
+      "content_cat_id": "catalog-1",
+      "scene_key": "brush__direct",
+      "image": "images/4ea70647313c63de962da676a0ba599a6ae60d2c35ff7844fdb0ae1a6af75cf3.png",
+      "resolved_scene_key": "brush__direct"
+    },
+    {
+      "cat_id": "catalog-1",
+      "content_cat_id": "catalog-1",
+      "scene_key": "brush__adapt",
+      "image": "images/4ea70647313c63de962da676a0ba599a6ae60d2c35ff7844fdb0ae1a6af75cf3.png",
+      "resolved_scene_key": "brush__adapt"
+    },
+    {
+      "cat_id": "catalog-1",
+      "content_cat_id": "catalog-1",
+      "scene_key": "voice",
+      "image": "images/1a7b5605c4a57a305e446c12e8da22f8fbb239708e9501d05dd4b24976a58a68.png",
+      "resolved_scene_key": "voice"
+    },
+    {
+      "cat_id": "catalog-1",
+      "content_cat_id": "catalog-1",
+      "scene_key": "voice__direct",
+      "image": "images/bac800019791f62a01ed8f3e327a6f96eebdca94b42ead93b8ad840a5da6e3bf.png",
+      "resolved_scene_key": "voice__direct"
+    },
+    {
+      "cat_id": "catalog-1",
+      "content_cat_id": "catalog-1",
+      "scene_key": "voice__adapt",
+      "image": "images/bac800019791f62a01ed8f3e327a6f96eebdca94b42ead93b8ad840a5da6e3bf.png",
+      "resolved_scene_key": "voice__adapt"
+    },
+    {
+      "cat_id": "catalog-1",
+      "content_cat_id": "catalog-1",
+      "scene_key": "presence",
+      "image": "images/1a7b5605c4a57a305e446c12e8da22f8fbb239708e9501d05dd4b24976a58a68.png",
+      "resolved_scene_key": "presence"
+    },
+    {
+      "cat_id": "catalog-1",
+      "content_cat_id": "catalog-1",
+      "scene_key": "presence__direct",
+      "image": "images/959c6b9adfb4a6b79031628d2e2568fcc26908096f0e1fd0ae8b73cf3a5bbacd.png",
+      "resolved_scene_key": "presence__direct"
+    },
+    {
+      "cat_id": "catalog-1",
+      "content_cat_id": "catalog-1",
+      "scene_key": "presence__adapt",
+      "image": "images/959c6b9adfb4a6b79031628d2e2568fcc26908096f0e1fd0ae8b73cf3a5bbacd.png",
+      "resolved_scene_key": "presence__adapt"
+    },
+    {
+      "cat_id": "catalog-1",
+      "content_cat_id": "catalog-1",
+      "scene_key": "pause",
+      "image": "images/d541791e2350b5452ebab543b6ee7ea2b447d76920f21aad304632423010393b.png",
+      "resolved_scene_key": "pause"
     }
   ],
   "action_texts": [
@@ -9158,6 +9848,6 @@
     }
   ],
   "rest_narration": "急がず、静かな休憩の時間を過ごした。",
-  "revision": "02687dd2c18d4ef8814badd6185b4851b0b9fa1e7967e6adc9276c4f004cdd6f",
+  "revision": "48dddb70e41a4541302f5559217a9da2d2d2d7c26f6ec5ae99547274e3f4f827",
   "pack_id": "4762dd1bd978461bb07c041c59417281"
 }

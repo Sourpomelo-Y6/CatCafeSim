@@ -34,7 +34,7 @@ namespace CatCafePreview
         public float revenue;
         public float popularity, popularity_gain;
         public PythonSatisfactionCounts customer_satisfaction;
-        public string store_event_label;
+        public string store_event_label, store_event_notice, store_event_notice_kind;
         public PythonCustomerProgress[] customer_progress;
         public CatCafePreview.Standalone.CafeArrival[] customer_schedule;
         public PythonSeatState[] seats;
@@ -98,6 +98,7 @@ namespace CatCafePreview
     [Serializable] public class PythonPlayerInteraction
     {
         public string narrative_image;
+        public string stamina_guidance;
         public string session_id, cat_id, content_cat_id, scene_key, image_key, event_image_key, name, mode, history, reason;
         public bool active, can_finish;
         public int remaining_ticks, remaining_sets;
@@ -389,7 +390,7 @@ namespace CatCafePreview
             if(!CanRespondStore(index)) return;
             StopAutomatic();
             pending=new PythonShiftCommand { request_id=Guid.NewGuid().ToString("N"),instance_id=current.instance_id,
-                expected_revision=current.revision,working_cats=new string[0],kind="resolve_store_event",choice=current.store_event.choices[index].choice };
+                expected_revision=current.revision,working_cats=new string[0],kind="resolve_store_event",event_id=CatCafePreview.Standalone.CafeEquipmentDialogue.EventId(current.store_event.day,current.store_event.kind),choice=current.store_event.choices[index].choice };
             preview.RefreshPythonControls();
         }
         public bool CanExpandHousing { get { return CanManageSaves && current.housing != null && current.housing.can_expand; } }
@@ -546,6 +547,7 @@ namespace CatCafePreview
             if (!IsOpen(state) || (current != null && (state.instance_id != current.instance_id || state.day != current.day))) StopAutomatic();
             if(current!=null && state.instance_id!=current.instance_id){batchAutomatic=false;batchStopRequested=false;}
             if(state.autoplay?.running!=true && pending?.kind!="start_autoplay"){batchAutomatic=false;batchStopRequested=false;}
+            if(state.autoplay?.paused==true && pending?.kind!="resume_autoplay")batchAutomatic=false;
             current = state; online = true;if(HasPendingResults){StopAutomatic();batchAutomatic=false;} preview.ApplyPythonState(state);
         }
         private IEnumerator Start()

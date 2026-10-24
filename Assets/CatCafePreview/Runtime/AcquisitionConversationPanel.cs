@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Linq;
 using UnityEngine;
 using UnityEngine.UI;
@@ -12,11 +12,20 @@ namespace CatCafePreview
         Transform[] originalChildren; bool[] originalActive; Vector2 originalMin,originalMax,originalPivot,originalOffsetMin,originalOffsetMax;
         public bool OriginalShowing {get;private set;}
         GameObject card,dialogue,choiceGroup,historyWindow; Text heading,body,speaker,hint,acceptEffect,declineEffect,catLabel,historyBody,sceneLabel; RawImage portrait;
-        CanvasGroup catGroup; ScrollRect historyScroll; Vector2 layoutSize; bool layoutHistory;
+        CanvasGroup catGroup; ScrollRect historyScroll; Vector2 layoutSize; bool layoutHistory,layoutThreeLinePages;
         static readonly Color Paper=new Color(.99f,.97f,.92f),Ink=new Color(.22f,.26f,.20f),Olive=new Color(.36f,.43f,.31f);
         public ScrollRect HistoryScroll=>historyScroll;
+        Button third;Text thirdEffect;
+        protected virtual bool HasThirdChoice=>false;
+        protected virtual string ThirdCaption=>"";
+        protected virtual string ThirdEffect=>"";
+        protected virtual bool CanThird=>false;
+        protected virtual void SendThird(){}
+        Button skipRead;
+        protected virtual bool ReadSkippable(int node)=>false;
+        protected virtual bool TrackRead=>true;
         Button next,accept,decline,backlog,close; ScrollRect scroll;
-        string rendered,epoch; string pageText=""; float revealed; bool history,hidden; int lastFrame=-1;
+        string rendered,epoch; string pageText=""; float revealed; bool history,hidden,manualSelected; int lastFrame=-1;
         protected LocalCafeBackend Backend=>CafeBackends.Local as LocalCafeBackend;
         protected PythonStateClient Client=>GetComponent<PythonStateClient>();
         public bool Showing=>!OriginalShowing && panel!=null && panel.activeSelf && progress!=null && !progress.completed;
@@ -48,7 +57,7 @@ namespace CatCafePreview
         protected virtual CafeConversationProgress ResolveProgress(){if(regular)Backend.BeginRegularConversation();else Backend.BeginIntakeConversation();return regular?Backend.RegularConversation:Backend.Conversation;}
         protected void Bind(PythonCafeState value,GameObject host,Font textFont){panel=host;font=textFont;ApplyState(value);}
         protected virtual bool CanRaise=>true;
-        protected virtual bool Available=>progress!=null && !progress.completed;
+        protected virtual bool Available=>progress!=null && !progress.completed && (!Backend.EquipmentResultPending || this is EquipmentConversationPanel || this is ReplayConversationPanel);
         protected virtual bool Choosing=>progress.branch_id=="introduction" && progress.node>=Lines(progress.branch_id).Length;
         protected virtual string Title=>regular?"常連からの猫紹介":"保護猫の受け入れ依頼";
         protected virtual string SceneLabel=>state.day+"日目 · 営業準備";
@@ -63,13 +72,14 @@ namespace CatCafePreview
         protected virtual void SendAnswer(bool answer){if(regular)Client.RespondRegular(answer?"accept":"decline");else Client.RespondIntake(answer);}
         void ApplyState(PythonCafeState value)
         {
-            state=value;var restored=ResolveProgress();if(!ReferenceEquals(progress,restored)){hidden=false;rendered=null;history=false;}progress=restored;
+            state=value;var restored=ResolveProgress();if(!ReferenceEquals(progress,restored)){hidden=false;manualSelected=false;rendered=null;history=false;}progress=restored;
             if(card==null && progress==null){panel.SetActive(false);return;}
             if(card==null)Build();
             if(progress!=null && !progress.completed){OriginalShowing=false;foreach(var child in originalChildren)child.gameObject.SetActive(false);card.SetActive(true);Stretch(panel.GetComponent<RectTransform>());}
             string key=value.instance_id+"/"+progress?.branch_id;
             if(epoch!=key){epoch=key;hidden=false;history=false;rendered=null;}
             bool available=Available;
+            if(GetComponent<PythonEventListPanel>()?.HoldConversations==true && EventConversation && !manualSelected)hidden=true;
             if(available && GetComponents<AcquisitionConversationPanel>().Any(other=>other!=this && other.Showing))hidden=true;
             panel.SetActive(available && !hidden && !AutoRunning);
             if(confirmation!=null)confirmation.SetActive(false);
@@ -103,12 +113,14 @@ namespace CatCafePreview
             if(history)historyBody.text=History(lines);
             next.gameObject.SetActive(!choosing && !history);next.GetComponentInChildren<Text>().text=revealed<full.Length?"全文表示":progress.node>=lines.Length?"会話を終える":"次へ";
             bool ready=Ready;
+            skipRead.gameObject.SetActive(!history && !choosing && TrackRead);skipRead.interactable=ready && CanSkipRead();
             next.interactable=ready;close.interactable=ready;backlog.interactable=ready;
             accept.gameObject.SetActive(choosing && !history);decline.gameObject.SetActive(choosing && !history);
             accept.interactable=ready && CanAnswer(true);decline.interactable=ready && CanAnswer(false);
             accept.GetComponentInChildren<Text>().text=AcceptCaption;decline.GetComponentInChildren<Text>().text=DeclineCaption;
+            if(third!=null){third.gameObject.SetActive(choosing && !history);third.interactable=ready && CanThird;third.GetComponentInChildren<Text>().text=ThirdCaption;thirdEffect.text=ThirdEffect;}
             acceptEffect.text=AcceptEffect;declineEffect.text=DeclineEffect;
-            hint.text=BusyNotice;hint.gameObject.SetActive(!ThreeLinePages);
+            hint.text=Backend?.ReadHistory?.Error??BusyNotice;hint.gameObject.SetActive(!ThreeLinePages);
             portrait.texture=PortraitTexture(q.cat_id)??ContentPreview.CatPlaceholderTexture();portrait.enabled=portrait.texture!=null;
             if(portrait.texture!=null)portrait.GetComponent<AspectRatioFitter>().aspectRatio=(float)portrait.texture.width/portrait.texture.height;
         }
@@ -135,13 +147,20 @@ namespace CatCafePreview
         {
             if(!Showing || !Click() || progress==null || history)return;
             var lines=Lines(progress.branch_id);
-            if(progress.node<lines.Length){if(revealed<pageText.Length)revealed=pageText.Length;else if(ThreeLinePages && progress.page_offset+pageText.Length<lines[progress.node].text.Length)progress.page_offset+=pageText.Length;else {progress.node++;progress.page_offset=0;}}
-            else if(progress.branch_id!="introduction"){Finish();RecordCompletion();Close();return;}
+            if(progress.node<lines.Length){if(revealed<pageText.Length)revealed=pageText.Length;else { RememberPage(lines);if(ThreeLinePages && progress.page_offset+pageText.Length<lines[progress.node].text.Length)progress.page_offset+=pageText.Length;else {progress.node++;progress.page_offset=0;} }}
+            else if(progress.branch_id!="introduction"){Finish();RecordCompletion();ReturnToEvents();return;}
             Refresh();
         }
+        string ReadKey(CafeConversationLine[] lines,int node)=>CafeReadStore.Key(progress.conversation_id,progress.branch_id,lines,node);
+        void RememberPage(CafeConversationLine[] lines){if(TrackRead && Backend!=null)Backend.ReadHistory.Remember(ReadKey(lines,progress.node),progress.page_offset,progress.page_offset+pageText.Length);}
+        bool CanSkipRead(){if(!TrackRead || Backend==null || progress==null || Choosing || answerConfirmation!=null)return false;var lines=Lines(progress.branch_id);return progress.node<lines.Length && ReadSkippable(progress.node) && Backend.ReadHistory.Contains(ReadKey(lines,progress.node),0,lines[progress.node].text.Length);}
+        // A single explicit operation advances only over contiguous known safe sections. Never invokes Next/Answer/Finish.
+        public void SkipRead(){if(!Showing || history || !Click() || !CanSkipRead())return;var lines=Lines(progress.branch_id);while(progress.node<lines.Length && CanSkipRead()){progress.node++;progress.page_offset=0;}Refresh();}
         public void Answer(bool answer){if(!Showing || !Click() || progress==null || progress.branch_id!="introduction" || progress.node<Lines("introduction").Length)return;SendAnswer(answer);Refresh();}
-        public virtual void Open(){foreach(var other in GetComponents<AcquisitionConversationPanel>())if(other!=this && other.Showing)other.Close();hidden=false;OriginalShowing=false;if(card!=null){card.SetActive(true);foreach(var child in originalChildren)child.gameObject.SetActive(false);Stretch(panel.GetComponent<RectTransform>());}panel.SetActive(Available);panel.transform.SetAsLastSibling();Refresh();}
-        public virtual void Close(){if(!Ready)return;hidden=true;panel.SetActive(false);SetOpen(false);AfterClose();}
+        bool EventConversation=>this is IntakeConversationPanel || this is RegularConversationPanel || this is DispatchConversationPanel || this is EquipmentConversationPanel || this is TrustConversationPanel || this is AdoptionConversationPanel || this is MissingConversationPanel || this is ReservationConversationPanel || this is LodgeConversationPanel || this is EncounterConversationPanel || this is DispatchIntroductionConversationPanel;
+        void ReturnToEvents(){if(!Ready)return;var list=GetComponent<PythonEventListPanel>();if(EventConversation && list!=null)list.HoldConversations=true;Close();if(EventConversation && list!=null)list.ConversationReturned();}
+        public virtual void Open(){manualSelected=true;foreach(var other in GetComponents<AcquisitionConversationPanel>())if(other!=this && other.Showing)other.Close();hidden=false;OriginalShowing=false;if(card!=null){card.SetActive(true);foreach(var child in originalChildren)child.gameObject.SetActive(false);Stretch(panel.GetComponent<RectTransform>());}panel.SetActive(Available);panel.transform.SetAsLastSibling();Refresh();}
+        public virtual void Close(){if(!Ready)return;if(answerConfirmation!=null){Destroy(answerConfirmation);answerConfirmation=null;}hidden=true;manualSelected=false;panel.SetActive(false);SetOpen(false);AfterClose();}
         void ToggleHistory(){if(!Click())return;history=!history;Refresh();}
         public void ShowOriginal()
         {
@@ -152,6 +171,16 @@ namespace CatCafePreview
                 var rect=panel.GetComponent<RectTransform>();rect.anchorMin=originalMin;rect.anchorMax=originalMax;rect.pivot=originalPivot;rect.offsetMin=originalOffsetMin;rect.offsetMax=originalOffsetMax;
             }
             panel.SetActive(true);panel.transform.SetAsLastSibling();SetOpen(false);
+        }
+        // Shared local confirmation. Cancellation never sends a command.
+        GameObject answerConfirmation;
+        protected void AskConfirmation(string text,Action confirmed){
+            if(answerConfirmation!=null)Destroy(answerConfirmation);
+            answerConfirmation=Box(panel.transform,"Answer Confirmation",0,0,1280,800,Paper);Stretch(answerConfirmation.GetComponent<RectTransform>());
+            var c=Box(answerConfirmation.transform,"Confirm",0,0,900,390,Paper,16);var r=c.GetComponent<RectTransform>();r.anchorMin=r.anchorMax=r.pivot=new Vector2(.5f,.5f);r.anchoredPosition=Vector2.zero;
+            Scroll(c.transform,"Effect",24,20,852,270,22,out var effect).text=text;
+            Button(c.transform,"取消",24,324,240,()=>{Destroy(answerConfirmation);answerConfirmation=null;});
+            Button(c.transform,"この内容で回答",620,324,250,()=>{if(!Click())return;Destroy(answerConfirmation);answerConfirmation=null;confirmed();});
         }
         void Build()
         {
@@ -174,23 +203,26 @@ namespace CatCafePreview
             backlog=Button(dialogue.transform,"バックログ",24,202,120,ToggleHistory);
             Button(dialogue.transform,"保存",156,202,96,()=>GetComponent<PythonSaveBrowser>().OpenSave()).gameObject.SetActive(SaveControls);
             Button(dialogue.transform,"読込",264,202,96,()=>GetComponent<PythonSaveBrowser>().OpenLoad()).gameObject.SetActive(SaveControls);
-            close=Button(dialogue.transform,CloseCaption,388,202,144,Close);
+            close=Button(dialogue.transform,CloseCaption,388,202,144,ReturnToEvents);
             Button(dialogue.transform,"設定",548,202,120,()=>GetComponent<GameOptionsPanel>()?.Open());
+            skipRead=Button(dialogue.transform,"既読部分をスキップ",684,202,250,SkipRead);
             next=Button(dialogue.transform,"次へ",948,202,200,Next);next.GetComponent<ConversationShape>().color=Olive;next.GetComponentInChildren<Text>().color=Paper;
             choiceGroup=new GameObject("Choices",typeof(RectTransform));choiceGroup.transform.SetParent(card.transform,false);var choices=choiceGroup.GetComponent<RectTransform>();choices.anchorMin=choices.anchorMax=new Vector2(.5f,.61f);choices.pivot=new Vector2(.5f,.5f);choices.sizeDelta=new Vector2(760,354);choices.anchoredPosition=Vector2.zero;
             var first=Box(choiceGroup.transform,"Accept choice",0,0,760,170,Paper,12);var second=Box(choiceGroup.transform,"Decline choice",0,184,760,170,Paper,12);
             accept=Button(first.transform,"迎える",16,8,728,()=>Answer(true));decline=Button(second.transform,"見送る",16,8,728,()=>Answer(false));
             acceptEffect=Scroll(first.transform,"Accept effect",20,52,720,110,17,out var a);declineEffect=Scroll(second.transform,"Decline effect",20,52,720,110,17,out var d);
+            if(HasThirdChoice){choices.sizeDelta=new Vector2(760,354);Place(first.GetComponent<RectTransform>(),0,0,760,110);Place(second.GetComponent<RectTransform>(),0,122,760,110);SetScroll(a,720,50);SetScroll(d,720,50);var extra=Box(choiceGroup.transform,"Third choice",0,244,760,110,Paper,12);third=Button(extra.transform,ThirdCaption,16,8,728,()=>{if(Click() && CanThird)SendThird();});thirdEffect=Scroll(extra.transform,"Third effect",20,52,720,50,17,out var t);}
             historyWindow=Box(card.transform,"History Window",96,110,1088,620,Paper,16);Label(historyWindow.transform,"History Title",32,22,900,42,24).text="会話の履歴";
             historyBody=Scroll(historyWindow.transform,"History",32,82,1024,454,21,out historyScroll);historyBody.lineSpacing=1.3f;
             Button(historyWindow.transform,"会話へ戻る",32,558,210,ToggleHistory);historyWindow.SetActive(false);Layout();
         }
         void Layout()
         {
-            var size=card.GetComponent<RectTransform>().rect.size;if(size==layoutSize && layoutHistory==history)return;layoutSize=size;layoutHistory=history;
+            var size=card.GetComponent<RectTransform>().rect.size;if(size==layoutSize && layoutHistory==history && layoutThreeLinePages==ThreeLinePages)return;layoutSize=size;layoutHistory=history;layoutThreeLinePages=ThreeLinePages;
             float width=size.x-96;var dock=dialogue.GetComponent<RectTransform>();dock.offsetMin=new Vector2(48,32);dock.offsetMax=new Vector2(-48,286);
+            skipRead.GetComponent<RectTransform>().anchoredPosition=new Vector2(width-274,8);
             SetScroll(scroll,width-64,ThreeLinePages?144:112);
-            if(ThreeLinePages){scroll.vertical=false;scroll.verticalScrollbar.gameObject.SetActive(false);}hint.rectTransform.SetSizeWithCurrentAnchors(RectTransform.Axis.Horizontal,width-64);next.GetComponent<RectTransform>().anchoredPosition=new Vector2(width-224,-202);
+            scroll.vertical=!ThreeLinePages;if(ThreeLinePages)scroll.verticalScrollbar.gameObject.SetActive(false);hint.rectTransform.SetSizeWithCurrentAnchors(RectTransform.Axis.Horizontal,width-64);next.GetComponent<RectTransform>().anchoredPosition=new Vector2(width-224,-202);
             var box=historyWindow.GetComponent<RectTransform>();Place(box,96,110,size.x-192,size.y-158);SetScroll(historyScroll,size.x-256,size.y-334);
             historyWindow.transform.Find("会話へ戻る").GetComponent<RectTransform>().anchoredPosition=new Vector2(32,-(size.y-216));
         }

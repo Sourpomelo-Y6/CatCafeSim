@@ -3642,6 +3642,999 @@
           "text": "ハナの様子です。"
         }
       ]
+    },
+    {
+      "cat_id": "intro-shopping_street_event",
+      "name": "セナ",
+      "introduction": "白い長毛と青い目、細身の体を持つ、遊び好きで繊細な猫。",
+      "features": [
+        "white",
+        "long_hair"
+      ],
+      "appearance": {
+        "eye_color": "両目とも澄んだサファイアブルー。ややアーモンド形。",
+        "body_type": "中小型の細身の成猫。すらりとした脚と優雅な体つき。",
+        "markings": "全身白。顔・体・脚・尾に色の斑点や縞はない。",
+        "face_shape": "やや細い卵形の顔と先細りの口元。高めの三角耳に房毛。鼻はピンク。",
+        "tail": "長く羽毛状に広がる白い尾。先端は細く、体の横へ緩く曲げる。",
+        "notes": "長毛で絹のような白い毛、控えめな胸の飾り毛。好奇心と慎重さが同居。丸顔・金色の目のチロと区別する。2026-10-21制作設定。"
+      },
+      "scenes": [
+        {
+          "key": "normal",
+          "image": "images/8ea6aa7e3a2000de6d07945de5fcf6ca26fca2936619c0e463e25599e5ce85bc.png",
+          "label": "normal",
+          "text": "セナの様子です。"
+        },
+        {
+          "key": "sleep",
+          "image": "images/6f10c9a95d26361e4b738c42e693d76e47f0bba052d7563bfebc4d8bbba22f0c.png",
+          "label": "sleep",
+          "text": "セナの様子です。"
+        },
+        {
+          "key": "play",
+          "image": "images/edc5324402049eb755af7beecc974a2a9361c34b4070b22c8cbc633eddecf5bb.png",
+          "label": "play",
+          "text": "セナの様子です。"
+        },
+        {
+          "key": "pause",
+          "image": "images/da19ba320c7d5136f0ba1cc0466a7c41d25a0530e969c97612faa08a521e7f33.png",
+          "label": "pause",
+          "text": "セナの様子です。"
+        },
+        {
+          "key": "teaser",
+          "image": "images/8ea6aa7e3a2000de6d07945de5fcf6ca26fca2936619c0e463e25599e5ce85bc.png",
+          "label": "teaser",
+          "text": "セナの様子です。"
+        },
+        {
+          "key": "teaser__switch",
+          "image": "images/8ea6aa7e3a2000de6d07945de5fcf6ca26fca2936619c0e463e25599e5ce85bc.png",
+          "label": "teaser__switch",
+          "text": "セナの様子です。"
+        },
+        {
+          "key": "teaser__direct",
+          "image": "images/edc5324402049eb755af7beecc974a2a9361c34b4070b22c8cbc633eddecf5bb.png",
+          "label": "teaser__direct",
+          "text": "セナの様子です。"
+        },
+        {
+          "key": "teaser__adapt",
+          "image": "images/edc5324402049eb755af7beecc974a2a9361c34b4070b22c8cbc633eddecf5bb.png",
+          "label": "teaser__adapt",
+          "text": "セナの様子です。"
+        },
+        {
+          "key": "teaser__open_up",
+          "image": "images/6aa2875c495fc9eed737d39cc3412329501cc16f108db6b8e91ac41e513c816b.png",
+          "label": "teaser__open_up",
+          "text": "セナの様子です。"
+        },
+        {
+          "key": "teaser__simultaneous",
+          "image": "images/7c53e9f8ca29261f37bd56a9289bfc3947839e2a939a15621ba08e11c907156e.png",
+          "label": "teaser__simultaneous",
+          "text": "セナの様子です。"
+        },
+        {
+          "key": "ball",
+          "image": "images/8ea6aa7e3a2000de6d07945de5fcf6ca26fca2936619c0e463e25599e5ce85bc.png",
+          "label": "ball",
+          "text": "セナの様子です。"
+        },
+        {
+          "key": "ball__switch",
+          "image": "images/8ea6aa7e3a2000de6d07945de5fcf6ca26fca2936619c0e463e25599e5ce85bc.png",
+          "label": "ball__switch",
+          "text": "セナの様子です。"
+        },
+        {
+          "key": "ball__direct",
+          "image": "images/270b291ae9da31781ef9c321cea749f7c6f1daa00574e70ccc074c1b418b3f4c.png",
+          "label": "ball__direct",
+          "text": "セナの様子です。"
+        },
+        {
+          "key": "ball__adapt",
+          "image": "images/270b291ae9da31781ef9c321cea749f7c6f1daa00574e70ccc074c1b418b3f4c.png",
+          "label": "ball__adapt",
+          "text": "セナの様子です。"
+        },
+        {
+          "key": "ball__open_up",
+          "image": "images/035f376cc5811b804edfb0f4066e682295fcd2de2b7c1c34d074f64e82255eac.png",
+          "label": "ball__open_up",
+          "text": "セナの様子です。"
+        },
+        {
+          "key": "ball__simultaneous",
+          "image": "images/05013fc86ca801afd21b3009537e3cb56041260ed086a4160c663ac4b98f9243.png",
+          "label": "ball__simultaneous",
+          "text": "セナの様子です。"
+        },
+        {
+          "key": "plush",
+          "image": "images/8ea6aa7e3a2000de6d07945de5fcf6ca26fca2936619c0e463e25599e5ce85bc.png",
+          "label": "plush",
+          "text": "セナの様子です。"
+        },
+        {
+          "key": "plush__switch",
+          "image": "images/8ea6aa7e3a2000de6d07945de5fcf6ca26fca2936619c0e463e25599e5ce85bc.png",
+          "label": "plush__switch",
+          "text": "セナの様子です。"
+        },
+        {
+          "key": "plush__direct",
+          "image": "images/e7c3ece1b0976b06b76e55a975c07124694311b6ca41de6363abd3c0689031ee.png",
+          "label": "plush__direct",
+          "text": "セナの様子です。"
+        },
+        {
+          "key": "plush__adapt",
+          "image": "images/e7c3ece1b0976b06b76e55a975c07124694311b6ca41de6363abd3c0689031ee.png",
+          "label": "plush__adapt",
+          "text": "セナの様子です。"
+        },
+        {
+          "key": "plush__open_up",
+          "image": "images/b83195021fbda2dd6bc49a78fd372b50b47d53617708881f53969be9b89544ab.png",
+          "label": "plush__open_up",
+          "text": "セナの様子です。"
+        },
+        {
+          "key": "plush__simultaneous",
+          "image": "images/379956bf3d8848a12a312657031661f8c5208d6f3cdae59a983075046beff754.png",
+          "label": "plush__simultaneous",
+          "text": "セナの様子です。"
+        },
+        {
+          "key": "tunnel",
+          "image": "images/8ea6aa7e3a2000de6d07945de5fcf6ca26fca2936619c0e463e25599e5ce85bc.png",
+          "label": "tunnel",
+          "text": "セナの様子です。"
+        },
+        {
+          "key": "tunnel__switch",
+          "image": "images/8ea6aa7e3a2000de6d07945de5fcf6ca26fca2936619c0e463e25599e5ce85bc.png",
+          "label": "tunnel__switch",
+          "text": "セナの様子です。"
+        },
+        {
+          "key": "tunnel__direct",
+          "image": "images/846cded5825ca6953db8241e36b8d30e202fce93e63e6aebed3a7732d7204ebc.png",
+          "label": "tunnel__direct",
+          "text": "セナの様子です。"
+        },
+        {
+          "key": "tunnel__adapt",
+          "image": "images/846cded5825ca6953db8241e36b8d30e202fce93e63e6aebed3a7732d7204ebc.png",
+          "label": "tunnel__adapt",
+          "text": "セナの様子です。"
+        },
+        {
+          "key": "tunnel__open_up",
+          "image": "images/e30ed2619673def77efa33235ba50f4a8daf375f610165f41a8cce431b10caaf.png",
+          "label": "tunnel__open_up",
+          "text": "セナの様子です。"
+        },
+        {
+          "key": "tunnel__simultaneous",
+          "image": "images/a37153d911774ed20a994b2235510fdc2d3457327cf3f0c90fdebefdb4b29dea.png",
+          "label": "tunnel__simultaneous",
+          "text": "セナの様子です。"
+        },
+        {
+          "key": "pet",
+          "image": "images/8ea6aa7e3a2000de6d07945de5fcf6ca26fca2936619c0e463e25599e5ce85bc.png",
+          "label": "pet",
+          "text": "セナの様子です。"
+        },
+        {
+          "key": "pet__switch",
+          "image": "images/8ea6aa7e3a2000de6d07945de5fcf6ca26fca2936619c0e463e25599e5ce85bc.png",
+          "label": "pet__switch",
+          "text": "セナの様子です。"
+        },
+        {
+          "key": "pet__direct",
+          "image": "images/68779479dfde253ac7ab08c6cfe1b05dfb3ad349e3da97d9e77bd2666b0bb0f4.png",
+          "label": "pet__direct",
+          "text": "セナの様子です。"
+        },
+        {
+          "key": "pet__adapt",
+          "image": "images/68779479dfde253ac7ab08c6cfe1b05dfb3ad349e3da97d9e77bd2666b0bb0f4.png",
+          "label": "pet__adapt",
+          "text": "セナの様子です。"
+        },
+        {
+          "key": "pet__open_up",
+          "image": "images/ffeb9d2574f47b87890340ffcfc06bc087945422e5ed059f6db85dab9a96362e.png",
+          "label": "pet__open_up",
+          "text": "セナの様子です。"
+        },
+        {
+          "key": "pet__simultaneous",
+          "image": "images/80b5d74dde03a0c202a97e5e5409b9978e42107c152e4456b9a0856b6d9e583e.png",
+          "label": "pet__simultaneous",
+          "text": "セナの様子です。"
+        },
+        {
+          "key": "brush",
+          "image": "images/8ea6aa7e3a2000de6d07945de5fcf6ca26fca2936619c0e463e25599e5ce85bc.png",
+          "label": "brush",
+          "text": "セナの様子です。"
+        },
+        {
+          "key": "brush__switch",
+          "image": "images/8ea6aa7e3a2000de6d07945de5fcf6ca26fca2936619c0e463e25599e5ce85bc.png",
+          "label": "brush__switch",
+          "text": "セナの様子です。"
+        },
+        {
+          "key": "brush__direct",
+          "image": "images/afddbd1a0d21ca6b2ea94bf5bddf51c1310e8b7e6ef9007b9e4b20cbff04e7f6.png",
+          "label": "brush__direct",
+          "text": "セナの様子です。"
+        },
+        {
+          "key": "brush__adapt",
+          "image": "images/afddbd1a0d21ca6b2ea94bf5bddf51c1310e8b7e6ef9007b9e4b20cbff04e7f6.png",
+          "label": "brush__adapt",
+          "text": "セナの様子です。"
+        },
+        {
+          "key": "brush__open_up",
+          "image": "images/1a153fd1b17bfaf5f5d2c7b15196d5aa8e29ea80a509485f12f178dc14b5cc63.png",
+          "label": "brush__open_up",
+          "text": "セナの様子です。"
+        },
+        {
+          "key": "brush__simultaneous",
+          "image": "images/7aa2830f41d00b00d83b3fe14072e47b2b1dfdc152cd555ca8f696a32263b219.png",
+          "label": "brush__simultaneous",
+          "text": "セナの様子です。"
+        },
+        {
+          "key": "voice",
+          "image": "images/8ea6aa7e3a2000de6d07945de5fcf6ca26fca2936619c0e463e25599e5ce85bc.png",
+          "label": "voice",
+          "text": "セナの様子です。"
+        },
+        {
+          "key": "voice__switch",
+          "image": "images/8ea6aa7e3a2000de6d07945de5fcf6ca26fca2936619c0e463e25599e5ce85bc.png",
+          "label": "voice__switch",
+          "text": "セナの様子です。"
+        },
+        {
+          "key": "voice__direct",
+          "image": "images/c446ba4f31fda39426060e1b1fcd95819f03c52115f0d91a53883211ee1035fe.png",
+          "label": "voice__direct",
+          "text": "セナの様子です。"
+        },
+        {
+          "key": "voice__adapt",
+          "image": "images/c446ba4f31fda39426060e1b1fcd95819f03c52115f0d91a53883211ee1035fe.png",
+          "label": "voice__adapt",
+          "text": "セナの様子です。"
+        },
+        {
+          "key": "voice__open_up",
+          "image": "images/49b8cead8d7635eef18e0b4c80eb29a44ac2cfdeca57d9e5df5da0957c4dbbef.png",
+          "label": "voice__open_up",
+          "text": "セナの様子です。"
+        },
+        {
+          "key": "voice__simultaneous",
+          "image": "images/ef0ceaab92d0616881799181535102df3ef904cd2f084491a478f5d9d97c0d7e.png",
+          "label": "voice__simultaneous",
+          "text": "セナの様子です。"
+        },
+        {
+          "key": "presence",
+          "image": "images/8ea6aa7e3a2000de6d07945de5fcf6ca26fca2936619c0e463e25599e5ce85bc.png",
+          "label": "presence",
+          "text": "セナの様子です。"
+        },
+        {
+          "key": "presence__switch",
+          "image": "images/8ea6aa7e3a2000de6d07945de5fcf6ca26fca2936619c0e463e25599e5ce85bc.png",
+          "label": "presence__switch",
+          "text": "セナの様子です。"
+        },
+        {
+          "key": "presence__direct",
+          "image": "images/9b8f9326c9af7e11929b9ffef05c7ce11f7620803172a909d7c9656d931a74bf.png",
+          "label": "presence__direct",
+          "text": "セナの様子です。"
+        },
+        {
+          "key": "presence__adapt",
+          "image": "images/9b8f9326c9af7e11929b9ffef05c7ce11f7620803172a909d7c9656d931a74bf.png",
+          "label": "presence__adapt",
+          "text": "セナの様子です。"
+        },
+        {
+          "key": "presence__open_up",
+          "image": "images/bb4b408ee81154ed14fe1c1ad1bc0cb2fc636d38fa463fab7ab4cb15b67d5ff0.png",
+          "label": "presence__open_up",
+          "text": "セナの様子です。"
+        },
+        {
+          "key": "presence__simultaneous",
+          "image": "images/e8f974213e7225969067d8ee57b505150588486e5c851b362def5c5c7c487380.png",
+          "label": "presence__simultaneous",
+          "text": "セナの様子です。"
+        }
+      ]
+    },
+    {
+      "cat_id": "intro-cat_photo_studio",
+      "name": "ルカ",
+      "introduction": "白い短毛と緑色の目、丸い顔を持つ、穏やかな甘えん坊。",
+      "features": [
+        "white",
+        "short_hair"
+      ],
+      "appearance": {
+        "eye_color": "両目とも明るい葉のような緑色。丸い目。",
+        "body_type": "中小型の成猫。しっかりしたコンパクトな体と丸みのある胸。",
+        "markings": "全身白。顔・背中・脚・尾に斑点や縞はない。",
+        "face_shape": "丸い顔と幅広く柔らかな頬。小さめの丸い三角耳。鼻はピンク。",
+        "tail": "中程度の長さでやや太い白い尾。短い毛が滑らかに覆い、足元の横で緩く曲げる。",
+        "notes": "短毛で密な白い毛。穏やかで親しみのある表情。青い目・細身・長毛のセナと区別する。2026-10-22制作設定。"
+      },
+      "scenes": [
+        {
+          "key": "normal",
+          "image": "images/bbed1910068bad61f4306a95df8376ab1750315b85d7e30f97ec8ed35c4039e8.png",
+          "label": "normal",
+          "text": "ルカの様子です。"
+        },
+        {
+          "key": "sleep",
+          "image": "images/3647c916b1c666a96befe559b999fb27eb40e9c53c643fc7df30f83404bb8ae1.png",
+          "label": "sleep",
+          "text": "ルカの様子です。"
+        },
+        {
+          "key": "play",
+          "image": "images/ee06b3cb251a3816bf37ce994629d5b0d9649c97194722222067ffbf95171234.png",
+          "label": "play",
+          "text": "ルカの様子です。"
+        },
+        {
+          "key": "pause",
+          "image": "images/72e77e900a85f4bb2319531f83f972a7ed4d3757acdd02cf0ad7a335f2ecb6c2.png",
+          "label": "pause",
+          "text": "ルカの様子です。"
+        },
+        {
+          "key": "teaser",
+          "image": "images/bbed1910068bad61f4306a95df8376ab1750315b85d7e30f97ec8ed35c4039e8.png",
+          "label": "teaser",
+          "text": "ルカの様子です。"
+        },
+        {
+          "key": "teaser__switch",
+          "image": "images/bbed1910068bad61f4306a95df8376ab1750315b85d7e30f97ec8ed35c4039e8.png",
+          "label": "teaser__switch",
+          "text": "ルカの様子です。"
+        },
+        {
+          "key": "teaser__direct",
+          "image": "images/ee06b3cb251a3816bf37ce994629d5b0d9649c97194722222067ffbf95171234.png",
+          "label": "teaser__direct",
+          "text": "ルカの様子です。"
+        },
+        {
+          "key": "teaser__adapt",
+          "image": "images/ee06b3cb251a3816bf37ce994629d5b0d9649c97194722222067ffbf95171234.png",
+          "label": "teaser__adapt",
+          "text": "ルカの様子です。"
+        },
+        {
+          "key": "teaser__open_up",
+          "image": "images/a08b6561653d25f5e412cbbfa6b0a341b73fc50ca5b440edaefc3fce09b33b3e.png",
+          "label": "teaser__open_up",
+          "text": "ルカの様子です。"
+        },
+        {
+          "key": "teaser__simultaneous",
+          "image": "images/0250f77f4a50f8744306bd9e26379a19a47f9b2ffb8e2f132af2d77571de2e6d.png",
+          "label": "teaser__simultaneous",
+          "text": "ルカの様子です。"
+        },
+        {
+          "key": "ball",
+          "image": "images/bbed1910068bad61f4306a95df8376ab1750315b85d7e30f97ec8ed35c4039e8.png",
+          "label": "ball",
+          "text": "ルカの様子です。"
+        },
+        {
+          "key": "ball__switch",
+          "image": "images/bbed1910068bad61f4306a95df8376ab1750315b85d7e30f97ec8ed35c4039e8.png",
+          "label": "ball__switch",
+          "text": "ルカの様子です。"
+        },
+        {
+          "key": "ball__direct",
+          "image": "images/aacec0b8e1fc6743a2210a119149b0f06849354fd673ef56765010b7dc5768ee.png",
+          "label": "ball__direct",
+          "text": "ルカの様子です。"
+        },
+        {
+          "key": "ball__adapt",
+          "image": "images/aacec0b8e1fc6743a2210a119149b0f06849354fd673ef56765010b7dc5768ee.png",
+          "label": "ball__adapt",
+          "text": "ルカの様子です。"
+        },
+        {
+          "key": "ball__open_up",
+          "image": "images/b4c0e5e9c38eef0e5a19c6de19082ec0dd8c29e13eee5ab4f8b4fce8c03cd4c9.png",
+          "label": "ball__open_up",
+          "text": "ルカの様子です。"
+        },
+        {
+          "key": "ball__simultaneous",
+          "image": "images/ccebd8a7f55698d4b4f95ffd299a4b738b45f7f1cdb4a933643996fc56f76b33.png",
+          "label": "ball__simultaneous",
+          "text": "ルカの様子です。"
+        },
+        {
+          "key": "plush",
+          "image": "images/bbed1910068bad61f4306a95df8376ab1750315b85d7e30f97ec8ed35c4039e8.png",
+          "label": "plush",
+          "text": "ルカの様子です。"
+        },
+        {
+          "key": "plush__switch",
+          "image": "images/bbed1910068bad61f4306a95df8376ab1750315b85d7e30f97ec8ed35c4039e8.png",
+          "label": "plush__switch",
+          "text": "ルカの様子です。"
+        },
+        {
+          "key": "plush__direct",
+          "image": "images/e233937352cfc07bb48d57439ed0c5c3a617a9b04c06dc8a75fb558d3a219900.png",
+          "label": "plush__direct",
+          "text": "ルカの様子です。"
+        },
+        {
+          "key": "plush__adapt",
+          "image": "images/e233937352cfc07bb48d57439ed0c5c3a617a9b04c06dc8a75fb558d3a219900.png",
+          "label": "plush__adapt",
+          "text": "ルカの様子です。"
+        },
+        {
+          "key": "plush__open_up",
+          "image": "images/5a74a043245674b3bd1bad4ec6e5307928cc25dd7dc01059a471450478a787ad.png",
+          "label": "plush__open_up",
+          "text": "ルカの様子です。"
+        },
+        {
+          "key": "plush__simultaneous",
+          "image": "images/c8bc80f2bcd510bbddb6c774d5a1d2a0d436cbf545ae5df3e175d60d34e82b76.png",
+          "label": "plush__simultaneous",
+          "text": "ルカの様子です。"
+        },
+        {
+          "key": "tunnel",
+          "image": "images/bbed1910068bad61f4306a95df8376ab1750315b85d7e30f97ec8ed35c4039e8.png",
+          "label": "tunnel",
+          "text": "ルカの様子です。"
+        },
+        {
+          "key": "tunnel__switch",
+          "image": "images/bbed1910068bad61f4306a95df8376ab1750315b85d7e30f97ec8ed35c4039e8.png",
+          "label": "tunnel__switch",
+          "text": "ルカの様子です。"
+        },
+        {
+          "key": "tunnel__direct",
+          "image": "images/b1536b50fc86eaa7814ce779aaae4138dfee9079a0b9ff0a226df5a319d87b7c.png",
+          "label": "tunnel__direct",
+          "text": "ルカの様子です。"
+        },
+        {
+          "key": "tunnel__adapt",
+          "image": "images/b1536b50fc86eaa7814ce779aaae4138dfee9079a0b9ff0a226df5a319d87b7c.png",
+          "label": "tunnel__adapt",
+          "text": "ルカの様子です。"
+        },
+        {
+          "key": "tunnel__open_up",
+          "image": "images/7891393d7f7c60fef5af40fff3b3a551cea52859692cac61bb9155f3cf6d267c.png",
+          "label": "tunnel__open_up",
+          "text": "ルカの様子です。"
+        },
+        {
+          "key": "tunnel__simultaneous",
+          "image": "images/5a2571ddcb866f558238e654541bfff662d228f7f6342a9b92d5890706c1139c.png",
+          "label": "tunnel__simultaneous",
+          "text": "ルカの様子です。"
+        },
+        {
+          "key": "pet",
+          "image": "images/bbed1910068bad61f4306a95df8376ab1750315b85d7e30f97ec8ed35c4039e8.png",
+          "label": "pet",
+          "text": "ルカの様子です。"
+        },
+        {
+          "key": "pet__switch",
+          "image": "images/bbed1910068bad61f4306a95df8376ab1750315b85d7e30f97ec8ed35c4039e8.png",
+          "label": "pet__switch",
+          "text": "ルカの様子です。"
+        },
+        {
+          "key": "pet__direct",
+          "image": "images/f554b9355134ffe806c40f59d9c894ef7f1128d25abd993a586d5d05654bee90.png",
+          "label": "pet__direct",
+          "text": "ルカの様子です。"
+        },
+        {
+          "key": "pet__adapt",
+          "image": "images/f554b9355134ffe806c40f59d9c894ef7f1128d25abd993a586d5d05654bee90.png",
+          "label": "pet__adapt",
+          "text": "ルカの様子です。"
+        },
+        {
+          "key": "pet__open_up",
+          "image": "images/16848268aba81226ad25d265b4571a86653df7592b009edaca8857ed373555e9.png",
+          "label": "pet__open_up",
+          "text": "ルカの様子です。"
+        },
+        {
+          "key": "pet__simultaneous",
+          "image": "images/d4f398be3a0d1fb3072863b3e767ae04a2f3ee1b4d5803863b12612155bc4436.png",
+          "label": "pet__simultaneous",
+          "text": "ルカの様子です。"
+        },
+        {
+          "key": "brush",
+          "image": "images/bbed1910068bad61f4306a95df8376ab1750315b85d7e30f97ec8ed35c4039e8.png",
+          "label": "brush",
+          "text": "ルカの様子です。"
+        },
+        {
+          "key": "brush__switch",
+          "image": "images/bbed1910068bad61f4306a95df8376ab1750315b85d7e30f97ec8ed35c4039e8.png",
+          "label": "brush__switch",
+          "text": "ルカの様子です。"
+        },
+        {
+          "key": "brush__direct",
+          "image": "images/02c39dfb56cf9e8c0cc8e26d992a8e5e2bfb973fe6a1cdc9bf4a80ca229deb4f.png",
+          "label": "brush__direct",
+          "text": "ルカの様子です。"
+        },
+        {
+          "key": "brush__adapt",
+          "image": "images/02c39dfb56cf9e8c0cc8e26d992a8e5e2bfb973fe6a1cdc9bf4a80ca229deb4f.png",
+          "label": "brush__adapt",
+          "text": "ルカの様子です。"
+        },
+        {
+          "key": "brush__open_up",
+          "image": "images/f48cf5da26662f42eb2245a25b2de06203fb5bed5656a5cf2fcd2e2cc6cc37c9.png",
+          "label": "brush__open_up",
+          "text": "ルカの様子です。"
+        },
+        {
+          "key": "brush__simultaneous",
+          "image": "images/e7f85dba14d22f137b14542fc3c7e98d3e93d60ad97ec466e8b831b61d575d5e.png",
+          "label": "brush__simultaneous",
+          "text": "ルカの様子です。"
+        },
+        {
+          "key": "voice",
+          "image": "images/bbed1910068bad61f4306a95df8376ab1750315b85d7e30f97ec8ed35c4039e8.png",
+          "label": "voice",
+          "text": "ルカの様子です。"
+        },
+        {
+          "key": "voice__switch",
+          "image": "images/bbed1910068bad61f4306a95df8376ab1750315b85d7e30f97ec8ed35c4039e8.png",
+          "label": "voice__switch",
+          "text": "ルカの様子です。"
+        },
+        {
+          "key": "voice__direct",
+          "image": "images/6e7c8846e36ec6c38470ade74bd46fd93b4908ee214c7b9fe2cd3cb6b57d93fb.png",
+          "label": "voice__direct",
+          "text": "ルカの様子です。"
+        },
+        {
+          "key": "voice__adapt",
+          "image": "images/6e7c8846e36ec6c38470ade74bd46fd93b4908ee214c7b9fe2cd3cb6b57d93fb.png",
+          "label": "voice__adapt",
+          "text": "ルカの様子です。"
+        },
+        {
+          "key": "voice__open_up",
+          "image": "images/533b15d8335e95702953df02f7ddf69e18fd64919f7317c1e0d85d4fc216975f.png",
+          "label": "voice__open_up",
+          "text": "ルカの様子です。"
+        },
+        {
+          "key": "voice__simultaneous",
+          "image": "images/9214664e598cf5a85bb52526a28df680ee29e4a272c7dd84c9441737060056ee.png",
+          "label": "voice__simultaneous",
+          "text": "ルカの様子です。"
+        },
+        {
+          "key": "presence",
+          "image": "images/bbed1910068bad61f4306a95df8376ab1750315b85d7e30f97ec8ed35c4039e8.png",
+          "label": "presence",
+          "text": "ルカの様子です。"
+        },
+        {
+          "key": "presence__switch",
+          "image": "images/bbed1910068bad61f4306a95df8376ab1750315b85d7e30f97ec8ed35c4039e8.png",
+          "label": "presence__switch",
+          "text": "ルカの様子です。"
+        },
+        {
+          "key": "presence__direct",
+          "image": "images/011c954876195e1e830460229d6adfa89ca43a61c8ef2f560b1ced887354c7b4.png",
+          "label": "presence__direct",
+          "text": "ルカの様子です。"
+        },
+        {
+          "key": "presence__adapt",
+          "image": "images/011c954876195e1e830460229d6adfa89ca43a61c8ef2f560b1ced887354c7b4.png",
+          "label": "presence__adapt",
+          "text": "ルカの様子です。"
+        },
+        {
+          "key": "presence__open_up",
+          "image": "images/3049af9a1d181b05de76062b673e07fe93fb4f045b47ace23a9c825bfd5b762a.png",
+          "label": "presence__open_up",
+          "text": "ルカの様子です。"
+        },
+        {
+          "key": "presence__simultaneous",
+          "image": "images/76a8fbc7ea20d4454cb364a44c43cbe6cc0b607aa7befad22877ec350f1c86cd.png",
+          "label": "presence__simultaneous",
+          "text": "ルカの様子です。"
+        }
+      ]
+    },
+    {
+      "cat_id": "catalog-1",
+      "name": "ハル",
+      "introduction": "白い短毛と琥珀色の目、細身の体を持つ、穏やかな甘えん坊。",
+      "features": [
+        "white",
+        "short_hair"
+      ],
+      "appearance": {
+        "eye_color": "両目とも暖かな琥珀色（金色寄り）。",
+        "body_type": "中小型の細身の成猫。すらりとした長めの脚。",
+        "markings": "全身白。顔・体・脚・尾に斑点や縞はない。",
+        "face_shape": "緩やかに先細りする卵形の顔。高めの三角耳。鼻はピンク。",
+        "tail": "長めで細い白い尾。短い毛が滑らかに覆い、先端は緩く鉤形に曲がる。",
+        "notes": "白い短毛。穏やかで親しみのある表情。緑色の目・丸顔・がっしりしたルカと区別する。2026-10-23制作設定。"
+      },
+      "scenes": [
+        {
+          "key": "normal",
+          "image": "images/1a7b5605c4a57a305e446c12e8da22f8fbb239708e9501d05dd4b24976a58a68.png",
+          "label": "normal",
+          "text": "ハルの様子です。"
+        },
+        {
+          "key": "sleep",
+          "image": "images/fa99d1bc8fd21b0d3e7e5ada84397a8f4b138f88b6d4fcdaee596f83217d2211.png",
+          "label": "sleep",
+          "text": "ハルの様子です。"
+        },
+        {
+          "key": "play",
+          "image": "images/7e7a456d63e84c50e285bb939566241dd0f125bc4ccf66cc9e18569ec6651782.png",
+          "label": "play",
+          "text": "ハルの様子です。"
+        },
+        {
+          "key": "pause",
+          "image": "images/d541791e2350b5452ebab543b6ee7ea2b447d76920f21aad304632423010393b.png",
+          "label": "pause",
+          "text": "ハルの様子です。"
+        },
+        {
+          "key": "teaser",
+          "image": "images/1a7b5605c4a57a305e446c12e8da22f8fbb239708e9501d05dd4b24976a58a68.png",
+          "label": "teaser",
+          "text": "ハルの様子です。"
+        },
+        {
+          "key": "teaser__switch",
+          "image": "images/1a7b5605c4a57a305e446c12e8da22f8fbb239708e9501d05dd4b24976a58a68.png",
+          "label": "teaser__switch",
+          "text": "ハルの様子です。"
+        },
+        {
+          "key": "teaser__direct",
+          "image": "images/7e7a456d63e84c50e285bb939566241dd0f125bc4ccf66cc9e18569ec6651782.png",
+          "label": "teaser__direct",
+          "text": "ハルの様子です。"
+        },
+        {
+          "key": "teaser__adapt",
+          "image": "images/7e7a456d63e84c50e285bb939566241dd0f125bc4ccf66cc9e18569ec6651782.png",
+          "label": "teaser__adapt",
+          "text": "ハルの様子です。"
+        },
+        {
+          "key": "teaser__open_up",
+          "image": "images/ada13d5c5854e6f45fcbde7b3e877cf38ea96c6403d6fbd514e466ab9f22b3ba.png",
+          "label": "teaser__open_up",
+          "text": "ハルの様子です。"
+        },
+        {
+          "key": "teaser__simultaneous",
+          "image": "images/32f1d5273e7d8b62a805fcf875f537b80b3889fa14a26cec56f50f13c1c09499.png",
+          "label": "teaser__simultaneous",
+          "text": "ハルの様子です。"
+        },
+        {
+          "key": "ball",
+          "image": "images/1a7b5605c4a57a305e446c12e8da22f8fbb239708e9501d05dd4b24976a58a68.png",
+          "label": "ball",
+          "text": "ハルの様子です。"
+        },
+        {
+          "key": "ball__switch",
+          "image": "images/1a7b5605c4a57a305e446c12e8da22f8fbb239708e9501d05dd4b24976a58a68.png",
+          "label": "ball__switch",
+          "text": "ハルの様子です。"
+        },
+        {
+          "key": "ball__direct",
+          "image": "images/19e7e4cb50621e4285c8f4889252aadafe1a1eb3c8bb98906997fc010a9464ba.png",
+          "label": "ball__direct",
+          "text": "ハルの様子です。"
+        },
+        {
+          "key": "ball__adapt",
+          "image": "images/19e7e4cb50621e4285c8f4889252aadafe1a1eb3c8bb98906997fc010a9464ba.png",
+          "label": "ball__adapt",
+          "text": "ハルの様子です。"
+        },
+        {
+          "key": "ball__open_up",
+          "image": "images/916643a69071575ae138f55e639a4b0cc48b6b6ec8e9aa27f3cefa258d6f0840.png",
+          "label": "ball__open_up",
+          "text": "ハルの様子です。"
+        },
+        {
+          "key": "ball__simultaneous",
+          "image": "images/0428cf4883b9c0f33969e98241762d7070fd2ba19155bf43494ca8ec09b6a410.png",
+          "label": "ball__simultaneous",
+          "text": "ハルの様子です。"
+        },
+        {
+          "key": "plush",
+          "image": "images/1a7b5605c4a57a305e446c12e8da22f8fbb239708e9501d05dd4b24976a58a68.png",
+          "label": "plush",
+          "text": "ハルの様子です。"
+        },
+        {
+          "key": "plush__switch",
+          "image": "images/1a7b5605c4a57a305e446c12e8da22f8fbb239708e9501d05dd4b24976a58a68.png",
+          "label": "plush__switch",
+          "text": "ハルの様子です。"
+        },
+        {
+          "key": "plush__direct",
+          "image": "images/802443d938cce4504586132161470ca45987ba90f82235fcee148b66a4a44ce3.png",
+          "label": "plush__direct",
+          "text": "ハルの様子です。"
+        },
+        {
+          "key": "plush__adapt",
+          "image": "images/802443d938cce4504586132161470ca45987ba90f82235fcee148b66a4a44ce3.png",
+          "label": "plush__adapt",
+          "text": "ハルの様子です。"
+        },
+        {
+          "key": "plush__open_up",
+          "image": "images/ae012cdbcdf291c263df1a163050aa8bbb471fac3fc4dd7ff4f156f92db70aec.png",
+          "label": "plush__open_up",
+          "text": "ハルの様子です。"
+        },
+        {
+          "key": "plush__simultaneous",
+          "image": "images/f492cb33c99e74850eccbb276b8277463065b381b912029270b33d4d86f0611d.png",
+          "label": "plush__simultaneous",
+          "text": "ハルの様子です。"
+        },
+        {
+          "key": "tunnel",
+          "image": "images/1a7b5605c4a57a305e446c12e8da22f8fbb239708e9501d05dd4b24976a58a68.png",
+          "label": "tunnel",
+          "text": "ハルの様子です。"
+        },
+        {
+          "key": "tunnel__switch",
+          "image": "images/1a7b5605c4a57a305e446c12e8da22f8fbb239708e9501d05dd4b24976a58a68.png",
+          "label": "tunnel__switch",
+          "text": "ハルの様子です。"
+        },
+        {
+          "key": "tunnel__direct",
+          "image": "images/3f5c97e3e72a06a9407266709bbb98bb7d706707d7f0d650828684495decf037.png",
+          "label": "tunnel__direct",
+          "text": "ハルの様子です。"
+        },
+        {
+          "key": "tunnel__adapt",
+          "image": "images/3f5c97e3e72a06a9407266709bbb98bb7d706707d7f0d650828684495decf037.png",
+          "label": "tunnel__adapt",
+          "text": "ハルの様子です。"
+        },
+        {
+          "key": "tunnel__open_up",
+          "image": "images/0068f4c7f95b974877b3786ebe045ba3461bb9082b87798b260ab4bddffc7d2a.png",
+          "label": "tunnel__open_up",
+          "text": "ハルの様子です。"
+        },
+        {
+          "key": "tunnel__simultaneous",
+          "image": "images/7d339056bcaa0de90b9e4bef89cd8a3cc67da3891ff5628e756f26830ed6a941.png",
+          "label": "tunnel__simultaneous",
+          "text": "ハルの様子です。"
+        },
+        {
+          "key": "pet",
+          "image": "images/1a7b5605c4a57a305e446c12e8da22f8fbb239708e9501d05dd4b24976a58a68.png",
+          "label": "pet",
+          "text": "ハルの様子です。"
+        },
+        {
+          "key": "pet__switch",
+          "image": "images/1a7b5605c4a57a305e446c12e8da22f8fbb239708e9501d05dd4b24976a58a68.png",
+          "label": "pet__switch",
+          "text": "ハルの様子です。"
+        },
+        {
+          "key": "pet__direct",
+          "image": "images/57191456b0a60c50cd4af87434fab5b6bbe39aaa60b442b11a0384aa6bac9202.png",
+          "label": "pet__direct",
+          "text": "ハルの様子です。"
+        },
+        {
+          "key": "pet__adapt",
+          "image": "images/57191456b0a60c50cd4af87434fab5b6bbe39aaa60b442b11a0384aa6bac9202.png",
+          "label": "pet__adapt",
+          "text": "ハルの様子です。"
+        },
+        {
+          "key": "pet__open_up",
+          "image": "images/238f7927eb2a32a52d22209009d932e3625919e51ca6bc636864d7a80aad9fb5.png",
+          "label": "pet__open_up",
+          "text": "ハルの様子です。"
+        },
+        {
+          "key": "pet__simultaneous",
+          "image": "images/426731e6d5eae9ba06413509b026ebbd13c3818fc9e3a3609ad4dbab0e49a8ca.png",
+          "label": "pet__simultaneous",
+          "text": "ハルの様子です。"
+        },
+        {
+          "key": "brush",
+          "image": "images/1a7b5605c4a57a305e446c12e8da22f8fbb239708e9501d05dd4b24976a58a68.png",
+          "label": "brush",
+          "text": "ハルの様子です。"
+        },
+        {
+          "key": "brush__switch",
+          "image": "images/1a7b5605c4a57a305e446c12e8da22f8fbb239708e9501d05dd4b24976a58a68.png",
+          "label": "brush__switch",
+          "text": "ハルの様子です。"
+        },
+        {
+          "key": "brush__direct",
+          "image": "images/4ea70647313c63de962da676a0ba599a6ae60d2c35ff7844fdb0ae1a6af75cf3.png",
+          "label": "brush__direct",
+          "text": "ハルの様子です。"
+        },
+        {
+          "key": "brush__adapt",
+          "image": "images/4ea70647313c63de962da676a0ba599a6ae60d2c35ff7844fdb0ae1a6af75cf3.png",
+          "label": "brush__adapt",
+          "text": "ハルの様子です。"
+        },
+        {
+          "key": "brush__open_up",
+          "image": "images/3071610570ea7c234525a2414ad1473d4d37e1dc982e45dae9635a9214975d66.png",
+          "label": "brush__open_up",
+          "text": "ハルの様子です。"
+        },
+        {
+          "key": "brush__simultaneous",
+          "image": "images/92f2b6170add07fca2ba1ba4077a20b6ad871fe25a2d8880b34346cac1aff3fa.png",
+          "label": "brush__simultaneous",
+          "text": "ハルの様子です。"
+        },
+        {
+          "key": "voice",
+          "image": "images/1a7b5605c4a57a305e446c12e8da22f8fbb239708e9501d05dd4b24976a58a68.png",
+          "label": "voice",
+          "text": "ハルの様子です。"
+        },
+        {
+          "key": "voice__switch",
+          "image": "images/1a7b5605c4a57a305e446c12e8da22f8fbb239708e9501d05dd4b24976a58a68.png",
+          "label": "voice__switch",
+          "text": "ハルの様子です。"
+        },
+        {
+          "key": "voice__direct",
+          "image": "images/bac800019791f62a01ed8f3e327a6f96eebdca94b42ead93b8ad840a5da6e3bf.png",
+          "label": "voice__direct",
+          "text": "ハルの様子です。"
+        },
+        {
+          "key": "voice__adapt",
+          "image": "images/bac800019791f62a01ed8f3e327a6f96eebdca94b42ead93b8ad840a5da6e3bf.png",
+          "label": "voice__adapt",
+          "text": "ハルの様子です。"
+        },
+        {
+          "key": "voice__open_up",
+          "image": "images/e58a6e6303ae3d746ca47358d40e670a2f8b0fda59b149d78e43f0172df9aea9.png",
+          "label": "voice__open_up",
+          "text": "ハルの様子です。"
+        },
+        {
+          "key": "voice__simultaneous",
+          "image": "images/15885034cf14af7f00f0a5a8115cae78693dcf502f3d8fa4d7329660578a8491.png",
+          "label": "voice__simultaneous",
+          "text": "ハルの様子です。"
+        },
+        {
+          "key": "presence",
+          "image": "images/1a7b5605c4a57a305e446c12e8da22f8fbb239708e9501d05dd4b24976a58a68.png",
+          "label": "presence",
+          "text": "ハルの様子です。"
+        },
+        {
+          "key": "presence__switch",
+          "image": "images/1a7b5605c4a57a305e446c12e8da22f8fbb239708e9501d05dd4b24976a58a68.png",
+          "label": "presence__switch",
+          "text": "ハルの様子です。"
+        },
+        {
+          "key": "presence__direct",
+          "image": "images/959c6b9adfb4a6b79031628d2e2568fcc26908096f0e1fd0ae8b73cf3a5bbacd.png",
+          "label": "presence__direct",
+          "text": "ハルの様子です。"
+        },
+        {
+          "key": "presence__adapt",
+          "image": "images/959c6b9adfb4a6b79031628d2e2568fcc26908096f0e1fd0ae8b73cf3a5bbacd.png",
+          "label": "presence__adapt",
+          "text": "ハルの様子です。"
+        },
+        {
+          "key": "presence__open_up",
+          "image": "images/3061e58932bc26455e7258165ea71db7cf489619be89013415355dc30bbd0fa1.png",
+          "label": "presence__open_up",
+          "text": "ハルの様子です。"
+        },
+        {
+          "key": "presence__simultaneous",
+          "image": "images/f7cbf8a3d256b6405b8f4366a2e49d3dd8a51976272bcbf53db4ec4d9cec32e8.png",
+          "label": "presence__simultaneous",
+          "text": "ハルの様子です。"
+        }
+      ]
     }
   ]
 }

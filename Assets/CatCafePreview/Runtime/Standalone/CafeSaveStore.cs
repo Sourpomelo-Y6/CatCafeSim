@@ -18,12 +18,14 @@ namespace CatCafePreview.Standalone
         public CafeOpeningProgress opening;
         public CafeOutcome outcome;
         public CafeEndingProgress popularity_ending,bond_ending,patron_ending;
-        public CafeCocoConversation[] coco_conversations;
         public CafeConversationProgress conversation;
         public CafeConversationProgress regular_conversation;
         public CafeDispatchConversation[] dispatch_conversations;
         public string dispatch_conversation_selected;
         public string missing_conversation_selected,missing_conversation_phase;
+        public CafeCocoConversation[] coco_conversations;
+        public CafeEquipmentConversation[] equipment_conversations;
+        public string equipment_conversation_selected;
         public CafeReservationConversation[] reservation_conversations;
         public string reservation_conversation_selected;
         public CafeTrustConversation[] trust_conversations;
