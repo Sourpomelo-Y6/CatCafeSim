@@ -80,7 +80,12 @@
       "subject_id": "person-advanced-quiet",
       "game_id": "advanced-quiet",
       "image": "people/e22af873da839ecef3afd391dfddfa34b24f637f90d56127fc7c5f5b165b7496.png"
+    },
+    {
+      "subject_id": "person-advanced-play",
+      "game_id": "advanced-play",
+      "image": "people/4e6313908661f30c1435c735392934d052ea86eaa90f465d0b99305ae5d18990.png"
     }
   ],
-  "pack_id": "ce25379edf1b80fb820bbd0257fade9b"
+  "pack_id": "a744f5811c5c4eec0f95f4a6e4df3ebf"
 }
